@@ -1,0 +1,18 @@
+{
+    "Definition": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1650537922704741200",
+        "Description": "(C23) Polytropic Efficiency Smoothed (Formula) (C23) Polytropic Efficiency Prediction - Recent Data Only (C23) Polytropic Efficiency Prediction - Moving Time Window (C23) Minimum Polytropic Efficiency Maintenance Required (C23) Maintenance Required - Recent Data (C23) Now (Latest data point) Estimated time to maintenance (C23) Estimated time to maintenance - Recent data",
+        "Discoverable": true,
+        "Document": "<p>\u00a0</p><p><a href=\"/links?type&#61;signal&amp;item&#61;BE971333-75B9-406A-8123-CA0B1E0266B5\" rel=\"nofollow noopener noreferrer\">Polytropic Efficiency Prediction (C23)</a></p><p><a href=\"/links?type&#61;signal&amp;item&#61;888B3DB2-E136-4F32-A1FD-7BE2EC67115B\" rel=\"nofollow noopener noreferrer\">Polytropic Efficiency Smoothed (Formula) (C23)</a></p><p><a href=\"/links?type&#61;signal&amp;item&#61;458AF116-6683-4A74-8D10-BFE7FCAB5DD8\" rel=\"nofollow noopener noreferrer\">Polytropic Efficiency Prediction - Recent Data Only (C23)</a></p><p><a href=\"/links?type&#61;signal&amp;item&#61;79BAA0F6-5A2D-464D-8BD5-948CD15E8B2A\" rel=\"nofollow noopener noreferrer\">Polytropic Efficiency Prediction - Moving Time Window (C23)</a></p><p><a href=\"/links?type&#61;signal&amp;item&#61;D589B453-D68F-479C-88D6-1D1D34B8E383\" rel=\"nofollow noopener noreferrer\">Minimum Polytropic Efficiency</a></p><p><a href=\"/links?type&#61;condition&amp;item&#61;5209C752-B7B5-44A9-A303-A727585E69F6\" rel=\"nofollow noopener noreferrer\">Maintenance Required (C23)</a></p><p><a href=\"/links?type&#61;condition&amp;item&#61;CDA317AC-7ACA-422D-A2D1-A2DE9528C88C\" rel=\"nofollow noopener noreferrer\">Maintenance Required - Recent Data (C23)</a></p><p><a href=\"/links?type&#61;condition&amp;item&#61;1D943B65-B700-4E0E-9B57-02E7C7C1A582\" rel=\"nofollow noopener noreferrer\">Now (Latest data point)</a></p><p><a href=\"/links?type&#61;condition&amp;item&#61;83A6BA4C-A82F-48CF-BCFA-B4E35DB82790\" rel=\"nofollow noopener noreferrer\">Estimated time to maintenance (C23)</a></p><p><a href=\"/links?type&#61;condition&amp;item&#61;A84E84FA-757D-425A-9647-C9EAE9C7C684\" rel=\"nofollow noopener noreferrer\">Estimated time to maintenance - Recent data (C23)</a></p><p><a href=\"/links?type&#61;condition&amp;item&#61;35F18AE1-5CDD-42EA-9060-7CE16EE4FAC3\" rel=\"nofollow noopener noreferrer\">Maintenance required - Moving Time Window (C23)</a></p><p><a href=\"/links?type&#61;condition&amp;item&#61;2771D03C-EFC6-4340-A568-29706A180442\" rel=\"nofollow noopener noreferrer\">Estimated time to maintenance- Moving Time Window (C23)</a></p>",
+        "Enabled": true,
+        "ID": "5AFD3812-56B5-43D4-AFDE-5334327E9D6A",
+        "Is CK Enabled": true,
+        "Name": "Polytropic Efficiency Prediction (C23)",
+        "Plain Text Document": "\u00a0Polytropic Efficiency Prediction (C23)Polytropic Efficiency Smoothed (Formula) (C23)Polytropic Efficiency Prediction - Recent Data Only (C23)Polytropic Efficiency Prediction - Moving Time Window (C23)Minimum Polytropic EfficiencyMaintenance Required (C23)Maintenance Required - Recent Data (C23)Now (Latest data point)Estimated time to maintenance (C23)Estimated time to maintenance - Recent data (C23)Maintenance required - Moving Time Window (C23)Estimated time to maintenance- Moving Time Window (C23)",
+        "Type": "Journal",
+        "Unsearchable": false,
+        "Updated At": "1650537922704741200"
+    }
+}
