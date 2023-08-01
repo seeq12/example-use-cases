@@ -1,0 +1,281 @@
+{
+    "Access Control": [
+        {
+            "ID": "82e5eef1-f726-4d67-8dc0-f0dd04f49d4c",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "synjen.marrocco@seeq.com",
+                "First Name": "Synjen",
+                "ID": "107E8E60-F060-422D-9CA4-462E4AC989C8",
+                "Is Admin": true,
+                "Last Name": "Marrocco",
+                "Name": "Synjen Marrocco",
+                "Type": "User",
+                "Username": "-jPWuY9WzL6sLEmpYVGBOvvRkburuy3tFLazPSnGtwc"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": "OWNER"
+        },
+        {
+            "ID": "0ee14380-85fb-ec40-af18-b8e56b23a83d",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                "Name": "Partner Demo Access",
+                "Type": "UserGroup"
+            },
+            "Origin": "39E67F13-6867-40DB-B6D9-22C72752228C",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee14380-85fb-ec40-9350-21f0eb316f10",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "diego@vertix.pe",
+                "First Name": "Diego",
+                "ID": "5E5ED4A4-1FF5-43DD-9505-4B173DB3F742",
+                "Is Admin": false,
+                "Last Name": "Sanchez",
+                "Name": "Diego Sanchez",
+                "Type": "User",
+                "Username": "diego@vertix.pe"
+            },
+            "Origin": "39E67F13-6867-40DB-B6D9-22C72752228C",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee14380-85fb-ec40-98c3-093158ef76d3",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                "Name": "Everyone",
+                "Type": "UserGroup"
+            },
+            "Origin": "39E67F13-6867-40DB-B6D9-22C72752228C",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee14380-85fb-ec40-944a-e9de776b8080",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "amhulandageri@dcpmidstream.com",
+                "First Name": "Amit",
+                "ID": "7E8FD9AF-9778-471B-BABA-2DE646FC5042",
+                "Is Admin": false,
+                "Last Name": "Hulandageri",
+                "Name": "Amit Hulandageri",
+                "Type": "User",
+                "Username": "amhulandageri@dcpmidstream.com"
+            },
+            "Origin": "39E67F13-6867-40DB-B6D9-22C72752228C",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee14380-85fb-ec40-a68f-61358c89e6e9",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "shamus.cunningham@seeq.com",
+                "First Name": "Shamus",
+                "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                "Is Admin": true,
+                "Last Name": "Cunningham",
+                "Name": "Shamus Cunningham",
+                "Type": "User",
+                "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+            },
+            "Origin": "39E67F13-6867-40DB-B6D9-22C72752228C",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee14380-85fb-ec40-9634-64ed5016bdd4",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": "39E67F13-6867-40DB-B6D9-22C72752228C",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee14380-85fb-ec40-af09-04a3cf4214fe",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "daniel@vertix.pe",
+                "First Name": "Daniel",
+                "ID": "D8526736-783F-4FBE-BBB3-2BC4D1A6DF90",
+                "Is Admin": false,
+                "Last Name": "Villon",
+                "Name": "Daniel Villon",
+                "Type": "User",
+                "Username": "daniel@vertix.pe"
+            },
+            "Origin": "39E67F13-6867-40DB-B6D9-22C72752228C",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee14380-85fb-ec40-9933-2ad5744be923",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                "Name": "Seeq Internal",
+                "Type": "UserGroup"
+            },
+            "Origin": "39E67F13-6867-40DB-B6D9-22C72752228C",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee14380-85fb-ec40-87ea-daaac4871211",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "jerson@vertix.pe",
+                "First Name": "Jerson",
+                "ID": "E54F0748-7FCA-4ACC-98BC-BBDC807EA1D8",
+                "Is Admin": false,
+                "Last Name": "Rodas",
+                "Name": "Jerson Rodas",
+                "Type": "User",
+                "Username": "jerson@vertix.pe"
+            },
+            "Origin": "39E67F13-6867-40DB-B6D9-22C72752228C",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        }
+    ],
+    "Ancestors": [
+        "__Corporate__",
+        "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+        "39E67F13-6867-40DB-B6D9-22C72752228C"
+    ],
+    "Archived": false,
+    "Cache Enabled": false,
+    "Created At": "1677501499039527175",
+    "Enabled": true,
+    "ID": "1DCC38C0-86B4-4370-92D9-2CFC34EB5476",
+    "Name": "Prediction and Drift Detection",
+    "Original Server URL": "http://seeq-server",
+    "Owner": {
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "Datasource Name": "Seeq Azure SSO",
+        "Email": "synjen.marrocco@seeq.com",
+        "First Name": "Synjen",
+        "ID": "107E8E60-F060-422D-9CA4-462E4AC989C8",
+        "Is Admin": true,
+        "Last Name": "Marrocco",
+        "Name": "Synjen Marrocco",
+        "Type": "User",
+        "Username": "-jPWuY9WzL6sLEmpYVGBOvvRkburuy3tFLazPSnGtwc"
+    },
+    "Path": "Corporate >> Industry Use Cases >> Reliability",
+    "Search Folder ID": "39E67F13-6867-40DB-B6D9-22C72752228C",
+    "Type": "Workbook",
+    "URL": "https://demo.seeq.dev/39E67F13-6867-40DB-B6D9-22C72752228C/workbook/1DCC38C0-86B4-4370-92D9-2CFC34EB5476/worksheet/9E0D395E-0CAF-4155-AF4B-6CFD6734A62D",
+    "Unsearchable": false,
+    "Updated At": "1689942653797173137",
+    "Workbook Type": "Analysis",
+    "Worksheets": [
+        "9E0D395E-0CAF-4155-AF4B-6CFD6734A62D",
+        "92739949-DB95-410B-989A-2B453F57B419"
+    ],
+    "workbookState": {
+        "state": {
+            "stores": {
+                "sqAnnotationStore": {
+                    "height": 0,
+                    "id": "AAC4D384-3FCC-463C-BA4D-8F09ED41006D",
+                    "isAnnotatesExpanded": false,
+                    "isCkEnabled": true,
+                    "isCommentsExpanded": false,
+                    "isExpanded": false,
+                    "width": 0
+                }
+            }
+        },
+        "version": 1
+    }
+}
