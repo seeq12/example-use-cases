@@ -1,0 +1,748 @@
+{
+    "ID": "FA358150-B0F3-428C-9412-B7324903DAEF",
+    "Type": "Workstep",
+    "Data": {
+        "version": 23,
+        "state": {
+            "stores": {
+                "sqTrendSeriesStore": {
+                    "items": [
+                        {
+                            "axisAlign": "A",
+                            "axisAutoScale": true,
+                            "lane": 1,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": 4621.77411134677,
+                                "max": 12525.598267652598
+                            },
+                            "yAxisMin": 5307.6431497038875,
+                            "yAxisMax": 11839.72922929548,
+                            "sampleDisplayOption": "line",
+                            "id": "2F609D06-D5DA-4F93-B18F-55FF79BC11FF",
+                            "name": "Total Flow Through Pump",
+                            "selected": false,
+                            "color": "#4055A3",
+                            "valueUnitOfMeasure": "bbl/d"
+                        },
+                        {
+                            "axisAlign": "B",
+                            "axisAutoScale": true,
+                            "lane": 2,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": 2012.7049263266003,
+                                "max": 3370.1852945517735
+                            },
+                            "yAxisMin": 2130.502809519694,
+                            "yAxisMax": 3252.38741135868,
+                            "sampleDisplayOption": "line",
+                            "id": "3F58DD7C-965B-4805-A03F-BB1E881720D1",
+                            "name": "Discharge Pressure from Pump Curve",
+                            "selected": false,
+                            "color": "#068C45",
+                            "valueUnitOfMeasure": "psi"
+                        },
+                        {
+                            "axisAlign": "C",
+                            "axisAutoScale": true,
+                            "lane": 3,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": -15.312457240751398,
+                                "max": 32.216313969833415
+                            },
+                            "yAxisMin": -11.188059739006434,
+                            "yAxisMax": 28.091916468088453,
+                            "sampleDisplayOption": "line",
+                            "id": "806E4D55-3952-4B59-87BF-7CC54C903805",
+                            "name": "NPSH",
+                            "selected": false,
+                            "color": "#9D248F",
+                            "valueUnitOfMeasure": "ft"
+                        }
+                    ],
+                    "editingId": null,
+                    "previewSeriesDefinition": {}
+                },
+                "sqDurationStore": {
+                    "autoUpdate": {
+                        "mode": "OFF",
+                        "offset": -12517802930,
+                        "manualInterval": {
+                            "value": 1,
+                            "units": "min"
+                        }
+                    },
+                    "displayRange": {
+                        "start": 1541033287414,
+                        "end": 1543699768034
+                    },
+                    "investigateRange": {
+                        "start": 1539182370673,
+                        "end": 1544438370673
+                    }
+                },
+                "sqTrendCapsuleStore": {
+                    "selectedCapsules": [],
+                    "stitchBreaks": [],
+                    "stitchTimes": [],
+                    "dataStatus": "itemDataPresent",
+                    "warningCount": 0,
+                    "warningLogs": [],
+                    "editingId": null,
+                    "previewCapsulesDefinition": {},
+                    "items": [
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1541047200000000000L:-98282948",
+                            "startTime": 1541047200000,
+                            "endTime": 1541434433693.419,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1541434433693418978L:-1085617671",
+                            "startTime": 1541434433693.419,
+                            "endTime": 1541584843104.4915,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1541584843104491490L:756686484",
+                            "startTime": 1541584843104.4915,
+                            "endTime": 1541993834982.8542,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1541993834982854046L:-273438574",
+                            "startTime": 1541993834982.8542,
+                            "endTime": 1542027203024.894,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542027203024893967L:-2120314496",
+                            "startTime": 1542027203024.894,
+                            "endTime": 1542276590695.2947,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542276590695294600L:883220513",
+                            "startTime": 1542276590695.2947,
+                            "endTime": 1542281061644.6,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542281061644600163L:-443737641",
+                            "startTime": 1542281061644.6,
+                            "endTime": 1542285464913.8467,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542285464913846771L:238781636",
+                            "startTime": 1542285464913.8467,
+                            "endTime": 1542292521202.7974,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542292521202797390L:-1554020726",
+                            "startTime": 1542292521202.7974,
+                            "endTime": 1542307859703.8323,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542307859703832369L:1538774052",
+                            "startTime": 1542307859703.8323,
+                            "endTime": 1542433840707.6243,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542433840707624186L:632047830",
+                            "startTime": 1542433840707.6243,
+                            "endTime": 1542440173850.0867,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542440173850086783L:-471220646",
+                            "startTime": 1542440173850.0867,
+                            "endTime": 1542447470805.1062,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542447470805106302L:1759250132",
+                            "startTime": 1542447470805.1062,
+                            "endTime": 1542456252277.9546,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542456252277954510L:47456158",
+                            "startTime": 1542456252277.9546,
+                            "endTime": 1542457523889.8289,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275_1542457523889828858L:283017098",
+                            "startTime": 1542457523889.8289,
+                            "endTime": 1542461245506.536,
+                            "isChildOf": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        }
+                    ]
+                },
+                "sqInvestigateStore": {
+                    "item": {},
+                    "activeTool": "overview",
+                    "displayMode": "NEW",
+                    "derivedDataPanelOpen": false
+                },
+                "sqDeviationPanelStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "startDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "endDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "startLocation": true,
+                    "endLocation": true
+                },
+                "sqCapsuleSetSeriesStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "params": {
+                        "interpolation": "DISCRETE",
+                        "stat": {
+                            "timeUnits": "s"
+                        }
+                    }
+                },
+                "sqImportCsvStore": {
+                    "serverFileName": "",
+                    "columnKey": "",
+                    "columnValue": "",
+                    "importType": {
+                        "text": "IMPORTS.TYPES.SIGNAL",
+                        "value": "seriesDisplayType"
+                    },
+                    "unitValue": "",
+                    "interpolationMethod": {
+                        "text": "IMPORTS.INTERPOLATION.LINEAR",
+                        "value": "linear"
+                    },
+                    "importAnotherColumn": false,
+                    "importStarted": false,
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true
+                },
+                "sqPredictionPanelStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "option": "linear",
+                    "polynomialValue": 2,
+                    "mustGoThroughZero": false,
+                    "lambda": 0,
+                    "windowStart": 1541033287414,
+                    "windowEnd": 1543699768034,
+                    "modelExpanded": false,
+                    "regressionMethod": "OLS",
+                    "variableSelection": 0.05,
+                    "variableSelectionEnabled": false
+                },
+                "sqAncillariesPanelStore": {
+                    "inProgress": false,
+                    "inProgressItem": "item1",
+                    "name": "",
+                    "type": "",
+                    "item1": {},
+                    "item2": {}
+                },
+                "sqTrendScalarStore": {
+                    "items": []
+                },
+                "sqTrendCapsuleSetStore": {
+                    "items": [
+                        {
+                            "autoDisabled": false,
+                            "id": "1E3A5A54-3BC1-4609-BD53-E121D8EF34F8",
+                            "name": "High Temp rise",
+                            "selected": false,
+                            "color": "#00A2DD"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "DBD6B62F-7801-454D-8EB2-CD2A023D8228",
+                            "name": "Low Flow Cavitation 2",
+                            "selected": false,
+                            "color": "#AC4625"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "0B6C4A8C-5199-44A3-94A5-AF9D04DCCE34",
+                            "name": "Low bearing/seal life(Low flow)",
+                            "selected": false,
+                            "color": "#6263AD"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "1A62D9A7-2446-4C5F-92D4-4B5B781E52A3",
+                            "name": "Reduced impeller life 2",
+                            "selected": false,
+                            "color": "#36937E"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "1275D031-00D0-463F-8140-2D69F38CBF23",
+                            "name": "Suction recirculation 2",
+                            "selected": false,
+                            "color": "#767538"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "42FE6DCE-31A1-4E9F-85AD-7555852A8026",
+                            "name": "Discharge recirculation",
+                            "selected": false,
+                            "color": "#992542"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "881CAA7A-606F-4735-A088-2E872387DE5A",
+                            "name": "Low bearing/seal life (high flow)",
+                            "selected": false,
+                            "color": "#B0D035"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "CEB4AAD7-8CF3-4B8A-8B73-B4616E60056A",
+                            "name": "High flow cavitation",
+                            "selected": false,
+                            "color": "#78955F"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "4398526A-C224-441B-AAAB-B3DC6C77D199",
+                            "name": "Normal",
+                            "selected": false,
+                            "color": "#BEB12B"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "0DBCC121-58CE-4355-BD22-74CE2A737CF2",
+                            "name": "Cavitation due to low NPSH",
+                            "selected": false,
+                            "color": "#9D248F"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "1DF884F4-6669-47AD-BCFC-0C3D81956275",
+                            "name": "Combine Conditions",
+                            "selected": false,
+                            "color": "#4B7ABD"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "D383C180-96CF-4BBA-A0AD-B2DD761355D9",
+                            "name": "Failure",
+                            "selected": false,
+                            "color": "#FF0000"
+                        }
+                    ]
+                },
+                "sqTrendTableStore": {
+                    "items": []
+                },
+                "sqWorksheetStore": {
+                    "tabsets": {
+                        "sidebar": 2
+                    },
+                    "viewKey": "TREND",
+                    "browsePanelCollapsed": false,
+                    "displayWidth": 1410,
+                    "displayHeight": 575,
+                    "resizeEnabled": true,
+                    "conditionToSeriesGrouping": {},
+                    "capsuleGroupMode": false
+                },
+                "sqTrendMetricStore": {
+                    "scorecardHeaders": {
+                        "type": "startEnd",
+                        "format": "lll"
+                    },
+                    "scorecardColumns": [
+                        {
+                            "type": "name",
+                            "backgroundColor": "#ffffff"
+                        }
+                    ],
+                    "dataStatus": "itemDataPresent",
+                    "warningCount": 0,
+                    "warningLogs": [],
+                    "items": []
+                },
+                "sqExportODataPanelStore": {
+                    "name": "Pump Health Monitoring - MASTER",
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "autoupdateTimeRange": false,
+                    "timeRange": {
+                        "start": 1556563599628,
+                        "end": 1556649999628
+                    }
+                },
+                "sqReferencePanelStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "windowStart": 1541033287414,
+                    "windowEnd": 1543699768034,
+                    "griddingPeriod": {
+                        "value": 5,
+                        "units": "min"
+                    },
+                    "referenceStat": "",
+                    "multiplier": 1
+                },
+                "sqAggregationBinStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "mode": "by_y_value",
+                    "includeEmptyBuckets": true,
+                    "yValueSignal": "",
+                    "stat": {
+                        "key": null,
+                        "timeUnits": "s"
+                    },
+                    "aggregationConfigs": [
+                        {
+                            "id": 1,
+                            "mode": "by_y_value",
+                            "yValueBinMode": "size",
+                            "valid": false
+                        }
+                    ]
+                },
+                "sqLowPassFilterStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "cutoff": {},
+                    "period": {},
+                    "taps": 33,
+                    "autoPeriod": true,
+                    "autoTaps": true
+                },
+                "sqItemPropertiesStore": {
+                    "advancedParametersCollapsed": true
+                },
+                "sqPeriodicConditionStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "frequencies": [],
+                    "weekStart": "Day.Sunday",
+                    "quarterStart": {
+                        "month": "Month.January",
+                        "day": 1
+                    },
+                    "shift": {
+                        "offset": 8,
+                        "duration": 8
+                    },
+                    "offset": {}
+                },
+                "sqTreemapStore": {
+                    "parent": {},
+                    "statistics": []
+                },
+                "sqScatterPlotStore": {
+                    "xSeries": {},
+                    "ySeries": {},
+                    "selector": {
+                        "low": 0.5,
+                        "high": 0.75
+                    },
+                    "plotMode": "DISPLAY_RANGE",
+                    "connect": false
+                },
+                "sqTrendStore": {
+                    "view": "calendar",
+                    "enabledColumns": {
+                        "CAPSULES": {
+                            "startTime": true
+                        },
+                        "SERIES": {
+                            "lane": true
+                        }
+                    },
+                    "propertyColumns": {},
+                    "selectedRegion": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "capsuleTimeOffsets": {
+                        "lower": 0,
+                        "upper": 0
+                    },
+                    "capsuleAlignment": [],
+                    "capsulePreview": false,
+                    "showChartConfiguration": false,
+                    "dimDataOutsideCapsules": false,
+                    "hideUnselectedItems": false,
+                    "labelDisplayConfiguration": {
+                        "name": "lane",
+                        "asset": "lane",
+                        "assetPathLevels": 1,
+                        "unitOfMeasure": "off",
+                        "custom": "off",
+                        "customLabels": []
+                    },
+                    "showCapsuleLaneLabels": true,
+                    "panelProps": {},
+                    "panelSorters": {
+                        "CAPSULES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "CAPSULE_SERIES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "SERIES": {
+                            "sortBy": "lane",
+                            "sortAsc": true
+                        },
+                        "INVESTIGATE_ITEMS": {
+                            "sortBy": "name",
+                            "sortAsc": true
+                        }
+                    },
+                    "capsulePanelOffset": 0,
+                    "capsulePanelHasNext": true
+                },
+                "sqPowerSearchStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "formula": "",
+                    "parameters": [],
+                    "navigationStack": []
+                },
+                "sqScorecardStore": {
+                    "metrics": []
+                },
+                "sqThresholdMetricStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "processType": "Simple",
+                    "aggregationOperator": {
+                        "key": null,
+                        "timeUnits": "s"
+                    },
+                    "duration": {},
+                    "period": {},
+                    "thresholds": {}
+                },
+                "sqCustomConditionStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true
+                },
+                "sqCapsuleGroupStore": {
+                    "capsules": []
+                },
+                "sqFftStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "rateType": true,
+                    "rate": {},
+                    "outputUnits": "min",
+                    "highPass": {},
+                    "lowPass": {},
+                    "useHighPass": false,
+                    "useLowPass": false
+                },
+                "sqCompositeSearchStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": null,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "isUpgradedUnionCondition": false,
+                    "inclusiveA": true,
+                    "inclusiveB": true
+                },
+                "sqSearchStore": {
+                    "nameFilter": "",
+                    "descriptionFilter": "",
+                    "typeFilter": [],
+                    "datasourceFilter": [],
+                    "isAdvancedMode": false,
+                    "mode": "overview",
+                    "currentAsset": ""
+                },
+                "sqVisualSearchStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "similarity": 98,
+                    "normalizeAmplitude": true,
+                    "normalizeLocation": true,
+                    "selectedRegion": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                "sqLimitsSearchStore": {
+                    "originalParameters": [],
+                    "maximumDuration": {
+                        "value": 1,
+                        "units": "day"
+                    },
+                    "advancedParametersCollapsed": true,
+                    "isSimple": true,
+                    "isCleansing": false,
+                    "limitsParams": {
+                        "entryCondition": {
+                            "duration": {
+                                "value": 0,
+                                "units": "min"
+                            }
+                        },
+                        "exitCondition": {
+                            "duration": {
+                                "value": 0,
+                                "units": "min"
+                            }
+                        }
+                    },
+                    "version": "V2"
+                },
+                "sqCursorStore": {
+                    "calendarCursors": [],
+                    "capsuleCursors": [],
+                    "showValues": true
+                },
+                "sqReportStore": {
+                    "dateVariables": []
+                },
+                "sqReportContentStore": {
+                    "workbookFolderId": "",
+                    "workbooksSearch": "",
+                    "workbooksFilter": "OWNER",
+                    "workbooksSortField": "NAME",
+                    "workbooksSortAsc": false,
+                    "workbookId": "",
+                    "dateVariableId": "",
+                    "size": "medium",
+                    "shape": "rectangle",
+                    "customWidth": 1024,
+                    "customHeight": 768,
+                    "contentHeight": 100,
+                    "contentWidth": 100
+                }
+            }
+        }
+    }
+}
