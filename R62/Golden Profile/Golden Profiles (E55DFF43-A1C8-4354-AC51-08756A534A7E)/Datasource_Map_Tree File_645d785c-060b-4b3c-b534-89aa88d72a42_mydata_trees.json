@@ -1,0 +1,22 @@
+{
+    "Datasource Class": "Tree File",
+    "Datasource ID": "645d785c-060b-4b3c-b534-89aa88d72a42",
+    "Datasource Name": "mydata\\trees",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "(?<type>.*)",
+                "Datasource Class": "Tree File",
+                "Datasource Name": "mydata\\\\trees",
+                "Data ID": "(?<data_id>.*)"
+            },
+            "New": {
+                "Type": "${type}",
+                "Datasource Class": "Tree File",
+                "Datasource Name": "mydata\\\\trees",
+                "Data ID": "${data_id}"
+            }
+        }
+    ]
+}
