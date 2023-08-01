@@ -1,0 +1,104 @@
+{
+    "Access Control": [
+        {
+            "ID": "c0e98c02-4286-4514-b3c1-1ab76190f18f",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "fiona.guinee@seeq.com",
+                "First Name": "Fiona",
+                "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+                "Is Admin": true,
+                "Last Name": "Guinee",
+                "Name": "Fiona Guinee",
+                "Type": "User",
+                "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+            },
+            "Origin": "A960409B-59BA-4B32-85A5-A3E7E2EBD30F",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "f909c22f-f00d-4729-903a-37b48316791a",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "fiona.guinee@seeq.com",
+                "First Name": "Fiona",
+                "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+                "Is Admin": true,
+                "Last Name": "Guinee",
+                "Name": "Fiona Guinee",
+                "Type": "User",
+                "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": "OWNER"
+        }
+    ],
+    "Ancestors": [
+        "__Users__",
+        "15A3D4B9-09B1-4C65-BC5D-EEC9968DAA1B",
+        "1A2BC541-96D9-4CF7-B228-355F24C848D2",
+        "A960409B-59BA-4B32-85A5-A3E7E2EBD30F"
+    ],
+    "Archived": false,
+    "Cache Enabled": false,
+    "Created At": "1678707512894398875",
+    "Enabled": true,
+    "ID": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+    "Name": "Pump Station Monitoring",
+    "Original Server URL": "http://seeq-server",
+    "Owner": {
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "Datasource Name": "Seeq Azure SSO",
+        "Email": "fiona.guinee@seeq.com",
+        "First Name": "Fiona",
+        "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+        "Is Admin": true,
+        "Last Name": "Guinee",
+        "Name": "Fiona Guinee",
+        "Type": "User",
+        "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+    },
+    "Path": "Users >> Fiona Guinee >> Demos >> Water Demo (VA Syd)",
+    "Search Folder ID": "A960409B-59BA-4B32-85A5-A3E7E2EBD30F",
+    "Type": "Workbook",
+    "URL": "https://demo.seeq.dev/A960409B-59BA-4B32-85A5-A3E7E2EBD30F/workbook/E2A61E7D-5EA9-4753-B922-A001942A8B3D/worksheet/27CF4353-4929-433F-82B2-552CFE90C6F5",
+    "Unsearchable": false,
+    "Updated At": "1690796597509339903",
+    "Workbook Type": "Analysis",
+    "Worksheets": [
+        "27CF4353-4929-433F-82B2-552CFE90C6F5"
+    ],
+    "workbookState": {
+        "state": {
+            "stores": {
+                "sqAnnotationStore": {
+                    "height": 0,
+                    "id": "E629ED3D-27D3-422A-81D1-4E8570EAD81D",
+                    "isAnnotatesExpanded": false,
+                    "isCkEnabled": true,
+                    "isCommentsExpanded": false,
+                    "isExpanded": false,
+                    "width": 0
+                }
+            }
+        },
+        "version": 1
+    }
+}
