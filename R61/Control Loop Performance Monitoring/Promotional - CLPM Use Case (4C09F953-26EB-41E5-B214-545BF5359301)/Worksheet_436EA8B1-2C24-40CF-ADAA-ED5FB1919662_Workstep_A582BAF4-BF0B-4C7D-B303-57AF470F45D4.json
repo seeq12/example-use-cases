@@ -1,0 +1,647 @@
+{
+    "ID": "A582BAF4-BF0B-4C7D-B303-57AF470F45D4",
+    "Type": "Workstep",
+    "Data": {
+        "version": 26,
+        "state": {
+            "stores": {
+                "sqWorksheetStore": {
+                    "tabsets": {
+                        "sidebar": 2
+                    },
+                    "viewKey": "TREND",
+                    "browsePanelCollapsed": false,
+                    "displayWidth": 850,
+                    "displayHeight": 575,
+                    "resizeEnabled": true,
+                    "conditionToSeriesGrouping": {},
+                    "capsuleGroupMode": false
+                },
+                "sqTrendSeriesStore": {
+                    "items": [
+                        {
+                            "axisAlign": "A",
+                            "axisAutoScale": true,
+                            "lane": 1,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "sampleDisplayOption": "line",
+                            "id": "41B45AAC-D9BF-4CC7-B296-5BC01CD041E9",
+                            "name": "AAE",
+                            "selected": false,
+                            "color": "#002060",
+                            "displayedAncillaryItemIds": [
+                                "4C1B4910-7AC5-48E6-9B78-6BCF7C7BCE7C",
+                                "F6935E4A-B358-4FDA-BA92-AA5D296524E7"
+                            ]
+                        },
+                        {
+                            "axisAlign": "B",
+                            "axisAutoScale": true,
+                            "lane": 2,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "sampleDisplayOption": "line",
+                            "id": "79B26422-015C-408F-AE11-AA40DDD8680C",
+                            "name": "CO Travel",
+                            "selected": false,
+                            "color": "#002060",
+                            "displayedAncillaryItemIds": [
+                                "AD1A822A-C08D-4AA2-87AA-18B0864F196A",
+                                "B2BD107B-35AF-4953-873D-A1924127E71C"
+                            ]
+                        },
+                        {
+                            "axisAlign": "C",
+                            "axisAutoScale": true,
+                            "lane": 3,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "sampleDisplayOption": "line",
+                            "id": "F768F37C-BE39-41A7-A3FB-A142E2A8515A",
+                            "name": "% time correct mode",
+                            "selected": false,
+                            "color": "#002060",
+                            "displayedAncillaryItemIds": []
+                        },
+                        {
+                            "axisAlign": "A",
+                            "axisAutoScale": true,
+                            "lane": 1,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "sampleDisplayOption": "line",
+                            "id": "4C1B4910-7AC5-48E6-9B78-6BCF7C7BCE7C",
+                            "name": "Hi Limit AAE",
+                            "selected": false,
+                            "color": "#ffc000"
+                        },
+                        {
+                            "axisAlign": "A",
+                            "axisAutoScale": true,
+                            "lane": 1,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "sampleDisplayOption": "line",
+                            "id": "F6935E4A-B358-4FDA-BA92-AA5D296524E7",
+                            "name": "Hi Hi Limit AAE",
+                            "selected": false,
+                            "color": "#ff0000"
+                        },
+                        {
+                            "axisAlign": "B",
+                            "axisAutoScale": true,
+                            "lane": 2,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "sampleDisplayOption": "line",
+                            "id": "AD1A822A-C08D-4AA2-87AA-18B0864F196A",
+                            "name": "Hi Limit CO Travel",
+                            "selected": false,
+                            "color": "#ffc000"
+                        },
+                        {
+                            "axisAlign": "B",
+                            "axisAutoScale": true,
+                            "lane": 2,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "sampleDisplayOption": "line",
+                            "id": "B2BD107B-35AF-4953-873D-A1924127E71C",
+                            "name": "Hi Hi Limit CO Travel",
+                            "selected": false,
+                            "color": "#ff0000"
+                        },
+                        {
+                            "axisAlign": "C",
+                            "axisAutoScale": true,
+                            "lane": 3,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "sampleDisplayOption": "line",
+                            "id": "B7779B03-1635-4703-A00D-456573CFB435",
+                            "name": "LoLo Limit % Time Correct Mode",
+                            "selected": false,
+                            "color": "#ff0000"
+                        },
+                        {
+                            "axisAlign": "C",
+                            "axisAutoScale": true,
+                            "lane": 3,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "sampleDisplayOption": "line",
+                            "id": "2B8741CD-69E4-4706-B2D1-5FAAA98035FA",
+                            "name": "Lo Limit % Time Correct Mode",
+                            "selected": false,
+                            "color": "#ffc000"
+                        }
+                    ],
+                    "editingId": null,
+                    "previewSeriesDefinition": {}
+                },
+                "sqDurationStore": {
+                    "autoUpdate": {
+                        "mode": "OFF",
+                        "offset": -48161944878,
+                        "manualInterval": {
+                            "value": 1,
+                            "units": "min"
+                        }
+                    },
+                    "displayRange": {
+                        "start": 1525943914254,
+                        "end": 1526548714254
+                    },
+                    "investigateRange": {
+                        "start": 1493558501974,
+                        "end": 1551705701974
+                    }
+                },
+                "sqTrendCapsuleStore": {
+                    "selectedCapsules": [],
+                    "stitchTimes": [],
+                    "dataStatus": "itemDataPresent",
+                    "warningCount": 0,
+                    "warningLogs": [],
+                    "editingId": null,
+                    "previewCapsulesDefinition": {},
+                    "items": []
+                },
+                "sqTrendStore": {
+                    "view": "calendar",
+                    "enabledColumns": {
+                        "CAPSULES": {
+                            "startTime": true
+                        },
+                        "SERIES": {
+                            "asset": true
+                        }
+                    },
+                    "propertyColumns": {},
+                    "selectedRegion": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "capsuleTimeOffsets": {
+                        "lower": 0,
+                        "upper": 0
+                    },
+                    "capsuleTimeColorMode": "signal",
+                    "capsuleAlignment": [],
+                    "capsulePreview": false,
+                    "showChartConfiguration": false,
+                    "dimDataOutsideCapsules": false,
+                    "hideUnselectedItems": true,
+                    "labelDisplayConfiguration": {
+                        "name": "lane",
+                        "asset": "off",
+                        "assetPathLevels": 1,
+                        "unitOfMeasure": "off",
+                        "custom": "off",
+                        "customLabels": []
+                    },
+                    "showCapsuleLaneLabels": false,
+                    "panelProps": {
+                        "BOTTOM": {
+                            "leftPanelWidth": 720,
+                            "height": "39.2%"
+                        }
+                    },
+                    "panelSorters": {
+                        "CAPSULES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "CAPSULE_SERIES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "SERIES": {
+                            "sortBy": "lane",
+                            "sortAsc": true
+                        },
+                        "INVESTIGATE_ITEMS": {
+                            "sortBy": "name",
+                            "sortAsc": true
+                        }
+                    },
+                    "capsulePanelOffset": 0,
+                    "capsulePanelHasNext": false,
+                    "showGridlines": false
+                },
+                "sqInvestigateStore": {
+                    "item": {},
+                    "activeTool": "overview",
+                    "displayMode": "NEW",
+                    "derivedDataPanelOpen": false
+                },
+                "sqDeviationPanelStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "startDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "endDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "startLocation": true,
+                    "endLocation": true
+                },
+                "sqCapsuleSetSeriesStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "params": {
+                        "interpolation": "DISCRETE",
+                        "stat": {
+                            "timeUnits": "s"
+                        },
+                        "maximumDuration": {}
+                    }
+                },
+                "sqImportDatafileStore": {
+                    "uploadFilename": "",
+                    "filename": "",
+                    "keyColumnIndex": 1,
+                    "keyColumnName": "",
+                    "interpolationMethod": {
+                        "text": "IMPORTS.INTERPOLATION.LINEAR",
+                        "value": "Linear"
+                    },
+                    "validationMode": {
+                        "text": "IMPORTS.VALIDATION_MODE_TYPES.FAIL",
+                        "value": "Fail"
+                    },
+                    "fileOutputType": {
+                        "text": "IMPORTS.FILE_OUTPUT_TYPES.REPLACE",
+                        "value": "Replace"
+                    },
+                    "fieldDelimiter": {
+                        "symbol": ",",
+                        "value": "Comma"
+                    },
+                    "maxInterpolation": {
+                        "value": 40,
+                        "units": "h"
+                    },
+                    "namePrefix": "",
+                    "nameSuffix": "",
+                    "firstDataRow": 2,
+                    "nameRow": 1,
+                    "description": "",
+                    "optionalParametersCollapsedState": true,
+                    "valueColumnOption": {
+                        "text": "IMPORTS.VALUE_COLUMN.ALL",
+                        "value": "All"
+                    },
+                    "valueUom": "",
+                    "lenientDaylightSavings": false,
+                    "itemType": {
+                        "text": "IMPORTS.SIGNAL",
+                        "value": "Signal"
+                    },
+                    "maxDuration": {
+                        "value": 40,
+                        "units": "h"
+                    },
+                    "endColumnName": "",
+                    "conditionName": "",
+                    "dayFirstDefault": {
+                        "text": "IMPORTS.FIRST.MONTH",
+                        "value": false
+                    },
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true
+                },
+                "sqPredictionPanelStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "option": "linear",
+                    "polynomialValue": 2,
+                    "mustGoThroughZero": false,
+                    "lambda": 0,
+                    "windowStart": 1525943914254,
+                    "windowEnd": 1526548714254,
+                    "modelExpanded": false,
+                    "regressionMethod": "OLS",
+                    "variableSelection": 0.05,
+                    "variableSelectionEnabled": false
+                },
+                "sqAncillariesPanelStore": {
+                    "inProgress": false,
+                    "inProgressItem": "item1",
+                    "name": "",
+                    "type": "",
+                    "item1": {},
+                    "item2": {}
+                },
+                "sqExportODataPanelStore": {
+                    "name": "Promotional - CLPM Use Case",
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "autoupdateTimeRange": false,
+                    "timeRange": {
+                        "start": 1525943914254,
+                        "end": 1526548714254
+                    },
+                    "gridOption": "automatic",
+                    "gridSize": {
+                        "units": "min"
+                    }
+                },
+                "sqReferencePanelStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "windowStart": 1525943914254,
+                    "windowEnd": 1526548714254,
+                    "griddingPeriod": {
+                        "value": 5,
+                        "units": "min"
+                    },
+                    "referenceStat": "",
+                    "multiplier": 1
+                },
+                "sqAggregationBinStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "mode": "by_y_value",
+                    "includeEmptyBuckets": true,
+                    "yValueSignal": "",
+                    "stat": {
+                        "key": null,
+                        "timeUnits": "s"
+                    },
+                    "aggregationConfigs": [
+                        {
+                            "id": 1,
+                            "mode": "by_y_value",
+                            "capsuleMode": "overlap",
+                            "yValueBinMode": "size",
+                            "valid": false
+                        }
+                    ]
+                },
+                "sqLowPassFilterStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "cutoff": {},
+                    "period": {},
+                    "taps": 33,
+                    "autoPeriod": true,
+                    "autoTaps": true
+                },
+                "sqItemPropertiesStore": {
+                    "advancedParametersCollapsed": true
+                },
+                "sqPeriodicConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "frequencies": [],
+                    "weekStart": "Day.Sunday",
+                    "quarterStart": {
+                        "month": "Month.January",
+                        "day": 1
+                    },
+                    "shift": {
+                        "offset": 8,
+                        "duration": 8
+                    },
+                    "offset": {}
+                },
+                "sqTrendScalarStore": {
+                    "items": []
+                },
+                "sqTreemapStore": {
+                    "parent": {},
+                    "statistics": []
+                },
+                "sqTrendCapsuleSetStore": {
+                    "items": [
+                        {
+                            "autoDisabled": false,
+                            "id": "8CC76567-55D1-45F8-A5CC-71FA0A357FB7",
+                            "name": "HiHi AAE",
+                            "selected": false,
+                            "color": "#ff0000"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "7D1F0FF2-A76D-4CC0-ADC7-D93ABEC358A7",
+                            "name": "Hi AAE",
+                            "selected": false,
+                            "color": "#ffc000"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "69DBAA1B-B332-4812-949D-6954192BD826",
+                            "name": "HiHi CO Travel",
+                            "selected": false,
+                            "color": "#FF0000"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "51765491-9C10-42DA-B237-FE4D82FF1E96",
+                            "name": "Hi CO Travel",
+                            "selected": false,
+                            "color": "#ffc000"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "4F81FA3E-91C9-4AA9-8423-C2A04002E2C7",
+                            "name": "LoLo % Time Correct Mode",
+                            "selected": false,
+                            "color": "#ff0000"
+                        },
+                        {
+                            "autoDisabled": false,
+                            "id": "1375DA91-8ACA-4C65-BAEB-62A28027A8F7",
+                            "name": "Lo % Time Correct Mode",
+                            "selected": false,
+                            "color": "#ffc000"
+                        }
+                    ]
+                },
+                "sqScatterPlotStore": {
+                    "xSeries": {},
+                    "ySeries": {},
+                    "selector": {
+                        "low": 0.5,
+                        "high": 0.75
+                    },
+                    "selectedRegion": {
+                        "xMin": null,
+                        "xMax": null,
+                        "yMin": null,
+                        "yMax": null,
+                        "id": null,
+                        "dateTime": null
+                    },
+                    "viewRegion": {
+                        "xMin": null,
+                        "xMax": null,
+                        "yMin": null,
+                        "yMax": null,
+                        "id": null,
+                        "dateTime": null
+                    },
+                    "fxLines": [],
+                    "colorConditionIds": [],
+                    "colorRanges": [],
+                    "plotMode": "DISPLAY_RANGE",
+                    "connect": false
+                },
+                "sqTrendTableStore": {
+                    "items": []
+                },
+                "sqPowerSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "formula": "",
+                    "parameters": [],
+                    "navigationStack": []
+                },
+                "sqTrendMetricStore": {
+                    "scorecardHeaders": {
+                        "type": "startEnd",
+                        "format": "lll"
+                    },
+                    "scorecardColumns": [
+                        {
+                            "id": "9OC1m3AwK4ppkbHTeFLAOw",
+                            "type": "name",
+                            "backgroundColor": "#ffffff"
+                        }
+                    ],
+                    "dataStatus": "itemDataPresent",
+                    "warningCount": 0,
+                    "warningLogs": [],
+                    "items": []
+                },
+                "sqScorecardStore": {
+                    "metrics": []
+                },
+                "sqThresholdMetricStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "processType": "Simple",
+                    "aggregationOperator": {
+                        "key": null,
+                        "timeUnits": "s"
+                    },
+                    "duration": {},
+                    "period": {},
+                    "thresholds": {}
+                },
+                "sqCustomConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true
+                },
+                "sqCapsuleGroupStore": {
+                    "capsules": []
+                },
+                "sqScatterConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "isBounding": false
+                },
+                "sqFftStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "rateType": true,
+                    "rate": {},
+                    "outputUnits": "min",
+                    "highPass": {},
+                    "lowPass": {},
+                    "useHighPass": false,
+                    "useLowPass": false
+                },
+                "sqCompositeSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "isUpgradedUnionCondition": false,
+                    "inclusiveA": true,
+                    "inclusiveB": true
+                },
+                "sqSearchStore": {
+                    "nameFilter": "",
+                    "descriptionFilter": "",
+                    "typeFilter": [],
+                    "datasourceFilter": [],
+                    "sortBy": "",
+                    "isAdvancedMode": false,
+                    "mode": "tree",
+                    "currentAsset": "C180E2E4-48E3-448C-9550-87D4833C5791"
+                },
+                "sqVisualSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "similarity": 98,
+                    "normalizeAmplitude": true,
+                    "normalizeLocation": true,
+                    "selectedRegion": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                "sqLimitsSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "isSimple": true,
+                    "isCleansing": false,
+                    "limitsParams": {
+                        "entryCondition": {
+                            "duration": {
+                                "value": 0,
+                                "units": "min"
+                            }
+                        },
+                        "exitCondition": {
+                            "duration": {
+                                "value": 0,
+                                "units": "min"
+                            }
+                        }
+                    },
+                    "version": "V2"
+                },
+                "sqCursorStore": {
+                    "calendarCursors": [],
+                    "capsuleCursors": [],
+                    "showValues": true
+                },
+                "sqReportContentStore": {
+                    "workbookFolderId": ""
+                }
+            }
+        }
+    }
+}
