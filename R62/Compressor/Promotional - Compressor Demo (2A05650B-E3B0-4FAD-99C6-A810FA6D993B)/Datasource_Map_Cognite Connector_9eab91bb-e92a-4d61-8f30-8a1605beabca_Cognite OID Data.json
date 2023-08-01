@@ -1,0 +1,22 @@
+{
+    "Datasource Class": "Cognite Connector",
+    "Datasource ID": "9eab91bb-e92a-4d61-8f30-8a1605beabca",
+    "Datasource Name": "Cognite OID Data",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "(?<type>.*)",
+                "Datasource Class": "Cognite Connector",
+                "Datasource Name": "Cognite OID Data",
+                "Data ID": "(?<data_id>.*)"
+            },
+            "New": {
+                "Type": "${type}",
+                "Datasource Class": "Cognite Connector",
+                "Datasource Name": "Cognite OID Data",
+                "Data ID": "${data_id}"
+            }
+        }
+    ]
+}
