@@ -1,0 +1,20 @@
+{
+    "Definition": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1566307722356837400",
+        "Description": "Health reports a value from 0-100%, indicating the composite performance of all other metrics. &nbsp;Instead of monitoring each individual metric for all controllers, many sites simply monitor the Loop Health.",
+        "Document": "<p>The performance of all the metrics calculated for a loop can be combined into a Loop Health value. \u00a0The Loop Health reports a value from 0-100%, indicating the composite performance of all other metrics. \u00a0Instead of monitoring each individual metric for all controllers, many sites simply monitor the Loop Health.</p>",
+        "DocumentBackup\u02c9lindsey.wilcox@seeq.com\u02c92019-12-06T20:07:00Z": "<p>The performance o</p>",
+        "DocumentBackup\u02c9lindsey.wilcox@seeq.com\u02c92019-12-06T20:08:00Z": "<p>The performance of all the metrics calculated for a loop can be combined into a Loop Health value.\u00a0 This value</p>",
+        "Enabled": true,
+        "Froala Backup": "<p>The performance of all the metrics calculated for a loop can be combined into a Loop Health value. \u00a0The Loop Health reports a value from 0-100%, indicating the composite performance of all other metrics. \u00a0Instead of monitoring each individual metric for all controllers, many sites simply monitor the Loop Health.</p>",
+        "ID": "AD342632-E9B8-46EE-B0ED-200137BD3998",
+        "Is CK Enabled": true,
+        "Name": "The performance of all the metrics calculated for a loop can be combined into a Loop Health value. The Loop",
+        "Plain Text Document": "The performance of all the metrics calculated for a loop can be combined into a Loop Health value. \u00a0The Loop Health reports a value from 0-100%, indicating the composite performance of all other metrics. \u00a0Instead of monitoring each individual metric for all controllers, many sites simply monitor the Loop Health.",
+        "Type": "Journal",
+        "Unsearchable": false,
+        "Updated At": "1632870636960861800"
+    }
+}
