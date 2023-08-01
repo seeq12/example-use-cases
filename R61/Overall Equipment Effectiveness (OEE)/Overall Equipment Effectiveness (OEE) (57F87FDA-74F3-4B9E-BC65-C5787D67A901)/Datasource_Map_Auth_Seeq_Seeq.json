@@ -1,0 +1,36 @@
+{
+    "Datasource Class": "Auth",
+    "Datasource ID": "Seeq",
+    "Datasource Name": "Seeq",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "User",
+                "Datasource Class": "Auth",
+                "Datasource Name": "Seeq",
+                "Username": "(?<username>.*)"
+            },
+            "New": {
+                "Type": "User",
+                "Datasource Class": "Auth",
+                "Datasource Name": "Seeq",
+                "Username": "${username}"
+            }
+        },
+        {
+            "Old": {
+                "Type": "UserGroup",
+                "Datasource Class": "Auth",
+                "Datasource Name": "Seeq",
+                "Name": "(?<name>.*)"
+            },
+            "New": {
+                "Type": "UserGroup",
+                "Datasource Class": "Auth",
+                "Datasource Name": "Seeq",
+                "Name": "${name}"
+            }
+        }
+    ]
+}
