@@ -1,0 +1,4804 @@
+{
+    "002CCA40-E52D-487D-9C55-58E19075F37D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "9cc10e9c-edf7-4533-a20a-ab5a54b42e8f",
+        "Data ID": "002CCA40-E52D-487D-9C55-58E19075F37D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$epr.integral($ptfo)",
+        "Formula Parameters": {
+            "epr": "75CF39CC-524D-4854-BB6D-74D4802F02E3",
+            "ptfo": "DBCFA437-6176-4912-8681-71A90AF7A82F"
+        },
+        "ID": "002CCA40-E52D-487D-9C55-58E19075F37D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Total Product Produced for Order",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "0150E458-A8BE-47B1-AA2A-807360D5F0A4": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "2624d17b-5379-4732-9b27-72fd56d80f37",
+        "Data ID": "[E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1] {Signal} ID_Fan_Motor_State",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "0150E458-A8BE-47B1-AA2A-807360D5F0A4",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1580612400000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "ID_Fan_Motor_State",
+        "Scoped To": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+        "Source Value Unit Of Measure": "string",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "01D739FD-7E52-4CE7-A4E0-34D0F3F000F8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "fad24d93-0057-4008-a89d-6b9751e15652",
+        "Data ID": "01d739fd-7e52-4ce7-a4e0-34d0f3f000f8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "periods(18003min, 18723min).move(-8475min)",
+            "// Because minutes were used, a precise timestamp is not allowed and move had to be used to line up the periods with the start time"
+        ],
+        "Formula Parameters": {},
+        "ID": "01D739FD-7E52-4CE7-A4E0-34D0F3F000F8",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "18063.0",
+        "Metadata Properties": "",
+        "Name": "Production Run Times",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "01E5243F-E38A-4A55-BCA5-E77CC84D0F2E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "68630761-029e-44d0-adef-5a9dbd45b535",
+        "Data ID": "01e5243f-e38a-4a55-bca5-e77cc84d0f2e",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Downtime is opposite of run time",
+            "$runtime.inverse()"
+        ],
+        "Formula Parameters": {
+            "runtime": "01D739FD-7E52-4CE7-A4E0-34D0F3F000F8"
+        },
+        "ID": "01E5243F-E38A-4A55-BCA5-E77CC84D0F2E",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Production Downtime",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "021C1547-8210-49A5-8EDB-8A80632E46E8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "c1da731e-1593-41d3-9c6a-24f51085019a",
+        "Data ID": "021C1547-8210-49A5-8EDB-8A80632E46E8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(average(), $capsules, durationKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "D83DF654-78D1-43D7-9369-ADB926356C82",
+            "series": "F6996B00-8AE0-4702-B95A-BD45BF223955"
+        },
+        "ID": "021C1547-8210-49A5-8EDB-8A80632E46E8",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "5300641000",
+        "Name": "Signal from Condition 8",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "056FF654-9B5F-46D3-B495-A42547D3B410": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "7d80c641-7d08-459f-a7ed-a8339c5b7e4f",
+        "Data ID": "056FF654-9B5F-46D3-B495-A42547D3B410",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Specify Order Size",
+            "$Order = 50000klb",
+            "",
+            "// Calculate downtimes by rounding up the number of cycles that would be needed and then subtract the last downtime",
+            "($Order/$TotalProduced.within($data.move(1min,0))).ceiling()-1",
+            "// within and move used to avoid the $TotalProduced value of 0, which produces infinite result"
+        ],
+        "Formula Parameters": {
+            "TotalProduced": "DD544279-931D-4BF3-9890-55CC0B18FC4D",
+            "data": "E0D61212-1DA4-45AC-9B45-E5BA45975048"
+        },
+        "ID": "056FF654-9B5F-46D3-B495-A42547D3B410",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Number of Downtimes",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "05BEE940-1663-4CA3-903C-B8471895F1B9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "60610cd4-f58f-4eaf-939b-a7ccbc96c46b",
+        "Data ID": "05bee940-1663-4ca3-903c-b8471895f1b9",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "combinewith($cc6,$cc7,$cc8)",
+        "Formula Parameters": {
+            "cc6": "31ACCF79-6075-4B29-9CB2-CA629B1F8647",
+            "cc7": "D6BD9B8A-7E9A-4F93-A24A-76B18FF06B96",
+            "cc8": "BF35E7FB-7488-46BA-84A9-EB410441D3F1"
+        },
+        "ID": "05BEE940-1663-4CA3-903C-B8471895F1B9",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5.924117701940918E8",
+        "Metadata Properties": "",
+        "Name": "condition",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "081208FE-CAEA-4D0E-80E0-C8E00EBDEC29": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "389e21f7-9300-4bfd-8b73-3b301fabc188",
+        "Data ID": "081208FE-CAEA-4D0E-80E0-C8E00EBDEC29",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(totalized(\"h\"), $capsules, durationKey())",
+        "Formula Parameters": {
+            "capsules": "8A47A464-E7F6-413C-8138-9EE262C8DBE9",
+            "series": "4DE963F8-C219-4ECD-8F6F-0E2257325AB4"
+        },
+        "ID": "081208FE-CAEA-4D0E-80E0-C8E00EBDEC29",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1.8518538762246826E10",
+        "Name": "Signal from Condition 6",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "0861BCC3-A585-4F7F-BC3A-DEED0E8661DB": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "cb61b65d-a374-4869-a0f8-9984e7afc9e7",
+        "Data ID": "0861BCC3-A585-4F7F-BC3A-DEED0E8661DB",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.validValues().valueSearch(isMatch(\"off\"))",
+        "Formula Parameters": {
+            "a": "0150E458-A8BE-47B1-AA2A-807360D5F0A4"
+        },
+        "ID": "0861BCC3-A585-4F7F-BC3A-DEED0E8661DB",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "off",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "isCleansing": false,
+            "isSimple": true,
+            "limitsParams": {
+                "entryCondition": {
+                    "duration": {
+                        "units": "min",
+                        "value": 0
+                    },
+                    "operator": "~=",
+                    "value": "off",
+                    "value2": null
+                },
+                "exitCondition": {
+                    "duration": {
+                        "units": "min",
+                        "value": 0
+                    },
+                    "operator": "!~",
+                    "value": "off",
+                    "value2": null
+                }
+            },
+            "maximumDuration": {
+                "units": "h",
+                "value": 40
+            },
+            "type": "limits",
+            "version": "V2"
+        },
+        "Unsearchable": false
+    },
+    "0DE6474F-ECCF-4192-837A-F3870077BE97": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "03b01a50-b579-4978-88be-5a18f26d7d47",
+        "Data ID": "0DE6474F-ECCF-4192-837A-F3870077BE97",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.validValues().valueSearch(isGreaterThan(65000))",
+        "Formula Parameters": {
+            "a": "C437B553-D6E0-49AC-BB0B-14CD8FA846BF"
+        },
+        "ID": "0DE6474F-ECCF-4192-837A-F3870077BE97",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "greater than 65k",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "isCleansing": false,
+            "isSimple": true,
+            "limitsParams": {
+                "entryCondition": {
+                    "duration": {
+                        "units": "min",
+                        "value": 0
+                    },
+                    "operator": ">",
+                    "value": "65000",
+                    "value2": null
+                },
+                "exitCondition": {
+                    "duration": {
+                        "units": "min",
+                        "value": 0
+                    },
+                    "operator": "<=",
+                    "value": "65000",
+                    "value2": null
+                }
+            },
+            "maximumDuration": {
+                "units": "h",
+                "value": 40
+            },
+            "type": "limits",
+            "version": "V2"
+        },
+        "Unsearchable": false
+    },
+    "0EE095B2-D6C7-62E0-A0CD-FCAA91341908": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee095b2-d6c9-f9f0-a9f6-eaf5597d7d24",
+        "Data ID": "0EE095B2-D6C7-62E0-A0CD-FCAA91341908",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "50000klb",
+        "Formula Parameters": {},
+        "ID": "0EE095B2-D6C7-62E0-A0CD-FCAA91341908",
+        "Name": "Order Target",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedScalar",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unit Of Measure": "klb",
+        "Unsearchable": false
+    },
+    "0EE095B4-D780-E810-B469-AC613FBB12B7": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee095b4-d780-e810-8777-f62378cfd155",
+        "Data ID": "0EE095B4-D780-E810-B469-AC613FBB12B7",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Calculate downtimes by rounding up the number of cycles that would be needed and then subtract the last downtime ",
+            "($target/$TotalProduced)",
+            "   .within($currentRun.move(1sec))",
+            "   .ceiling()-1",
+            ""
+        ],
+        "Formula Parameters": {
+            "currentrun": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0",
+            "target": "0EE095B2-D6C7-62E0-A0CD-FCAA91341908",
+            "totalProduced": "D36B276C-3A9F-4D10-ADFD-3EA71FB07702"
+        },
+        "ID": "0EE095B4-D780-E810-B469-AC613FBB12B7",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Number of Required Downtimes",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE095F1-E39C-6670-AA61-CA23EE9057B8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee095f1-e39c-6670-9047-23d1eadaa0a1",
+        "Data ID": "0EE095F1-E39C-6670-AA61-CA23EE9057B8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Calculate downtimes by rounding up the number of cycles that would be needed and then subtract the last downtime ",
+            "($Target/$TotalProduced)",
+            "   .within($currentRun.move(1sec))",
+            "   .ceiling()-1",
+            ""
+        ],
+        "Formula Parameters": {
+            "Target": "0EE095B2-D6C7-62E0-A0CD-FCAA91341908",
+            "currentrun": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0",
+            "totalProduced": "D36B276C-3A9F-4D10-ADFD-3EA71FB07702"
+        },
+        "ID": "0EE095F1-E39C-6670-AA61-CA23EE9057B8",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Number of Required Downtimes",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE0964C-4365-EA20-8CB2-4FB3D66B993D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee0964c-4365-ea20-8d49-dd9006c36bd7",
+        "Data ID": "0EE0964C-4365-EA20-8CB2-4FB3D66B993D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(minValue(), $capsules.setMaximumDuration(40h), minKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0",
+            "series": "94B21DF7-5FCC-4401-AA16-531CA61EC7D1"
+        },
+        "ID": "0EE0964C-4365-EA20-8CB2-4FB3D66B993D",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Minimum Run Time",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "0EE096AB-4C9C-7710-83F5-4FE184EF23CF": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee096ab-4c9c-7710-b0a1-febd8f726b1c",
+        "Data ID": "0EE096AB-4C9C-7710-83F5-4FE184EF23CF",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$cprd.afterStart(4mo)",
+        "Formula Parameters": {
+            "cprd": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0"
+        },
+        "ID": "0EE096AB-4C9C-7710-83F5-4FE184EF23CF",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "4",
+        "Metadata Properties": "",
+        "Name": "Prod +",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE096AC-4B58-FD80-BA6A-C2DC8FA4238B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee096ac-4b58-fd80-b8d2-2a79b00baedf",
+        "Data ID": "0EE096AC-4B58-FD80-BA6A-C2DC8FA4238B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$acpr.integral($p)",
+        "Formula Parameters": {
+            "acpr": "F6996B00-8AE0-4702-B95A-BD45BF223955",
+            "p": "0EE096AB-4C9C-7710-83F5-4FE184EF23CF"
+        },
+        "ID": "0EE096AC-4B58-FD80-BA6A-C2DC8FA4238B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Optimized Total",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "0EE096AD-5DE8-EEE0-8B45-CE55E20AB7B3": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee096ad-5de8-eee0-b706-f0797474ddfb",
+        "Data ID": "0EE096AD-5DE8-EEE0-8B45-CE55E20AB7B3",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$acpr.integral($p)",
+        "Formula Parameters": {
+            "acpr": "BA839542-7F07-4028-9C4E-291A531B4C24",
+            "p": "0EE096AB-4C9C-7710-83F5-4FE184EF23CF"
+        },
+        "ID": "0EE096AD-5DE8-EEE0-8B45-CE55E20AB7B3",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Standard Total",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "14AF254B-FD99-46F6-9AF5-95B6D0169E98": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "5556c7c5-cb73-4123-be8f-a8ebeced193c",
+        "Data ID": "14AF254B-FD99-46F6-9AF5-95B6D0169E98",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$Downtime = 12h",
+            "",
+            "$TotalProduced/($Time+$Downtime)"
+        ],
+        "Formula Parameters": {
+            "Time": "182B743E-E441-406B-A4B3-20EB4E5F24B6",
+            "TotalProduced": "5DFE7616-6C8C-450A-8B5E-72E8433707FF"
+        },
+        "ID": "14AF254B-FD99-46F6-9AF5-95B6D0169E98",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Adjusted Production Rate with Downtime",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "14E32581-B4B5-4A64-A322-BFA52F2D0CE6": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "c7e537bb-ee55-4d49-a211-f921ce4cb14d",
+        "Data ID": "14E32581-B4B5-4A64-A322-BFA52F2D0CE6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Downtime is opposite of run time",
+            "$runtime.inverse()"
+        ],
+        "Formula Parameters": {
+            "runtime": "D58ACBD0-62B8-47F5-8229-49373CAEFCF5"
+        },
+        "ID": "14E32581-B4B5-4A64-A322-BFA52F2D0CE6",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Production Downtime",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "153EADFE-BD4A-4993-B22C-E5F082CEE3D9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "4551d17b-9018-4769-83f4-2b665adbb35c",
+        "Data ID": "153EADFE-BD4A-4993-B22C-E5F082CEE3D9",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.subtract($b)",
+        "Formula Parameters": {
+            "a": "C088251E-21A9-448F-95E1-9A3796A583DF",
+            "b": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0"
+        },
+        "ID": "153EADFE-BD4A-4993-B22C-E5F082CEE3D9",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "10514295557",
+        "Metadata Properties": "",
+        "Name": "Future",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "16CB082E-424C-468B-BEA1-C615063B3126": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "cb9c145b-d837-4d86-a5af-11ff3f4e827d",
+        "Data ID": "16CB082E-424C-468B-BEA1-C615063B3126",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(minValue(), $capsules.setMaximumDuration(90day), minKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0",
+            "series": "94B21DF7-5FCC-4401-AA16-531CA61EC7D1"
+        },
+        "ID": "16CB082E-424C-468B-BEA1-C615063B3126",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Min Run Length",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "175F38EE-A200-4E0E-B22C-6AD43E406C87": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "2313f1bf-6d6e-45a9-bf79-d7e00f67fd51",
+        "Data ID": "175F38EE-A200-4E0E-B22C-6AD43E406C87",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ProdRate.integral($ordertime)",
+        "Formula Parameters": {
+            "ProdRate": "F6996B00-8AE0-4702-B95A-BD45BF223955",
+            "ordertime": "44C0E9EB-0A1E-4415-8F00-21130EBB37FD"
+        },
+        "ID": "175F38EE-A200-4E0E-B22C-6AD43E406C87",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Total Produced for Order",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "180A85DA-D731-419B-A81E-1306D712ACF4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "18a52cd5-7db1-4513-985a-2e0358f24649",
+        "Data ID": "180A85DA-D731-419B-A81E-1306D712ACF4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Specify the Order Size",
+            "$Order = 50000klb",
+            "",
+            "// Specify the Downtime Window",
+            "$Downtime = 12h",
+            "",
+            "// Calculate the total time required",
+            "(($NumofDowntime*$Downtime)+($Order/$AvgRate))"
+        ],
+        "Formula Parameters": {
+            "AvgRate": "868E3419-A36D-439D-B96B-838EC74E9A7F",
+            "NumofDowntime": "056FF654-9B5F-46D3-B495-A42547D3B410"
+        },
+        "ID": "180A85DA-D731-419B-A81E-1306D712ACF4",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Total Order Time",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "182B743E-E441-406B-A4B3-20EB4E5F24B6": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "44754d92-20ef-41ca-8a4f-2a016672fd66",
+        "Data ID": "182B743E-E441-406B-A4B3-20EB4E5F24B6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "timesince($run.removelongerthan(40d),1h)",
+        "Formula Parameters": {
+            "run": "DB872701-4859-40BD-86CD-3B008305231F"
+        },
+        "ID": "182B743E-E441-406B-A4B3-20EB4E5F24B6",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Run Time",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "198C7C7C-E46F-43F5-A3C8-D0C579D455FE": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "a9829e0d-fea9-410c-aab7-7e85ae84fab0",
+        "Data ID": "198C7C7C-E46F-43F5-A3C8-D0C579D455FE",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS(group(capsule(\"2019-12-31T22:04:32.378Z\", \"2020-03-07T08:09:28.617Z\")), false, $a).predict($a)",
+        "Formula Parameters": {
+            "a": "B755BA12-F3A6-44D4-BF7A-A84CB2151147",
+            "target": "9F386D8E-867F-408B-857A-6BC8E8E11AB6"
+        },
+        "ID": "198C7C7C-E46F-43F5-A3C8-D0C579D455FE",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Predicted Production Rate",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "lambda": 0,
+            "modelExpanded": false,
+            "mustGoThroughZero": false,
+            "option": "linear",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1583568568617,
+            "windowStart": 1577829872378
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "1A64FD2A-22D5-46DB-9E1F-1AB3F587DE78": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "5c8a3067-9db4-4811-af39-bb2289056dd5",
+        "Data ID": "1A64FD2A-22D5-46DB-9E1F-1AB3F587DE78",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(185580495.4987793ms,",
+            "  capsule(1577858400000ms, 1578043979495.4988ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "1A64FD2A-22D5-46DB-9E1F-1AB3F587DE78",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.855804954987793E8",
+        "Metadata Properties": "",
+        "Name": "early in run",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "1A9D838C-5EF9-4745-916B-9FF05669094A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "160c15ca-1847-4901-a994-592028d1ec92",
+        "Data ID": "392dc950-560e-4f1f-851e-92fe7c8955cb",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "(($s+$f344)*14).setUnits('klb/h')",
+        "Formula Parameters": {
+            "f344": "A1567E88-B74F-4442-BA3A-88647C718CE4",
+            "s": "3EBFE6EB-A48A-4B48-BACF-2FE2EE8E4CA9"
+        },
+        "ID": "1A9D838C-5EF9-4745-916B-9FF05669094A",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "signal final",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "1BCE4D81-0E5D-4F26-8DE3-2D88DA3C5B0F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ea339e2c-6374-458d-8c3e-a41e8a2287f3",
+        "Data ID": "1BCE4D81-0E5D-4F26-8DE3-2D88DA3C5B0F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$totalProduction/$runTime",
+        "Formula Parameters": {
+            "runTime": "65C714D7-A220-4A44-8695-316EB3191519",
+            "totalProduction": "D36B276C-3A9F-4D10-ADFD-3EA71FB07702"
+        },
+        "ID": "1BCE4D81-0E5D-4F26-8DE3-2D88DA3C5B0F",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Average Production Rate During Run Time",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "1C036CF2-7B6F-467A-BF77-33EBC98D515A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "60effc0f-47b3-4215-bb09-af90cb352963",
+        "Data ID": "1C036CF2-7B6F-467A-BF77-33EBC98D515A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$Downtime = 12h",
+            "",
+            "$TotalProduced/($Time+$Downtime)"
+        ],
+        "Formula Parameters": {
+            "Time": "2F314811-373F-491C-92EC-F7488488ACBF",
+            "TotalProduced": "DD544279-931D-4BF3-9890-55CC0B18FC4D"
+        },
+        "ID": "1C036CF2-7B6F-467A-BF77-33EBC98D515A",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Adjusted Production Rate with Downtime",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "1DEEC46F-38F0-46F9-9521-85705EA8DAF2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "cce160b8-ada2-4d33-aa4c-df9336a09fd1",
+        "Data ID": "1deec46f-38f0-46f9-9521-85705ea8daf2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "periods(1025591s,1068791s).move(304884s)",
+        "Formula Parameters": {},
+        "ID": "1DEEC46F-38F0-46F9-9521-85705EA8DAF2",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1029191.0",
+        "Metadata Properties": "",
+        "Name": "Production Run Times",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "1E2CECC4-DFFA-47A9-9F45-EB543B276E3E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "541571d7-faf3-4943-8595-ca1143c5f955",
+        "Data ID": "1E2CECC4-DFFA-47A9-9F45-EB543B276E3E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(maxValue(), $capsules.setMaximumDuration(40day), maxKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "DB872701-4859-40BD-86CD-3B008305231F",
+            "series": "14AF254B-FD99-46F6-9AF5-95B6D0169E98"
+        },
+        "ID": "1E2CECC4-DFFA-47A9-9F45-EB543B276E3E",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Optimal Shutdown Point",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "1EC447E1-4965-4140-BA23-823882B72324": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "8a369ff8-8468-4936-909c-8d39106535e6",
+        "Data ID": "1EC447E1-4965-4140-BA23-823882B72324",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$prwf.integral($cr)",
+        "Formula Parameters": {
+            "cr": "C088251E-21A9-448F-95E1-9A3796A583DF",
+            "prwf": "BA839542-7F07-4028-9C4E-291A531B4C24"
+        },
+        "ID": "1EC447E1-4965-4140-BA23-823882B72324",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Production Totalizer - Base Case",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "1FCB6D54-5615-4EF5-8CE8-6E7A630FE1FF": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ea175102-e1d4-4142-87f3-9204ea5cede3",
+        "Data ID": "1FCB6D54-5615-4EF5-8CE8-6E7A630FE1FF",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(maxValue(), $capsules.setMaximumDuration(40day), maxKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "E0D61212-1DA4-45AC-9B45-E5BA45975048",
+            "series": "1C036CF2-7B6F-467A-BF77-33EBC98D515A"
+        },
+        "ID": "1FCB6D54-5615-4EF5-8CE8-6E7A630FE1FF",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Max Adjusted Production Rate",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "1FF59D20-9984-4CA2-85BD-DD060D8C180F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0a4fdcf5-e1b8-46fe-97aa-b79707b43667",
+        "Data ID": "1ff59d20-9984-4ca2-85bd-dd060d8c180f",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Downtime is inverse of run time",
+            "$runtime.inverse()"
+        ],
+        "Formula Parameters": {
+            "runtime": "1DEEC46F-38F0-46F9-9521-85705EA8DAF2"
+        },
+        "ID": "1FF59D20-9984-4CA2-85BD-DD060D8C180F",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Production Downtimes",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "231AAA18-84B7-4C76-AB27-5AE3C5955740": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "17748a6e-2efb-4fda-9b7b-36c846ed88b2",
+        "Data ID": "231AAA18-84B7-4C76-AB27-5AE3C5955740",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$rt.afterEnd(12h).intersect($coft)",
+        "Formula Parameters": {
+            "coft": "7F29933A-5BC7-4461-8E55-8884AD288586",
+            "rt": "7DD47904-CC30-4657-94E3-C410C0C810AB"
+        },
+        "ID": "231AAA18-84B7-4C76-AB27-5AE3C5955740",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "12",
+        "Metadata Properties": "",
+        "Name": "down times",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "2327DB03-A1BD-492A-98C8-C7C1B1B133D9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "be2c2908-ba36-4885-9e67-373a5e2f1dcb",
+        "Data ID": "2327DB03-A1BD-492A-98C8-C7C1B1B133D9",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Specify Order Size ",
+            "$Order = 50000klb ",
+            "// Calculate downtimes by rounding up the number of cycles that would be needed and then subtract the last downtime ",
+            "($Order/$TotalProduced)",
+            "   .within($currentRun.move(1sec))",
+            "   .ceiling()-1",
+            ""
+        ],
+        "Formula Parameters": {
+            "currentrun": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0",
+            "totalProduced": "D36B276C-3A9F-4D10-ADFD-3EA71FB07702"
+        },
+        "ID": "2327DB03-A1BD-492A-98C8-C7C1B1B133D9",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Number of Required Downtimes",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "23E354B6-B578-4F2B-ACF0-924EEC4F9C39": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "1d091b70-bc14-48d7-9e12-7ead61ddec27",
+        "Data ID": "23E354B6-B578-4F2B-ACF0-924EEC4F9C39",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$i.splice($f341,$c).setcertain()",
+        "Formula Parameters": {
+            "c": "7FCC8CD6-B3EB-4D54-A14C-5C89F448E3DA",
+            "f341": "C93FF5ED-4571-47F2-9404-E79ADFA31BA8",
+            "i": "892EDA61-3A2C-402E-9469-7A45B7ABD65B"
+        },
+        "ID": "23E354B6-B578-4F2B-ACF0-924EEC4F9C39",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "signal",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "27505BCF-770A-4E63-AEE5-A79AADE2E222": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "1da49c2e-5e4c-448b-a31a-4cb19ac69ee6",
+        "Data ID": "27505bcf-770a-4e63-aee5-a79aade2e222",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(185580495.4987793ms,",
+            "  capsule(1577858400000ms, 1578043979495.4988ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "27505BCF-770A-4E63-AEE5-A79AADE2E222",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.855804954987793E8",
+        "Metadata Properties": "",
+        "Name": "early in run",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "2770A41D-F97E-4ABB-91C7-B47DE0E59F45": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "775a964d-582f-42f4-9963-bf4ce19e33ca",
+        "Data ID": "2770A41D-F97E-4ABB-91C7-B47DE0E59F45",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.afterEnd(0ns).join($b.beforeStart(0ns), 90d)",
+        "Formula Parameters": {
+            "a": "7F29933A-5BC7-4461-8E55-8884AD288586",
+            "b": "2F7F8461-F7CE-4C12-B53A-CCB90AB4A785"
+        },
+        "ID": "2770A41D-F97E-4ABB-91C7-B47DE0E59F45",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "90",
+        "Metadata Properties": "",
+        "Name": "Potential Time Savings with optimized maintenance strategy",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "2826943D-C591-4A33-9364-A1730EC7813E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "e70bbf74-c4aa-4b55-b649-b64ba97616ea",
+        "Data ID": "2826943D-C591-4A33-9364-A1730EC7813E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$sfc9.resample(1min)",
+        "Formula Parameters": {
+            "sfc9": "F0E79B4D-77F4-4C0B-9C1C-8F24F01968D0"
+        },
+        "ID": "2826943D-C591-4A33-9364-A1730EC7813E",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Base Case Average Rate",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "2F314811-373F-491C-92EC-F7488488ACBF": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "b1244d9f-3b20-4aa8-a6a4-4e82ff6486f1",
+        "Data ID": "2F314811-373F-491C-92EC-F7488488ACBF",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "timesince($run.removelongerthan(40d),1h)",
+        "Formula Parameters": {
+            "run": "E0D61212-1DA4-45AC-9B45-E5BA45975048"
+        },
+        "ID": "2F314811-373F-491C-92EC-F7488488ACBF",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Run Time",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "2F7F8461-F7CE-4C12-B53A-CCB90AB4A785": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "023e1286-cc4a-444e-a7d9-11739fd9a68a",
+        "Data ID": "2F7F8461-F7CE-4C12-B53A-CCB90AB4A785",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.validValues() > 50000",
+        "Formula Parameters": {
+            "a": "1EC447E1-4965-4140-BA23-823882B72324"
+        },
+        "ID": "2F7F8461-F7CE-4C12-B53A-CCB90AB4A785",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Production Target met - Base Case",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 5,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "maximumDuration": {
+                "units": "h",
+                "value": 40
+            },
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "50000",
+            "type": "value-search",
+            "useValidValues": true,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "3020FE5C-0B81-405F-A32B-82E1A4A48A61": {
+        "Access Control": [
+            {
+                "ID": "67eec066-abed-4a7e-b4dc-117e2ec9c6c0",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                    "Name": "Partner Demo Access",
+                    "Type": "UserGroup"
+                },
+                "Origin": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "4ffc0cd9-7412-4ce6-aed7-f61fbd29c454",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "Email": "diego@vertix.pe",
+                    "First Name": "Diego",
+                    "ID": "5E5ED4A4-1FF5-43DD-9505-4B173DB3F742",
+                    "Is Admin": false,
+                    "Last Name": "Sanchez",
+                    "Name": "Diego Sanchez",
+                    "Type": "User",
+                    "Username": "diego@vertix.pe"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "403afaaf-5cd4-438c-8a42-135fe2cfcb6b",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                    "Name": "Everyone",
+                    "Type": "UserGroup"
+                },
+                "Origin": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": false
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "1a001434-3c1d-4335-8bdd-20a600dbd722",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "shamus.cunningham@seeq.com",
+                    "First Name": "Shamus",
+                    "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                    "Is Admin": true,
+                    "Last Name": "Cunningham",
+                    "Name": "Shamus Cunningham",
+                    "Type": "User",
+                    "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+                },
+                "Origin": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "5632e19d-8f93-4231-bb11-f0e9d3da223a",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "fd61e03c-6997-46dd-9fd6-a1bb0278c5b0",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                    "Name": "Seeq Internal",
+                    "Type": "UserGroup"
+                },
+                "Origin": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [
+            "E49ED507-46F8-41D9-A968-EBA66A0B4DFD"
+        ],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1589920961867707300",
+        "Enabled": true,
+        "ID": "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+        "Name": "Production",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1689878776010524265"
+    },
+    "31ACCF79-6075-4B29-9CB2-CA629B1F8647": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "a2bbd440-99e3-4229-86ae-9b3baaac9044",
+        "Data ID": "31accf79-6075-4b29-9cb2-ca629b1f8647",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(306079897.93359375ms,",
+            "  capsule(1580242143268.6287ms, 1580548222166.5623ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "31ACCF79-6075-4B29-9CB2-CA629B1F8647",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "3.0607989793359375E8",
+        "Metadata Properties": "",
+        "Name": "Custom Condition 6",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "337B2BBB-4200-43CF-8756-39DB8EB332FE": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "3b8e6e3d-e695-49fc-902f-f1a139e28b68",
+        "Data ID": "337B2BBB-4200-43CF-8756-39DB8EB332FE",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$Order = 50000klb",
+            "$MaxRate = 33.692klb/h",
+            "$OrderTime = $Order/$MaxRate",
+            "// Create a capsule for the production time for the order",
+            "$data.afterstart($OrderTime)",
+            ""
+        ],
+        "Formula Parameters": {
+            "data": "DB872701-4859-40BD-86CD-3B008305231F"
+        },
+        "ID": "337B2BBB-4200-43CF-8756-39DB8EB332FE",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1484.0318176421702",
+        "Metadata Properties": "Value=klb%2Fh",
+        "Name": "Estimated Production Time for Order",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "35C93E62-70E2-4897-A236-CE390ECB802B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ae920135-0326-4734-9941-6a316f92b43a",
+        "Data ID": "35C93E62-70E2-4897-A236-CE390ECB802B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(totalized(\"h\"), $capsules, durationKey())",
+        "Formula Parameters": {
+            "capsules": "8A47A464-E7F6-413C-8138-9EE262C8DBE9",
+            "series": "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0"
+        },
+        "ID": "35C93E62-70E2-4897-A236-CE390ECB802B",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1.8518538762246826E10",
+        "Name": "Signal from Condition 5",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "3B7D1816-8537-4F1F-957E-BDE47662307B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "90fec94e-5e9b-404c-882f-74d84ea016ca",
+        "Data ID": "3B7D1816-8537-4F1F-957E-BDE47662307B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(minValue(), $capsules.setMaximumDuration(40day), minKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "E0D61212-1DA4-45AC-9B45-E5BA45975048",
+            "series": "180A85DA-D731-419B-A81E-1306D712ACF4"
+        },
+        "ID": "3B7D1816-8537-4F1F-957E-BDE47662307B",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Minimum Order Time",
+        "Number Format": "#,##0.0",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "3E530F37-CC6D-4336-88EE-F0605823B7C6": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ad295597-a3e1-4d99-84e9-de9bd0e53a16",
+        "Data ID": "3E530F37-CC6D-4336-88EE-F0605823B7C6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$epr.integral($ptfo)",
+        "Formula Parameters": {
+            "epr": "5D8AAB49-2D8A-48A1-9A9F-A32B7DA115B2",
+            "ptfo": "337B2BBB-4200-43CF-8756-39DB8EB332FE"
+        },
+        "ID": "3E530F37-CC6D-4336-88EE-F0605823B7C6",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Total Product Produced for Order",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "3EBFE6EB-A48A-4B48-BACF-2FE2EE8E4CA9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "def781c9-780f-41d2-a78b-87c6b086125c",
+        "Data ID": "f111e10e-1c95-4528-8429-e0484faf8887",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$i.splice($f341,$c).setcertain()",
+        "Formula Parameters": {
+            "c": "05BEE940-1663-4CA3-903C-B8471895F1B9",
+            "f341": "AB575648-4DEC-41C8-AE06-9DD1A7AB96F2",
+            "i": "78190B8C-C30D-440B-8432-4EC04CA8B10A"
+        },
+        "ID": "3EBFE6EB-A48A-4B48-BACF-2FE2EE8E4CA9",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "signal",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "3FD551E1-7664-4B2B-B8E9-2A6682047DDB": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "f17568e9-2bfc-4af6-9945-fd55a2d20655",
+        "Data ID": "3FD551E1-7664-4B2B-B8E9-2A6682047DDB",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$cap = condition(1y,capsule('2019-12-31T00:00-08:00','2020-03-31T00:00-08:00'))",
+            "$pr.integral($cap)"
+        ],
+        "Formula Parameters": {
+            "pr": "F6996B00-8AE0-4702-B95A-BD45BF223955"
+        },
+        "ID": "3FD551E1-7664-4B2B-B8E9-2A6682047DDB",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Production Totalizer Alternative Case",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 5,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "41176384-267B-4636-A2CE-211C72344F14": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "41176384-267B-4636-A2CE-211C72344F14",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Aggregation Function": "maxValue()",
+            "Bounding Condition": "1A64FD2A-22D5-46DB-9E1F-1AB3F587DE78",
+            "Measured Item": "9F386D8E-867F-408B-857A-6BC8E8E11AB6",
+            "Process Type": "Condition"
+        },
+        "ID": "41176384-267B-4636-A2CE-211C72344F14",
+        "MetricReconfigurationMigration": true,
+        "Name": "Recovered Production Rate",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "4145F774-9CF2-4EC5-BB11-8C7936703AC9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "fae35ffa-39c4-4af7-9b1a-74c04cd69cb1",
+        "Data ID": "4145F774-9CF2-4EC5-BB11-8C7936703AC9",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(6207934001ms,",
+            "  capsule(1577840400000ms, 1584048333001ms)",
+            "    .setProperty('Source Unique Id', 'A0E9C3DE-8C47-4201-A7D8-A2DF5DD21771_1577840400000000000L:1148924698'))"
+        ],
+        "Formula Parameters": {},
+        "ID": "4145F774-9CF2-4EC5-BB11-8C7936703AC9",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "6207934001",
+        "Metadata Properties": "Source+Unique+Id=string",
+        "Name": "Manual Condition 2",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "manual-condition"
+        },
+        "Unsearchable": false
+    },
+    "424AE650-0BB6-41DE-AF1B-71C02B0EA770": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "81a2ee3d-fc10-4524-ba86-316cc43b54a9",
+        "Data ID": "424AE650-0BB6-41DE-AF1B-71C02B0EA770",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$s^$s2 ",
+        "Formula Parameters": {
+            "s": "23E354B6-B578-4F2B-ACF0-924EEC4F9C39",
+            "s2": "913C0CE3-C45E-47FE-A458-6F7D5C279A14"
+        },
+        "ID": "424AE650-0BB6-41DE-AF1B-71C02B0EA770",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "600.0",
+        "Name": "Formula 342",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "44C0E9EB-0A1E-4415-8F00-21130EBB37FD": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "fdd02c8b-66a0-4388-8e3a-a93d9b8f0fb9",
+        "Data ID": "44C0E9EB-0A1E-4415-8F00-21130EBB37FD",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$data.afterstart(1472.432h)",
+        "Formula Parameters": {
+            "data": "DB872701-4859-40BD-86CD-3B008305231F"
+        },
+        "ID": "44C0E9EB-0A1E-4415-8F00-21130EBB37FD",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1472.432",
+        "Metadata Properties": "Value=klb%2Fh",
+        "Name": "Minimum Production Time for Order",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "49EF99EA-146E-4C56-BEBD-4C318BAF316D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ccecf93c-ca65-4787-9a88-2aee8474d227",
+        "Data ID": "49EF99EA-146E-4C56-BEBD-4C318BAF316D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$trainingRange = $inputCondition.toGroup(capsule(\"2020-01-01T01:00:00.000Z\", \"2020-01-13T13:03:00.000Z\"), CapsuleBoundary.EnclosedBy)",
+            "referenceTable(1min)",
+            "  .addRows($inputSignal, $trainingRange)",
+            "  .repeatOver($repeatOverCondition.fragment(), ReferenceTableStat.Average)"
+        ],
+        "Formula Parameters": {
+            "inputCondition": "D58ACBD0-62B8-47F5-8229-49373CAEFCF5",
+            "inputSignal": "9F386D8E-867F-408B-857A-6BC8E8E11AB6",
+            "repeatOverCondition": "D58ACBD0-62B8-47F5-8229-49373CAEFCF5"
+        },
+        "ID": "49EF99EA-146E-4C56-BEBD-4C318BAF316D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Production Rate Reference Profile",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": false,
+            "griddingPeriod": {
+                "units": "min",
+                "value": 1
+            },
+            "multiplier": 1,
+            "referenceStat": "Average",
+            "type": "reference",
+            "windowEnd": 1578920580000,
+            "windowStart": 1577840400000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "4B7922BA-896C-46C4-A91F-51C7273C168C": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "6c5d43eb-4c2e-4682-80d7-4b5c91604291",
+        "Data ID": "4B7922BA-896C-46C4-A91F-51C7273C168C",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Downtime is inverse of run time",
+            "$runtime.inverse()"
+        ],
+        "Formula Parameters": {
+            "runtime": "CA0EC6C0-2697-4554-9C5E-2313FA46B49E"
+        },
+        "ID": "4B7922BA-896C-46C4-A91F-51C7273C168C",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Production Downtimes",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "4C16E6EA-D328-4B93-A157-A560BD2DCFA9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "fc3f0af6-19f6-42b6-89a4-2524d4c363d6",
+        "Data ID": "4C16E6EA-D328-4B93-A157-A560BD2DCFA9",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(maxValue(), $capsules.setMaximumDuration(40day), maxKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "DB872701-4859-40BD-86CD-3B008305231F",
+            "series": "14AF254B-FD99-46F6-9AF5-95B6D0169E98"
+        },
+        "ID": "4C16E6EA-D328-4B93-A157-A560BD2DCFA9",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Max Adjusted Production Rate",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "4DE963F8-C219-4ECD-8F6F-0E2257325AB4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "b39a733b-537b-4d20-b3db-9c577f2b2116",
+        "Data ID": "4DE963F8-C219-4ECD-8F6F-0E2257325AB4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$sf.splice($p3,$f).validValues().setMaxInterpolation(7d).max(0 klb/h)",
+        "Formula Parameters": {
+            "f": "C59D9569-87E6-49EB-B418-AA24CB0CC9A7",
+            "p3": "A355770D-61D0-4E38-BAF1-71170AE5B2D0",
+            "sf": "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0"
+        },
+        "ID": "4DE963F8-C219-4ECD-8F6F-0E2257325AB4",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "forecast",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "4E9416E8-9C75-426A-8E0A-4D07432CAC5D": {
+        "Archived": false,
+        "Asset": "Area A",
+        "Cache Enabled": false,
+        "Cache ID": "081d8cc2-d0bf-4b41-aade-f9b20f07f377",
+        "Data ID": "Area A_Relative Humidity.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "Example Data",
+        "Datasource Name": "Example Data",
+        "Enabled": false,
+        "ID": "4E9416E8-9C75-426A-8E0A-4D07432CAC5D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Lane": "4",
+        "Line Width": "1.0",
+        "Maximum Interpolation": "2min",
+        "Name": "Relative Humidity",
+        "Override Maximum Interpolation": "2min",
+        "Path": "Example >> Cooling Tower 1",
+        "Source Maximum Interpolation": "2min",
+        "Source Value Unit Of Measure": "%",
+        "Sync Token": "2023-02-14T14:23:22.157733130Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "4F67E25B-32CC-4A15-8DF4-256B38B88F3E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "aa58befa-8b95-43ea-9690-01b987a1468f",
+        "Data ID": "4F67E25B-32CC-4A15-8DF4-256B38B88F3E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$pr.forecastLinear(2weeks,2months).max(0)",
+        "Formula Parameters": {
+            "pr": "9F386D8E-867F-408B-857A-6BC8E8E11AB6"
+        },
+        "ID": "4F67E25B-32CC-4A15-8DF4-256B38B88F3E",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Production Rate with Linear Forecast",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "4FDD2048-8223-4872-87F2-6DA9F0B27779": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "7a5c16bc-db3a-4453-b04a-bf1f8827be53",
+        "Data ID": "4FDD2048-8223-4872-87F2-6DA9F0B27779",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$mrl.toCapsules()",
+        "Formula Parameters": {
+            "mrl": "16CB082E-424C-468B-BEA1-C615063B3126"
+        },
+        "ID": "4FDD2048-8223-4872-87F2-6DA9F0B27779",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "0",
+        "Metadata Properties": "Value=h",
+        "Name": "Key of Min Run Length",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "53F5D9A5-892B-4693-BC24-17E7737DD99E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "3cbffff4-921b-4fdc-acdd-f10cfecb2e1c",
+        "Data ID": "53F5D9A5-892B-4693-BC24-17E7737DD99E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "//$new = ($f344*14+15).setUnits('Mlb/h').validValues()",
+            "//$sf.validvalues().splice($new,$f)",
+            "($f344*14)+14",
+            ""
+        ],
+        "Formula Parameters": {
+            "f344": "7CFA5DD3-9356-4347-A062-D5E41431BF4D"
+        },
+        "ID": "53F5D9A5-892B-4693-BC24-17E7737DD99E",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "w forecast",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "57CF2D9E-CB38-4E35-92FC-177EA8640575": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "982e9104-1079-4552-9647-1218f6316eb9",
+        "Data ID": "57CF2D9E-CB38-4E35-92FC-177EA8640575",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$signal2 = $i.within($cc6).validvalues().setMaxInterpolation(90d) + 0.028",
+            "$signal2",
+            "//$i.spliceBlend($signal2,$cc6)"
+        ],
+        "Formula Parameters": {
+            "cc6": "E8611790-5532-4E95-A878-84176669C0C8",
+            "i": "892EDA61-3A2C-402E-9469-7A45B7ABD65B"
+        },
+        "ID": "57CF2D9E-CB38-4E35-92FC-177EA8640575",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "Formula 340",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "5D8AAB49-2D8A-48A1-9A9F-A32B7DA115B2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "2c9c3da5-3849-461e-ad01-c6c0291ec45d",
+        "Data ID": "5D8AAB49-2D8A-48A1-9A9F-A32B7DA115B2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$prrp.splice(0.tosignal(),$pd)",
+        "Formula Parameters": {
+            "pd": "14E32581-B4B5-4A64-A322-BFA52F2D0CE6",
+            "prrp": "49EF99EA-146E-4C56-BEBD-4C318BAF316D"
+        },
+        "ID": "5D8AAB49-2D8A-48A1-9A9F-A32B7DA115B2",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Expected Production Rate",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "5DFE7616-6C8C-450A-8B5E-72E8433707FF": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "a658a25d-a3e0-4791-9019-c0c7a2ec4e2f",
+        "Data ID": "5DFE7616-6C8C-450A-8B5E-72E8433707FF",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$rate.integral($run.removelongerthan(40d))",
+        "Formula Parameters": {
+            "rate": "9F386D8E-867F-408B-857A-6BC8E8E11AB6",
+            "run": "DB872701-4859-40BD-86CD-3B008305231F"
+        },
+        "ID": "5DFE7616-6C8C-450A-8B5E-72E8433707FF",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Total Product Produced",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "62BA7D02-3487-40D1-82E9-22F682BE2238": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "d4a54676-3377-4c99-a646-b04c1972cdf9",
+        "Data ID": "62BA7D02-3487-40D1-82E9-22F682BE2238",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$runtime.aggregate(average(),$max.tocapsules(),middleKey()).convertUnits('min')",
+        "Formula Parameters": {
+            "max": "4C16E6EA-D328-4B93-A157-A560BD2DCFA9",
+            "runtime": "182B743E-E441-406B-A4B3-20EB4E5F24B6"
+        },
+        "ID": "62BA7D02-3487-40D1-82E9-22F682BE2238",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Run Time at Max Key",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "min"
+    },
+    "640531F5-47DF-4779-A1E5-DDA152FADE6B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "3358bce3-847f-459f-9a80-2259f25347e1",
+        "Data ID": "640531F5-47DF-4779-A1E5-DDA152FADE6B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ProdRate.aggregate(average(),$max.tocapsules(),middleKey())",
+        "Formula Parameters": {
+            "ProdRate": "9F386D8E-867F-408B-857A-6BC8E8E11AB6",
+            "max": "4C16E6EA-D328-4B93-A157-A560BD2DCFA9"
+        },
+        "ID": "640531F5-47DF-4779-A1E5-DDA152FADE6B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Production Rate at Max Key",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "65C714D7-A220-4A44-8695-316EB3191519": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "693c093f-16e3-46cf-96f1-8ad7a5282af2",
+        "Data ID": "65C714D7-A220-4A44-8695-316EB3191519",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "timesince($cprd.removelongerthan(90d),1h)",
+        "Formula Parameters": {
+            "cprd": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0"
+        },
+        "ID": "65C714D7-A220-4A44-8695-316EB3191519",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Time Elapsed in Current Run",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "6601D939-D9B9-405E-859B-0EC591975A4F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "346f0505-e863-4615-9860-9404ed01e2c4",
+        "Data ID": "6601D939-D9B9-405E-859B-0EC591975A4F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ProdRate.splice(0.tosignal(),$downtime).validvalues()",
+        "Formula Parameters": {
+            "ProdRate": "E54F714B-CD97-4EAB-8032-7392BDAD98B2",
+            "downtime": "1FF59D20-9984-4CA2-85BD-DD060D8C180F"
+        },
+        "ID": "6601D939-D9B9-405E-859B-0EC591975A4F",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Expected Production Rate",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "6B4BB9C6-42D1-448D-AC7C-8B54B5E6DA83": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "bd1b6f4c-09d4-4e30-9542-273834d9a897",
+        "Data ID": "3d733d62-0b7d-4cb3-9ea2-f855879ec069",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$signal2 = $i.within($cc6).validvalues().setMaxInterpolation(90d) + 0.032",
+            "$signal2",
+            "//$i.spliceBlend($signal2,$cc6)"
+        ],
+        "Formula Parameters": {
+            "cc6": "31ACCF79-6075-4B29-9CB2-CA629B1F8647",
+            "i": "78190B8C-C30D-440B-8432-4EC04CA8B10A"
+        },
+        "ID": "6B4BB9C6-42D1-448D-AC7C-8B54B5E6DA83",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "signal 2",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "6C05663D-CC28-4303-82D4-8A717901FB6C": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "b3c11077-219a-431a-bf19-21ffc72252dd",
+        "Data ID": "6C05663D-CC28-4303-82D4-8A717901FB6C",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$sfc8.resample(1min)",
+        "Formula Parameters": {
+            "sfc8": "021C1547-8210-49A5-8EDB-8A80632E46E8"
+        },
+        "ID": "6C05663D-CC28-4303-82D4-8A717901FB6C",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Best Case Average Rate",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "6E91ED91-83E8-41C6-ABB1-6A1C76907F0E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "4117233b-880c-4005-ac02-7631596a4aa8",
+        "Data ID": "6E91ED91-83E8-41C6-ABB1-6A1C76907F0E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$trainingRange = $inputCondition.toGroup(capsule(\"2020-01-01T01:00:00.000Z\", \"2020-01-12T21:53:00.000Z\"), CapsuleBoundary.EnclosedBy)",
+            "referenceTable(1min)",
+            "  .addRows($inputSignal, $trainingRange)",
+            "  .repeatOver($repeatOverCondition.fragment(), ReferenceTableStat.Average)"
+        ],
+        "Formula Parameters": {
+            "inputCondition": "7F21D754-B8DE-4BAF-80A7-9FD93D13F206",
+            "inputSignal": "9F386D8E-867F-408B-857A-6BC8E8E11AB6",
+            "repeatOverCondition": "7DD47904-CC30-4657-94E3-C410C0C810AB"
+        },
+        "ID": "6E91ED91-83E8-41C6-ABB1-6A1C76907F0E",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Production Rate Reference Profile",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": false,
+            "griddingPeriod": {
+                "units": "min",
+                "value": 1
+            },
+            "multiplier": 1,
+            "referenceStat": "Average",
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "reference",
+            "windowEnd": 1578865980000,
+            "windowStart": 1577840400000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "712E25B2-AD73-4CAE-9BA4-76D9459C492F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "f80c0acf-6ac9-4791-bdfb-fdb69243a158",
+        "Data ID": "712E25B2-AD73-4CAE-9BA4-76D9459C492F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$TotalProduced/$RunTime",
+        "Formula Parameters": {
+            "RunTime": "182B743E-E441-406B-A4B3-20EB4E5F24B6",
+            "TotalProduced": "5DFE7616-6C8C-450A-8B5E-72E8433707FF"
+        },
+        "ID": "712E25B2-AD73-4CAE-9BA4-76D9459C492F",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Average Production Rate during Run Time",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "72752B12-30C0-487D-AAD5-F1D3F06D13A4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "daf0c949-2666-4c4e-bce4-b844f680fd1d",
+        "Data ID": "72752B12-30C0-487D-AAD5-F1D3F06D13A4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(average(), $capsules, startKey(), 365day).toStep()",
+        "Formula Parameters": {
+            "capsules": "7F29933A-5BC7-4461-8E55-8884AD288586",
+            "series": "F6996B00-8AE0-4702-B95A-BD45BF223955"
+        },
+        "ID": "72752B12-30C0-487D-AAD5-F1D3F06D13A4",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "365",
+        "Name": "Average Production Rate - Best Case",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "75CF39CC-524D-4854-BB6D-74D4802F02E3": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "395c2b01-59be-46fb-9487-8e590d9a77f6",
+        "Data ID": "75CF39CC-524D-4854-BB6D-74D4802F02E3",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$prrp.splice(0.tosignal(),$pd)",
+        "Formula Parameters": {
+            "pd": "01E5243F-E38A-4A55-BCA5-E77CC84D0F2E",
+            "prrp": "C311FE6B-E41E-4781-867F-BF048850EB4D"
+        },
+        "ID": "75CF39CC-524D-4854-BB6D-74D4802F02E3",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Expected Production Rate",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "76BE3CD7-2108-4CE6-B429-7B41F3F6E521": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ba300507-d75b-409e-87e2-410b35792138",
+        "Data ID": "76BE3CD7-2108-4CE6-B429-7B41F3F6E521",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Define the Order Size",
+            "$Order = 50000klb",
+            "",
+            "// Create capsule for actual time to order",
+            "$TotalProduct <= $Order"
+        ],
+        "Formula Parameters": {
+            "TotalProduct": "3E530F37-CC6D-4336-88EE-F0605823B7C6"
+        },
+        "ID": "76BE3CD7-2108-4CE6-B429-7B41F3F6E521",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Actual Production Time for Order",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "7800E167-3A41-4634-BDE3-51BD48726FC4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "5efb541c-a643-4245-8b31-43ef33a1911a",
+        "Data ID": "7800E167-3A41-4634-BDE3-51BD48726FC4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$sfc7.runningSum($cc9).tolinear(30d)//.setMaxInterpolation(30d)",
+        "Formula Parameters": {
+            "cc9": "95145F9E-5012-4673-9191-BC99EAAF97D7",
+            "sfc7": "AE22237B-94FE-46F2-A1D6-2C47A760FDF7"
+        },
+        "ID": "7800E167-3A41-4634-BDE3-51BD48726FC4",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "30",
+        "Name": "runningsum",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "78190B8C-C30D-440B-8432-4EC04CA8B10A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "77c2fac5-803d-4f93-910a-7d15f5ee784e",
+        "Data ID": "373af3ce-f792-4a32-879e-34d569a9f3cc",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "((1/($ifv.remove($off))).resample(1min)*0.5)^0.25",
+        "Formula Parameters": {
+            "ifv": "7E269717-62DB-42F0-A0B1-F9A5320921EA",
+            "off": "E4147984-8637-4A78-A837-8F984AAF9C36"
+        },
+        "ID": "78190B8C-C30D-440B-8432-4EC04CA8B10A",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "inverse",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "7CFA5DD3-9356-4347-A062-D5E41431BF4D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "da75a1f6-85c0-4027-875c-c2cec2f37fb1",
+        "Data ID": "7CFA5DD3-9356-4347-A062-D5E41431BF4D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "1.2996+($ts*(-0.00035))",
+        "Formula Parameters": {
+            "ts": "A9CEA8EE-7755-47FF-985C-06D0A89FD7E2"
+        },
+        "ID": "7CFA5DD3-9356-4347-A062-D5E41431BF4D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Formula 344",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "7DD47904-CC30-4657-94E3-C410C0C810AB": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "4e57cea5-b847-4aef-ad1e-15133e502c30",
+        "Data ID": "7DD47904-CC30-4657-94E3-C410C0C810AB",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "periods(17093min, 17813min).move(5445min).intersect($coft)",
+            "// Because minutes were used, a precise timestamp is not allowed and move had to be used to line up the periods with the start time"
+        ],
+        "Formula Parameters": {
+            "coft": "7F29933A-5BC7-4461-8E55-8884AD288586"
+        },
+        "ID": "7DD47904-CC30-4657-94E3-C410C0C810AB",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "17153.0",
+        "Metadata Properties": "",
+        "Name": "run times",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "7E02D0D1-3EC7-4044-991A-4567E61B5251": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "d92ce215-256f-4229-9148-091d0034691e",
+        "Data ID": "7E02D0D1-3EC7-4044-991A-4567E61B5251",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Define the downtime window and order size",
+            "$Downtime = 12h",
+            "$Order = 50000klb",
+            "",
+            "// Create a capsule for the data set provided",
+            "$dataset = $ProdRate.tocapsules().merge(1s).removelongerthan(40d)",
+            "",
+            "// Calculate run time",
+            "$runtime = timesince($dataset, 1h)",
+            "",
+            "// Calculate total product produced",
+            "$TotalProduced = $ProdRate.integral($dataset)",
+            "",
+            "// Calculate average product produced during run time",
+            "$AvgProdRate = $TotalProduced/$runtime",
+            "",
+            "// Calculate the number of downtimes required",
+            "$NumofDowntime = ($Order/$TotalProduced.within($dataset.move(1min,0))).ceiling()-1",
+            "",
+            "// Calculate the total time required for the order",
+            "$TotalTimeRequired = ($NumofDowntime*$Downtime)+($Order/$AvgProdRate)",
+            "",
+            "// Find the minimum time required for the order",
+            "$TotalTimeRequired.aggregate(minValue(),$dataset,minKey())"
+        ],
+        "Formula Parameters": {
+            "ProdRate": "9F386D8E-867F-408B-857A-6BC8E8E11AB6"
+        },
+        "ID": "7E02D0D1-3EC7-4044-991A-4567E61B5251",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Minimum Order Time - 1 Formula",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "7E269717-62DB-42F0-A0B1-F9A5320921EA": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "9ec65e26-1f13-4f38-98ea-e5e1de154560",
+        "Data ID": "[E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1] {Signal} ID_Fan_Vibration",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "7E269717-62DB-42F0-A0B1-F9A5320921EA",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1580612400000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "ID_Fan_Vibration",
+        "Scoped To": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+        "Source Value Unit Of Measure": "",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "7F21D754-B8DE-4BAF-80A7-9FD93D13F206": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "5caf0a8a-f838-4019-95f5-5c57cd11c5eb",
+        "Data ID": "7F21D754-B8DE-4BAF-80A7-9FD93D13F206",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$coft.afterstart(17093min)",
+        "Formula Parameters": {
+            "coft": "7F29933A-5BC7-4461-8E55-8884AD288586"
+        },
+        "ID": "7F21D754-B8DE-4BAF-80A7-9FD93D13F206",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "17093",
+        "Metadata Properties": "",
+        "Name": "afterstart",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "7F29933A-5BC7-4461-8E55-8884AD288586": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "1a077ea7-0a25-4f83-84fd-3c0d3bf52baa",
+        "Data ID": "7F29933A-5BC7-4461-8E55-8884AD288586",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$offset = 1472.4h",
+            "$cprd.afterStart($offset)"
+        ],
+        "Formula Parameters": {
+            "cprd": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0"
+        },
+        "ID": "7F29933A-5BC7-4461-8E55-8884AD288586",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1472.4",
+        "Metadata Properties": "",
+        "Name": "Complete Order Fulfillment Time - Best Case",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "7FCC8CD6-B3EB-4D54-A14C-5C89F448E3DA": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "26b66c54-f482-424d-be90-a083c143b11f",
+        "Data ID": "7FCC8CD6-B3EB-4D54-A14C-5C89F448E3DA",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "combinewith($cc6,$cc7,$cc8)",
+        "Formula Parameters": {
+            "cc6": "9B45DAF3-71A9-44E6-8D09-9D3323E42784",
+            "cc7": "82ED4168-6986-459F-9508-3E428E834C46",
+            "cc8": "E8611790-5532-4E95-A878-84176669C0C8"
+        },
+        "ID": "7FCC8CD6-B3EB-4D54-A14C-5C89F448E3DA",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5.924117701940918E8",
+        "Metadata Properties": "",
+        "Name": "condition",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "820F39CC-869B-4543-9F24-1D7A82FB744C": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "f0bd70ec-cb46-478d-8f3a-eb23d9676495",
+        "Data ID": "820F39CC-869B-4543-9F24-1D7A82FB744C",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ProdRate.aggregate(average(),$max.tocapsules(),middleKey())",
+        "Formula Parameters": {
+            "ProdRate": "BAEDDAB3-D776-4600-8272-CA911193FD90",
+            "max": "1FCB6D54-5615-4EF5-8CE8-6E7A630FE1FF"
+        },
+        "ID": "820F39CC-869B-4543-9F24-1D7A82FB744C",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Production Rate at Max Key",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "82E8375B-6A6D-48A9-8C0A-02170DAE14C0": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "150ac390-9423-4a17-b858-0569285debf3",
+        "Data ID": "82E8375B-6A6D-48A9-8C0A-02170DAE14C0",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$runtime.aggregate(average(),$max.tocapsules(),middleKey()).convertUnits('min')",
+        "Formula Parameters": {
+            "max": "1FCB6D54-5615-4EF5-8CE8-6E7A630FE1FF",
+            "runtime": "2F314811-373F-491C-92EC-F7488488ACBF"
+        },
+        "ID": "82E8375B-6A6D-48A9-8C0A-02170DAE14C0",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Run Time at Max Key",
+        "Number Format": "#,##0",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "min"
+    },
+    "82ED4168-6986-459F-9508-3E428E834C46": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "089684f8-75b4-45ea-8041-66ff5ad13260",
+        "Data ID": "82ED4168-6986-459F-9508-3E428E834C46",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(592411770.1940918ms,",
+            "  capsule(1578465059737.0068ms, 1579057470507.201ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "82ED4168-6986-459F-9508-3E428E834C46",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5.924117701940918E8",
+        "Metadata Properties": "",
+        "Name": "Custom Condition 7",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "83871149-A806-475C-BC72-66699BC0A816": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "f28b2d93-a92c-4d3e-892e-541e9473cc52",
+        "Data ID": "83871149-A806-475C-BC72-66699BC0A816",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$delayed = $sf.move(33d)//.validValues()",
+            "",
+            "$delayed",
+            "//(combinewith($sf,$delayed))"
+        ],
+        "Formula Parameters": {
+            "sf": "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0"
+        },
+        "ID": "83871149-A806-475C-BC72-66699BC0A816",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "delayed signal",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "868E3419-A36D-439D-B96B-838EC74E9A7F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "73bbd85f-5c17-4499-888f-97807039810a",
+        "Data ID": "868E3419-A36D-439D-B96B-838EC74E9A7F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$TotalProduced/$RunTime",
+        "Formula Parameters": {
+            "RunTime": "2F314811-373F-491C-92EC-F7488488ACBF",
+            "TotalProduced": "DD544279-931D-4BF3-9890-55CC0B18FC4D"
+        },
+        "ID": "868E3419-A36D-439D-B96B-838EC74E9A7F",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Average Production Rate during Run Time",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "892EDA61-3A2C-402E-9469-7A45B7ABD65B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "6a0ce450-5e9a-4b65-9d84-062992255c57",
+        "Data ID": "892EDA61-3A2C-402E-9469-7A45B7ABD65B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "((1/($ifv.remove($off))).resample(1min)*0.5)^0.25",
+        "Formula Parameters": {
+            "ifv": "7E269717-62DB-42F0-A0B1-F9A5320921EA",
+            "off": "0861BCC3-A585-4F7F-BC3A-DEED0E8661DB"
+        },
+        "ID": "892EDA61-3A2C-402E-9469-7A45B7ABD65B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "inverse",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "8952DAE7-64E4-4630-97B7-3F0D1FE3E13A": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "8952DAE7-64E4-4630-97B7-3F0D1FE3E13A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Aggregation Function": "maxValue()",
+            "Bounding Condition": "27505BCF-770A-4E63-AEE5-A79AADE2E222",
+            "Measured Item": "BAEDDAB3-D776-4600-8272-CA911193FD90",
+            "Process Type": "Condition"
+        },
+        "ID": "8952DAE7-64E4-4630-97B7-3F0D1FE3E13A",
+        "MetricReconfigurationMigration": true,
+        "Name": "Recovered Production Rate",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "8A47A464-E7F6-413C-8138-9EE262C8DBE9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "63acb6f8-6041-4069-89aa-b0d53ade2f0c",
+        "Data ID": "8A47A464-E7F6-413C-8138-9EE262C8DBE9",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(18518538762.246826ms,",
+            "  capsule(1577834622237.7532ms, 1596353160000ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "8A47A464-E7F6-413C-8138-9EE262C8DBE9",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.8518538762246826E10",
+        "Metadata Properties": "",
+        "Name": "time",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "913C0CE3-C45E-47FE-A458-6F7D5C279A14": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "1897e165-1799-4b00-8565-d621ecc5019f",
+        "Data ID": "913C0CE3-C45E-47FE-A458-6F7D5C279A14",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$s.agilefilter(10min).derivative().convertUnits('/min')/2",
+        "Formula Parameters": {
+            "s": "23E354B6-B578-4F2B-ACF0-924EEC4F9C39"
+        },
+        "ID": "913C0CE3-C45E-47FE-A458-6F7D5C279A14",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "600.0",
+        "Name": "slope",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "1/min"
+    },
+    "93E054D2-5DF4-424A-9ED0-4DBB51CD9006": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "d7fdefa1-f5b0-4852-8d35-9df698e2dbbd",
+        "Data ID": "93E054D2-5DF4-424A-9ED0-4DBB51CD9006",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$signal2 = $i.within($cc6).validvalues().setMaxInterpolation(90d) + 0.028",
+            "$signal2",
+            "//$i.spliceBlend($signal2,$cc6)"
+        ],
+        "Formula Parameters": {
+            "cc6": "82ED4168-6986-459F-9508-3E428E834C46",
+            "i": "892EDA61-3A2C-402E-9469-7A45B7ABD65B"
+        },
+        "ID": "93E054D2-5DF4-424A-9ED0-4DBB51CD9006",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "Formula 339",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "94B21DF7-5FCC-4401-AA16-531CA61EC7D1": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "aecefc3a-0cc2-4047-a926-49ff1f2669ee",
+        "Data ID": "94B21DF7-5FCC-4401-AA16-531CA61EC7D1",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Specify the Order Size ",
+            "$Order = 50000klb ",
+            "// Specify the Downtime Window ",
+            "$Downtime = 12h ",
+            "// Calculate the total time required ",
+            "($NumofDowntime*$Downtime)+($Order/$AvgRate)"
+        ],
+        "Formula Parameters": {
+            "AvgRate": "1BCE4D81-0E5D-4F26-8DE3-2D88DA3C5B0F",
+            "NumofDowntime": "2327DB03-A1BD-492A-98C8-C7C1B1B133D9"
+        },
+        "ID": "94B21DF7-5FCC-4401-AA16-531CA61EC7D1",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Time to complete full order",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "95145F9E-5012-4673-9191-BC99EAAF97D7": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "f3c60ee2-96b2-49ed-a2ba-703fa1bd0e18",
+        "Data ID": "95145F9E-5012-4673-9191-BC99EAAF97D7",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(15713548113.961426ms,",
+            "  capsule(1576190083400.0386ms, 1591903630514ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "95145F9E-5012-4673-9191-BC99EAAF97D7",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.5713548113961426E10",
+        "Metadata Properties": "",
+        "Name": "Custom Condition 9",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "963D7EE8-805F-41B3-B096-857B10792F19": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "dd6a4da4-0ebc-48e6-9dff-a579e6da91c0",
+        "Data ID": "963D7EE8-805F-41B3-B096-857B10792F19",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$signal2 = $i.within($cc6).validvalues().setMaxInterpolation(90d) + 0.032",
+            "$signal2",
+            "//$i.spliceBlend($signal2,$cc6)"
+        ],
+        "Formula Parameters": {
+            "cc6": "9B45DAF3-71A9-44E6-8D09-9D3323E42784",
+            "i": "892EDA61-3A2C-402E-9469-7A45B7ABD65B"
+        },
+        "ID": "963D7EE8-805F-41B3-B096-857B10792F19",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "signal 2",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "975C25FE-527F-4C89-8732-E7846BFB1208": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "2299c832-eaa8-4ffd-b9b3-8ca96e8db7c5",
+        "Data ID": "975c25fe-527f-4c89-8732-e7846bfb1208",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Define the Order Size",
+            "$Order = 50000klb",
+            "",
+            "// Create capsule for actual time to order",
+            "$TotalProduct <= $Order"
+        ],
+        "Formula Parameters": {
+            "TotalProduct": "002CCA40-E52D-487D-9C55-58E19075F37D"
+        },
+        "ID": "975C25FE-527F-4C89-8732-E7846BFB1208",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Actual Production Time for Order",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "9762649A-A48C-47E3-AE78-3E34E2471937": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "23da7ad4-fe6b-4df2-bea5-75fe8a7c05e5",
+        "Data ID": "9762649a-a48c-47e3-ae78-3e34e2471937",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$data.afterstart(1472.432h)",
+        "Formula Parameters": {
+            "data": "E0D61212-1DA4-45AC-9B45-E5BA45975048"
+        },
+        "ID": "9762649A-A48C-47E3-AE78-3E34E2471937",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1472.432",
+        "Metadata Properties": "Value=klb%2Fh",
+        "Name": "Minimum Production Time for Order",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "9B38688F-6C8A-4345-ABEC-CC3A5D8CB508": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "96cd0df7-006e-4e62-8c2f-a42922729f48",
+        "Data ID": "9B38688F-6C8A-4345-ABEC-CC3A5D8CB508",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Specify the Order Size",
+            "$Order = 50000klb",
+            "",
+            "// Specify the Downtime Window",
+            "$Downtime = 12h",
+            "",
+            "// Calculate the total time required",
+            "(($NumofDowntime*$Downtime)+($Order/$AvgRate))"
+        ],
+        "Formula Parameters": {
+            "AvgRate": "712E25B2-AD73-4CAE-9BA4-76D9459C492F",
+            "NumofDowntime": "F6C52D86-F7FE-4C8D-82ED-3C0D278DDD33"
+        },
+        "ID": "9B38688F-6C8A-4345-ABEC-CC3A5D8CB508",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Total Order Time",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "9B45DAF3-71A9-44E6-8D09-9D3323E42784": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "b419d806-eaf7-498a-a210-07ef759641cf",
+        "Data ID": "9B45DAF3-71A9-44E6-8D09-9D3323E42784",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(306079897.93359375ms,",
+            "  capsule(1580242143268.6287ms, 1580548222166.5623ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "9B45DAF3-71A9-44E6-8D09-9D3323E42784",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "3.0607989793359375E8",
+        "Metadata Properties": "",
+        "Name": "Custom Condition 6",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "9F386D8E-867F-408B-857A-6BC8E8E11AB6": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "40d7e2fa-e942-457d-a13e-20b942989a35",
+        "Data ID": "9F386D8E-867F-408B-857A-6BC8E8E11AB6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$sf",
+        "Formula Parameters": {
+            "sf": "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0"
+        },
+        "ID": "9F386D8E-867F-408B-857A-6BC8E8E11AB6",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Production Rate",
+        "Number Format": "auto",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "A0E9C3DE-8C47-4201-A7D8-A2DF5DD21771": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "c3784bf8-f78b-4861-a11a-cb9b89637963",
+        "Data ID": "A0E9C3DE-8C47-4201-A7D8-A2DF5DD21771",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.join($b.beforeStart(0ns), 90d)",
+        "Formula Parameters": {
+            "a": "7F29933A-5BC7-4461-8E55-8884AD288586",
+            "b": "2F7F8461-F7CE-4C12-B53A-CCB90AB4A785"
+        },
+        "ID": "A0E9C3DE-8C47-4201-A7D8-A2DF5DD21771",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "90",
+        "Metadata Properties": "",
+        "Name": "Complete Order Fullfillment Time - Base Case",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "A1567E88-B74F-4442-BA3A-88647C718CE4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "9029075c-112e-48b5-9a93-c668de2162ad",
+        "Data ID": "f6e4b573-3dd2-4eeb-84a2-e27d41244b3d",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "1.2996+($ts*(-0.00035))",
+        "Formula Parameters": {
+            "ts": "B7FE3DC7-FB8C-484E-A158-B98E213A0F95"
+        },
+        "ID": "A1567E88-B74F-4442-BA3A-88647C718CE4",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Formula 344",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "A355770D-61D0-4E38-BAF1-71170AE5B2D0": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "251a4e77-f8cd-459a-b8a1-523c97f68b5d",
+        "Data ID": "A355770D-61D0-4E38-BAF1-71170AE5B2D0",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS(group(capsule(\"2019-12-31T13:50:43.206Z\", \"2020-03-19T14:32:38.253Z\")), false, $a).predict($a)",
+        "Formula Parameters": {
+            "a": "A9CEA8EE-7755-47FF-985C-06D0A89FD7E2",
+            "target": "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0"
+        },
+        "ID": "A355770D-61D0-4E38-BAF1-71170AE5B2D0",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Prediction 3",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "lambda": 0,
+            "modelExpanded": false,
+            "mustGoThroughZero": false,
+            "option": "linear",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1584628358253,
+            "windowStart": 1577800243206
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "A9CEA8EE-7755-47FF-985C-06D0A89FD7E2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "6d5e3da9-8cf3-4a11-98c8-d0acf4d359ee",
+        "Data ID": "A9CEA8EE-7755-47FF-985C-06D0A89FD7E2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "timesince($time,1h)",
+        "Formula Parameters": {
+            "time": "8A47A464-E7F6-413C-8138-9EE262C8DBE9"
+        },
+        "ID": "A9CEA8EE-7755-47FF-985C-06D0A89FD7E2",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "time signal",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "AB575648-4DEC-41C8-AE06-9DD1A7AB96F2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "e03e0239-7722-4e20-89b6-c9c5e5aa92d0",
+        "Data ID": "3397ff61-ef44-46a8-8a69-0c89735fd20d",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "combinewith($s2,$f340,$f339)",
+        "Formula Parameters": {
+            "f339": "B6642116-A8DF-4AF7-8A7A-41BA617A7FBE",
+            "f340": "D214F703-311B-49BC-8BF6-8760A923F32E",
+            "s2": "6B4BB9C6-42D1-448D-AC7C-8B54B5E6DA83"
+        },
+        "ID": "AB575648-4DEC-41C8-AE06-9DD1A7AB96F2",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "Formula 341",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "AE22237B-94FE-46F2-A1D6-2C47A760FDF7": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "496452cf-cd1e-47b9-8d2f-dcc262baa6f3",
+        "Data ID": "AE22237B-94FE-46F2-A1D6-2C47A760FDF7",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(average(), $capsules.setMaximumDuration(40h), middleKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "D5499DB1-0D1B-4FDF-8DFC-7B4664722524",
+            "series": "CE39ABB7-B822-4A05-A2DA-3EA607E6A717"
+        },
+        "ID": "AE22237B-94FE-46F2-A1D6-2C47A760FDF7",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Signal from Condition 7",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "B12C4859-601F-45A6-98C0-117967846E9C": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "3848b854-07e8-49d2-b6fb-cdc2814890f9",
+        "Data ID": "B12C4859-601F-45A6-98C0-117967846E9C",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$duration = $time.aggregate(totalduration(),$time,durationKey())",
+            "$splicesignal = $futuresignal.move($duration,1y)",
+            "",
+            "$sf.spliceBlend($splicesignal.setUnits('Mlb/h'),$f)"
+        ],
+        "Formula Parameters": {
+            "f": "C59D9569-87E6-49EB-B418-AA24CB0CC9A7",
+            "futuresignal": "7CFA5DD3-9356-4347-A062-D5E41431BF4D",
+            "sf": "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0",
+            "time": "8A47A464-E7F6-413C-8138-9EE262C8DBE9"
+        },
+        "ID": "B12C4859-601F-45A6-98C0-117967846E9C",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "splice blend",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "B4A262C1-3A2D-499B-B73E-B03A30043130": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "a0516fb7-16bf-46e8-8141-6e21c4c04f97",
+        "Data ID": "B4A262C1-3A2D-499B-B73E-B03A30043130",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$s.agileFilter(30min)",
+        "Formula Parameters": {
+            "s": "23E354B6-B578-4F2B-ACF0-924EEC4F9C39"
+        },
+        "ID": "B4A262C1-3A2D-499B-B73E-B03A30043130",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1800.0",
+        "Name": "Formula 343",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "B4CAB2DB-8A6D-4185-B4A3-E3BA7BB9CE34": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "9469c860-0bff-404d-bfc8-f2236f5e28f1",
+        "Data ID": "B4CAB2DB-8A6D-4185-B4A3-E3BA7BB9CE34",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "50000 klb",
+        "Formula Parameters": {},
+        "ID": "B4CAB2DB-8A6D-4185-B4A3-E3BA7BB9CE34",
+        "Name": "Production Target",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedScalar",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unit Of Measure": "klb",
+        "Unsearchable": false
+    },
+    "B6642116-A8DF-4AF7-8A7A-41BA617A7FBE": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "4b560bcd-5a98-477e-8404-a34cc87bfeda",
+        "Data ID": "b22c1bd9-6a49-4391-abe1-e1d75a8ea7ca",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$signal2 = $i.within($cc6).validvalues().setMaxInterpolation(90d) + 0.028",
+            "$signal2",
+            "//$i.spliceBlend($signal2,$cc6)"
+        ],
+        "Formula Parameters": {
+            "cc6": "D6BD9B8A-7E9A-4F93-A24A-76B18FF06B96",
+            "i": "78190B8C-C30D-440B-8432-4EC04CA8B10A"
+        },
+        "ID": "B6642116-A8DF-4AF7-8A7A-41BA617A7FBE",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "Formula 339",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "B755BA12-F3A6-44D4-BF7A-A84CB2151147": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "593704b1-7f4a-433d-a46d-46695c98a6fc",
+        "Data ID": "B755BA12-F3A6-44D4-BF7A-A84CB2151147",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "timesince($cprd,1h)",
+        "Formula Parameters": {
+            "cprd": "C088251E-21A9-448F-95E1-9A3796A583DF"
+        },
+        "ID": "B755BA12-F3A6-44D4-BF7A-A84CB2151147",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Time Signal",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "B7FE3DC7-FB8C-484E-A158-B98E213A0F95": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "34b5d47d-16ff-4942-b0a7-28233d218db0",
+        "Data ID": "673dc2aa-339b-4315-81bc-625d21f56c3b",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "timesince($time,1h)",
+        "Formula Parameters": {
+            "time": "BD5E5730-9EF8-40D0-BAD4-74F1F069037F"
+        },
+        "ID": "B7FE3DC7-FB8C-484E-A158-B98E213A0F95",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "time signal",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "BA839542-7F07-4028-9C4E-291A531B4C24": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "c331ac23-4b6b-411e-9231-755c1bb913aa",
+        "Data ID": "BA839542-7F07-4028-9C4E-291A531B4C24",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$pr.validvalues().splice($ppr.validvalues(),$f).validValues().setMaxInterpolation(7d).max(12 klb/h)",
+        "Formula Parameters": {
+            "f": "153EADFE-BD4A-4993-B22C-E5F082CEE3D9",
+            "ppr": "198C7C7C-E46F-43F5-A3C8-D0C579D455FE",
+            "pr": "9F386D8E-867F-408B-857A-6BC8E8E11AB6"
+        },
+        "ID": "BA839542-7F07-4028-9C4E-291A531B4C24",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Base Case Production Rate with Future Projection",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 5,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search",
+            "useValidValues": true
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "BAB4EEED-E098-40E3-AC53-CDCC0CC9B071": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "8af62d3c-088d-41bd-965c-1c63e3381d85",
+        "Data ID": "BAB4EEED-E098-40E3-AC53-CDCC0CC9B071",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Define the downtime window",
+            "$Downtime = 12h",
+            "",
+            "// Create a capsule for the data set provided",
+            "$dataset = $ProdRate.tocapsules().merge(1s).removelongerthan(40d)",
+            "",
+            "// Calculate run time",
+            "$runtime = timesince($dataset, 1h)",
+            "",
+            "// Calculate total product produced",
+            "$TotalProduced = $ProdRate.integral($dataset)",
+            "",
+            "// Calculate adjusted or average production rate including the downtime window",
+            "$AdjProdRate = $TotalProduced/($runtime+$Downtime)",
+            "",
+            "// Output the Max Value at the Max Key",
+            "$AdjProdRate.aggregate(MaxValue(),$dataset,MaxKey())"
+        ],
+        "Formula Parameters": {
+            "ProdRate": "9F386D8E-867F-408B-857A-6BC8E8E11AB6"
+        },
+        "ID": "BAB4EEED-E098-40E3-AC53-CDCC0CC9B071",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Max Adjusted Production Rate (1 Formula)",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "BAEDDAB3-D776-4600-8272-CA911193FD90": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "b178e7ba-b41d-4a33-9be5-5dd55af89e97",
+        "Data ID": "ab80fe97-0ebc-419b-9539-fadf75b134d3",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$sf",
+        "Formula Parameters": {
+            "sf": "1A9D838C-5EF9-4745-916B-9FF05669094A"
+        },
+        "ID": "BAEDDAB3-D776-4600-8272-CA911193FD90",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Production Rate",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "BD5E5730-9EF8-40D0-BAD4-74F1F069037F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "d8bcdd92-3ae5-422a-a2fa-1c490ceab6aa",
+        "Data ID": "bd5e5730-9ef8-40d0-bad4-74f1f069037f",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(18518538762.246826ms,",
+            "  capsule(1577834622237.7532ms, 1596353160000ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "BD5E5730-9EF8-40D0-BAD4-74F1F069037F",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.8518538762246826E10",
+        "Metadata Properties": "",
+        "Name": "time",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "BF35E7FB-7488-46BA-84A9-EB410441D3F1": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "9ba158a1-ce09-4b07-969c-1543335f2e22",
+        "Data ID": "bf35e7fb-7488-46ba-84a9-eb410441d3f1",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(250129991.85961914ms,",
+            "  capsule(1577958219411.3965ms, 1578208348403.256ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "BF35E7FB-7488-46BA-84A9-EB410441D3F1",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "2.5012999185961914E8",
+        "Metadata Properties": "",
+        "Name": "Custom Condition 8",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "C088251E-21A9-448F-95E1-9A3796A583DF": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "50f031d4-1098-49e2-9eb2-25d864371397",
+        "Data ID": "C088251E-21A9-448F-95E1-9A3796A583DF",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(10514295557ms,",
+            "  capsule(1577840400000ms, 1588354694557ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "C088251E-21A9-448F-95E1-9A3796A583DF",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "10514295557",
+        "Metadata Properties": "",
+        "Name": "Current Run",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "C311FE6B-E41E-4781-867F-BF048850EB4D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "d2ae6558-4b06-41c3-a69f-c70ad5dc4fa6",
+        "Data ID": "C311FE6B-E41E-4781-867F-BF048850EB4D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$trainingRange = $inputCondition.toGroup(capsule(\"2020-01-01T01:00:00.000Z\", \"2020-01-13T13:03:00.000Z\"), CapsuleBoundary.EnclosedBy)",
+            "referenceTable(1min)",
+            "  .addRows($inputSignal, $trainingRange)",
+            "  .repeatOver($repeatOverCondition.fragment(), ReferenceTableStat.Average)"
+        ],
+        "Formula Parameters": {
+            "inputCondition": "01D739FD-7E52-4CE7-A4E0-34D0F3F000F8",
+            "inputSignal": "BAEDDAB3-D776-4600-8272-CA911193FD90",
+            "repeatOverCondition": "01D739FD-7E52-4CE7-A4E0-34D0F3F000F8"
+        },
+        "ID": "C311FE6B-E41E-4781-867F-BF048850EB4D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Production Rate Reference Profile",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": false,
+            "griddingPeriod": {
+                "units": "min",
+                "value": 1
+            },
+            "multiplier": 1,
+            "referenceStat": "Average",
+            "type": "reference",
+            "windowEnd": 1578920580000,
+            "windowStart": 1577840400000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "C437B553-D6E0-49AC-BB0B-14CD8FA846BF": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "b3b3f96f-90ee-463b-83af-90adb0aa0c4b",
+        "Data ID": "C437B553-D6E0-49AC-BB0B-14CD8FA846BF",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$f.integral($time)",
+        "Formula Parameters": {
+            "f": "4DE963F8-C219-4ECD-8F6F-0E2257325AB4",
+            "time": "8A47A464-E7F6-413C-8138-9EE262C8DBE9"
+        },
+        "ID": "C437B553-D6E0-49AC-BB0B-14CD8FA846BF",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "integral",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "C4584F6E-FD64-49E3-AD20-69AF97BA29D0": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "43d8c2d7-5431-4615-b151-2d94aa97b493",
+        "Data ID": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$productionRate.isvalid()",
+        "Formula Parameters": {
+            "productionRate": "9F386D8E-867F-408B-857A-6BC8E8E11AB6"
+        },
+        "ID": "C4584F6E-FD64-49E3-AD20-69AF97BA29D0",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Current Production Run Data",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "C4D18AE2-E0B1-43A4-A41D-939426CE8A48": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "6cae5b74-6d76-45e5-a728-3222cd878be4",
+        "Data ID": "C4D18AE2-E0B1-43A4-A41D-939426CE8A48",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$i.spliceblend($s2,$cc6)",
+        "Formula Parameters": {
+            "cc6": "9B45DAF3-71A9-44E6-8D09-9D3323E42784",
+            "i": "892EDA61-3A2C-402E-9469-7A45B7ABD65B",
+            "s2": "963D7EE8-805F-41B3-B096-857B10792F19"
+        },
+        "ID": "C4D18AE2-E0B1-43A4-A41D-939426CE8A48",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "Formula 338",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "C59D9569-87E6-49EB-B418-AA24CB0CC9A7": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ebce29ef-2c5b-43b4-b85f-258fc57b339a",
+        "Data ID": "C59D9569-87E6-49EB-B418-AA24CB0CC9A7",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(17227343773.958984ms,",
+            "  capsule(1580620177226.041ms, 1597847520000ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "C59D9569-87E6-49EB-B418-AA24CB0CC9A7",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.7227343773958984E10",
+        "Metadata Properties": "",
+        "Name": "future",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "C93FF5ED-4571-47F2-9404-E79ADFA31BA8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "22b2eae1-56f6-4a3f-b0e5-e14b35530de1",
+        "Data ID": "C93FF5ED-4571-47F2-9404-E79ADFA31BA8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "combinewith($s2,$f340,$f339)",
+        "Formula Parameters": {
+            "f339": "93E054D2-5DF4-424A-9ED0-4DBB51CD9006",
+            "f340": "57CF2D9E-CB38-4E35-92FC-177EA8640575",
+            "s2": "963D7EE8-805F-41B3-B096-857B10792F19"
+        },
+        "ID": "C93FF5ED-4571-47F2-9404-E79ADFA31BA8",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "Formula 341",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "CA0EC6C0-2697-4554-9C5E-2313FA46B49E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "6440a54d-c31d-4688-bba2-5f7cf3244c3f",
+        "Data ID": "CA0EC6C0-2697-4554-9C5E-2313FA46B49E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "periods(1025591s,1068791s).move(304884s)",
+        "Formula Parameters": {},
+        "ID": "CA0EC6C0-2697-4554-9C5E-2313FA46B49E",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1029191.0",
+        "Metadata Properties": "",
+        "Name": "Production Run Times",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "4dd34096-7a0f-4571-8c09-ed29f315dbad",
+        "Data ID": "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "(($s+$f344)*14).setUnits('klb/h')",
+        "Formula Parameters": {
+            "f344": "7CFA5DD3-9356-4347-A062-D5E41431BF4D",
+            "s": "23E354B6-B578-4F2B-ACF0-924EEC4F9C39"
+        },
+        "ID": "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "signal final",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "CE39ABB7-B822-4A05-A2DA-3EA607E6A717": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "a538d6ba-a8db-4cc5-882e-08ad57b87bab",
+        "Data ID": "CE39ABB7-B822-4A05-A2DA-3EA607E6A717",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "1.toSignal()",
+        "Formula Parameters": {},
+        "ID": "CE39ABB7-B822-4A05-A2DA-3EA607E6A717",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "1",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "D214F703-311B-49BC-8BF6-8760A923F32E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "5ed903b2-81a9-4e2c-b439-25219ebcc9d5",
+        "Data ID": "61c5a869-3f10-4a4c-9fa0-5497cc346b86",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$signal2 = $i.within($cc6).validvalues().setMaxInterpolation(90d) + 0.028",
+            "$signal2",
+            "//$i.spliceBlend($signal2,$cc6)"
+        ],
+        "Formula Parameters": {
+            "cc6": "BF35E7FB-7488-46BA-84A9-EB410441D3F1",
+            "i": "78190B8C-C30D-440B-8432-4EC04CA8B10A"
+        },
+        "ID": "D214F703-311B-49BC-8BF6-8760A923F32E",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "90",
+        "Name": "Formula 340",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "E2F3C7F8-4F3E-4FC5-BCB5-47E216F86BE1",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "D36B276C-3A9F-4D10-ADFD-3EA71FB07702": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ad736133-05ac-4fd2-88e4-636dda268e10",
+        "Data ID": "D36B276C-3A9F-4D10-ADFD-3EA71FB07702",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$cap = condition(1y,capsule('2019-12-31T00:00-08:00','2020-03-31T00:00-08:00'))",
+            "$pr.integral($cap)"
+        ],
+        "Formula Parameters": {
+            "pr": "BA839542-7F07-4028-9C4E-291A531B4C24"
+        },
+        "ID": "D36B276C-3A9F-4D10-ADFD-3EA71FB07702",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Production Totalizer Base Case",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 5,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "D5499DB1-0D1B-4FDF-8DFC-7B4664722524": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "771ba5c6-4d20-4db3-bc52-dc36f2585d4d",
+        "Data ID": "D5499DB1-0D1B-4FDF-8DFC-7B4664722524",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.validValues().valueSearch(isGreaterThan(85))",
+        "Formula Parameters": {
+            "a": "4E9416E8-9C75-426A-8E0A-4D07432CAC5D"
+        },
+        "ID": "D5499DB1-0D1B-4FDF-8DFC-7B4664722524",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Value Search 61",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "isCleansing": false,
+            "isSimple": true,
+            "limitsParams": {
+                "entryCondition": {
+                    "duration": {
+                        "units": "min",
+                        "value": 0
+                    },
+                    "operator": ">",
+                    "value": "85",
+                    "value2": null
+                },
+                "exitCondition": {
+                    "duration": {
+                        "units": "min",
+                        "value": 0
+                    },
+                    "operator": "<=",
+                    "value": "85",
+                    "value2": null
+                }
+            },
+            "maximumDuration": {
+                "units": "h",
+                "value": 40
+            },
+            "type": "limits",
+            "version": "V2"
+        },
+        "Unsearchable": false
+    },
+    "D58ACBD0-62B8-47F5-8229-49373CAEFCF5": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "6dcd6312-50de-47ff-b8b1-2fc69827db9b",
+        "Data ID": "D58ACBD0-62B8-47F5-8229-49373CAEFCF5",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "periods(18003min, 18723min).move(-8475min)",
+            "// Because minutes were used, a precise timestamp is not allowed and move had to be used to line up the periods with the start time"
+        ],
+        "Formula Parameters": {},
+        "ID": "D58ACBD0-62B8-47F5-8229-49373CAEFCF5",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "18063.0",
+        "Metadata Properties": "",
+        "Name": "Production Run Times",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "D6BD9B8A-7E9A-4F93-A24A-76B18FF06B96": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0bd3528f-45a5-4659-b2c3-54edde96d85c",
+        "Data ID": "d6bd9b8a-7e9a-4f93-a24a-76b18ff06b96",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(592411770.1940918ms,",
+            "  capsule(1578465059737.0068ms, 1579057470507.201ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "D6BD9B8A-7E9A-4F93-A24A-76B18FF06B96",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5.924117701940918E8",
+        "Metadata Properties": "",
+        "Name": "Custom Condition 7",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "D83DF654-78D1-43D7-9369-ADB926356C82": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "7542c020-4d67-4ea1-a17a-8bd48182a54d",
+        "Data ID": "D83DF654-78D1-43D7-9369-ADB926356C82",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(5300641000ms,",
+            "  capsule(1577840400000ms, 1583141040000ms)",
+            "    .setProperty('Source Unique Id', '7F29933A-5BC7-4461-8E55-8884AD288586_1577840400000000000L:978787463'),",
+            "  capsule(1584618258113.6829ms, 1584838324957.964ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "D83DF654-78D1-43D7-9369-ADB926356C82",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5300641000",
+        "Metadata Properties": "Source+Unique+Id=string",
+        "Name": "Manual Condition 1",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "configVersion": 11,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "manual-condition"
+        },
+        "Unsearchable": false
+    },
+    "D96BC622-99B0-40C8-804D-116AFDCC87AF": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "a1f8a112-1d55-49b3-813f-e68890511d70",
+        "Data ID": "D96BC622-99B0-40C8-804D-116AFDCC87AF",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$cs.integral($time)",
+        "Formula Parameters": {
+            "cs": "83871149-A806-475C-BC72-66699BC0A816",
+            "time": "8A47A464-E7F6-413C-8138-9EE262C8DBE9"
+        },
+        "ID": "D96BC622-99B0-40C8-804D-116AFDCC87AF",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "integral w defoul",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "DB872701-4859-40BD-86CD-3B008305231F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "d9190741-5aa5-4a36-8249-57546607640c",
+        "Data ID": "DB872701-4859-40BD-86CD-3B008305231F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$data.tocapsules().merge(1s)",
+        "Formula Parameters": {
+            "data": "9F386D8E-867F-408B-857A-6BC8E8E11AB6"
+        },
+        "ID": "DB872701-4859-40BD-86CD-3B008305231F",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "Value=klb%2Fh",
+        "Name": "Data Set",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "DBCFA437-6176-4912-8681-71A90AF7A82F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "01a36025-4bec-4ea1-81a8-0a235ff48b26",
+        "Data ID": "dbcfa437-6176-4912-8681-71a90af7a82f",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$Order = 50000klb",
+            "$MaxRate = 33.692klb/h",
+            "$OrderTime = $Order/$MaxRate",
+            "// Create a capsule for the production time for the order",
+            "$data.afterstart($OrderTime)",
+            ""
+        ],
+        "Formula Parameters": {
+            "data": "E0D61212-1DA4-45AC-9B45-E5BA45975048"
+        },
+        "ID": "DBCFA437-6176-4912-8681-71A90AF7A82F",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1484.0318176421702",
+        "Metadata Properties": "Value=klb%2Fh",
+        "Name": "Estimated Production Time for Order",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "DD544279-931D-4BF3-9890-55CC0B18FC4D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "03190a82-7644-4e22-9048-fd36e2a1edbf",
+        "Data ID": "DD544279-931D-4BF3-9890-55CC0B18FC4D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$rate.integral($run.removelongerthan(40d))",
+        "Formula Parameters": {
+            "rate": "BAEDDAB3-D776-4600-8272-CA911193FD90",
+            "run": "E0D61212-1DA4-45AC-9B45-E5BA45975048"
+        },
+        "ID": "DD544279-931D-4BF3-9890-55CC0B18FC4D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Total Product Produced",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "DEF91DD0-C7A1-4751-BE3F-BDF9BDCAD20B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "18a9be7d-923f-4f41-91ac-5b789ae977d3",
+        "Data ID": "DEF91DD0-C7A1-4751-BE3F-BDF9BDCAD20B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(average(), $capsules, middleKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "4FDD2048-8223-4872-87F2-6DA9F0B27779",
+            "series": "9F386D8E-867F-408B-857A-6BC8E8E11AB6"
+        },
+        "ID": "DEF91DD0-C7A1-4751-BE3F-BDF9BDCAD20B",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Production Rate Trigger for Shutdown",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "E0D61212-1DA4-45AC-9B45-E5BA45975048": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "a4adf246-e1c3-446d-9240-d7add1b0555e",
+        "Data ID": "e0d61212-1da4-45ac-9b45-e5ba45975048",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$data.tocapsules().merge(1s)",
+        "Formula Parameters": {
+            "data": "BAEDDAB3-D776-4600-8272-CA911193FD90"
+        },
+        "ID": "E0D61212-1DA4-45AC-9B45-E5BA45975048",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "Value=klb%2Fh",
+        "Name": "Data Set",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "E4147984-8637-4A78-A837-8F984AAF9C36": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "f73ad85f-9e07-47cd-86c0-651914c4e1e2",
+        "Data ID": "e4147984-8637-4a78-a837-8f984aaf9c36",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.validValues().valueSearch(isMatch(\"off\"))",
+        "Formula Parameters": {
+            "a": "0150E458-A8BE-47B1-AA2A-807360D5F0A4"
+        },
+        "ID": "E4147984-8637-4A78-A837-8F984AAF9C36",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "off",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "isCleansing": false,
+            "isSimple": true,
+            "limitsParams": {
+                "entryCondition": {
+                    "duration": {
+                        "units": "min",
+                        "value": 0
+                    },
+                    "operator": "~=",
+                    "value": "off",
+                    "value2": null
+                },
+                "exitCondition": {
+                    "duration": {
+                        "units": "min",
+                        "value": 0
+                    },
+                    "operator": "!~",
+                    "value": "off",
+                    "value2": null
+                }
+            },
+            "maximumDuration": {
+                "units": "h",
+                "value": 40
+            },
+            "type": "limits",
+            "version": "V2"
+        },
+        "Unsearchable": false
+    },
+    "E49ED507-46F8-41D9-A968-EBA66A0B4DFD": {
+        "Access Control": [
+            {
+                "ID": "7ebed6bc-9f52-45a2-aad1-cf53cbea2a16",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                    "Name": "Partner Demo Access",
+                    "Type": "UserGroup"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "f5026f5b-89a1-46b9-b66f-ecd8635e39c9",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                    "Name": "Everyone",
+                    "Type": "UserGroup"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": false
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "1311cc25-63ea-4946-cbdb-fa53eefc1a68",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "shamus.cunningham@seeq.com",
+                    "First Name": "Shamus",
+                    "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                    "Is Admin": true,
+                    "Last Name": "Cunningham",
+                    "Name": "Shamus Cunningham",
+                    "Type": "User",
+                    "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "c51521cf-6c61-4983-bcaf-b1b868b129da",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                    "Name": "Seeq Internal",
+                    "Type": "UserGroup"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1553018082258000000",
+        "Enabled": true,
+        "ID": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+        "Name": "Industry Use Cases",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "shamus.cunningham@seeq.com",
+            "First Name": "Shamus",
+            "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+            "Is Admin": true,
+            "Last Name": "Cunningham",
+            "Name": "Shamus Cunningham",
+            "Type": "User",
+            "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+        },
+        "Permission Inheritance Disabled": true,
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1689104525713550464"
+    },
+    "E4E8686F-BC7E-467B-9F73-45AA2E89FE15": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "30c4f350-b712-4fd6-a54e-a7d42b8ebf10",
+        "Data ID": "E4E8686F-BC7E-467B-9F73-45AA2E89FE15",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS(group(capsule(\"2019-12-31T13:50:43.206Z\", \"2020-02-03T00:31:31.296Z\")), false, $a).predict($a)",
+        "Formula Parameters": {
+            "a": "A9CEA8EE-7755-47FF-985C-06D0A89FD7E2",
+            "target": "23E354B6-B578-4F2B-ACF0-924EEC4F9C39"
+        },
+        "ID": "E4E8686F-BC7E-467B-9F73-45AA2E89FE15",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Prediction 2",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "lambda": 0,
+            "modelExpanded": true,
+            "mustGoThroughZero": false,
+            "option": "linear",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1580689891296,
+            "windowStart": 1577800243206
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "E54F714B-CD97-4EAB-8032-7392BDAD98B2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "50287392-25ae-4aa1-8a66-b24f30f85b8c",
+        "Data ID": "E54F714B-CD97-4EAB-8032-7392BDAD98B2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$trainingRange = $inputCondition.toGroup(capsule(\"2020-01-01T01:00:00.000Z\", \"2020-01-12T21:54:00.000Z\"), CapsuleBoundary.EnclosedBy)",
+            "referenceTable(1min)",
+            "  .addRows($inputSignal, $trainingRange)",
+            "  .repeatOver($repeatOverCondition.fragment(), ReferenceTableStat.Average)"
+        ],
+        "Formula Parameters": {
+            "inputCondition": "1DEEC46F-38F0-46F9-9521-85705EA8DAF2",
+            "inputSignal": "BAEDDAB3-D776-4600-8272-CA911193FD90",
+            "repeatOverCondition": "1DEEC46F-38F0-46F9-9521-85705EA8DAF2"
+        },
+        "ID": "E54F714B-CD97-4EAB-8032-7392BDAD98B2",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Production Rate Reference Profile",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "griddingPeriod": {
+                "units": "min",
+                "value": 1
+            },
+            "multiplier": 1,
+            "referenceStat": "Average",
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "reference",
+            "windowEnd": 1578866040000,
+            "windowStart": 1577840400000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "E8611790-5532-4E95-A878-84176669C0C8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "9ea85423-59de-4721-a606-e3e4fbb9b451",
+        "Data ID": "E8611790-5532-4E95-A878-84176669C0C8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(250129991.85961914ms,",
+            "  capsule(1577958219411.3965ms, 1578208348403.256ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "E8611790-5532-4E95-A878-84176669C0C8",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "2.5012999185961914E8",
+        "Metadata Properties": "",
+        "Name": "Custom Condition 8",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "custom-condition"
+        },
+        "Unsearchable": false
+    },
+    "E9E488BA-2556-4BF7-95A0-9D14FA53035F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "4ccf84b0-de45-4e12-9523-ae7ea1b91522",
+        "Data ID": "E9E488BA-2556-4BF7-95A0-9D14FA53035F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(minValue(), $capsules.setMaximumDuration(40day), minKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "DB872701-4859-40BD-86CD-3B008305231F",
+            "series": "9B38688F-6C8A-4345-ABEC-CC3A5D8CB508"
+        },
+        "ID": "E9E488BA-2556-4BF7-95A0-9D14FA53035F",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Minimum Order Time",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "capsule-set-series"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "EAAC85B6-235F-4DE0-A1AC-F232E574DBD6": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "b8077c5e-d77a-4901-a08d-b02b6c3e952e",
+        "Data ID": "EAAC85B6-235F-4DE0-A1AC-F232E574DBD6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$capsule = capsule('2020')",
+            "$mrl.toScalars($capsule).max()"
+        ],
+        "Formula Parameters": {
+            "mrl": "16CB082E-424C-468B-BEA1-C615063B3126"
+        },
+        "ID": "EAAC85B6-235F-4DE0-A1AC-F232E574DBD6",
+        "Name": "Formula 346",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedScalar",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unit Of Measure": "h",
+        "Unsearchable": false
+    },
+    "EFE53A37-5DF6-44BD-B092-5645D24E53A2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ed2fde58-3857-483e-bd4f-4a74289143fa",
+        "Data ID": "EFE53A37-5DF6-44BD-B092-5645D24E53A2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$sf.combineWith($ds)",
+        "Formula Parameters": {
+            "ds": "83871149-A806-475C-BC72-66699BC0A816",
+            "sf": "CC5C01C8-50F1-4AF4-8BF8-3CB753987CD0"
+        },
+        "ID": "EFE53A37-5DF6-44BD-B092-5645D24E53A2",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "combined",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "F0E79B4D-77F4-4C0B-9C1C-8F24F01968D0": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "e85d50aa-02c7-48f4-ab93-a7cb2bb32eaa",
+        "Data ID": "F0E79B4D-77F4-4C0B-9C1C-8F24F01968D0",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(average(), $capsules, durationKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "4145F774-9CF2-4EC5-BB11-8C7936703AC9",
+            "series": "BA839542-7F07-4028-9C4E-291A531B4C24"
+        },
+        "ID": "F0E79B4D-77F4-4C0B-9C1C-8F24F01968D0",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "6207934001",
+        "Name": "Signal from Condition 9",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "F4A795B9-A5AA-46B1-83C8-2E0A1E78C7F7": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "984ff31c-8ea8-45fc-9f5e-f7041d08720f",
+        "Data ID": "F4A795B9-A5AA-46B1-83C8-2E0A1E78C7F7",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$p2+$s",
+        "Formula Parameters": {
+            "p2": "E4E8686F-BC7E-467B-9F73-45AA2E89FE15",
+            "s": "23E354B6-B578-4F2B-ACF0-924EEC4F9C39"
+        },
+        "ID": "F4A795B9-A5AA-46B1-83C8-2E0A1E78C7F7",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Formula 345",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "F4BFDDC6-1DB8-4BAC-B29F-30E54E82B5BD": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "6268b197-911b-4c79-975a-2f4101a8ecbd",
+        "Data ID": "F4BFDDC6-1DB8-4BAC-B29F-30E54E82B5BD",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "periods(1hour, 2hour, '2017-01-06T01:00:00Z')",
+        "Formula Parameters": {},
+        "ID": "F4BFDDC6-1DB8-4BAC-B29F-30E54E82B5BD",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "2.0",
+        "Maximum Interpolation": "3.0",
+        "Metadata Properties": "",
+        "Name": "Periods",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false
+    },
+    "F6996B00-8AE0-4702-B95A-BD45BF223955": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "b979edc1-c987-47f9-9cb9-f1b02b41a5d5",
+        "Data ID": "F6996B00-8AE0-4702-B95A-BD45BF223955",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$ProdRate.splice(0.tosignal(),$downtime).validvalues()",
+            ".within($coft)"
+        ],
+        "Formula Parameters": {
+            "ProdRate": "6E91ED91-83E8-41C6-ABB1-6A1C76907F0E",
+            "coft": "7F29933A-5BC7-4461-8E55-8884AD288586",
+            "downtime": "231AAA18-84B7-4C76-AB27-5AE3C5955740"
+        },
+        "ID": "F6996B00-8AE0-4702-B95A-BD45BF223955",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Alternative Case Production Rate",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 5,
+            "scopedTo": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "F6C52D86-F7FE-4C8D-82ED-3C0D278DDD33": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "03a950cf-3664-459f-8d52-f0470182012c",
+        "Data ID": "F6C52D86-F7FE-4C8D-82ED-3C0D278DDD33",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Specify Order Size",
+            "$Order = 50000klb",
+            "",
+            "// Calculate downtimes by rounding up the number of cycles that would be needed and then subtract the last downtime",
+            "($Order/$TotalProduced.within($data.move(1min,0))).ceiling()-1",
+            "// within and move used to avoid the $TotalProduced value of 0, which produces infinite result"
+        ],
+        "Formula Parameters": {
+            "TotalProduced": "5DFE7616-6C8C-450A-8B5E-72E8433707FF",
+            "data": "DB872701-4859-40BD-86CD-3B008305231F"
+        },
+        "ID": "F6C52D86-F7FE-4C8D-82ED-3C0D278DDD33",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Number of Downtimes",
+        "Scoped To": "61B5BF99-D276-4BE7-8F26-0B65F19F1FA6",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "scopedTo": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "FE94AF02-864E-4DAC-ADC3-26626E2C1C80": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "ecf3b87e-fa6d-41ea-b349-ac8b370c8d09",
+        "Data ID": "FE94AF02-864E-4DAC-ADC3-26626E2C1C80",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ProdRate.integral($ordertime)",
+        "Formula Parameters": {
+            "ProdRate": "6601D939-D9B9-405E-859B-0EC591975A4F",
+            "ordertime": "9762649A-A48C-47E3-AE78-3E34E2471937"
+        },
+        "ID": "FE94AF02-864E-4DAC-ADC3-26626E2C1C80",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Total Produced for Order",
+        "Scoped To": "07253C73-88FF-4A56-B2EF-1EFFD4A06C58",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "power-search"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    }
+}
