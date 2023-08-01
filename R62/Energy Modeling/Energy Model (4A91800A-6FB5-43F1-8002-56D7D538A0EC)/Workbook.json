@@ -1,0 +1,188 @@
+{
+    "Access Control": [
+        {
+            "ID": "0f979446-36b2-4cdf-8f0a-ef697b13684c",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                "Name": "Partner Demo Access",
+                "Type": "UserGroup"
+            },
+            "Origin": "D693AAC9-FD7B-40E5-8951-7A03647BCD6E",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "21f9774b-c409-4fba-9e57-ebcfd8003263",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "katie.pintar@seeq.com",
+                "First Name": "Katie",
+                "ID": "6C169E5E-E062-4064-A3ED-69350BB49A26",
+                "Is Admin": true,
+                "Last Name": "Pintar",
+                "Name": "Katie Pintar",
+                "Type": "User",
+                "Username": "B3BHbCR7txjEswHoBi2qQdHId7cTbSw2C65s2u7PTOU"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": "OWNER"
+        },
+        {
+            "ID": "5e2eb031-efad-4fbd-9ea0-081bdb91e5ba",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                "Name": "Everyone",
+                "Type": "UserGroup"
+            },
+            "Origin": "D693AAC9-FD7B-40E5-8951-7A03647BCD6E",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "d2917fef-c77a-4c1b-be13-4173e2f69c00",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "shamus.cunningham@seeq.com",
+                "First Name": "Shamus",
+                "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                "Is Admin": true,
+                "Last Name": "Cunningham",
+                "Name": "Shamus Cunningham",
+                "Type": "User",
+                "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+            },
+            "Origin": "D693AAC9-FD7B-40E5-8951-7A03647BCD6E",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "1745399b-6f4c-4a98-9221-b77529acce98",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": "D693AAC9-FD7B-40E5-8951-7A03647BCD6E",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "42fd1dec-7c62-45c2-baae-932b88bcbb4c",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                "Name": "Seeq Internal",
+                "Type": "UserGroup"
+            },
+            "Origin": "D693AAC9-FD7B-40E5-8951-7A03647BCD6E",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        }
+    ],
+    "Ancestors": [
+        "__Corporate__",
+        "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+        "D693AAC9-FD7B-40E5-8951-7A03647BCD6E"
+    ],
+    "Archived": false,
+    "Cache Enabled": false,
+    "Created At": "1676930317377683744",
+    "Description": "Created by Katie Pintar",
+    "Enabled": true,
+    "ID": "4A91800A-6FB5-43F1-8002-56D7D538A0EC",
+    "Name": "Energy Model",
+    "Original Server URL": "http://seeq-server",
+    "Owner": {
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "Datasource Name": "Seeq Azure SSO",
+        "Email": "katie.pintar@seeq.com",
+        "First Name": "Katie",
+        "ID": "6C169E5E-E062-4064-A3ED-69350BB49A26",
+        "Is Admin": true,
+        "Last Name": "Pintar",
+        "Name": "Katie Pintar",
+        "Type": "User",
+        "Username": "B3BHbCR7txjEswHoBi2qQdHId7cTbSw2C65s2u7PTOU"
+    },
+    "Path": "Corporate >> Industry Use Cases >> Sustainability",
+    "Search Folder ID": "D693AAC9-FD7B-40E5-8951-7A03647BCD6E",
+    "Type": "Workbook",
+    "URL": "https://demo.seeq.dev/D693AAC9-FD7B-40E5-8951-7A03647BCD6E/workbook/4A91800A-6FB5-43F1-8002-56D7D538A0EC/worksheet/32F43789-9F3D-44F9-9304-C217D459521F",
+    "Unsearchable": false,
+    "Updated At": "1690796638696687740",
+    "Workbook Type": "Analysis",
+    "Worksheets": [
+        "32F43789-9F3D-44F9-9304-C217D459521F",
+        "3CB88E89-6535-4836-8A32-569A337DEE44",
+        "7F4EAFB8-0594-4163-B395-EB15DE961209",
+        "83242853-3680-404D-9DF9-8476A3C0F9EB"
+    ],
+    "workbookState": {
+        "state": {
+            "stores": {
+                "sqAnnotationStore": {
+                    "height": 0,
+                    "id": "3E50CE6D-AF78-496F-A0DF-F842B3C407E2",
+                    "isAnnotatesExpanded": false,
+                    "isCkEnabled": true,
+                    "isCommentsExpanded": false,
+                    "isExpanded": false,
+                    "width": 0
+                }
+            }
+        },
+        "version": 1
+    }
+}
