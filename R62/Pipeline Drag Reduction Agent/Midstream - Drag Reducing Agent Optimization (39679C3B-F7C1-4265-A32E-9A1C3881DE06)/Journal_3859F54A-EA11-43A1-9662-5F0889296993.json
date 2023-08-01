@@ -1,0 +1,20 @@
+{
+    "Definition": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1675704611318842500",
+        "Description": "Summary statistics will be aggregated in scorecards for a \"filtered\" period where we can apply a flow rate range to limit the data to - this can be helpful in only viewing \"steady state\" conditions. DATA ENTRY VIEW Open these 2 items and edit as needed to change filtering FILTERING",
+        "Document": "<h4><strong>Filtering Criteria Entry Page</strong></h4><p>Summary statistics will be aggregated in scorecards for a &#34;filtered&#34; period where we can apply a flow rate range to limit the data to - this can be helpful in only viewing &#34;steady state&#34; conditions.</p><p><a href=\"/links?type&#61;workstep&amp;workbook&#61;39679C3B-F7C1-4265-A32E-9A1C3881DE06&amp;worksheet&#61;3859F54A-EA11-43A1-9662-5F0889296993&amp;workstep&#61;A7F04824-3595-45B5-A611-4BAC6B36CBD6\" rel=\"nofollow noopener noreferrer\">DATA ENTRY VIEW</a></p><p>Open these 2 items and edit as needed to change filtering</p><ul><li><a href=\"/links?type&#61;signal&amp;item&#61;10993BD4-9A32-424B-912A-D3C8160B6567\" rel=\"nofollow noopener noreferrer\">FILTERING Flow Rate (Pipeline 1)</a></li><li><a href=\"/links?type&#61;signal&amp;item&#61;3397C747-7867-4C46-98C1-10F557EFFFCC\" rel=\"nofollow noopener noreferrer\">FILTERING Flow Rate Bandwith (Pipeline 1)</a></li></ul><p>\u00a0</p><p>A condition will be edited based on these changes, which will apply filtering on other signals in this analysis.</p>",
+        "DocumentBackup\u02c9LjXAO8okMd52xtGMkaDcHh2O4Fv921fMzjtjGvUa70o\u02c92023-02-06T17:30:00Z": "<h4><strong>Filtering Criteria Entry Page</strong></h4><p>Summary statistics will be aggregated in scorecards for a &#34;filtered&#34; period where we can apply a flow rate range to limit the data to - this can be helpful in only viewing &#34;steady state&#34; conditions.</p>",
+        "DocumentBackup\u02c9LjXAO8okMd52xtGMkaDcHh2O4Fv921fMzjtjGvUa70o\u02c92023-02-06T17:31:00Z": "<h4><strong>Filtering Criteria Entry Page</strong></h4><p>Summary statistics will be aggregated in scorecards for a &#34;filtered&#34; period where we can apply a flow rate range to limit the data to - this can be helpful in only viewing &#34;steady state&#34; conditions.</p><p>DATA ENTRY V</p>",
+        "DocumentBackup\u02c9LjXAO8okMd52xtGMkaDcHh2O4Fv921fMzjtjGvUa70o\u02c92023-02-06T17:34:00Z": "<h4><strong>Filtering Criteria Entry Page</strong></h4><p>Summary statistics will be aggregated in scorecards for a &#34;filtered&#34; period where we can apply a flow rate range to limit the data to - this can be helpful in only viewing &#34;steady state&#34; conditions.</p><p><a href=\"/links?type&#61;workstep&amp;workbook&#61;39679C3B-F7C1-4265-A32E-9A1C3881DE06&amp;worksheet&#61;3859F54A-EA11-43A1-9662-5F0889296993&amp;workstep&#61;A7F04824-3595-45B5-A611-4BAC6B36CBD6\" rel=\"nofollow noopener noreferrer\">DATA ENTRY VIEW</a></p><p>Open these 2 items and edit as needed to change filtering</p>",
+        "Enabled": true,
+        "ID": "8080365E-969E-4F8A-BACD-7777F7816FE8",
+        "Is CK Enabled": true,
+        "Name": "Filtering Criteria Entry Page",
+        "Plain Text Document": "Filtering Criteria Entry PageSummary statistics will be aggregated in scorecards for a &#34;filtered&#34; period where we can apply a flow rate range to limit the data to - this can be helpful in only viewing &#34;steady state&#34; conditions.DATA ENTRY VIEWOpen these 2 items and edit as needed to change filteringFILTERING Flow Rate (Pipeline 1)FILTERING Flow Rate Bandwith (Pipeline 1)\u00a0A condition will be edited based on these changes, which will apply filtering on other signals in this analysis.",
+        "Type": "Journal",
+        "Unsearchable": false,
+        "Updated At": "1675704892658723600"
+    }
+}
