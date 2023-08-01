@@ -1,0 +1,2438 @@
+{
+    "0636CC93-AC24-4599-84AC-86EC4193BEC4": {
+        "Archived": false,
+        "Asset": "Crude Furnace",
+        "Cache Enabled": false,
+        "Cache ID": "46394c87-37eb-4181-b4bc-ab0c5d5376e2",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Crude Furnace >> North Coil Outlet Temperature",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "98D8F039-AD7D-45E2-805C-E6EAF1C4D037"
+        },
+        "ID": "0636CC93-AC24-4599-84AC-86EC4193BEC4",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "6600.0",
+        "Name": "North Coil Outlet Temperature",
+        "Path": "Sample Assets",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "0A02DA6C-83FE-4169-A733-B3174A1C0A3D": {
+        "Archived": false,
+        "Asset": "Crude Furnace",
+        "Cache Enabled": false,
+        "Cache ID": "07101768-fe5e-460c-85f9-abceea1395df",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Crude Furnace >> South Center Excess O2",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "76330760-E773-4AD1-8A44-2F83CE2F7972"
+        },
+        "ID": "0A02DA6C-83FE-4169-A733-B3174A1C0A3D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3660.0",
+        "Name": "South Center Excess O2",
+        "Path": "Sample Assets",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EE24DB0-BE74-EE10-9CCB-7D46C77931AC": {
+        "Access Control": [
+            {
+                "ID": "0ee272db-5144-6480-a69f-86eaf3f8eeee",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                    "Name": "Partner Demo Access",
+                    "Type": "UserGroup"
+                },
+                "Origin": "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "0ee272db-5144-6480-9c9b-260ef1e45747",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "Email": "diego@vertix.pe",
+                    "First Name": "Diego",
+                    "ID": "5E5ED4A4-1FF5-43DD-9505-4B173DB3F742",
+                    "Is Admin": false,
+                    "Last Name": "Sanchez",
+                    "Name": "Diego Sanchez",
+                    "Type": "User",
+                    "Username": "diego@vertix.pe"
+                },
+                "Origin": "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "0ee272db-5144-6480-86ae-23c0be7a2f9d",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                    "Name": "Everyone",
+                    "Type": "UserGroup"
+                },
+                "Origin": "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": false
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "0ee272db-5144-6480-a9ef-6ff1f7f2e434",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "shamus.cunningham@seeq.com",
+                    "First Name": "Shamus",
+                    "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                    "Is Admin": true,
+                    "Last Name": "Cunningham",
+                    "Name": "Shamus Cunningham",
+                    "Type": "User",
+                    "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+                },
+                "Origin": "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "0ee24db0-be74-ee10-b89d-8ef2d9e18821",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "kristopher.wiggins@seeq.com",
+                    "First Name": "Kristopher",
+                    "ID": "C9A62CDA-7D15-4F36-82B3-3D3A18F6824A",
+                    "Is Admin": true,
+                    "Last Name": "Wiggins",
+                    "Name": "Kristopher Wiggins",
+                    "Type": "User",
+                    "Username": "LjXAO8okMd52xtGMkaDcHh2O4Fv921fMzjtjGvUa70o"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "0ee272db-5144-6480-9eb2-55222462c9c7",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "0ee272db-5144-6480-a1d0-92c9f7325d15",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                    "Name": "Seeq Internal",
+                    "Type": "UserGroup"
+                },
+                "Origin": "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [
+            "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+            "3020FE5C-0B81-405F-A32B-82E1A4A48A61"
+        ],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1689623371121980236",
+        "Enabled": true,
+        "ID": "0EE24DB0-BE74-EE10-9CCB-7D46C77931AC",
+        "Name": "Vapor Cut Estimations",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "kristopher.wiggins@seeq.com",
+            "First Name": "Kristopher",
+            "ID": "C9A62CDA-7D15-4F36-82B3-3D3A18F6824A",
+            "Is Admin": true,
+            "Last Name": "Wiggins",
+            "Name": "Kristopher Wiggins",
+            "Type": "User",
+            "Username": "LjXAO8okMd52xtGMkaDcHh2O4Fv921fMzjtjGvUa70o"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1689623376845506847"
+    },
+    "0EE24DB5-3BE9-6220-9656-CD2C9CA18E40": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "0ee24db5-3f8b-64f0-a114-e2bcb854da61",
+        "Data ID": "[0EE0AC65-2515-FB90-852E-03DD227F8EB1] {Condition} SAP Crude Tank Inventory",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "0EE24DB5-3BE9-6220-9656-CD2C9CA18E40",
+        "Last Key Written": "1687478400000000000",
+        "Maximum Duration": "2d",
+        "Metadata Properties": "API+Gravity=&Seattle+Crude+Tank+Feed+%28kbd%29=&San+Leandro+Light+Tank+Feed+%28kbd%29=&CCR+%28wt%25%29=&Pittsburgh+Heavy+Tank+Feed+%28kbd%29=&Sulfur+%28wt%25%29=&Houston+Crude+Tank+Feed+%28kbd%29=",
+        "Name": "SAP Crude Tank Inventory",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Storage Location": "POSTGRES",
+        "Sync Token": "2023-07-17T19:51:31.606522",
+        "Type": "StoredCondition",
+        "Unit Of Measure": "ns",
+        "Unsearchable": false
+    },
+    "0EE24DB6-9B19-EEB0-AFBD-C05F7C464D63": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "0ee24db6-9ce4-ee70-8832-07081bfcc4c3",
+        "Data ID": "[0EE0AC65-2515-FB90-852E-03DD227F8EB1] {Signal} Pipeline Flow Rate",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "0EE24DB6-9B19-EEB0-AFBD-C05F7C464D63",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1686718800000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "Pipeline Flow Rate",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Value Unit Of Measure": "kbbl/hr",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Sync Token": "2023-07-17T19:52:08.433820",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kbbl/h"
+    },
+    "0EE24DEB-DB4D-EAB0-9A1C-AD752BDA6B48": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db54-ffe0-a4cf-68688ddb975d",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 0.5%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 0.5%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB4D-EAB0-9A1C-AD752BDA6B48",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 0.5%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB57-66F0-9C17-119140DD7326": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db59-ee00-bbb2-a84f28c60f11",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 5%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 5%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB57-66F0-9C17-119140DD7326",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 5%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB5C-7510-9656-C04B08D2DEC7": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db5e-ec20-8d58-0d2ceb7cb170",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 10%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 10%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB5C-7510-9656-C04B08D2DEC7",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 10%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB61-7330-988C-5882DF55DA0A": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db66-7150-8510-fc57a236a153",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 20%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 20%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB61-7330-988C-5882DF55DA0A",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 20%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB66-7150-825B-11BC86513BC8": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db6d-6680-92ed-8b82335b00d0",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 30%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 30%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB66-7150-825B-11BC86513BC8",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 30%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB6D-6680-A7A5-E7C68B93B9BD": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db74-fbb0-bbc8-6cca55d5282d",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 40%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 40%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB6D-6680-A7A5-E7C68B93B9BD",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 40%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB77-62C0-8472-49D7C207C24D": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db7c-60e0-94fc-a765aaa309b7",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 50%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 50%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB77-62C0-8472-49D7C207C24D",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 50%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB7E-77F0-866E-740E226E68ED": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db83-6610-81b9-8fb2a1892a27",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 60%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 60%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB7E-77F0-866E-740E226E68ED",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 60%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB83-6610-B02A-9F3A4543B139": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db85-fd20-a50a-fc1390269df3",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 70%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 70%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB83-6610-B02A-9F3A4543B139",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 70%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB88-6430-BDE4-2F8A6442BFA9": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db8a-fb40-8577-5a22bb342e98",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 80%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 80%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB88-6430-BDE4-2F8A6442BFA9",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 80%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB8D-6250-9F8B-4F8E34E61B79": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db8f-f960-b2d0-88d92b45759a",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 90%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 90%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB8D-6250-9F8B-4F8E34E61B79",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 90%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB92-6070-97FE-C006F50DE890": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db94-7780-bea9-fccb99bdb8fc",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 95%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 95%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB92-6070-97FE-C006F50DE890",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 95%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEB-DB96-EE90-A43A-2CD7E0A60559": {
+        "Archived": false,
+        "Asset": "Vapor Cut Demo_Lab Data",
+        "Cache Enabled": false,
+        "Cache ID": "0ee24deb-db9b-ecb0-abcb-978007733b52",
+        "Data ID": "0ee24deb-db06-fde0-b006-a44541542485-GC Temperature 99%-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = GC Temperature 99%; last file imported = Vapor Cut Demo_Lab Data.csv",
+        "Enabled": true,
+        "ID": "0EE24DEB-DB96-EE90-A43A-2CD7E0A60559",
+        "Interpolation Method": "None",
+        "Last Key Written": "1690396922000000000",
+        "Maximum Interpolation": "0h",
+        "Name": "GC Temperature 99%",
+        "Path": null,
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "\u00b0C",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24DEF-8F8A-FB10-8B81-AD2D43EF3BDF": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24def-8f8a-fb10-b34d-69895f4d0a42",
+        "Data ID": "0EE24DEF-8F8A-FB10-8B81-AD2D43EF3BDF",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$temp = $cit+200",
+            "$plant_offline = ($temp< 600).merge(10min).removeShorterThan(1wk)",
+            "",
+            "$temp.splice($temp.move(60d), $plant_offline)"
+        ],
+        "Formula Parameters": {
+            "cit": "46871013-C83E-4D1A-8441-BCF48BDB832A"
+        },
+        "ID": "0EE24DEF-8F8A-FB10-8B81-AD2D43EF3BDF",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7560.0",
+        "Name": "Distillation Column Products Operating Temperature",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "0EE24DFB-200A-EE00-A874-1CE61EFA4001": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24dfb-c8d0-7710-b36c-996eaeaebcb7",
+        "Data ID": "0EE24DFB-200A-EE00-A874-1CE61EFA4001",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$sap_tank.toSignal('Pittsburgh Heavy Tank Feed (kbd)')",
+            ".setUnits('kbd')",
+            ""
+        ],
+        "Formula Parameters": {
+            "sap_tank": "0EE24DB5-3BE9-6220-9656-CD2C9CA18E40"
+        },
+        "ID": "0EE24DFB-200A-EE00-A874-1CE61EFA4001",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "2",
+        "Name": "Pittsburgh Heavy Crude Rate",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kbd"
+    },
+    "0EE24DFC-E105-FD70-A861-C96FFCC5EB93": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24dfc-e105-fd70-a595-2f89b2dc9377",
+        "Data ID": "0EE24DFC-E105-FD70-A861-C96FFCC5EB93",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$sap_tank.toSignal('San Leandro Light Tank Feed (kbd)')",
+            ".setUnits('kbd')",
+            ""
+        ],
+        "Formula Parameters": {
+            "sap_tank": "0EE24DB5-3BE9-6220-9656-CD2C9CA18E40"
+        },
+        "ID": "0EE24DFC-E105-FD70-A861-C96FFCC5EB93",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "2",
+        "Name": "San Leandro Light Heavy Crude Rate",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kbd"
+    },
+    "0EE24DFE-7BA5-7780-A17A-EE5CF1CFA1F8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24dfe-7ba5-7780-9d82-f2eaff866fc5",
+        "Data ID": "0EE24DFE-7BA5-7780-A17A-EE5CF1CFA1F8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$sap_tank.toSignal('Seattle Crude Tank Feed (kbd)')",
+            ".setUnits('kbd')",
+            ""
+        ],
+        "Formula Parameters": {
+            "sap_tank": "0EE24DB5-3BE9-6220-9656-CD2C9CA18E40"
+        },
+        "ID": "0EE24DFE-7BA5-7780-A17A-EE5CF1CFA1F8",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "2",
+        "Name": "Seattle Crude Rate",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kbd"
+    },
+    "0EE24DFF-4EA0-FB30-8C5C-836DF7B0C9C9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24dff-4ea0-fb30-9677-67ffbde92ead",
+        "Data ID": "0EE24DFF-4EA0-FB30-8C5C-836DF7B0C9C9",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$sap_tank.toSignal('Houston Crude Tank Feed (kbd)')",
+            ".setUnits('kbd')",
+            ""
+        ],
+        "Formula Parameters": {
+            "sap_tank": "0EE24DB5-3BE9-6220-9656-CD2C9CA18E40"
+        },
+        "ID": "0EE24DFF-4EA0-FB30-8C5C-836DF7B0C9C9",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "2",
+        "Name": "Houston Crude Rate",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kbd"
+    },
+    "0EE24E03-BB07-FB80-B31D-1DC3D1C4A32D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e03-bb07-fb80-b390-cfc2cb612ce2",
+        "Data ID": "0EE24E03-BB07-FB80-B31D-1DC3D1C4A32D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$pittsburgh+$san_leandro+$seattle+$houston+$pipeline",
+        "Formula Parameters": {
+            "houston": "0EE24DFF-4EA0-FB30-8C5C-836DF7B0C9C9",
+            "pipeline": "0EE24DB6-9B19-EEB0-AFBD-C05F7C464D63",
+            "pittsburgh": "0EE24DFB-200A-EE00-A874-1CE61EFA4001",
+            "san_leandro": "0EE24DFC-E105-FD70-A861-C96FFCC5EB93",
+            "seattle": "0EE24DFE-7BA5-7780-A17A-EE5CF1CFA1F8"
+        },
+        "ID": "0EE24E03-BB07-FB80-B31D-1DC3D1C4A32D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Total Crude Feed",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kbd"
+    },
+    "0EE24E07-E7B2-FD20-A9CC-0CF849FF4485": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e07-e7b2-fd20-9cf8-23f2b3120c3e",
+        "Data ID": "0EE24E07-E7B2-FD20-A9CC-0CF849FF4485",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$pittsburgh==10 and ",
+            "$san_leandro==20 and",
+            "$seattle==15 and",
+            "$houston==5"
+        ],
+        "Formula Parameters": {
+            "houston": "0EE24DFF-4EA0-FB30-8C5C-836DF7B0C9C9",
+            "pittsburgh": "0EE24DFB-200A-EE00-A874-1CE61EFA4001",
+            "san_leandro": "0EE24DFC-E105-FD70-A861-C96FFCC5EB93",
+            "seattle": "0EE24DFE-7BA5-7780-A17A-EE5CF1CFA1F8"
+        },
+        "ID": "0EE24E07-E7B2-FD20-A9CC-0CF849FF4485",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE24E18-568E-6630-A366-9C7DECD272F0": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e18-568e-6630-bfbb-be2ed61291f2",
+        "Data ID": "0EE24E18-568E-6630-A366-9C7DECD272F0",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$pittsburgh==50 and ",
+            "$san_leandro==35 and",
+            "$seattle==5 and",
+            "$houston==0"
+        ],
+        "Formula Parameters": {
+            "houston": "0EE24DFF-4EA0-FB30-8C5C-836DF7B0C9C9",
+            "pittsburgh": "0EE24DFB-200A-EE00-A874-1CE61EFA4001",
+            "san_leandro": "0EE24DFC-E105-FD70-A861-C96FFCC5EB93",
+            "seattle": "0EE24DFE-7BA5-7780-A17A-EE5CF1CFA1F8"
+        },
+        "ID": "0EE24E18-568E-6630-A366-9C7DECD272F0",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Breaking Bad Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE24E20-8A9F-F930-9F93-EAE4B4C5C740": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e20-8a9f-f930-bda8-f4027b833d89",
+        "Data ID": "0EE24E20-8A9F-F930-9F93-EAE4B4C5C740",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$first = $zerofive.move(0.5s)",
+            "$second = $five.move(5s)",
+            "$third = $ten.move(10s)",
+            "$fourth = $twenty.move(20s)",
+            "$fifth = $thirty.move(30s)",
+            "$sixth = $forty.move(40s)",
+            "$sevent = $fifty.move(50s)",
+            "$eighth = $sixty.move(60s)",
+            "$nineth = $seventy.move(70s)",
+            "$tenth = $eighty.move(80s)",
+            "$eleventh = $ninety.move(90s)",
+            "$twelveth = $ninetyfive.move(95s)",
+            "$thirteenth = $ninetynine.move(99s)",
+            "combinewith($first,$second,$third,$fourth,$fifth,$sixth,$sevent,$eighth,$nineth,$tenth,$eleventh,$twelveth,$thirteenth)",
+            ".toLinear(100s)"
+        ],
+        "Formula Parameters": {
+            "eighty": "0EE24DEB-DB88-6430-BDE4-2F8A6442BFA9",
+            "fifty": "0EE24DEB-DB77-62C0-8472-49D7C207C24D",
+            "five": "0EE24DEB-DB57-66F0-9C17-119140DD7326",
+            "forty": "0EE24DEB-DB6D-6680-A7A5-E7C68B93B9BD",
+            "ninety": "0EE24DEB-DB8D-6250-9F8B-4F8E34E61B79",
+            "ninetyfive": "0EE24DEB-DB92-6070-97FE-C006F50DE890",
+            "ninetynine": "0EE24DEB-DB96-EE90-A43A-2CD7E0A60559",
+            "seventy": "0EE24DEB-DB83-6610-B02A-9F3A4543B139",
+            "sixty": "0EE24DEB-DB7E-77F0-866E-740E226E68ED",
+            "ten": "0EE24DEB-DB5C-7510-9656-C04B08D2DEC7",
+            "thirty": "0EE24DEB-DB66-7150-825B-11BC86513BC8",
+            "twenty": "0EE24DEB-DB61-7330-988C-5882DF55DA0A",
+            "zerofive": "0EE24DEB-DB4D-EAB0-9A1C-AD752BDA6B48"
+        },
+        "ID": "0EE24E20-8A9F-F930-9F93-EAE4B4C5C740",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "100",
+        "Name": "Sample Temperature Profile",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24E32-56E0-FF10-A9C4-DFDB6DF1C7D2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e32-56e0-ff10-b904-260e123e0b52",
+        "Data ID": "0EE24E32-56E0-FF10-A9C4-DFDB6DF1C7D2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$temp_profile.isValid().removeLongerThan(10min)",
+        "Formula Parameters": {
+            "temp_profile": "0EE24E20-8A9F-F930-9F93-EAE4B4C5C740"
+        },
+        "ID": "0EE24E32-56E0-FF10-A9C4-DFDB6DF1C7D2",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "10",
+        "Metadata Properties": "",
+        "Name": "Temperature Sample Periods",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE24E36-1384-FD80-9AB5-6C185446C3CE": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e3e-86fa-60f0-a0bd-9a524403228c",
+        "Data ID": "0EE24E36-1384-FD80-9AB5-6C185446C3CE",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$time = timeSince($samp_period, 0.5s)",
+            "$table = experimental_lookupTable(",
+            "\"[",
+            "  [0, 0.5%],",
+            "  [5, 5%],",
+            "  [10, 10%],",
+            "  [20, 20%],",
+            "  [30, 30%],",
+            "  [40, 40%],",
+            "  [50, 50%],",
+            "  [60, 60%],",
+            "  [70, 70%],",
+            "  [80, 80%],",
+            "  [90, 90%],",
+            "  [95, 95%],",
+            "  [99, 99%]]\",",
+            "InterpolationMethod.Step)",
+            "$table.experimental_lookup($time.within($samp_profile.toDiscrete().toCapsules()), 'B')"
+        ],
+        "Formula Parameters": {
+            "samp_period": "0EE24E32-56E0-FF10-A9C4-DFDB6DF1C7D2",
+            "samp_profile": "0EE24E20-8A9F-F930-9F93-EAE4B4C5C740"
+        },
+        "ID": "0EE24E36-1384-FD80-9AB5-6C185446C3CE",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0.5",
+        "Name": "Sample Period Mass",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EE24E52-7D89-6480-85E9-826D9EB94D55": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e52-7d89-6480-8b22-a5b7c835f2f5",
+        "Data ID": "0EE24E52-7D89-6480-85E9-826D9EB94D55",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$temp_profile.move(-2d).within($standard)",
+        "Formula Parameters": {
+            "standard": "0EE24E07-E7B2-FD20-A9CC-0CF849FF4485",
+            "temp_profile": "0EE24E20-8A9F-F930-9F93-EAE4B4C5C740"
+        },
+        "ID": "0EE24E52-7D89-6480-85E9-826D9EB94D55",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "100",
+        "Name": "Distillation Curve During Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24E55-C2FE-EEE0-9176-850E59F7198C": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e55-c2fe-eee0-8b0b-a3f8cf7c0f05",
+        "Data ID": "0EE24E55-C2FE-EEE0-9176-850E59F7198C",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$temp_profile_standard.isValid().removeLongerThan(10min)",
+        "Formula Parameters": {
+            "temp_profile_standard": "0EE24E52-7D89-6480-85E9-826D9EB94D55"
+        },
+        "ID": "0EE24E55-C2FE-EEE0-9176-850E59F7198C",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "10",
+        "Metadata Properties": "",
+        "Name": "Distillation Curve Periods During Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE24E5E-6D73-FBC0-B39B-7C2DE58BC60B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e7a-7449-e8c0-ad85-df601730f44c",
+        "Data ID": "0EE24E5E-6D73-FBC0-B39B-7C2DE58BC60B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(99500ms,",
+            "  capsule(1659074400500ms, 1659074499000ms)",
+            "    .setProperty('Source Unique Id', '0EE24E55-C2FE-EEE0-9176-850E59F7198C_1659074400500000000L:-704468539'),",
+            "  capsule(1659679200500ms, 1659679299000ms)",
+            "    .setProperty('Source Unique Id', '0EE24E55-C2FE-EEE0-9176-850E59F7198C_1659679200500000000L:-1172138367'),",
+            "  capsule(1660284000500ms, 1660284099000ms)",
+            "    .setProperty('Source Unique Id', '0EE24E55-C2FE-EEE0-9176-850E59F7198C_1660284000500000000L:1452500181'),",
+            "  capsule(1660888800500ms, 1660888899000ms)",
+            "    .setProperty('Source Unique Id', '0EE24E55-C2FE-EEE0-9176-850E59F7198C_1660888800500000000L:-86330223'),",
+            "  capsule(1671170400500ms, 1671170499000ms)",
+            "    .setProperty('Source Unique Id', '0EE24E55-C2FE-EEE0-9176-850E59F7198C_1671170400500000000L:-1214614773'),",
+            "  capsule(1685080800500ms, 1685080899000ms)",
+            "    .setProperty('Source Unique Id', '0EE24E55-C2FE-EEE0-9176-850E59F7198C_1685080800500000000L:1750599467'))"
+        ],
+        "Formula Parameters": {},
+        "ID": "0EE24E5E-6D73-FBC0-B39B-7C2DE58BC60B",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "99500",
+        "Metadata Properties": "Source+Unique+Id=string",
+        "Name": "Ideal Distillation Curves Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "color": "#992542",
+            "configVersion": 11,
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "manual-condition"
+        },
+        "Unsearchable": false
+    },
+    "0EE24E62-F190-7170-80E5-BAB5ADFE3DA1": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e7a-7492-eca0-8d76-b4874528777a",
+        "Data ID": "0EE24E62-F190-7170-80E5-BAB5ADFE3DA1",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$trainingRange = $inputCondition.toGroup(capsule(\"2022-07-01T15:41:00.000Z\", \"2023-07-06T15:41:00.000Z\"), CapsuleBoundary.EnclosedBy)",
+            "referenceTable(1s)",
+            "  .addRows($inputSignal, $trainingRange)",
+            "  .repeatOver($repeatOverCondition.fragment(), ReferenceTableStat.Average)"
+        ],
+        "Formula Parameters": {
+            "inputCondition": "0EE24E5E-6D73-FBC0-B39B-7C2DE58BC60B",
+            "inputSignal": "0EE24E52-7D89-6480-85E9-826D9EB94D55",
+            "repeatOverCondition": "0EE24E55-C2FE-EEE0-9176-850E59F7198C"
+        },
+        "ID": "0EE24E62-F190-7170-80E5-BAB5ADFE3DA1",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Avg Distillation Curve Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "configVersion": 11,
+            "griddingPeriod": {
+                "units": "s",
+                "value": 1
+            },
+            "multiplier": 1,
+            "referenceStat": "Average",
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "reference",
+            "windowEnd": 1688658060000,
+            "windowStart": 1656690060000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24E64-7021-71A0-8916-25D86B01B9A2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e7a-748d-ee80-b1c1-bb7609d1cf76",
+        "Data ID": "0EE24E64-7021-71A0-8916-25D86B01B9A2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$trainingRange = $inputCondition.toGroup(capsule(\"2022-07-01T15:41:00.000Z\", \"2023-07-06T15:41:00.000Z\"), CapsuleBoundary.EnclosedBy)",
+            "referenceTable(1s)",
+            "  .addRows($inputSignal, $trainingRange)",
+            "  .repeatOver($repeatOverCondition.fragment(), ReferenceTableStat.StdDev, 3)"
+        ],
+        "Formula Parameters": {
+            "inputCondition": "0EE24E5E-6D73-FBC0-B39B-7C2DE58BC60B",
+            "inputSignal": "0EE24E52-7D89-6480-85E9-826D9EB94D55",
+            "repeatOverCondition": "0EE24E55-C2FE-EEE0-9176-850E59F7198C"
+        },
+        "ID": "0EE24E64-7021-71A0-8916-25D86B01B9A2",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Upper Limit Distillation Curve Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "configVersion": 11,
+            "griddingPeriod": {
+                "units": "s",
+                "value": 1
+            },
+            "multiplier": "3",
+            "referenceStat": "StdDev",
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "reference",
+            "windowEnd": 1688658060000,
+            "windowStart": 1656690060000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24E65-2C73-E8D0-9184-DEAB3C724C43": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e7a-748b-7770-8848-cd909210af5e",
+        "Data ID": "0EE24E65-2C73-E8D0-9184-DEAB3C724C43",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$trainingRange = $inputCondition.toGroup(capsule(\"2022-07-01T15:41:00.000Z\", \"2023-07-06T15:41:00.000Z\"), CapsuleBoundary.EnclosedBy)",
+            "referenceTable(1s)",
+            "  .addRows($inputSignal, $trainingRange)",
+            "  .repeatOver($repeatOverCondition.fragment(), ReferenceTableStat.StdDev, -3)"
+        ],
+        "Formula Parameters": {
+            "inputCondition": "0EE24E5E-6D73-FBC0-B39B-7C2DE58BC60B",
+            "inputSignal": "0EE24E52-7D89-6480-85E9-826D9EB94D55",
+            "repeatOverCondition": "0EE24E55-C2FE-EEE0-9176-850E59F7198C"
+        },
+        "ID": "0EE24E65-2C73-E8D0-9184-DEAB3C724C43",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Lower Limit Distillation Curve Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "configVersion": 11,
+            "griddingPeriod": {
+                "units": "s",
+                "value": 1
+            },
+            "multiplier": "-3",
+            "referenceStat": "StdDev",
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "type": "reference",
+            "windowEnd": 1688658060000,
+            "windowStart": 1656690060000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0C"
+    },
+    "0EE24E6D-CB6C-EE70-AE61-3E4BBB2948C6": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e7a-748d-ee80-86e9-059c0ae3d676",
+        "Data ID": "0EE24E6D-CB6C-EE70-AE61-3E4BBB2948C6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a < $c or $a > $b",
+        "Formula Parameters": {
+            "a": "0EE24E52-7D89-6480-85E9-826D9EB94D55",
+            "b": "0EE24E64-7021-71A0-8916-25D86B01B9A2",
+            "c": "0EE24E65-2C73-E8D0-9184-DEAB3C724C43"
+        },
+        "ID": "0EE24E6D-CB6C-EE70-AE61-3E4BBB2948C6",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Distillation Curve Deviations Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": "0EE24E65-2C73-E8D0-9184-DEAB3C724C43",
+            "simpleLowerValueInclusivity": "<",
+            "simpleOperator": "<>",
+            "simpleUpperValueInclusivity": ">",
+            "simpleValue": "0EE24E64-7021-71A0-8916-25D86B01B9A2",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE24E70-E367-77C0-8834-91E8BE6EC092": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EE24E70-E367-77C0-8834-91E8BE6EC092",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Measured Item": "0EE24E52-7D89-6480-85E9-826D9EB94D55",
+            "Process Type": "Simple",
+            "Thresholds": [
+                {
+                    "Item ID": "0EE24E64-7021-71A0-8916-25D86B01B9A2",
+                    "Priority": {
+                        "Color": "#ff0000",
+                        "Level": 3,
+                        "Name": "HiHiHi"
+                    }
+                },
+                {
+                    "Item ID": "0EE24E65-2C73-E8D0-9184-DEAB3C724C43",
+                    "Priority": {
+                        "Color": "#ff0000",
+                        "Level": -3,
+                        "Name": "LoLoLo"
+                    }
+                }
+            ]
+        },
+        "ID": "0EE24E70-E367-77C0-8834-91E8BE6EC092",
+        "MetricReconfigurationMigration": true,
+        "Name": "Distillation Curve During Standard Blend Monitor",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EE24E7E-762E-FF10-9262-D9E371F69C86": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EE24E7E-762E-FF10-9262-D9E371F69C86",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Aggregation Function": "percentDuration()",
+            "Bounding Condition": "0EE24E55-C2FE-EEE0-9176-850E59F7198C",
+            "Measured Item": "0EE24E6D-CB6C-EE70-AE61-3E4BBB2948C6",
+            "Process Type": "Condition",
+            "Thresholds": [
+                {
+                    "Priority": {
+                        "Color": "#ffdd52",
+                        "Level": 2,
+                        "Name": "HiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "",
+                        "Value": 50
+                    }
+                }
+            ]
+        },
+        "ID": "0EE24E7E-762E-FF10-9262-D9E371F69C86",
+        "MetricReconfigurationMigration": true,
+        "Name": "Distillation Curve % Deviation Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EE24E8B-EC86-6200-9AFE-07BE3218207B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e8b-ec86-6200-bdab-7fcd131ccf80",
+        "Data ID": "0EE24E8B-EC86-6200-9AFE-07BE3218207B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a <= $b",
+        "Formula Parameters": {
+            "a": "0EE24E52-7D89-6480-85E9-826D9EB94D55",
+            "b": "0EE24DEF-8F8A-FB10-8B81-AD2D43EF3BDF"
+        },
+        "ID": "0EE24E8B-EC86-6200-9AFE-07BE3218207B",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Distillation Curve Standard Blend Vapor",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": "<=",
+            "simpleValue": "0EE24DEF-8F8A-FB10-8B81-AD2D43EF3BDF",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE24E8E-2C33-62C0-B3BF-FA3333A03820": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e8e-2c33-62c0-bc65-f93b12342ea7",
+        "Data ID": "0EE24E8E-2C33-62C0-B3BF-FA3333A03820",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$gc_profile_vapor_max_dur = $gc_profile_vapor.removeLongerThan(10min)",
+            "",
+            "$gc_profile_vapor_max_dur.aggregate(totalDuration(\"s\"), $gc_profile_vapor_max_dur, endKey(), 0s)",
+            ".setUnits('%')",
+            "+0.5   //compensates for the additional 0.5% delayed of the first sample"
+        ],
+        "Formula Parameters": {
+            "gc_profile_vapor": "0EE24E8B-EC86-6200-9AFE-07BE3218207B"
+        },
+        "ID": "0EE24E8E-2C33-62C0-B3BF-FA3333A03820",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Vapor Cut % Standard Blend",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EE24E9C-4CC3-6040-A7B1-78517A35F4E6": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24e9c-4cc3-6040-881a-53426b33fef9",
+        "Data ID": "0EE24E9C-4CC3-6040-A7B1-78517A35F4E6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "// Use available lab data to base vapor cut on it rather than just taking an average over each blend",
+            "",
+            "//Split the blend into section based on when GCMS is available",
+            "$gc_prof_section_standard = $gc_period.afterStart(0ns).combineWith($standard.beforeEnd(0ns)).growEnd(1mo).touches($standard)",
+            "//Carry corresponding vapor cut percentage over the section",
+            "$vapor_cut_section = $vapor_cut.aggregate(average(),$gc_prof_section_standard, durationKey())",
+            "// Determine amount of vapor based on total and percentage",
+            "($crude_total*$vapor_cut_section).convertUnits('cf/hr')"
+        ],
+        "Formula Parameters": {
+            "crude_total": "0EE24E03-BB07-FB80-B31D-1DC3D1C4A32D",
+            "gc_period": "0EE24E55-C2FE-EEE0-9176-850E59F7198C",
+            "standard": "0EE24E07-E7B2-FD20-A9CC-0CF849FF4485",
+            "vapor_cut": "0EE24E8E-2C33-62C0-B3BF-FA3333A03820"
+        },
+        "ID": "0EE24E9C-4CC3-6040-A7B1-78517A35F4E6",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Total Crude Vapor",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "ft\u00b3/h"
+    },
+    "0EE24EE0-0493-EC40-8FEC-93B025CEEF93": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24ee0-0493-ec40-a199-c79e31f926ad",
+        "Data ID": "0EE24EE0-0493-EC40-8FEC-93B025CEEF93",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "combineWith(",
+            "$standard.setProperty('Blend Recipe', 'Standard'),",
+            "$bbb.setProperty('Blend Recipe', 'Breaking Bad')",
+            ").removeLongerThan(1mo).mergeProperties($sap)"
+        ],
+        "Formula Parameters": {
+            "bbb": "0EE24E18-568E-6630-A366-9C7DECD272F0",
+            "sap": "0EE24DB5-3BE9-6220-9656-CD2C9CA18E40",
+            "standard": "0EE24E07-E7B2-FD20-A9CC-0CF849FF4485"
+        },
+        "ID": "0EE24EE0-0493-EC40-8FEC-93B025CEEF93",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1",
+        "Metadata Properties": "API+Gravity=&Seattle+Crude+Tank+Feed+%28kbd%29=&San+Leandro+Light+Tank+Feed+%28kbd%29=&CCR+%28wt%25%29=&Pittsburgh+Heavy+Tank+Feed+%28kbd%29=&Sulfur+%28wt%25%29=&Blend+Recipe=string&Houston+Crude+Tank+Feed+%28kbd%29=",
+        "Name": "All Blends",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE24EE7-BC77-6670-BC40-0D10FCBF21BC": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee24ee7-bc77-6670-87a8-46dd08e62474",
+        "Data ID": "0EE24EE7-BC77-6670-BC40-0D10FCBF21BC",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ab.toSignal('Blend Recipe')",
+        "Formula Parameters": {
+            "ab": "0EE24EE0-0493-EC40-8FEC-93B025CEEF93"
+        },
+        "ID": "0EE24EE7-BC77-6670-BC40-0D10FCBF21BC",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Blend Recipe Type",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "0EE27211-AC0C-E8B0-BBD2-C6A089D7BCA5": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee27211-f7ca-7310-946b-a2c98021dd51",
+        "Data ID": "0EE27211-AC0C-E8B0-BBD2-C6A089D7BCA5",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a == 10",
+        "Formula Parameters": {
+            "a": "0EE24DFB-200A-EE00-A874-1CE61EFA4001"
+        },
+        "ID": "0EE27211-AC0C-E8B0-BBD2-C6A089D7BCA5",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Value Search 1",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "scopedTo": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+            "simpleLowerValue": null,
+            "simpleOperator": "=",
+            "simpleValue": "10",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE27260-FF3F-71F0-A222-11F0A24F218D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee27260-ff3f-71f0-bc78-a10d1656733d",
+        "Data ID": "0EE27260-FF3F-71F0-A222-11F0A24F218D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a < $b",
+        "Formula Parameters": {
+            "a": "0EE24E52-7D89-6480-85E9-826D9EB94D55",
+            "b": "0EE24E65-2C73-E8D0-9184-DEAB3C724C43"
+        },
+        "ID": "0EE27260-FF3F-71F0-A222-11F0A24F218D",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Value Search 2",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": "<",
+            "simpleValue": "0EE24E65-2C73-E8D0-9184-DEAB3C724C43",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE2A467-C5ED-60D0-97A2-93547E2ACEDE": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee2a467-c5ed-60d0-a7f0-0e19397547fc",
+        "Data ID": "0EE2A467-C5ED-60D0-97A2-93547E2ACEDE",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a == 70",
+        "Formula Parameters": {
+            "a": "0EE24DFC-E105-FD70-A861-C96FFCC5EB93"
+        },
+        "ID": "0EE2A467-C5ED-60D0-97A2-93547E2ACEDE",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "HCr = 70",
+        "Scoped To": "0EE0AC65-2515-FB90-852E-03DD227F8EB1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": "=",
+            "simpleValue": "70",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "1B34F786-9D65-4AD9-88E1-E37613D4B10B": {
+        "Archived": false,
+        "Asset": "Boiler 1",
+        "Cache Enabled": false,
+        "Cache ID": "f12a7a9a-c51e-4055-87da-8f433784c341",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Environmental >> Boiler 1 >> Energy",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "394F08A5-6B3B-4F88-98D7-796848368B11"
+        },
+        "ID": "1B34F786-9D65-4AD9-88E1-E37613D4B10B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7560.0",
+        "Name": "Energy",
+        "Path": "Sample Assets >> Environmental",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "MBTU/h"
+    },
+    "237C4F69-CBBD-40D2-8339-AC36A667D6F1": {
+        "Archived": false,
+        "Asset": "Boiler 1",
+        "Cache Enabled": false,
+        "Cache ID": "92e1ce3e-2faa-4bcf-ad22-66fad39bcd6c",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Environmental >> Boiler 1 >> Steam Flow",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "D2036C78-589B-49F8-B25B-33052453D6CA"
+        },
+        "ID": "237C4F69-CBBD-40D2-8339-AC36A667D6F1",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "161400.0",
+        "Name": "Steam Flow",
+        "Path": "Sample Assets >> Environmental",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "3020FE5C-0B81-405F-A32B-82E1A4A48A61": {
+        "Access Control": [
+            {
+                "ID": "67eec066-abed-4a7e-b4dc-117e2ec9c6c0",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                    "Name": "Partner Demo Access",
+                    "Type": "UserGroup"
+                },
+                "Origin": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "4ffc0cd9-7412-4ce6-aed7-f61fbd29c454",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "Email": "diego@vertix.pe",
+                    "First Name": "Diego",
+                    "ID": "5E5ED4A4-1FF5-43DD-9505-4B173DB3F742",
+                    "Is Admin": false,
+                    "Last Name": "Sanchez",
+                    "Name": "Diego Sanchez",
+                    "Type": "User",
+                    "Username": "diego@vertix.pe"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "403afaaf-5cd4-438c-8a42-135fe2cfcb6b",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                    "Name": "Everyone",
+                    "Type": "UserGroup"
+                },
+                "Origin": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": false
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "1a001434-3c1d-4335-8bdd-20a600dbd722",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "shamus.cunningham@seeq.com",
+                    "First Name": "Shamus",
+                    "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                    "Is Admin": true,
+                    "Last Name": "Cunningham",
+                    "Name": "Shamus Cunningham",
+                    "Type": "User",
+                    "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+                },
+                "Origin": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "5632e19d-8f93-4231-bb11-f0e9d3da223a",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "fd61e03c-6997-46dd-9fd6-a1bb0278c5b0",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                    "Name": "Seeq Internal",
+                    "Type": "UserGroup"
+                },
+                "Origin": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [
+            "E49ED507-46F8-41D9-A968-EBA66A0B4DFD"
+        ],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1589920961867707300",
+        "Enabled": true,
+        "ID": "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+        "Name": "Production",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1689878776010524265"
+    },
+    "394F08A5-6B3B-4F88-98D7-796848368B11": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "3bf04fa4-d325-4142-a2c5-fadcc3fb49a8",
+        "Data ID": "[Tag] Boiler 1_Energy.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "394F08A5-6B3B-4F88-98D7-796848368B11",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7560.0s",
+        "Name": "Boiler 1_Energy",
+        "Source Maximum Interpolation": "7560000000000ns",
+        "Source Value Unit Of Measure": "MMBTU/h",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "MBTU/h"
+    },
+    "4244E336-C420-4FF9-A2AF-F33F2E954DF4": {
+        "Archived": false,
+        "Asset": "Boiler 1",
+        "Cache Enabled": false,
+        "Cache ID": "8424284e-0856-443e-9a51-14b8b689c9ef",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Environmental >> Boiler 1 >> Steam Pressure",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "575F0B21-07B1-4E05-9882-7E14D4869095"
+        },
+        "ID": "4244E336-C420-4FF9-A2AF-F33F2E954DF4",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "172740.0",
+        "Name": "Steam Pressure",
+        "Path": "Sample Assets >> Environmental",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    },
+    "46871013-C83E-4D1A-8441-BCF48BDB832A": {
+        "Archived": false,
+        "Asset": "Crude Furnace",
+        "Cache Enabled": false,
+        "Cache ID": "2e60fa32-49b1-411b-9495-30afa8e77d5c",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Crude Furnace >> Coil Inlet Temperature",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "7B87F723-B704-4040-886F-7DED1E7C8591"
+        },
+        "ID": "46871013-C83E-4D1A-8441-BCF48BDB832A",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7560.0",
+        "Name": "Coil Inlet Temperature",
+        "Path": "Sample Assets",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "47CB41B9-17E8-408C-950F-311C1DF3858F": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "9f1d2cc6-3d64-454c-957c-58482779447d",
+        "Data ID": "[Tag] Boiler 1_Feed Flow.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "47CB41B9-17E8-408C-950F-311C1DF3858F",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "172740.0s",
+        "Name": "Boiler 1_Feed Flow",
+        "Source Maximum Interpolation": "172740000000000ns",
+        "Source Value Unit Of Measure": "gpm",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "gal/min"
+    },
+    "575F0B21-07B1-4E05-9882-7E14D4869095": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "09450400-9fa4-4110-911c-e50c98632fd7",
+        "Data ID": "[Tag] Boiler 1_Steam Pressure.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "575F0B21-07B1-4E05-9882-7E14D4869095",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "172740.0s",
+        "Name": "Boiler 1_Steam Pressure",
+        "Source Maximum Interpolation": "172740000000000ns",
+        "Source Value Unit Of Measure": "psi",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    },
+    "76330760-E773-4AD1-8A44-2F83CE2F7972": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "68c148ed-b76a-4245-b368-f6cc6d4052b7",
+        "Data ID": "[Tag] South Center Excess O2.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "76330760-E773-4AD1-8A44-2F83CE2F7972",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3660.0s",
+        "Name": "South Center Excess O2",
+        "Source Maximum Interpolation": "3660000000000ns",
+        "Source Value Unit Of Measure": "%",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "792D4471-F40D-44A2-837A-44B1FAB9794D": {
+        "Archived": false,
+        "Asset": "Crude Furnace",
+        "Cache Enabled": false,
+        "Cache ID": "2ffacb2e-000e-426e-84fd-ec8fa249ef7c",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Crude Furnace >> South Excess O2",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "99608E55-7594-487C-AC94-27CCAE6F9FB2"
+        },
+        "ID": "792D4471-F40D-44A2-837A-44B1FAB9794D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "4020.0",
+        "Name": "South Excess O2",
+        "Path": "Sample Assets",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "7B87F723-B704-4040-886F-7DED1E7C8591": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "6e7413b7-3eed-4a54-b61d-53d11ffe4860",
+        "Data ID": "[Tag] Coil Inlet Temperature.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "7B87F723-B704-4040-886F-7DED1E7C8591",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7560.0s",
+        "Name": "Coil Inlet Temperature",
+        "Source Maximum Interpolation": "7560000000000ns",
+        "Source Value Unit Of Measure": "F",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "94A7C647-D587-4406-BB71-57A119A912DC": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "156ef1b2-635e-4b22-8863-ba733d1bf7da",
+        "Data ID": "[Tag] South Coil Outlet Temperature.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "94A7C647-D587-4406-BB71-57A119A912DC",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "5280.0s",
+        "Name": "South Coil Outlet Temperature",
+        "Source Maximum Interpolation": "5280000000000ns",
+        "Source Value Unit Of Measure": "F",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "96E6A723-AC90-4307-A269-36FC43207024": {
+        "Archived": false,
+        "Asset": "Boiler 1",
+        "Cache Enabled": false,
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Asset} Sample Assets >> Environmental >> Boiler 1",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "96E6A723-AC90-4307-A269-36FC43207024",
+        "Name": "Boiler 1",
+        "Old Asset Format": false,
+        "Path": "Sample Assets >> Environmental",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "Asset",
+        "Unsearchable": false
+    },
+    "978D7E12-D530-4B2C-A3C6-A9A52E8B5070": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "fa4b60aa-2762-4c48-9187-afc1ced568ad",
+        "Data ID": "[Tag] North Excess O2.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "978D7E12-D530-4B2C-A3C6-A9A52E8B5070",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3660.0s",
+        "Name": "North Excess O2",
+        "Source Maximum Interpolation": "3660000000000ns",
+        "Source Value Unit Of Measure": "%",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "98D8F039-AD7D-45E2-805C-E6EAF1C4D037": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "8c85f08b-985f-4342-88bd-99937e820141",
+        "Data ID": "[Tag] North Coil Outlet Temperature.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "98D8F039-AD7D-45E2-805C-E6EAF1C4D037",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "6600.0s",
+        "Name": "North Coil Outlet Temperature",
+        "Source Maximum Interpolation": "6600000000000ns",
+        "Source Value Unit Of Measure": "F",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "99608E55-7594-487C-AC94-27CCAE6F9FB2": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "9cb3e665-d8d5-49c5-b827-ae49384bd7a8",
+        "Data ID": "[Tag] South Excess O2.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "99608E55-7594-487C-AC94-27CCAE6F9FB2",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "4020.0s",
+        "Name": "South Excess O2",
+        "Source Maximum Interpolation": "4020000000000ns",
+        "Source Value Unit Of Measure": "%",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "9A61F6B1-ECDF-4BBA-B47B-38B1B1B38C99": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "7bf4a2b0-0b18-4d4d-850d-3cb7c87eb081",
+        "Data ID": "[Tag] North Center Excess O2.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "9A61F6B1-ECDF-4BBA-B47B-38B1B1B38C99",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3660.0s",
+        "Name": "North Center Excess O2",
+        "Source Maximum Interpolation": "3660000000000ns",
+        "Source Value Unit Of Measure": "%",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "D0ED1A0E-84B4-45BC-BF77-624AAF1AC673": {
+        "Archived": false,
+        "Asset": "Crude Furnace",
+        "Cache Enabled": false,
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Asset} Sample Assets >> Crude Furnace",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "D0ED1A0E-84B4-45BC-BF77-624AAF1AC673",
+        "Name": "Crude Furnace",
+        "Old Asset Format": false,
+        "Path": "Sample Assets",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "Asset",
+        "Unsearchable": false
+    },
+    "D2036C78-589B-49F8-B25B-33052453D6CA": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "b8e30c03-f7bc-44e1-bad9-04cffdb64e64",
+        "Data ID": "[Tag] Boiler 1_Steam Flow.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "D2036C78-589B-49F8-B25B-33052453D6CA",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "161400.0s",
+        "Name": "Boiler 1_Steam Flow",
+        "Source Maximum Interpolation": "161400000000000ns",
+        "Source Value Unit Of Measure": "klb/hr",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    },
+    "D3A7E9EA-5E16-417E-B4AE-2B618E8C4B89": {
+        "Archived": false,
+        "Asset": "Crude Furnace",
+        "Cache Enabled": false,
+        "Cache ID": "804cd2b7-3608-4d52-a91c-42f0660e57ff",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Crude Furnace >> North Excess O2",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "978D7E12-D530-4B2C-A3C6-A9A52E8B5070"
+        },
+        "ID": "D3A7E9EA-5E16-417E-B4AE-2B618E8C4B89",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3660.0",
+        "Name": "North Excess O2",
+        "Path": "Sample Assets",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "D76E4E8E-035B-4066-9D7F-4679FDE3781D": {
+        "Archived": false,
+        "Asset": "Boiler 1",
+        "Cache Enabled": false,
+        "Cache ID": "9f77ca17-c8ee-4707-b00d-f9fc08960d5c",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Environmental >> Boiler 1 >> Feed Flow",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "47CB41B9-17E8-408C-950F-311C1DF3858F"
+        },
+        "ID": "D76E4E8E-035B-4066-9D7F-4679FDE3781D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "172740.0",
+        "Name": "Feed Flow",
+        "Path": "Sample Assets >> Environmental",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "gal/min"
+    },
+    "DA2E96A8-E967-4272-AA54-09AAAB717369": {
+        "Archived": false,
+        "Asset": "Crude Furnace",
+        "Cache Enabled": false,
+        "Cache ID": "a48f06b9-598e-4642-a803-75b01e04cb5c",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Crude Furnace >> South Coil Outlet Temperature",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "94A7C647-D587-4406-BB71-57A119A912DC"
+        },
+        "ID": "DA2E96A8-E967-4272-AA54-09AAAB717369",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "5280.0",
+        "Name": "South Coil Outlet Temperature",
+        "Path": "Sample Assets",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "DF8609EB-2B34-4B8B-BC55-78572F870903": {
+        "Archived": false,
+        "Asset": "Crude Furnace",
+        "Cache Enabled": false,
+        "Cache ID": "a513e47d-a581-49b9-bf6e-18ad72f97c45",
+        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Crude Furnace >> North Center Excess O2",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "9A61F6B1-ECDF-4BBA-B47B-38B1B1B38C99"
+        },
+        "ID": "DF8609EB-2B34-4B8B-BC55-78572F870903",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3660.0",
+        "Name": "North Center Excess O2",
+        "Path": "Sample Assets",
+        "Sync Token": "2023-05-10T21:53:03.269723",
+        "Template": "Sample Assets",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "E49ED507-46F8-41D9-A968-EBA66A0B4DFD": {
+        "Access Control": [
+            {
+                "ID": "7ebed6bc-9f52-45a2-aad1-cf53cbea2a16",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                    "Name": "Partner Demo Access",
+                    "Type": "UserGroup"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "f5026f5b-89a1-46b9-b66f-ecd8635e39c9",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                    "Name": "Everyone",
+                    "Type": "UserGroup"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": false,
+                    "Read": true,
+                    "Write": false
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "1311cc25-63ea-4946-cbdb-fa53eefc1a68",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "shamus.cunningham@seeq.com",
+                    "First Name": "Shamus",
+                    "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                    "Is Admin": true,
+                    "Last Name": "Cunningham",
+                    "Name": "Shamus Cunningham",
+                    "Type": "User",
+                    "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "c51521cf-6c61-4983-bcaf-b1b868b129da",
+                "Identity": {
+                    "Datasource Class": "Auth",
+                    "Datasource ID": "Seeq",
+                    "Datasource Name": "Seeq",
+                    "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                    "Name": "Seeq Internal",
+                    "Type": "UserGroup"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1553018082258000000",
+        "Enabled": true,
+        "ID": "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+        "Name": "Industry Use Cases",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "shamus.cunningham@seeq.com",
+            "First Name": "Shamus",
+            "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+            "Is Admin": true,
+            "Last Name": "Cunningham",
+            "Name": "Shamus Cunningham",
+            "Type": "User",
+            "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+        },
+        "Permission Inheritance Disabled": true,
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1689104525713550464"
+    }
+}
