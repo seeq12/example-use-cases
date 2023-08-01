@@ -1,0 +1,799 @@
+{
+    "07407429-9584-478F-A238-D3536E18C478": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "27639b49-5cb4-4177-b41c-a59e4c941b7d",
+        "Data ID": "07407429-9584-478F-A238-D3536E18C478",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a > $b)",
+            ".merge(0min)",
+            ".removeShorterThan(30min)"
+        ],
+        "Formula Parameters": {
+            "a": "BCFE08CA-0CBE-41F7-AEDD-A19F01A5F2FC",
+            "b": "C09F678C-CAA3-45BF-9BD6-4AF087787296"
+        },
+        "ID": "07407429-9584-478F-A238-D3536E18C478",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Above Limits",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 30
+            },
+            "scopedTo": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "C09F678C-CAA3-45BF-9BD6-4AF087787296",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "15A3D4B9-09B1-4C65-BC5D-EEC9968DAA1B": {
+        "Access Control": [
+            {
+                "ID": "83c266a1-d97d-4e71-af57-a481ba2bfa34",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "fiona.guinee@seeq.com",
+                    "First Name": "Fiona",
+                    "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+                    "Is Admin": true,
+                    "Last Name": "Guinee",
+                    "Name": "Fiona Guinee",
+                    "Type": "User",
+                    "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1652274047018228300",
+        "Enabled": true,
+        "ID": "15A3D4B9-09B1-4C65-BC5D-EEC9968DAA1B",
+        "Name": "Fiona Guinee",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "fiona.guinee@seeq.com",
+            "First Name": "Fiona",
+            "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+            "Is Admin": true,
+            "Last Name": "Guinee",
+            "Name": "Fiona Guinee",
+            "Type": "User",
+            "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+        },
+        "Permission Inheritance Disabled": true,
+        "Type": "Folder",
+        "Unmodifiable": true,
+        "Unsearchable": true,
+        "Updated At": "1652274047018228300"
+    },
+    "1A2BC541-96D9-4CF7-B228-355F24C848D2": {
+        "Access Control": [
+            {
+                "ID": "dd13812d-ea30-45ca-9a1e-9ce8322976f1",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "fiona.guinee@seeq.com",
+                    "First Name": "Fiona",
+                    "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+                    "Is Admin": true,
+                    "Last Name": "Guinee",
+                    "Name": "Fiona Guinee",
+                    "Type": "User",
+                    "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+                },
+                "Origin": "15A3D4B9-09B1-4C65-BC5D-EEC9968DAA1B",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "6a0bb8ab-00de-458c-bf90-c06caa8f6c73",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "fiona.guinee@seeq.com",
+                    "First Name": "Fiona",
+                    "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+                    "Is Admin": true,
+                    "Last Name": "Guinee",
+                    "Name": "Fiona Guinee",
+                    "Type": "User",
+                    "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1665125821036819500",
+        "Enabled": true,
+        "ID": "1A2BC541-96D9-4CF7-B228-355F24C848D2",
+        "Name": "Demos",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "fiona.guinee@seeq.com",
+            "First Name": "Fiona",
+            "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+            "Is Admin": true,
+            "Last Name": "Guinee",
+            "Name": "Fiona Guinee",
+            "Type": "User",
+            "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1680182513459020610"
+    },
+    "2407642C-0169-4ED0-A25C-321E29DC975B": {
+        "Archived": false,
+        "Asset": "Area A",
+        "Cache Enabled": false,
+        "Data ID": "root/Cooling Tower 1/Area A",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "Example Data",
+        "Enabled": true,
+        "ID": "2407642C-0169-4ED0-A25C-321E29DC975B",
+        "Name": "Area A",
+        "Old Asset Format": false,
+        "Path": "Example >> Cooling Tower 1",
+        "Sync Token": "2023-02-14T14:23:22.157733130Z",
+        "Type": "Asset",
+        "Unsearchable": false,
+        "size": "1"
+    },
+    "2D048792-9E40-4069-85F3-E88930688D78": {
+        "Archived": false,
+        "Asset": "Cooling Tower 1",
+        "Cache Enabled": false,
+        "Data ID": "root/Cooling Tower 1",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "Example Data",
+        "Enabled": true,
+        "ID": "2D048792-9E40-4069-85F3-E88930688D78",
+        "Name": "Cooling Tower 1",
+        "Old Asset Format": false,
+        "Path": "Example",
+        "Sync Token": "2023-02-14T14:23:22.157733130Z",
+        "Type": "Asset",
+        "Unsearchable": false
+    },
+    "62E6F850-E523-408D-AD10-0C87E65F996B": {
+        "Archived": false,
+        "Asset": "Area A",
+        "Cache Enabled": true,
+        "Cache ID": "ec05e6cf-73cc-4cf4-a68f-92efaf17ddcb",
+        "Data ID": "Area A_Optimizer.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "Example Data",
+        "Datasource Name": "Example Data",
+        "Enabled": false,
+        "ID": "62E6F850-E523-408D-AD10-0C87E65F996B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "2min",
+        "Name": "Optimizer",
+        "Number Format": "auto",
+        "Path": "Example >> Cooling Tower 1",
+        "Source Maximum Interpolation": "2min",
+        "Source Value Unit Of Measure": "",
+        "Sync Token": "2023-02-14T14:23:22.157733130Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "6E6B064D-CE51-4311-8B29-10C381F954E4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "daf47683-dc2a-4b22-b315-b0cc663400f4",
+        "Data ID": "6E6B064D-CE51-4311-8B29-10C381F954E4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.intersect($b)",
+        "Formula Parameters": {
+            "a": "B0A6911F-6415-4DD6-BE27-C391445379BB",
+            "b": "CCF8C234-3788-4EBA-961D-BFF1FC97ACE3"
+        },
+        "ID": "6E6B064D-CE51-4311-8B29-10C381F954E4",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1",
+        "Metadata Properties": "",
+        "Name": "Weekend Off-Peak",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "95C60068-95A9-49BF-9B34-ECEAB9209F85": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "69da395a-244a-4dba-affa-bcb3babb0d5b",
+        "Data ID": "95C60068-95A9-49BF-9B34-ECEAB9209F85",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$trainingRange = $inputCondition.toGroup(capsule(\"2023-01-01T09:10:00.000Z\", \"2023-03-01T09:10:00.000Z\"), CapsuleBoundary.EnclosedBy)",
+            "referenceTable(5min)",
+            "  .addRows($inputSignal, $trainingRange)",
+            "  .repeatOver($repeatOverCondition.fragment(), ReferenceTableStat.AveDev, 3)"
+        ],
+        "Formula Parameters": {
+            "inputCondition": "9FC59791-3120-4AF3-8875-C5C481433DB2",
+            "inputSignal": "BCFE08CA-0CBE-41F7-AEDD-A19F01A5F2FC",
+            "repeatOverCondition": "9FC59791-3120-4AF3-8875-C5C481433DB2"
+        },
+        "ID": "95C60068-95A9-49BF-9B34-ECEAB9209F85",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "5",
+        "Name": "Weekday On-Peak Limit",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "configVersion": 11,
+            "griddingPeriod": {
+                "units": "min",
+                "value": 5
+            },
+            "multiplier": "3",
+            "referenceStat": "AveDev",
+            "scopedTo": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+            "type": "reference",
+            "windowEnd": 1677661800000,
+            "windowStart": 1672564200000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "t/h"
+    },
+    "9FC59791-3120-4AF3-8875-C5C481433DB2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "cc520423-4c9a-4682-9986-f297bf0b3651",
+        "Data ID": "9FC59791-3120-4AF3-8875-C5C481433DB2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.intersect($b)",
+        "Formula Parameters": {
+            "a": "DEF8E4FD-6215-449B-8387-10DDD7B06A5E",
+            "b": "BA3C7565-A03E-439B-9337-E974D2D5F761"
+        },
+        "ID": "9FC59791-3120-4AF3-8875-C5C481433DB2",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "13",
+        "Metadata Properties": "",
+        "Name": "Weekday On-Peak",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "A0133B91-5A3F-4165-9EE8-E23AA2E9B9FD": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "21ec4a9c-a080-4daf-9b4a-c580fcb56c02",
+        "Data ID": "A0133B91-5A3F-4165-9EE8-E23AA2E9B9FD",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.intersect($b)",
+        "Formula Parameters": {
+            "a": "B0A6911F-6415-4DD6-BE27-C391445379BB",
+            "b": "BA3C7565-A03E-439B-9337-E974D2D5F761"
+        },
+        "ID": "A0133B91-5A3F-4165-9EE8-E23AA2E9B9FD",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "13",
+        "Metadata Properties": "",
+        "Name": "Weekend On-Peak",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "A5BEA7E2-EE62-4AC9-9D08-13C576C74284": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "A5BEA7E2-EE62-4AC9-9D08-13C576C74284",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Measured Item": "BCFE08CA-0CBE-41F7-AEDD-A19F01A5F2FC",
+            "Process Type": "Simple",
+            "Thresholds": [
+                {
+                    "Item ID": "C09F678C-CAA3-45BF-9BD6-4AF087787296",
+                    "Priority": {
+                        "Color": "#ff0000",
+                        "Level": 3,
+                        "Name": "HiHiHi"
+                    }
+                }
+            ]
+        },
+        "ID": "A5BEA7E2-EE62-4AC9-9D08-13C576C74284",
+        "MetricReconfigurationMigration": true,
+        "Name": "Peak time Reference Profile",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "A960409B-59BA-4B32-85A5-A3E7E2EBD30F": {
+        "Access Control": [
+            {
+                "ID": "f4904306-c660-428d-8d88-58214fb542ea",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "fiona.guinee@seeq.com",
+                    "First Name": "Fiona",
+                    "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+                    "Is Admin": true,
+                    "Last Name": "Guinee",
+                    "Name": "Fiona Guinee",
+                    "Type": "User",
+                    "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+                },
+                "Origin": "1A2BC541-96D9-4CF7-B228-355F24C848D2",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            },
+            {
+                "ID": "a563873b-9458-434c-91e7-60152cb0b017",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "fiona.guinee@seeq.com",
+                    "First Name": "Fiona",
+                    "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+                    "Is Admin": true,
+                    "Last Name": "Guinee",
+                    "Name": "Fiona Guinee",
+                    "Type": "User",
+                    "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            }
+        ],
+        "Ancestors": [
+            "1A2BC541-96D9-4CF7-B228-355F24C848D2"
+        ],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1678707308783958285",
+        "Enabled": true,
+        "ID": "A960409B-59BA-4B32-85A5-A3E7E2EBD30F",
+        "Name": "Water Demo (VA Syd)",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "fiona.guinee@seeq.com",
+            "First Name": "Fiona",
+            "ID": "98D306AE-CB63-4EC2-B048-8E301EA43DA5",
+            "Is Admin": true,
+            "Last Name": "Guinee",
+            "Name": "Fiona Guinee",
+            "Type": "User",
+            "Username": "_rafwO37QaLXxwR3ow9Wv5r7UQSmrRF3MKnqTfNGipY"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1683786955668761260"
+    },
+    "B0A6911F-6415-4DD6-BE27-C391445379BB": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "7688dd82-f4a4-466f-a1a0-b4dd4748f2a8",
+        "Data ID": "B0A6911F-6415-4DD6-BE27-C391445379BB",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "combineWith(days(Day.Sunday, \"Europe/Stockholm\"), days(Day.Saturday, \"Europe/Stockholm\"))",
+        "Formula Parameters": {},
+        "ID": "B0A6911F-6415-4DD6-BE27-C391445379BB",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.0416666666666667",
+        "Metadata Properties": "",
+        "Name": "Weekends",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": false,
+            "configVersion": 11,
+            "duration": "days",
+            "frequencies": [
+                "Day.Sunday",
+                "Day.Saturday"
+            ],
+            "offset": {
+                "units": "min",
+                "value": 0
+            },
+            "quarterStart": {
+                "day": 1,
+                "month": "Month.January"
+            },
+            "scopedTo": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+            "shift": {
+                "duration": 8,
+                "offset": 8
+            },
+            "timezone": "Europe/Stockholm",
+            "type": "periodic-condition",
+            "weekStart": "Day.Sunday"
+        },
+        "Unsearchable": false
+    },
+    "BA3C7565-A03E-439B-9337-E974D2D5F761": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "db9534fa-e467-499c-9992-a4a48bc32c62",
+        "Data ID": "BA3C7565-A03E-439B-9337-E974D2D5F761",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "shifts(0, 12)",
+        "Formula Parameters": {},
+        "ID": "BA3C7565-A03E-439B-9337-E974D2D5F761",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "13",
+        "Maximum Interpolation": "136800.0",
+        "Metadata Properties": "",
+        "Name": "Peak",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "BB471887-6C6D-4C3C-B5AF-B67F6D2A7252": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ded3f60-098b-4c85-8d09-1bfda10c28e1",
+        "Data ID": "BB471887-6C6D-4C3C-B5AF-B67F6D2A7252",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(average(), $capsules, startKey(), 901s)",
+        "Formula Parameters": {
+            "capsules": "C23702F9-45EA-42B1-8986-01F27BB8657A",
+            "series": "62E6F850-E523-408D-AD10-0C87E65F996B"
+        },
+        "ID": "BB471887-6C6D-4C3C-B5AF-B67F6D2A7252",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "901",
+        "Name": "Pump Station Flow",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "BCFE08CA-0CBE-41F7-AEDD-A19F01A5F2FC": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "f5ad099d-dc9b-48f4-afe2-fd37f5aad90e",
+        "Data ID": "BCFE08CA-0CBE-41F7-AEDD-A19F01A5F2FC",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$psf.move(8h).setUnits('t/h')",
+        "Formula Parameters": {
+            "psf": "BB471887-6C6D-4C3C-B5AF-B67F6D2A7252"
+        },
+        "ID": "BCFE08CA-0CBE-41F7-AEDD-A19F01A5F2FC",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "901",
+        "Name": "Pump Station Flow",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "t/h"
+    },
+    "C09F678C-CAA3-45BF-9BD6-4AF087787296": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "4f50336b-80ac-4247-b5f3-e14a179de9b9",
+        "Data ID": "C09F678C-CAA3-45BF-9BD6-4AF087787296",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$weekday_limit.splice($weekend_limit,$weekend)",
+            ".within(past())"
+        ],
+        "Formula Parameters": {
+            "weekday_limit": "95C60068-95A9-49BF-9B34-ECEAB9209F85",
+            "weekend": "A0133B91-5A3F-4165-9EE8-E23AA2E9B9FD",
+            "weekend_limit": "C7D83328-1099-446A-8356-010696E5CA57"
+        },
+        "ID": "C09F678C-CAA3-45BF-9BD6-4AF087787296",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "5",
+        "Name": "Peak Limit",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "t/h"
+    },
+    "C23702F9-45EA-42B1-8986-01F27BB8657A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "e3d15e59-5620-4c0a-8a53-d49f62bf7810",
+        "Data ID": "C23702F9-45EA-42B1-8986-01F27BB8657A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "periods(15min)",
+        "Formula Parameters": {},
+        "ID": "C23702F9-45EA-42B1-8986-01F27BB8657A",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "15.016666666666667",
+        "Maximum Interpolation": "901.0",
+        "Metadata Properties": "",
+        "Name": "Agg Periods",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "C7D83328-1099-446A-8356-010696E5CA57": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "208fb3f3-e093-4343-a832-33137997bb1c",
+        "Data ID": "C7D83328-1099-446A-8356-010696E5CA57",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$trainingRange = $inputCondition.toGroup(capsule(\"2023-01-01T09:10:00.000Z\", \"2023-03-01T09:10:00.000Z\"), CapsuleBoundary.EnclosedBy)",
+            "referenceTable(5min)",
+            "  .addRows($inputSignal, $trainingRange)",
+            "  .repeatOver($repeatOverCondition.fragment(), ReferenceTableStat.AveDev, 3)"
+        ],
+        "Formula Parameters": {
+            "inputCondition": "A0133B91-5A3F-4165-9EE8-E23AA2E9B9FD",
+            "inputSignal": "BCFE08CA-0CBE-41F7-AEDD-A19F01A5F2FC",
+            "repeatOverCondition": "A0133B91-5A3F-4165-9EE8-E23AA2E9B9FD"
+        },
+        "ID": "C7D83328-1099-446A-8356-010696E5CA57",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "5",
+        "Name": "Weekend On-Peak Limit",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "configVersion": 11,
+            "griddingPeriod": {
+                "units": "min",
+                "value": 5
+            },
+            "multiplier": "3",
+            "referenceStat": "AveDev",
+            "scopedTo": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+            "type": "reference",
+            "windowEnd": 1677661800000,
+            "windowStart": 1672564200000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "t/h"
+    },
+    "CCF8C234-3788-4EBA-961D-BFF1FC97ACE3": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "f9ccac37-419b-4073-bb5f-9374d067aad2",
+        "Data ID": "CCF8C234-3788-4EBA-961D-BFF1FC97ACE3",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$peak.inverse().removeLongerThan(1d)",
+        "Formula Parameters": {
+            "peak": "BA3C7565-A03E-439B-9337-E974D2D5F761"
+        },
+        "ID": "CCF8C234-3788-4EBA-961D-BFF1FC97ACE3",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1",
+        "Metadata Properties": "",
+        "Name": "OffPeak",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "D986164F-D142-429C-B8F8-08CEEEEEC42D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "f805a56b-74d4-45f4-8041-2a98950f0b24",
+        "Data ID": "D986164F-D142-429C-B8F8-08CEEEEEC42D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.intersect($b)",
+        "Formula Parameters": {
+            "a": "DEF8E4FD-6215-449B-8387-10DDD7B06A5E",
+            "b": "CCF8C234-3788-4EBA-961D-BFF1FC97ACE3"
+        },
+        "ID": "D986164F-D142-429C-B8F8-08CEEEEEC42D",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1",
+        "Metadata Properties": "",
+        "Name": "Weekday Off-Peak",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "DEF8E4FD-6215-449B-8387-10DDD7B06A5E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "c074df47-afe4-4a96-a537-4ad04916a5c0",
+        "Data ID": "DEF8E4FD-6215-449B-8387-10DDD7B06A5E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "combineWith(days(Day.Monday, \"Europe/Stockholm\"), days(Day.Tuesday, \"Europe/Stockholm\"), days(Day.Wednesday, \"Europe/Stockholm\"), days(Day.Thursday, \"Europe/Stockholm\"), days(Day.Friday, \"Europe/Stockholm\"))",
+        "Formula Parameters": {},
+        "ID": "DEF8E4FD-6215-449B-8387-10DDD7B06A5E",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.0416666666666667",
+        "Metadata Properties": "",
+        "Name": "Weekdays",
+        "Scoped To": "E2A61E7D-5EA9-4753-B922-A001942A8B3D",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": false,
+            "duration": "days",
+            "frequencies": [
+                "Day.Monday",
+                "Day.Tuesday",
+                "Day.Wednesday",
+                "Day.Thursday",
+                "Day.Friday"
+            ],
+            "offset": {
+                "units": "min",
+                "value": 0
+            },
+            "quarterStart": {
+                "day": 1,
+                "month": "Month.January"
+            },
+            "shift": {
+                "duration": 8,
+                "offset": 8
+            },
+            "timezone": "Europe/Stockholm",
+            "type": "periodic-condition",
+            "weekStart": "Day.Sunday"
+        },
+        "Unsearchable": false
+    }
+}
