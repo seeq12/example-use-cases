@@ -1,13 +1,13 @@
 Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
 BatchDemo_Reactor 1_Agitation (51BD3812-1531-4096-95F1-BB13D66C78A6),,StoredSignal,rpm,2min
-BatchDemo_Reactor 1_Batch ID (2C6881D7-2F02-418C-A3AF-CD1162052308),,StoredSignal,,2min
+BatchDemo_Reactor 1_Batch ID (2C6881D7-2F02-418C-A3AF-CD1162052308),,StoredSignal,string,2min
 BatchDemo_Reactor 1_Downtime Reason Codes (72FA0333-D60A-4990-B6D4-FF9939765A65),,StoredSignal,,2min
 BatchDemo_Reactor 1_Drug Substance Potency (769AA51C-7D64-44A1-8BAB-D2B871A7BECB),,StoredSignal,%,2min
 BatchDemo_Reactor 1_Impurity 1 (C674D47D-7BBE-4EC6-A16E-839BFA4484C5),,StoredSignal,%,2min
-BatchDemo_Reactor 1_Operation (B39D9FD9-5922-4BEB-B182-990DB164A4B2),,StoredSignal,,2min
-BatchDemo_Reactor 1_Phase (353AA81B-6235-4966-83F5-BF37A6BC9A6B),,StoredSignal,,5h
-BatchDemo_Reactor 1_Product (EB1DD8E7-F6AA-448A-818E-071282AFDC26),,StoredSignal,,2min
-BatchDemo_Reactor 1_Raw Material X Lot Number (424E725E-25C0-4658-95EA-5D64E119ABEC),,StoredSignal,,2min
+BatchDemo_Reactor 1_Operation (B39D9FD9-5922-4BEB-B182-990DB164A4B2),,StoredSignal,string,2min
+BatchDemo_Reactor 1_Phase (353AA81B-6235-4966-83F5-BF37A6BC9A6B),,StoredSignal,string,5h
+BatchDemo_Reactor 1_Product (EB1DD8E7-F6AA-448A-818E-071282AFDC26),,StoredSignal,string,2min
+BatchDemo_Reactor 1_Raw Material X Lot Number (424E725E-25C0-4658-95EA-5D64E119ABEC),,StoredSignal,string,2min
 BatchDemo_Reactor 1_Raw Material X Potency (416D099E-B920-402C-8792-7D9615A76758),,StoredSignal,%,2min
 BatchDemo_Reactor 1_Reactor Temperature (C2D66100-0067-4D13-ABA9-CCFEF4F6E882),,StoredSignal,°C,2min
 BatchDemo_Reactor 1_Solution Concentration (3FE609ED-F356-4E02-9A0C-5883E31CD875),,StoredSignal,g/L,2min
