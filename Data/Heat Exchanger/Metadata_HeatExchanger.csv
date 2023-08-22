@@ -1,0 +1,7 @@
+Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
+Cold Liquid Flow HX (F4E0087D-100A-4B8D-9FBB-13F09BFC7AB4),,StoredSignal,lb/h,90000.0s
+T Cold In HX (A5445D3C-FAA5-463C-A34B-A1DB00E93819),,StoredSignal,°F,90000.0s
+T Cold Out HX (D5168D10-88DD-459C-BABA-E4A43159A0D7),,StoredSignal,°F,90000.0s
+Hot Liquid Flow HX (317538A4-FEA2-401A-A73B-4D1ABBDB51E6),,StoredSignal,lb/h,90000.0s
+T Hot in HX (4AB87B32-C128-461C-BB67-8D1B14074BD0),,StoredSignal,°F,90000.0s
+T Hot out HX (8D5B6208-6FF3-4619-A108-83673AE5F797),,StoredSignal,°F,90000.0s
