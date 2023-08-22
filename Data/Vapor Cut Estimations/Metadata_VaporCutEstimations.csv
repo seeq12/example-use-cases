@@ -1,0 +1,14 @@
+Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
+GC Temperature 0.5% (0EE24DEB-DB4D-EAB0-9A1C-AD752BDA6B48),column = GC Temperature 0.5%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 10% (0EE24DEB-DB5C-7510-9656-C04B08D2DEC7),column = GC Temperature 10%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 20% (0EE24DEB-DB61-7330-988C-5882DF55DA0A),column = GC Temperature 20%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 30% (0EE24DEB-DB66-7150-825B-11BC86513BC8),column = GC Temperature 30%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 40% (0EE24DEB-DB6D-6680-A7A5-E7C68B93B9BD),column = GC Temperature 40%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 5% (0EE24DEB-DB57-66F0-9C17-119140DD7326),column = GC Temperature 5%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 50% (0EE24DEB-DB77-62C0-8472-49D7C207C24D),column = GC Temperature 50%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 60% (0EE24DEB-DB7E-77F0-866E-740E226E68ED),column = GC Temperature 60%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 70% (0EE24DEB-DB83-6610-B02A-9F3A4543B139),column = GC Temperature 70%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 80% (0EE24DEB-DB88-6430-BDE4-2F8A6442BFA9),column = GC Temperature 80%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 90% (0EE24DEB-DB8D-6250-9F8B-4F8E34E61B79),column = GC Temperature 90%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 95% (0EE24DEB-DB92-6070-97FE-C006F50DE890),column = GC Temperature 95%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h
+GC Temperature 99% (0EE24DEB-DB96-EE90-A43A-2CD7E0A60559),column = GC Temperature 99%; last file imported = Vapor Cut Demo_Lab Data.csv,StoredSignal,°C,0h

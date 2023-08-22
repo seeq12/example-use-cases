@@ -1,0 +1,3 @@
+Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
+Pipeline Flow Rate (0EE24DB6-9B19-EEB0-AFBD-C05F7C464D63),,StoredSignal,kbbl/h,40h
+Coil Inlet Temperature (7B87F723-B704-4040-886F-7DED1E7C8591),,StoredSignal,°F,7560.0s
