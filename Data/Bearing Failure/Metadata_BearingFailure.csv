@@ -1,0 +1,5 @@
+Name,Description,Value Unit Of Measure,Maximum Interpolation
+Vibration Bearing 1,column = Vibration_Bearing_1; last file imported = bearng_modified_v1.csv,,1h
+Vibration Bearing 2,column = Vibration_Bearing_2; last file imported = bearng_modified_v1.csv,,1h
+Vibration Bearing 3,column = Vibration_Bearing_3; last file imported = bearng_modified_v1.csv,,1h
+Vibration Bearing 4,column = Vibration_Bearing_4; last file imported = bearng_modified_v1.csv,,1h

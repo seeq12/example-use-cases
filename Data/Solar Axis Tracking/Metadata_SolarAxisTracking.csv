@@ -1,0 +1,6 @@
+Name,Description,Value Unit Of Measure,Maximum Interpolation
+Irradiation 1-Axis Tracking,column = Direct Normal [W/m^2]; last file imported = Tucson_v1.csv,W/m²,40h
+Tracker Angle SP,column = Tracker Setpoing Angle; last file imported = SeeqExport_v7.csv,,40h
+Tracker 1 Angle,column = Tracker 1 Angle; last file imported = SeeqExport_v7.csv,,40h
+Tracker 2 Angle,column = Tracker 2 Angle; last file imported = SeeqExport_v7.csv,,40h
+Efficiency,column = Efficiency; last file imported = SeeqExport_v7.csv,,40h
