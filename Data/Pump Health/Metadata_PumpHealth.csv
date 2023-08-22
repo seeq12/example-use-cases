@@ -1,0 +1,24 @@
+Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
+Suction Pressure (6F0C674F-DDC3-40BC-9E9D-103D60BF75B9),column = S25_4HDS_FEED_PC405_MEAS; last file imported = PumpData_v1.csv,StoredSignal,psi,40h
+Drum Level (7FA00688-10CE-40C3-8207-9B499C76140D),column = S25_4HDS_FEED_LC406_MEAS; last file imported = PumpData_v1.csv,StoredSignal,%,40h
+Feed API (25E6B07E-1BB1-49D3-9DD0-714F4201EB04),column = S25_120_COMBINED_FEED_API_LAB; last file imported = PumpData_v1.csv,StoredSignal,,40h
+Suction Temperature (FE60CAF2-2C40-4B53-9738-C003DB36C23C),column = S25_4HDS_EXCH_TI310_PNT; last file imported = PumpData_v1.csv,StoredSignal,°F,40h
+Pump Status (6F045282-226E-4F7A-8DD2-0C5910DD6AE2),column = S25_4HDS_FEED_XL409A_CIN; last file imported = PumpData_v1.csv,StoredSignal,string,40h
+Standby Pump DSC Pressure (51855049-6A10-4338-ADD2-CF8F341AD2E4),column = S25_4HDS_FEED_25PI0665_MEAS; last file imported = PumpData_v1.csv,StoredSignal,psi,40h
+Pump Discharge Pressure (4AF572DE-D2AA-43F6-A98A-8FF39F293CA6),column = S25_4HDS_FEED_25PI0664_MEAS; last file imported = PumpData_v1.csv,StoredSignal,psi,40h
+Standby Discharge Pressure (D017AA36-3E9B-4722-BA26-7AFFE597649D),column = S25_4HDS_FEED_25PI0665_MEAS; last file imported = PumpData_v1.csv,StoredSignal,psi,40h
+Standby Pump Status (979EE589-C1A8-4D2D-9CF5-53A7573C38EF),column = S25_4HDS_FEED_XL410A_CIN; last file imported = PumpData_v1.csv,StoredSignal,string,40h
+Discharge Flow Rate (822AE80C-F76F-46D7-9B9E-7035E078BB84),column = S25_4HDS_FEED_FC407_MEAS; last file imported = PumpData_v1.csv,StoredSignal,bbl/d,40h
+Recirculation Flow (FC2F074F-D9CC-4606-9D93-E25DAAF54654),column = S25_4HDS_FEED_FI408_PNT; last file imported = PumpData_v1.csv,StoredSignal,bbl/d,40h
+Feed API1 (0425866C-7599-4CE2-9B02-5229D9EE8195),column = S25_120_COMBINED_FEED_API_LAB; last file imported = PumpData_v1.csv,StoredSignal,,40h
+Standby Pump DSC Pressure (2BE3C872-BBCB-4AE1-BAA8-B31735D3001C),column = S25_4HDS_FEED_25PI0665_MEAS; last file imported = PumpData_v1.csv,StoredSignal,psi,40h
+Recirculation Flow (600A3311-A1FE-4406-9C73-4A097ABE3B4D),column = S25_4HDS_FEED_FI408_PNT; last file imported = PumpData_v1.csv,StoredSignal,bbl/d,40h
+Pump Discharge Pressure (C2159C7B-7137-4901-9FB6-4D4E7A6AFA66),column = S25_4HDS_FEED_25PI0664_MEAS; last file imported = PumpData_v1.csv,StoredSignal,psi,40h
+Standby Discharge Pressure (10F97242-32FA-460E-B1E1-B80CA82E7F05),column = S25_4HDS_FEED_25PI0665_MEAS; last file imported = PumpData_v1.csv,StoredSignal,psi,40h
+Pump Status (B207E826-0180-4E25-9C14-7A57CDF17A3B),column = S25_4HDS_FEED_XL409A_CIN; last file imported = PumpData_v1.csv,StoredSignal,string,40h
+Feed API (823F1B68-488A-4280-826E-AB9BEF58F52D),column = S25_120_COMBINED_FEED_API_LAB; last file imported = PumpData_v1.csv,StoredSignal,,40d
+Drum Level (3C1556AB-B81A-4700-851B-5E3505BFD052),column = S25_4HDS_FEED_LC406_MEAS; last file imported = PumpData_v1.csv,StoredSignal,%,40h
+Standby Pump Status (BE054D8A-8F15-4EF3-85A4-A918218398DA),column = S25_4HDS_FEED_XL410A_CIN; last file imported = PumpData_v1.csv,StoredSignal,string,40h
+Discharge Flow Rate (3906AA96-51A1-482F-9EA0-CAADADA4337F),column = S25_4HDS_FEED_FC407_MEAS; last file imported = PumpData_v1.csv,StoredSignal,bbl/d,40h
+Suction Temperature (CE1F53CA-1868-4B0E-B0B0-30CE44F76A50),column = S25_4HDS_EXCH_TI310_PNT; last file imported = PumpData_v1.csv,StoredSignal,°F,40h
+Suction Pressure (F9770708-829D-4DC3-9A01-EE634471FB98),column = S25_4HDS_FEED_PC405_MEAS; last file imported = PumpData_v1.csv,StoredSignal,psi,40h

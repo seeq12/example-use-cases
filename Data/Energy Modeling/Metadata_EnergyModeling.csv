@@ -1,0 +1,18 @@
+Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
+EnergyModel_Steam Flow 1 (89939F97-79E2-44AD-B66A-36C44FCE0166),,StoredSignal,,3600.0s
+EnergyModel_Steam Valve 3 (87C29967-87D4-4595-9A44-8385A3FF80A9),,StoredSignal,string,3600.0s
+EnergyModel_Steam Flow 3 (32BE317E-010B-4628-993D-52E3EC2F0D01),,StoredSignal,,3600.0s
+EnergyModel_Steam Jet 3 (296D07B4-8DE2-4B84-9411-BBC7D8D4B242),,StoredSignal,string,3600.0s
+EnergyModel_Steam Valve 2 (30643FFE-5A7B-487C-A0F8-3B0527D0132C),,StoredSignal,string,3600.0s
+EnergyModel_Ambient Temp (EF8BC923-A5CA-4E1C-BF33-78121E0F7920),,StoredSignal,,3600.0s
+EnergyModel_Total Steam (5BDA7048-0ED0-414E-9A94-D93B03787132),,StoredSignal,lb/h,3600.0s
+EnergyModel_Steam Jet 4 (F2F3F57A-FB11-43B4-9B7E-393B1669DBB1),,StoredSignal,string,3600.0s
+EnergyModel_Steam Jet 5 (190A75D0-DBFA-4970-84E7-3B19C5D37067),,StoredSignal,string,3600.0s
+EnergyModel_Steam Flow 5 (028560F2-5D26-46FD-9CD3-6B796E391373),,StoredSignal,,3600.0s
+EnergyModel_Steam Flow 2 (C7FF3051-E40A-499C-A7FA-0057608DE90D),,StoredSignal,,3600.0s
+EnergyModel_Steam Valve 1 (CFBCCB2A-C573-4C1D-8A0D-047676BC9B63),,StoredSignal,string,3600.0s
+EnergyModel_Steam Jet 2 (43F52215-635F-4DA9-A755-487A6A2DF77B),,StoredSignal,string,3600.0s
+EnergyModel_Steam Flow 4 (5F36A83C-00D6-4003-98E5-C2CD57F22B93),,StoredSignal,,3600.0s
+EnergyModel_Steam Jet 1 (2FA5C76C-C198-4191-93AB-4BE09C332F8D),,StoredSignal,string,3600.0s
+Total Steam 95 (3F127580-FB51-45D8-A857-6C620B3B9E97),column = Total Steam 95; last file imported = Energy Model June.csv,StoredSignal,,40h
+Total Steam 80 (AA9A8C55-35FC-447E-B815-3AFC6426D807),column = Total Steam 80; last file imported = Energy Model September.csv,StoredSignal,,40h

@@ -1,0 +1,13 @@
+Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
+C45_Discharge_Pressure (0824108E-525C-4B22-8430-EB4EBB0A2B9E),,StoredSignal,bar,7200.0s
+C45_Discharge_Temperature (80147415-93F2-4D29-B642-A653D8F5EBD1),,StoredSignal,°C,7200.0s
+C23_Speed (CB8678CF-EDA9-4505-830C-D2D32FF28790),,StoredSignal,rpm,7200.0s
+C45_Flow (AD38C3BD-3D0D-408F-B73A-5A83C6588EF8),,StoredSignal,Mcf/d,7200.0s
+C23_Suction_pressure (EC304387-9C4D-4B73-8AED-1D2E5EB69415),,StoredSignal,bar,7200.0s
+C23_Suction_temperature (2D84AD0C-0CAF-4B07-894F-A54BB4125745),,StoredSignal,°C,7200.0s
+C23_Flow (100DD46E-316B-4BF1-A635-94465A887778),,StoredSignal,Mcf/d,7200.0s
+C23_Discharge_Pressure (AA3200B9-D90E-4D67-98F5-2A0762EAC0BE),,StoredSignal,bar,7200.0s
+C45_Suction_pressure (3070B765-83D3-48A1-ACDE-8DC7B3A21874),,StoredSignal,bar,7200.0s
+C45_Speed (265C6391-4097-4FBF-9C99-363308FD433E),,StoredSignal,rpm,7200.0s
+C45_Suction_temperature (8977F5CF-E090-4BF6-A997-FD2164B6FCE6),,StoredSignal,°C,7200.0s
+C23_Discharge_Temperature (5BABADFD-318C-426C-B495-254EE3FC1958),,StoredSignal,°C,7200.0s

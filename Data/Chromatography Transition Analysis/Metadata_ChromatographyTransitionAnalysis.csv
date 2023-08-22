@@ -1,0 +1,4 @@
+Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
+Reactor 1 Product (3FBF8E7E-5A88-4F63-85ED-8A1E1C821503),,StoredSignal,string,1min
+Chrom_Flow_Rate (503B5AE9-86A9-4852-B676-B2B9D02F5561),,StoredSignal,,40h
+Chrom_Conductivity (76CCE191-E0DD-4CD2-B9B8-B895FE5763DC),,StoredSignal,,40h
