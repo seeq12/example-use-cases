@@ -1,0 +1,5 @@
+Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
+Batch Reactor Catalyst Feed Rate (70629BEA-A780-4595-8678-00093700A8C1),,StoredSignal,kg/h,120.0s
+Batch Product Code (65954CDF-D113-46C0-9175-C13A8CFF9619),,StoredSignal,string,120.0s
+Batch Reactor Fill Level (B2AB32DC-4CF1-432F-95C5-4B0D7D0AC4E8),,StoredSignal,%,120.0s
+Batch Reactor Temperature (CABA126B-BA56-4ED7-8211-4ED4AB419E15),,StoredSignal,°F,120.0s
