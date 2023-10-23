@@ -1,0 +1,22 @@
+{
+    "Datasource Class": "Imported CSV Files",
+    "Datasource ID": "Imported CSV Files",
+    "Datasource Name": "Imported CSV Files",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "(?<type>.*)",
+                "Datasource Class": "Imported CSV Files",
+                "Datasource Name": "Imported CSV Files",
+                "Data ID": "(?<data_id>.*)"
+            },
+            "New": {
+                "Type": "${type}",
+                "Datasource Class": "Imported CSV Files",
+                "Datasource Name": "Imported CSV Files",
+                "Data ID": "${data_id}"
+            }
+        }
+    ]
+}

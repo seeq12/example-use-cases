@@ -1,0 +1,912 @@
+{
+    "ID": "0EE35D89-2BEF-6420-850D-55D05AA2DAD4",
+    "Type": "Workstep",
+    "Data": {
+        "version": 54,
+        "state": {
+            "stores": {
+                "sqAssetGroupStore": {
+                    "id": "",
+                    "assets": [],
+                    "name": "",
+                    "description": "",
+                    "errors": [],
+                    "isLoading": false,
+                    "hasUnsavedChanges": false
+                },
+                "sqInvestigateStore": {
+                    "item": {},
+                    "activeTool": "overview",
+                    "displayMode": "NEW",
+                    "derivedDataPanelOpen": false
+                },
+                "sqPluginStore": {
+                    "pluginState": {}
+                },
+                "sqDurationStore": {
+                    "autoUpdate": {
+                        "mode": "OFF",
+                        "offset": 826082137,
+                        "manualInterval": {
+                            "value": 1,
+                            "units": "min"
+                        }
+                    },
+                    "displayRange": {
+                        "start": 1572885984421,
+                        "end": 1575026066558
+                    },
+                    "investigateRange": {
+                        "start": 1572868011411,
+                        "end": 1575513984421
+                    }
+                },
+                "sqExploreFolderModalStore": {
+                    "pageSize": 5
+                },
+                "sqExploreWorkbookModalStore": {
+                    "pageSize": 5
+                },
+                "sqWorksheetStore": {
+                    "tabsets": {
+                        "sidebar": 2
+                    },
+                    "viewKey": "SCATTER_PLOT",
+                    "selectedIdsForView": {},
+                    "browsePanelCollapsed": false,
+                    "displayWidth": 1336,
+                    "displayHeight": 575,
+                    "resizeEnabled": true,
+                    "conditionToSeriesGrouping": {},
+                    "capsuleGroupMode": false,
+                    "showAssetSelectionWarnings": true
+                },
+                "sqSearchStore": {
+                    "nameFilter": "",
+                    "isExactName": false,
+                    "descriptionFilter": "",
+                    "typeFilter": [],
+                    "datasourceFilter": [],
+                    "sortBy": "",
+                    "isAdvancedMode": false,
+                    "mode": "tree",
+                    "currentAsset": "2C29AC28-FF48-434B-AA0A-8701D0E9E44B",
+                    "selectAllChecked": false,
+                    "selectedItemIds": []
+                },
+                "sqCompositeSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "color": "",
+                    "isUpgradedUnionCondition": false,
+                    "inclusiveA": true,
+                    "inclusiveB": true,
+                    "matchProperty": "n/a",
+                    "useEarliestStart": true,
+                    "keepProperties": false
+                },
+                "sqConditionWithPropertiesStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "properties": [
+                        {
+                            "stringSignal": "",
+                            "propertyName": ""
+                        },
+                        {
+                            "stringSignal": "",
+                            "propertyName": ""
+                        }
+                    ]
+                },
+                "sqValueSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "a"
+                        ]
+                    },
+                    "isSimple": true,
+                    "useValidValues": false,
+                    "isCleansing": false,
+                    "simpleValue": null,
+                    "simpleLowerValue": null,
+                    "minDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "mergeDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "advancedEntryValue": null,
+                    "advancedEntryLowerValue": null,
+                    "advancedEntryDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "advancedExitValue": null,
+                    "advancedExitDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "isMigratedDeviationSearch": false,
+                    "version": "V3"
+                },
+                "sqItemPropertiesStore": {
+                    "advancedParametersCollapsed": true
+                },
+                "sqManualSignalStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "interpolationMethod": "Linear",
+                    "maximumInterpolation": {
+                        "value": "40",
+                        "units": "h"
+                    },
+                    "samples": [],
+                    "sort": {
+                        "asc": false,
+                        "property": "dateTime"
+                    },
+                    "color": ""
+                },
+                "sqManualConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "color": ""
+                },
+                "sqFftStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "signalToAggregate": {
+                        "predicate": [
+                            "name",
+                            "signalToAggregate"
+                        ]
+                    },
+                    "rateType": true,
+                    "rate": {},
+                    "outputUnits": "min",
+                    "highPass": {},
+                    "lowPass": {},
+                    "useHighPass": false,
+                    "useLowPass": false
+                },
+                "sqAggregationBinStore": {
+                    "signalToAggregate": {
+                        "predicate": [
+                            "name",
+                            "signalToAggregate"
+                        ]
+                    },
+                    "mode": "by_y_value",
+                    "includeEmptyBuckets": true,
+                    "yValueSignal": "",
+                    "stat": {
+                        "key": null,
+                        "timeUnits": "s"
+                    },
+                    "aggregationConfigs": [
+                        {
+                            "id": 1,
+                            "mode": "by_y_value",
+                            "capsuleMode": "overlap",
+                            "yValueBinMode": "size",
+                            "valid": false
+                        }
+                    ],
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true
+                },
+                "sqSignalFromConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputItem": {
+                        "predicate": [
+                            "name",
+                            "series"
+                        ]
+                    },
+                    "condition": {
+                        "predicate": [
+                            "name",
+                            "capsules"
+                        ]
+                    },
+                    "interpolation": "DISCRETE",
+                    "stat": {
+                        "timeUnits": "s"
+                    },
+                    "color": "",
+                    "params": {
+                        "interpolation": "DISCRETE",
+                        "stat": {
+                            "timeUnits": "s"
+                        },
+                        "maximumDuration": {}
+                    }
+                },
+                "sqPeriodicConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "timezone": "US/Pacific",
+                    "frequencies": [],
+                    "weekStart": "Day.Sunday",
+                    "quarterStart": {
+                        "month": "Month.January",
+                        "day": 1
+                    },
+                    "shift": {
+                        "offset": 8,
+                        "duration": 8
+                    },
+                    "offset": {
+                        "value": 0,
+                        "units": "min"
+                    }
+                },
+                "sqProfileSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "a"
+                        ]
+                    },
+                    "similarity": 98,
+                    "normalizeAmplitude": true,
+                    "normalizeLocation": true,
+                    "selectedRegion": {}
+                },
+                "sqPredictionPanelStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "option": "linear",
+                    "polynomialValue": 2,
+                    "mustGoThroughZero": false,
+                    "lambda": 0,
+                    "windowStart": 1572885984421,
+                    "windowEnd": 1575026066558,
+                    "modelExpanded": false,
+                    "regressionMethod": "OLS",
+                    "variableSelection": 0.05,
+                    "variableSelectionEnabled": false,
+                    "color": ""
+                },
+                "sqSignalSmoothingStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "inputSignal"
+                        ]
+                    },
+                    "algorithmSelectedValue": "seeq-agile",
+                    "samplingRate": {},
+                    "smoothingWindow": {},
+                    "cutoff": {},
+                    "polynomialFactor": 2,
+                    "isSamplingRateAuto": true,
+                    "isCutoffAuto": true,
+                    "isTau": true,
+                    "tau": {
+                        "value": 10,
+                        "units": "min"
+                    },
+                    "alpha": 0.9,
+                    "isMigratedLowPassFilter": false,
+                    "color": ""
+                },
+                "sqDigitalFilterStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "inputSignal"
+                        ]
+                    },
+                    "cutoff": {},
+                    "cutoff2": {},
+                    "samplingRate": {},
+                    "windowSize": {},
+                    "isAutoSamplingRate": true,
+                    "isAutoWindowSize": true,
+                    "color": ""
+                },
+                "sqTrendMetricStore": {
+                    "items": []
+                },
+                "sqTrendTableStore": {
+                    "items": []
+                },
+                "sqReferencePanelStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "windowStart": 1572885984421,
+                    "windowEnd": 1575026066558,
+                    "griddingPeriod": {
+                        "value": 5,
+                        "units": "min"
+                    },
+                    "referenceStat": "",
+                    "multiplier": 1,
+                    "inputGroups": [
+                        {
+                            "inputSignal": {},
+                            "inputCondition": {}
+                        }
+                    ]
+                },
+                "sqDisplayToolStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "isScaled": true
+                },
+                "sqTrendScalarStore": {
+                    "items": []
+                },
+                "sqTrendSeriesStore": {
+                    "items": [
+                        {
+                            "axisAlign": "B",
+                            "axisAutoScale": true,
+                            "lane": 5,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "3B4274E7-EB7E-473E-A8E9-1C568EEFF133",
+                            "name": "Time counter",
+                            "selected": false,
+                            "color": "#E1498E"
+                        },
+                        {
+                            "axisAlign": "C",
+                            "axisAutoScale": true,
+                            "lane": 6,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "F9DE6147-DD6A-4523-B326-93400134CF2E",
+                            "name": "Regression Eqn Intercept",
+                            "selected": false,
+                            "color": "#4B7ABD"
+                        },
+                        {
+                            "axisAlign": "D",
+                            "axisAutoScale": true,
+                            "lane": 7,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "83F45AFA-01F7-4B76-82F3-69C010192BEA",
+                            "name": "Regression Eqn Coeff1",
+                            "selected": false,
+                            "color": "#AC4625"
+                        },
+                        {
+                            "axisAlign": "E",
+                            "axisAutoScale": true,
+                            "lane": 8,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "E6250C98-6C26-413C-8CB4-54A96E6048CB",
+                            "name": "Regression Eqn Coeff2",
+                            "selected": false,
+                            "color": "#D3AA4C"
+                        },
+                        {
+                            "axisAlign": "A",
+                            "axisAutoScale": true,
+                            "lane": 4,
+                            "rightAxis": false,
+                            "dashStyle": "ShortDash",
+                            "lineWidth": 3,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "922120D1-94BA-4A42-BE5D-25629415902D",
+                            "name": "Tension Model",
+                            "selected": false,
+                            "color": "#542B7C"
+                        },
+                        {
+                            "axisAlign": "F",
+                            "axisAutoScale": true,
+                            "lane": 9,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "D07096D3-081D-4315-AC22-98AD77BE57E8",
+                            "name": "Tension",
+                            "selected": false,
+                            "color": "#CE561B"
+                        }
+                    ],
+                    "editingId": null,
+                    "previewSeriesDefinition": {}
+                },
+                "sqImportDatafileStore": {
+                    "uploadFilename": "",
+                    "filename": "",
+                    "keyColumnIndex": 1,
+                    "keyColumnName": "",
+                    "interpolationMethod": {
+                        "text": "IMPORTS.INTERPOLATION.LINEAR",
+                        "value": "Linear"
+                    },
+                    "validationMode": {
+                        "text": "IMPORTS.VALIDATION_MODE_TYPES.FAIL",
+                        "value": "Fail"
+                    },
+                    "fileOutputType": {
+                        "text": "IMPORTS.FILE_OUTPUT_TYPES.REPLACE",
+                        "value": "Replace"
+                    },
+                    "fieldDelimiter": {
+                        "text": ",",
+                        "value": "Comma"
+                    },
+                    "maxInterpolation": {
+                        "value": 40,
+                        "units": "h"
+                    },
+                    "namePrefix": "",
+                    "nameSuffix": "",
+                    "firstDataRow": 2,
+                    "nameRow": 1,
+                    "description": "",
+                    "valueColumnOption": {
+                        "text": "IMPORTS.VALUE_COLUMN.ALL",
+                        "value": "All"
+                    },
+                    "valueUom": "",
+                    "lenientDaylightSavings": false,
+                    "itemType": {
+                        "text": "IMPORTS.SIGNAL",
+                        "value": "Signal"
+                    },
+                    "maxDuration": {
+                        "value": 40,
+                        "units": "h"
+                    },
+                    "endColumnName": "",
+                    "conditionName": "",
+                    "dayFirstDefault": {
+                        "text": "IMPORTS.FIRST.MONTH",
+                        "value": false
+                    },
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true
+                },
+                "sqTrendCapsuleStore": {
+                    "selectedCapsules": [],
+                    "dataStatus": "itemDataPresent",
+                    "warningCount": 0,
+                    "warningLogs": [],
+                    "timingInformation": "",
+                    "meterInformation": "",
+                    "capsulesPerPage": 30,
+                    "editingId": null,
+                    "previewCapsulesDefinition": {},
+                    "items": [
+                        {
+                            "id": "8E82AD46-1418-4D9B-8732-672E26313A8B_1573454514307568811L:896670803",
+                            "startTime": 1573454514307,
+                            "endTime": 1573641431953,
+                            "isChildOf": "8E82AD46-1418-4D9B-8732-672E26313A8B",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "8E82AD46-1418-4D9B-8732-672E26313A8B_1574411132817830539L:-366111118",
+                            "startTime": 1574411132817,
+                            "endTime": 1574598946234,
+                            "isChildOf": "8E82AD46-1418-4D9B-8732-672E26313A8B",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        },
+                        {
+                            "id": "8E82AD46-1418-4D9B-8732-672E26313A8B_1574750957774977373L:-754030584",
+                            "startTime": 1574750957774,
+                            "endTime": 1574791405506,
+                            "isChildOf": "8E82AD46-1418-4D9B-8732-672E26313A8B",
+                            "childType": "itemChildrenTypeCapsule",
+                            "isUncertain": true,
+                            "itemType": "capsuleDisplayType"
+                        }
+                    ]
+                },
+                "sqCapsuleGroupStore": {
+                    "capsules": []
+                },
+                "sqCursorStore": {
+                    "calendarCursors": [],
+                    "capsuleCursors": [],
+                    "showValues": true
+                },
+                "sqTrendCapsuleSetStore": {
+                    "items": [
+                        {
+                            "lane": 1,
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "id": "1F53141C-FDA2-4F13-850C-16860E4186DA",
+                            "name": "cycle",
+                            "selected": false,
+                            "color": "#9D248F"
+                        },
+                        {
+                            "lane": 2,
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "id": "105A78C6-248A-4FD1-A298-7B4E1FD7E16C",
+                            "name": "Tension decreasing",
+                            "selected": false,
+                            "color": "#00A2DD"
+                        },
+                        {
+                            "lane": 3,
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "id": "8E82AD46-1418-4D9B-8732-672E26313A8B",
+                            "name": "Regression Condition",
+                            "selected": false,
+                            "color": "#AE6A8B"
+                        }
+                    ]
+                },
+                "sqTrendStore": {
+                    "view": "calendar",
+                    "isCompareMode": false,
+                    "enabledColumns": {
+                        "CAPSULES": {
+                            "startTime": true,
+                            "properties.Coeff1": true,
+                            "properties.Coeff2": true,
+                            "properties.Intercept": true
+                        },
+                        "SERIES": {
+                            "asset": true,
+                            "lane": true
+                        }
+                    },
+                    "propertyColumns": {
+                        "CAPSULES": {
+                            "properties.Coeff1": {
+                                "key": "properties.Coeff1",
+                                "uomKey": "propertiesUOM.Coeff1",
+                                "propertyName": "Coeff1"
+                            },
+                            "properties.Coeff2": {
+                                "key": "properties.Coeff2",
+                                "uomKey": "propertiesUOM.Coeff2",
+                                "propertyName": "Coeff2"
+                            },
+                            "properties.Intercept": {
+                                "key": "properties.Intercept",
+                                "uomKey": "propertiesUOM.Intercept",
+                                "propertyName": "Intercept"
+                            }
+                        }
+                    },
+                    "selectedRegion": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "capsuleTimeOffsets": {
+                        "lower": 0,
+                        "upper": 0
+                    },
+                    "dataSummary": {
+                        "type": "AUTO",
+                        "value": 0,
+                        "discreteUnits": {
+                            "value": 0,
+                            "units": "min"
+                        },
+                        "isSlider": true
+                    },
+                    "capsuleTimeColorMode": "signal",
+                    "compareViewColorMode": "rainbow",
+                    "capsulePreview": false,
+                    "customizationMode": "off",
+                    "dimDataOutsideCapsules": false,
+                    "hideUnselectedItems": true,
+                    "labelDisplayConfiguration": {
+                        "name": "lane",
+                        "description": "off",
+                        "asset": "lane",
+                        "assetPathLevels": 1,
+                        "line": "off",
+                        "unitOfMeasure": "axis",
+                        "custom": "off",
+                        "customLabels": []
+                    },
+                    "showCapsuleLaneLabels": true,
+                    "panelProps": {
+                        "BOTTOM": {
+                            "leftPanelWidth": 807,
+                            "height": "22.2%"
+                        }
+                    },
+                    "panelSorters": {
+                        "CAPSULES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "CAPSULE_SERIES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "SERIES": {
+                            "sortBy": "lane",
+                            "sortAsc": true
+                        },
+                        "INVESTIGATE_ITEMS": {
+                            "sortBy": "name",
+                            "sortAsc": true
+                        }
+                    },
+                    "capsulePanelFilters": {},
+                    "capsulePanelOffset": 0,
+                    "capsulePanelMaxOffset": 0,
+                    "capsulePanelHasNext": false,
+                    "showGridlines": false,
+                    "capsuleProperties": [],
+                    "capsuleAlignment": [],
+                    "showChartConfiguration": false
+                },
+                "sqTreemapStore": {
+                    "parent": {},
+                    "statistics": []
+                },
+                "sqExportExcelPanelStore": {
+                    "name": "Promotional - Conveyor Belt Tension Modeling and Monitoring",
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "exportStatistics": true,
+                    "exportData": true,
+                    "timeRange": {
+                        "start": 1666736732904,
+                        "end": 1666823132904
+                    },
+                    "exportTimeZone": {
+                        "name": "America/Lima",
+                        "displayName": "America/Lima",
+                        "offset": "-05:00",
+                        "offsetMinutes": -300
+                    },
+                    "gridOption": "automatic",
+                    "gridSize": {
+                        "units": "min"
+                    },
+                    "gridOrigin": 1641013200000,
+                    "gridOriginEnabled": false
+                },
+                "sqScatterPlotStore": {
+                    "xSignal": {
+                        "id": "D07096D3-081D-4315-AC22-98AD77BE57E8"
+                    },
+                    "ySignals": [
+                        {
+                            "id": "922120D1-94BA-4A42-BE5D-25629415902D"
+                        }
+                    ],
+                    "selector": {
+                        "low": 0.5,
+                        "high": 0.75
+                    },
+                    "selectedRegion": {
+                        "x": {
+                            "min": null,
+                            "max": null
+                        },
+                        "ys": {}
+                    },
+                    "viewRegion": {
+                        "x": {
+                            "min": null,
+                            "max": null
+                        },
+                        "ys": {}
+                    },
+                    "fxLines": [],
+                    "colorConditionIds": [
+                        "8E82AD46-1418-4D9B-8732-672E26313A8B"
+                    ],
+                    "colorByItemColor": false,
+                    "colorRanges": [],
+                    "plotMode": "DISPLAY_RANGE",
+                    "plotView": "SCATTER_PLOT",
+                    "connect": false,
+                    "showTooltips": true,
+                    "markerSize": 1.8111840615802581,
+                    "isMarkerSizeCustom": false,
+                    "densityPlotData": [],
+                    "numXBins": 40,
+                    "numYBins": 20,
+                    "xBinSize": 0,
+                    "yBinSize": 0
+                },
+                "sqExportODataPanelStore": {
+                    "name": "Promotional - Conveyor Belt Tension Modeling and Monitoring",
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "autoupdateTimeRange": false,
+                    "timeRange": {
+                        "start": 1572885984421,
+                        "end": 1575026066558
+                    },
+                    "exportTimeZone": {
+                        "name": "US/Pacific",
+                        "displayName": "US/Pacific",
+                        "offset": "-08:00",
+                        "offsetMinutes": -480
+                    },
+                    "gridOption": "automatic",
+                    "gridSize": {
+                        "units": "min"
+                    },
+                    "gridOrigin": 1609488000000,
+                    "gridOriginEnabled": false,
+                    "exportNameSuffix": ""
+                },
+                "sqTableBuilderStore": {
+                    "mode": "condition",
+                    "headers": {
+                        "condition": {
+                            "type": "startEnd",
+                            "format": "lll"
+                        },
+                        "simple": {
+                            "type": "startEnd",
+                            "format": "lll"
+                        }
+                    },
+                    "columns": {
+                        "condition": [
+                            {
+                                "backgroundColor": "#ffffff",
+                                "key": "name",
+                                "headerTextAlign": "center",
+                                "headerTextStyle": [
+                                    "bold"
+                                ]
+                            }
+                        ],
+                        "simple": [
+                            {
+                                "key": "name",
+                                "headerTextAlign": "center",
+                                "headerTextStyle": [
+                                    "bold"
+                                ]
+                            },
+                            {
+                                "key": "valueUnitOfMeasure",
+                                "headerTextAlign": "center",
+                                "headerTextStyle": [
+                                    "bold"
+                                ]
+                            }
+                        ]
+                    },
+                    "isTransposed": {
+                        "condition": false,
+                        "simple": false
+                    },
+                    "assetId": {},
+                    "isHomogenizeUnits": {
+                        "condition": false,
+                        "simple": false
+                    },
+                    "itemFilters": {},
+                    "itemSorts": {},
+                    "isMigrating": false,
+                    "chartView": {
+                        "enabled": false,
+                        "settings": {
+                            "title": "",
+                            "legend": false,
+                            "dataLabels": false,
+                            "categoryLabels": false,
+                            "rows": [],
+                            "columns": [
+                                "valueUnitOfMeasure"
+                            ],
+                            "chartType": "pie",
+                            "categoryColumns": [
+                                "name"
+                            ],
+                            "showSettings": false,
+                            "position": {
+                                "x": 100,
+                                "y": 100
+                            }
+                        }
+                    },
+                    "useSignalColorsInChart": true
+                },
+                "sqFormulaToolStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "formula": "",
+                    "parameters": [],
+                    "navigationStack": [],
+                    "helpShown": true
+                },
+                "sqThresholdMetricStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "measuredItem": {
+                        "predicate": [
+                            "name",
+                            "measuredItem"
+                        ]
+                    },
+                    "boundingCondition": {
+                        "predicate": [
+                            "name",
+                            "boundingCondition"
+                        ]
+                    },
+                    "processType": "Condition",
+                    "aggregationOperator": {
+                        "key": null,
+                        "timeUnits": "s"
+                    },
+                    "duration": {},
+                    "period": {},
+                    "thresholds": {}
+                },
+                "sqScatterConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "isBounding": false,
+                    "isCleansing": false,
+                    "minDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "mergeDuration": {
+                        "value": 0,
+                        "units": "min"
+                    }
+                },
+                "sqScorecardStore": {
+                    "metrics": []
+                }
+            }
+        }
+    }
+}

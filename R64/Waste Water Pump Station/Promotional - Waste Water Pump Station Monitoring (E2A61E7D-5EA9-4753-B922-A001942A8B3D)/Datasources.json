@@ -1,0 +1,34 @@
+{
+    "43C7AD55-8388-4922-8FA8-D40871AC5811": {
+        "Archived": false,
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "Example Data",
+        "ID": "43C7AD55-8388-4922-8FA8-D40871AC5811",
+        "Name": "Example Data",
+        "Type": "Datasource"
+    },
+    "6556D2A2-5A5C-455A-B4F6-47BDD05764E0": {
+        "Archived": false,
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "ID": "6556D2A2-5A5C-455A-B4F6-47BDD05764E0",
+        "Name": "Seeq Calculations",
+        "Type": "Datasource"
+    },
+    "733224C2-B6FE-4639-B255-DD7CB8AB58F6": {
+        "Archived": false,
+        "Datasource Class": "Auth",
+        "Datasource ID": "Seeq",
+        "ID": "733224C2-B6FE-4639-B255-DD7CB8AB58F6",
+        "Name": "Seeq",
+        "Type": "Datasource"
+    },
+    "97E1801C-E99B-4754-848D-A34715027C60": {
+        "Archived": false,
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "ID": "97E1801C-E99B-4754-848D-A34715027C60",
+        "Name": "Seeq Azure SSO",
+        "Type": "Datasource"
+    }
+}

@@ -1,0 +1,936 @@
+{
+    "ID": "0EE5D1C4-5147-64A0-B04C-E75262A4ABC9",
+    "Type": "Workstep",
+    "Data": {
+        "version": 54,
+        "state": {
+            "stores": {
+                "sqAssetGroupStore": {
+                    "id": "",
+                    "assets": [],
+                    "name": "",
+                    "description": "",
+                    "errors": [],
+                    "isLoading": false,
+                    "hasUnsavedChanges": false
+                },
+                "sqInvestigateStore": {
+                    "item": {},
+                    "activeTool": "threshold-metric",
+                    "displayMode": "EDIT",
+                    "derivedDataPanelOpen": false
+                },
+                "sqPluginStore": {
+                    "pluginState": {}
+                },
+                "sqDurationStore": {
+                    "autoUpdate": {
+                        "mode": "OFF",
+                        "offset": -502946671998,
+                        "manualInterval": {
+                            "value": 1,
+                            "units": "min"
+                        }
+                    },
+                    "displayRange": {
+                        "start": 1076557800000,
+                        "end": 1077204660000
+                    },
+                    "investigateRange": {
+                        "start": 1076385037101,
+                        "end": 1077377506430
+                    }
+                },
+                "sqExploreFolderModalStore": {
+                    "pageSize": 5
+                },
+                "sqExploreWorkbookModalStore": {
+                    "pageSize": 5
+                },
+                "sqWorksheetStore": {
+                    "tabsets": {
+                        "sidebar": 1
+                    },
+                    "viewKey": "TABLE",
+                    "selectedIdsForView": {
+                        "TREND": [
+                            "9B7BD833-5399-40B2-8BE0-A521B756FB04",
+                            "DE75A972-FF45-4CD0-9784-116640827382"
+                        ]
+                    },
+                    "browsePanelCollapsed": false,
+                    "displayWidth": 1088,
+                    "displayHeight": 461,
+                    "resizeEnabled": true,
+                    "conditionToSeriesGrouping": {},
+                    "capsuleGroupMode": false,
+                    "showAssetSelectionWarnings": true
+                },
+                "sqSearchStore": {
+                    "nameFilter": "Exceed",
+                    "isExactName": false,
+                    "descriptionFilter": "",
+                    "typeFilter": [],
+                    "datasourceFilter": [],
+                    "sortBy": "",
+                    "isAdvancedMode": false,
+                    "mode": "search",
+                    "currentAsset": "",
+                    "selectAllChecked": false,
+                    "selectedItemIds": []
+                },
+                "sqCompositeSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "color": "",
+                    "isUpgradedUnionCondition": false,
+                    "inclusiveA": true,
+                    "inclusiveB": true,
+                    "matchProperty": "n/a",
+                    "useEarliestStart": true,
+                    "keepProperties": false
+                },
+                "sqConditionWithPropertiesStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "properties": [
+                        {
+                            "stringSignal": "",
+                            "propertyName": ""
+                        },
+                        {
+                            "stringSignal": "",
+                            "propertyName": ""
+                        }
+                    ]
+                },
+                "sqValueSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "a"
+                        ]
+                    },
+                    "isSimple": true,
+                    "useValidValues": false,
+                    "isCleansing": false,
+                    "simpleValue": null,
+                    "simpleLowerValue": null,
+                    "minDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "mergeDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "advancedEntryValue": null,
+                    "advancedEntryLowerValue": null,
+                    "advancedEntryDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "advancedExitValue": null,
+                    "advancedExitDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "isMigratedDeviationSearch": false,
+                    "version": "V3"
+                },
+                "sqItemPropertiesStore": {
+                    "advancedParametersCollapsed": false
+                },
+                "sqManualSignalStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "interpolationMethod": "Linear",
+                    "maximumInterpolation": {
+                        "value": "40",
+                        "units": "h"
+                    },
+                    "samples": [],
+                    "sort": {
+                        "asc": false,
+                        "property": "dateTime"
+                    },
+                    "color": ""
+                },
+                "sqManualConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "color": ""
+                },
+                "sqFftStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "signalToAggregate": {
+                        "predicate": [
+                            "name",
+                            "signalToAggregate"
+                        ]
+                    },
+                    "rateType": true,
+                    "rate": {},
+                    "outputUnits": "min",
+                    "highPass": {},
+                    "lowPass": {},
+                    "useHighPass": false,
+                    "useLowPass": false
+                },
+                "sqAggregationBinStore": {
+                    "signalToAggregate": {
+                        "predicate": [
+                            "name",
+                            "signalToAggregate"
+                        ]
+                    },
+                    "mode": "by_y_value",
+                    "includeEmptyBuckets": true,
+                    "yValueSignal": "",
+                    "stat": {
+                        "key": null,
+                        "timeUnits": "s"
+                    },
+                    "aggregationConfigs": [
+                        {
+                            "id": 1,
+                            "mode": "by_y_value",
+                            "capsuleMode": "overlap",
+                            "yValueBinMode": "size",
+                            "valid": false
+                        }
+                    ],
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true
+                },
+                "sqSignalFromConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputItem": {
+                        "predicate": [
+                            "name",
+                            "series"
+                        ]
+                    },
+                    "condition": {
+                        "predicate": [
+                            "name",
+                            "capsules"
+                        ]
+                    },
+                    "interpolation": "DISCRETE",
+                    "stat": {
+                        "timeUnits": "s"
+                    },
+                    "color": ""
+                },
+                "sqPeriodicConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "timezone": "Etc/GMT+4",
+                    "frequencies": [],
+                    "weekStart": "Day.Sunday",
+                    "quarterStart": {
+                        "month": "Month.January",
+                        "day": 1
+                    },
+                    "shift": {
+                        "offset": 8,
+                        "duration": 8
+                    },
+                    "offset": {}
+                },
+                "sqProfileSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "a"
+                        ]
+                    },
+                    "similarity": 98,
+                    "normalizeAmplitude": true,
+                    "normalizeLocation": true,
+                    "selectedRegion": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                "sqPredictionPanelStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "option": "linear",
+                    "polynomialValue": 2,
+                    "mustGoThroughZero": false,
+                    "lambda": 0,
+                    "windowStart": 1076557800000,
+                    "windowEnd": 1077204660000,
+                    "modelExpanded": false,
+                    "regressionMethod": "OLS",
+                    "variableSelection": 0.05,
+                    "variableSelectionEnabled": false,
+                    "color": ""
+                },
+                "sqSignalSmoothingStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "inputSignal"
+                        ]
+                    },
+                    "algorithmSelectedValue": "seeq-agile",
+                    "samplingRate": {},
+                    "smoothingWindow": {},
+                    "cutoff": {},
+                    "polynomialFactor": 2,
+                    "isSamplingRateAuto": true,
+                    "isCutoffAuto": true,
+                    "isTau": true,
+                    "tau": {
+                        "value": 10,
+                        "units": "min"
+                    },
+                    "alpha": 0.9,
+                    "isMigratedLowPassFilter": false,
+                    "color": ""
+                },
+                "sqDigitalFilterStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "inputSignal"
+                        ]
+                    },
+                    "cutoff": {},
+                    "cutoff2": {},
+                    "samplingRate": {},
+                    "windowSize": {},
+                    "isAutoSamplingRate": true,
+                    "isAutoWindowSize": true,
+                    "color": ""
+                },
+                "sqTrendMetricStore": {
+                    "items": [
+                        {
+                            "axisAlign": "E",
+                            "axisAutoScale": true,
+                            "lane": 8,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": -1.07,
+                                "max": 1.07
+                            },
+                            "yAxisMin": -1,
+                            "yAxisMax": 1,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "DE75A972-FF45-4CD0-9784-116640827382",
+                            "name": "Count of Abnormal Events",
+                            "selected": false,
+                            "color": "#F47B37"
+                        },
+                        {
+                            "axisAlign": "F",
+                            "axisAutoScale": true,
+                            "lane": 9,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": -1.07,
+                                "max": 1.07
+                            },
+                            "yAxisMin": -1,
+                            "yAxisMax": 1,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "37DD9A6B-C52F-4C35-9091-AC979B91754F",
+                            "name": "% Time Abnormal",
+                            "selected": false,
+                            "color": "#36937E"
+                        }
+                    ]
+                },
+                "sqTrendTableStore": {
+                    "items": [
+                        {
+                            "autoDisabled": false,
+                            "stack": false,
+                            "id": "675EA721-D17D-4444-9DB2-F2F97A29F0F4",
+                            "name": "% of Day in Abnormal Vibration",
+                            "selected": false,
+                            "color": "#6263AD",
+                            "binConfig": {}
+                        }
+                    ]
+                },
+                "sqReferencePanelStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "windowStart": 1076557800000,
+                    "windowEnd": 1077204660000,
+                    "griddingPeriod": {
+                        "value": 5,
+                        "units": "min"
+                    },
+                    "referenceStat": "",
+                    "multiplier": 1,
+                    "inputGroups": [
+                        {
+                            "inputSignal": {},
+                            "inputCondition": {}
+                        }
+                    ]
+                },
+                "sqDisplayToolStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "isScaled": true
+                },
+                "sqTrendScalarStore": {
+                    "items": []
+                },
+                "sqTrendSeriesStore": {
+                    "items": [
+                        {
+                            "axisAlign": "A",
+                            "axisAutoScale": true,
+                            "lane": 4,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "85B76E2A-10CA-4AD1-91A1-9AF5241BC6A5",
+                            "name": "Vibration Bearing 1 - Cleansed",
+                            "selected": false,
+                            "color": "#4055A3",
+                            "interpolationMethod": "Linear"
+                        },
+                        {
+                            "axisAlign": "C",
+                            "axisAutoScale": true,
+                            "lane": 6,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "A6D02923-B8F8-4F19-94AF-4A20E2A9D10B",
+                            "name": "Vibration Bearing 3 - Cleansed",
+                            "selected": false,
+                            "color": "#9D248F",
+                            "interpolationMethod": "Linear"
+                        },
+                        {
+                            "axisAlign": "D",
+                            "axisAutoScale": true,
+                            "lane": 7,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "05B7A93E-062C-465F-8F58-E83FCD3844EB",
+                            "name": "Vibration Bearing 4 - Cleansed",
+                            "selected": false,
+                            "color": "#CE561B",
+                            "interpolationMethod": "Linear"
+                        },
+                        {
+                            "axisAlign": "B",
+                            "axisAutoScale": true,
+                            "lane": 5,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "CE9CDDF6-61F8-4D1C-8972-C99F671227F4",
+                            "name": "Vibration Bearing 2 - Cleansed",
+                            "selected": false,
+                            "color": "#068C45",
+                            "interpolationMethod": "Linear"
+                        }
+                    ],
+                    "editingId": null,
+                    "previewSeriesDefinition": {}
+                },
+                "sqImportDatafileStore": {
+                    "uploadFilename": "",
+                    "filename": "",
+                    "keyColumnIndex": 1,
+                    "keyColumnName": "",
+                    "interpolationMethod": {
+                        "text": "IMPORTS.INTERPOLATION.LINEAR",
+                        "value": "Linear"
+                    },
+                    "validationMode": {
+                        "text": "IMPORTS.VALIDATION_MODE_TYPES.FAIL",
+                        "value": "Fail"
+                    },
+                    "fileOutputType": {
+                        "text": "IMPORTS.FILE_OUTPUT_TYPES.REPLACE",
+                        "value": "Replace"
+                    },
+                    "fieldDelimiter": {
+                        "text": ",",
+                        "value": "Comma"
+                    },
+                    "maxInterpolation": {
+                        "value": 40,
+                        "units": "h"
+                    },
+                    "namePrefix": "",
+                    "nameSuffix": "",
+                    "firstDataRow": 2,
+                    "nameRow": 1,
+                    "description": "",
+                    "valueColumnOption": {
+                        "text": "IMPORTS.VALUE_COLUMN.ALL",
+                        "value": "All"
+                    },
+                    "valueUom": "",
+                    "lenientDaylightSavings": false,
+                    "itemType": {
+                        "text": "IMPORTS.SIGNAL",
+                        "value": "Signal"
+                    },
+                    "maxDuration": {
+                        "value": 40,
+                        "units": "h"
+                    },
+                    "endColumnName": "",
+                    "conditionName": "",
+                    "dayFirstDefault": {
+                        "text": "IMPORTS.FIRST.MONTH",
+                        "value": false
+                    },
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true
+                },
+                "sqTrendCapsuleStore": {
+                    "selectedCapsules": [],
+                    "dataStatus": "itemDataPresent",
+                    "warningCount": 0,
+                    "warningLogs": [],
+                    "timingInformation": "",
+                    "meterInformation": "",
+                    "editingId": null,
+                    "previewCapsulesDefinition": {},
+                    "capsulesPerPage": 30,
+                    "items": []
+                },
+                "sqCapsuleGroupStore": {
+                    "capsules": []
+                },
+                "sqCursorStore": {
+                    "calendarCursors": [],
+                    "capsuleCursors": [],
+                    "showValues": true
+                },
+                "sqTrendCapsuleSetStore": {
+                    "items": [
+                        {
+                            "lane": 1,
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "id": "02A76446-56C6-46BA-A2DD-C101C3911692",
+                            "name": "Bearing Normal Operation",
+                            "selected": true,
+                            "color": "#E1498E"
+                        },
+                        {
+                            "lane": 2,
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "id": "72D61D17-81E4-4155-9E7B-DFAB5D552F40",
+                            "name": "Bearing Abnormal Vibration",
+                            "selected": false,
+                            "color": "#7030A0"
+                        },
+                        {
+                            "lane": 3,
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "id": "9B7BD833-5399-40B2-8BE0-A521B756FB04",
+                            "name": "Daily",
+                            "selected": false,
+                            "color": "#4B7ABD"
+                        }
+                    ]
+                },
+                "sqTrendStore": {
+                    "view": "calendar",
+                    "isCompareMode": false,
+                    "enabledColumns": {
+                        "CAPSULES": {
+                            "startTime": true
+                        },
+                        "SERIES": {
+                            "lane": true
+                        }
+                    },
+                    "propertyColumns": {},
+                    "selectedRegion": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "capsuleTimeOffsets": {
+                        "lower": 0,
+                        "upper": 0
+                    },
+                    "dataSummary": {
+                        "type": "AUTO",
+                        "value": 0,
+                        "discreteUnits": {
+                            "value": 0,
+                            "units": "min"
+                        },
+                        "isSlider": true
+                    },
+                    "capsuleTimeColorMode": "signal",
+                    "compareViewColorMode": "rainbow",
+                    "capsulePreview": false,
+                    "customizationMode": "off",
+                    "dimDataOutsideCapsules": false,
+                    "hideUnselectedItems": true,
+                    "labelDisplayConfiguration": {
+                        "name": "lane",
+                        "description": "off",
+                        "asset": "off",
+                        "assetPathLevels": 1,
+                        "line": "off",
+                        "unitOfMeasure": "off",
+                        "custom": "off",
+                        "customLabels": []
+                    },
+                    "showCapsuleLaneLabels": true,
+                    "panelProps": {},
+                    "panelSorters": {
+                        "CAPSULES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "CAPSULE_SERIES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "SERIES": {
+                            "sortBy": "lane",
+                            "sortAsc": true
+                        },
+                        "INVESTIGATE_ITEMS": {
+                            "sortBy": "name",
+                            "sortAsc": true
+                        }
+                    },
+                    "capsulePanelFilters": {},
+                    "capsulePanelOffset": 0,
+                    "capsulePanelMaxOffset": 0,
+                    "capsulePanelHasNext": false,
+                    "showGridlines": false,
+                    "capsuleProperties": [],
+                    "capsuleAlignment": [],
+                    "showChartConfiguration": false
+                },
+                "sqTreemapStore": {
+                    "parent": {},
+                    "statistics": []
+                },
+                "sqExportExcelPanelStore": {
+                    "name": "Promotional - Seeq Integration with Python Machine Learning - Bearing Failure",
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "exportStatistics": true,
+                    "exportData": true,
+                    "timeRange": {
+                        "start": 1692119148004,
+                        "end": 1692205548004
+                    },
+                    "exportTimeZone": {
+                        "name": "Etc/GMT+4",
+                        "displayName": "UTC-4",
+                        "offset": "-04:00",
+                        "offsetMinutes": -240
+                    },
+                    "gridOption": "custom",
+                    "gridSize": {
+                        "value": 1,
+                        "units": "min"
+                    },
+                    "gridOrigin": 1672545600000,
+                    "gridOriginEnabled": false
+                },
+                "sqScatterPlotStore": {
+                    "xSignal": null,
+                    "ySignals": [],
+                    "selector": {
+                        "low": 0.5,
+                        "high": 0.75
+                    },
+                    "selectedRegion": {
+                        "x": {
+                            "min": null,
+                            "max": null
+                        },
+                        "ys": {}
+                    },
+                    "viewRegion": {
+                        "x": {
+                            "min": null,
+                            "max": null
+                        },
+                        "ys": {}
+                    },
+                    "fxLines": [],
+                    "colorConditionIds": [],
+                    "colorByItemColor": false,
+                    "colorRanges": [],
+                    "plotMode": "DISPLAY_RANGE",
+                    "plotView": "SCATTER_PLOT",
+                    "connect": false,
+                    "showTooltips": true,
+                    "isMarkerSizeCustom": false,
+                    "densityPlotData": [],
+                    "numXBins": 40,
+                    "numYBins": 20,
+                    "xBinSize": 0,
+                    "yBinSize": 0
+                },
+                "sqExportODataPanelStore": {
+                    "name": "Seeq Integration with Python Machine Learning",
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "autoupdateTimeRange": false,
+                    "timeRange": {
+                        "start": 1076557800000,
+                        "end": 1077204660000
+                    },
+                    "exportTimeZone": {
+                        "name": "Etc/GMT+4",
+                        "displayName": "UTC-4",
+                        "offset": "-04:00",
+                        "offsetMinutes": -240
+                    },
+                    "gridOption": "custom",
+                    "gridSize": {
+                        "value": 1,
+                        "units": "min"
+                    },
+                    "gridOrigin": 1672545600000,
+                    "gridOriginEnabled": false,
+                    "exportNameSuffix": ""
+                },
+                "sqTableBuilderStore": {
+                    "mode": "condition",
+                    "headers": {
+                        "condition": {
+                            "type": "start",
+                            "format": "l"
+                        },
+                        "simple": {
+                            "type": "startEnd",
+                            "format": "lll"
+                        }
+                    },
+                    "columns": {
+                        "condition": [
+                            {
+                                "backgroundColor": "#ffffff",
+                                "key": "name",
+                                "headerTextAlign": "center",
+                                "headerTextStyle": [
+                                    "bold"
+                                ]
+                            }
+                        ],
+                        "simple": [
+                            {
+                                "key": "name",
+                                "headerTextAlign": "center",
+                                "headerTextStyle": [
+                                    "bold"
+                                ]
+                            },
+                            {
+                                "key": "valueUnitOfMeasure",
+                                "headerTextAlign": "center",
+                                "headerTextStyle": [
+                                    "bold"
+                                ]
+                            }
+                        ]
+                    },
+                    "isTransposed": {
+                        "condition": false,
+                        "simple": false
+                    },
+                    "assetId": {},
+                    "isHomogenizeUnits": {
+                        "condition": false,
+                        "simple": false
+                    },
+                    "itemFilters": {},
+                    "itemSorts": {},
+                    "isMigrating": false,
+                    "chartView": {
+                        "enabled": false,
+                        "settings": {
+                            "title": "",
+                            "legend": true,
+                            "dataLabels": true,
+                            "categoryLabels": true,
+                            "rows": [],
+                            "columns": [],
+                            "categoryColumns": [
+                                "name"
+                            ],
+                            "showSettings": false,
+                            "position": {
+                                "x": 100,
+                                "y": 100
+                            }
+                        }
+                    },
+                    "useSignalColorsInChart": true,
+                    "isTableStriped": {
+                        "condition": false
+                    }
+                },
+                "sqFormulaToolStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "formula": "",
+                    "parameters": [],
+                    "navigationStack": [],
+                    "helpShown": true
+                },
+                "sqThresholdMetricStore": {
+                    "id": "DE75A972-FF45-4CD0-9784-116640827382",
+                    "name": "Count of Abnormal Events",
+                    "originalParameters": [
+                        {
+                            "id": "72D61D17-81E4-4155-9E7B-DFAB5D552F40",
+                            "name": "Bearing Abnormal Vibration",
+                            "type": "CalculatedCondition",
+                            "ancestors": [],
+                            "hasChildren": false,
+                            "isArchived": false,
+                            "isRedacted": false,
+                            "itemType": "capsuleSetDisplayType",
+                            "assets": [
+                                {
+                                    "formattedName": "",
+                                    "pathComponentIds": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9B7BD833-5399-40B2-8BE0-A521B756FB04",
+                            "name": "Daily",
+                            "type": "CalculatedCondition",
+                            "ancestors": [],
+                            "hasChildren": false,
+                            "isArchived": false,
+                            "isRedacted": false,
+                            "itemType": "capsuleSetDisplayType",
+                            "conditionMetadata": {
+                                "maximumDuration": {
+                                    "uom": "d",
+                                    "value": 1.0416666666666667
+                                },
+                                "maxInterpolation": {
+                                    "uom": "d",
+                                    "value": 1.0416666666666667
+                                }
+                            },
+                            "assets": [
+                                {
+                                    "formattedName": "",
+                                    "pathComponentIds": []
+                                }
+                            ]
+                        }
+                    ],
+                    "advancedParametersCollapsed": true,
+                    "configVersion": 11,
+                    "measuredItem": {
+                        "id": "72D61D17-81E4-4155-9E7B-DFAB5D552F40",
+                        "name": "Bearing Abnormal Vibration",
+                        "itemType": "capsuleSetDisplayType"
+                    },
+                    "boundingCondition": {
+                        "id": "9B7BD833-5399-40B2-8BE0-A521B756FB04",
+                        "name": "Daily",
+                        "itemType": "capsuleSetDisplayType",
+                        "conditionMetadata": {
+                            "maximumDuration": {
+                                "uom": "d",
+                                "value": 1.0416666666666667
+                            },
+                            "maxInterpolation": {
+                                "uom": "d",
+                                "value": 1.0416666666666667
+                            }
+                        }
+                    },
+                    "processType": "Condition",
+                    "aggregationOperator": {
+                        "key": "count",
+                        "timeUnits": "s"
+                    },
+                    "duration": {},
+                    "period": {},
+                    "boundingConditionMaximumDuration": {
+                        "value": 40,
+                        "units": "h"
+                    },
+                    "thresholds": {},
+                    "neutralColor": "#ffffff",
+                    "scopedTo": "3B9FF00B-25E4-42F3-95B4-004D99488A6D",
+                    "aggregationFunction": "count()"
+                },
+                "sqScatterConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "isBounding": false,
+                    "isCleansing": false,
+                    "minDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "mergeDuration": {
+                        "value": 0,
+                        "units": "min"
+                    }
+                },
+                "sqScorecardStore": {
+                    "metrics": []
+                }
+            }
+        }
+    }
+}

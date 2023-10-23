@@ -1,0 +1,1057 @@
+{
+    "ID": "0EE3D246-57C5-EC70-8D5B-B241A818DB70",
+    "Type": "Workstep",
+    "Data": {
+        "version": 54,
+        "state": {
+            "stores": {
+                "sqAssetGroupStore": {
+                    "id": "",
+                    "assets": [],
+                    "name": "",
+                    "description": "",
+                    "errors": [],
+                    "isLoading": false,
+                    "hasUnsavedChanges": false
+                },
+                "sqInvestigateStore": {
+                    "item": {},
+                    "activeTool": "formula",
+                    "displayMode": "EDIT",
+                    "derivedDataPanelOpen": true
+                },
+                "sqPluginStore": {
+                    "pluginState": {}
+                },
+                "sqDurationStore": {
+                    "autoUpdate": {
+                        "mode": "OFF",
+                        "offset": -35906118025,
+                        "manualInterval": {
+                            "value": 1,
+                            "units": "min"
+                        }
+                    },
+                    "displayRange": {
+                        "start": 1548754021261,
+                        "end": 1549358821261
+                    },
+                    "investigateRange": {
+                        "start": 1546368954963,
+                        "end": 1585248954963
+                    }
+                },
+                "sqExploreFolderModalStore": {
+                    "pageSize": 5
+                },
+                "sqExploreWorkbookModalStore": {
+                    "pageSize": 5
+                },
+                "sqWorksheetStore": {
+                    "tabsets": {
+                        "sidebar": 0
+                    },
+                    "viewKey": "TABLE",
+                    "selectedIdsForView": {
+                        "TREND": [
+                            "6AD9FDA5-76E7-4365-8895-79431E48BCF5"
+                        ]
+                    },
+                    "browsePanelCollapsed": false,
+                    "displayWidth": 850,
+                    "displayHeight": 575,
+                    "resizeEnabled": true,
+                    "conditionToSeriesGrouping": {},
+                    "capsuleGroupMode": false,
+                    "showAssetSelectionWarnings": true
+                },
+                "sqSearchStore": {
+                    "nameFilter": "",
+                    "isExactName": false,
+                    "descriptionFilter": "",
+                    "typeFilter": [],
+                    "datasourceFilter": [],
+                    "sortBy": "",
+                    "isAdvancedMode": false,
+                    "mode": "tree",
+                    "currentAsset": "8316271A-8F99-4A5C-82FB-D98E46860703",
+                    "selectAllChecked": false,
+                    "selectedItemIds": []
+                },
+                "sqCompositeSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "color": "",
+                    "isUpgradedUnionCondition": false,
+                    "inclusiveA": true,
+                    "inclusiveB": true,
+                    "matchProperty": "n/a",
+                    "useEarliestStart": true,
+                    "keepProperties": false
+                },
+                "sqConditionWithPropertiesStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "properties": [
+                        {
+                            "stringSignal": "",
+                            "propertyName": ""
+                        },
+                        {
+                            "stringSignal": "",
+                            "propertyName": ""
+                        }
+                    ]
+                },
+                "sqValueSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "a"
+                        ]
+                    },
+                    "isSimple": true,
+                    "useValidValues": false,
+                    "isCleansing": false,
+                    "simpleValue": null,
+                    "simpleLowerValue": null,
+                    "minDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "mergeDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "advancedEntryValue": null,
+                    "advancedEntryLowerValue": null,
+                    "advancedEntryDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "advancedExitValue": null,
+                    "advancedExitDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "isMigratedDeviationSearch": false,
+                    "version": "V3"
+                },
+                "sqItemPropertiesStore": {
+                    "advancedParametersCollapsed": true
+                },
+                "sqManualSignalStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "interpolationMethod": "Linear",
+                    "maximumInterpolation": {
+                        "value": "40",
+                        "units": "h"
+                    },
+                    "samples": [],
+                    "sort": {
+                        "asc": false,
+                        "property": "dateTime"
+                    },
+                    "color": ""
+                },
+                "sqManualConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "color": ""
+                },
+                "sqFftStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "signalToAggregate": {
+                        "predicate": [
+                            "name",
+                            "signalToAggregate"
+                        ]
+                    },
+                    "rateType": true,
+                    "rate": {},
+                    "outputUnits": "min",
+                    "highPass": {},
+                    "lowPass": {},
+                    "useHighPass": false,
+                    "useLowPass": false
+                },
+                "sqAggregationBinStore": {
+                    "signalToAggregate": {
+                        "predicate": [
+                            "name",
+                            "signalToAggregate"
+                        ]
+                    },
+                    "mode": "by_y_value",
+                    "includeEmptyBuckets": true,
+                    "yValueSignal": "",
+                    "stat": {
+                        "key": null,
+                        "timeUnits": "s"
+                    },
+                    "aggregationConfigs": [
+                        {
+                            "id": 1,
+                            "mode": "by_y_value",
+                            "capsuleMode": "intersect",
+                            "yValueBinMode": "size",
+                            "valid": false
+                        }
+                    ]
+                },
+                "sqSignalFromConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputItem": {
+                        "predicate": [
+                            "name",
+                            "series"
+                        ]
+                    },
+                    "condition": {
+                        "predicate": [
+                            "name",
+                            "capsules"
+                        ]
+                    },
+                    "interpolation": "DISCRETE",
+                    "stat": {
+                        "timeUnits": "s"
+                    },
+                    "color": ""
+                },
+                "sqPeriodicConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "timezone": "US/Eastern",
+                    "frequencies": [],
+                    "weekStart": "Day.Sunday",
+                    "quarterStart": {
+                        "month": "Month.January",
+                        "day": 1
+                    },
+                    "shift": {
+                        "offset": 8,
+                        "duration": 8
+                    },
+                    "offset": {
+                        "value": 0,
+                        "units": "min"
+                    }
+                },
+                "sqProfileSearchStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "a"
+                        ]
+                    },
+                    "similarity": 98,
+                    "normalizeAmplitude": true,
+                    "normalizeLocation": true,
+                    "selectedRegion": {}
+                },
+                "sqPredictionPanelStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "option": "linear",
+                    "polynomialValue": 2,
+                    "mustGoThroughZero": false,
+                    "lambda": 0,
+                    "windowStart": 1548754021261,
+                    "windowEnd": 1549358821261,
+                    "modelExpanded": false,
+                    "regressionMethod": "OLS",
+                    "variableSelection": 0.05,
+                    "variableSelectionEnabled": false,
+                    "color": ""
+                },
+                "sqSignalSmoothingStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "inputSignal"
+                        ]
+                    },
+                    "algorithmSelectedValue": "seeq-agile",
+                    "samplingRate": {},
+                    "smoothingWindow": {},
+                    "cutoff": {},
+                    "polynomialFactor": 2,
+                    "isSamplingRateAuto": true,
+                    "isCutoffAuto": true,
+                    "isTau": true,
+                    "tau": {
+                        "value": 10,
+                        "units": "min"
+                    },
+                    "alpha": 0.9,
+                    "isMigratedLowPassFilter": false,
+                    "color": ""
+                },
+                "sqDigitalFilterStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "inputSignal": {
+                        "predicate": [
+                            "name",
+                            "inputSignal"
+                        ]
+                    },
+                    "cutoff": {},
+                    "cutoff2": {},
+                    "samplingRate": {},
+                    "windowSize": {},
+                    "isAutoSamplingRate": true,
+                    "isAutoWindowSize": true,
+                    "color": ""
+                },
+                "sqTrendMetricStore": {
+                    "items": [
+                        {
+                            "axisAlign": "A",
+                            "axisAutoScale": true,
+                            "lane": 1,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": -1.49,
+                                "max": 1.49
+                            },
+                            "yAxisMin": -1,
+                            "yAxisMax": 1,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "6AD9FDA5-76E7-4365-8895-79431E48BCF5",
+                            "name": "Daily Lost Power",
+                            "selected": false,
+                            "color": "#36937E"
+                        },
+                        {
+                            "axisAlign": "B",
+                            "axisAutoScale": true,
+                            "lane": 2,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": -1.49,
+                                "max": 1.49
+                            },
+                            "yAxisMin": -1,
+                            "yAxisMax": 1,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "FD64D7B1-49F4-4C42-9319-0A39A3B1D176",
+                            "name": "Power lost due to Tracker Faults",
+                            "selected": false,
+                            "color": "#67B148"
+                        },
+                        {
+                            "axisAlign": "C",
+                            "axisAutoScale": true,
+                            "lane": 3,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": -1.49,
+                                "max": 1.49
+                            },
+                            "yAxisMin": -1,
+                            "yAxisMax": 1,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "2BD400D7-7E9E-4C8E-AA32-7B50A31BD02F",
+                            "name": "Estimated Power Lost due to Soiling",
+                            "selected": false,
+                            "color": "#115B6B"
+                        },
+                        {
+                            "axisAlign": "D",
+                            "axisAutoScale": true,
+                            "lane": 4,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": 151,
+                                "max": 449
+                            },
+                            "yAxisMin": 200,
+                            "yAxisMax": 400,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "47A756F9-0C7A-4CD6-AAC9-DF3BF6521976",
+                            "name": "Daily Lost Revenue",
+                            "selected": false,
+                            "color": "#F47B37"
+                        },
+                        {
+                            "axisAlign": "E",
+                            "axisAutoScale": true,
+                            "lane": 5,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": 75.5,
+                                "max": 224.5
+                            },
+                            "yAxisMin": 100,
+                            "yAxisMax": 200,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "6A27B83B-ADDF-4B0F-84AB-4671BD91BF04",
+                            "name": "Daily Revenue lost to Tracker Faults",
+                            "selected": false,
+                            "color": "#AE752A"
+                        },
+                        {
+                            "axisAlign": "F",
+                            "axisAutoScale": true,
+                            "lane": 6,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisConfig": {
+                                "min": -1.49,
+                                "max": 1.49
+                            },
+                            "yAxisMin": -1,
+                            "yAxisMax": 1,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "8952A542-ACE4-4A2A-A5B5-BA7796E90873",
+                            "name": "Daily Revenue lost to Soiling",
+                            "selected": false,
+                            "color": "#068C45"
+                        }
+                    ]
+                },
+                "sqTrendTableStore": {
+                    "items": []
+                },
+                "sqReferencePanelStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "windowStart": 1548754021261,
+                    "windowEnd": 1549358821261,
+                    "griddingPeriod": {
+                        "value": 5,
+                        "units": "min"
+                    },
+                    "referenceStat": "",
+                    "multiplier": 1,
+                    "inputGroups": [
+                        {
+                            "inputSignal": {},
+                            "inputCondition": {}
+                        }
+                    ]
+                },
+                "sqDisplayToolStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "isScaled": true
+                },
+                "sqTrendScalarStore": {
+                    "items": []
+                },
+                "sqTrendSeriesStore": {
+                    "items": [
+                        {
+                            "axisAlign": "G",
+                            "axisAutoScale": true,
+                            "lane": 7,
+                            "rightAxis": false,
+                            "dashStyle": "Solid",
+                            "lineWidth": 1,
+                            "autoDisabled": false,
+                            "axisVisibility": true,
+                            "yAxisType": "linear",
+                            "sampleDisplayOption": "line",
+                            "id": "F0EF05AA-4E9D-4554-9F01-E5F628F1C49C",
+                            "name": "Tracker 2 Angle",
+                            "selected": false,
+                            "color": "#2DBBA7",
+                            "interpolationMethod": {
+                                "value": "Linear"
+                            }
+                        }
+                    ],
+                    "editingId": null,
+                    "previewSeriesDefinition": {}
+                },
+                "sqImportDatafileStore": {
+                    "uploadFilename": "",
+                    "filename": "",
+                    "keyColumnIndex": 1,
+                    "keyColumnName": "",
+                    "interpolationMethod": {
+                        "text": "IMPORTS.INTERPOLATION.LINEAR",
+                        "value": "Linear"
+                    },
+                    "validationMode": {
+                        "text": "IMPORTS.VALIDATION_MODE_TYPES.FAIL",
+                        "value": "Fail"
+                    },
+                    "fileOutputType": {
+                        "text": "IMPORTS.FILE_OUTPUT_TYPES.REPLACE",
+                        "value": "Replace"
+                    },
+                    "fieldDelimiter": {
+                        "text": ",",
+                        "value": "Comma"
+                    },
+                    "maxInterpolation": {
+                        "value": 40,
+                        "units": "h"
+                    },
+                    "namePrefix": "",
+                    "nameSuffix": "",
+                    "firstDataRow": 2,
+                    "nameRow": 1,
+                    "description": "",
+                    "valueColumnOption": {
+                        "text": "IMPORTS.VALUE_COLUMN.ALL",
+                        "value": "All"
+                    },
+                    "valueUom": "",
+                    "lenientDaylightSavings": false,
+                    "itemType": {
+                        "text": "IMPORTS.SIGNAL",
+                        "value": "Signal"
+                    },
+                    "maxDuration": {
+                        "value": 40,
+                        "units": "h"
+                    },
+                    "endColumnName": "",
+                    "conditionName": "",
+                    "dayFirstDefault": {
+                        "text": "IMPORTS.FIRST.MONTH",
+                        "value": false
+                    },
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true
+                },
+                "sqTrendCapsuleStore": {
+                    "selectedCapsules": [],
+                    "dataStatus": "itemDataPresent",
+                    "warningCount": 0,
+                    "warningLogs": [],
+                    "timingInformation": "",
+                    "meterInformation": "",
+                    "editingId": null,
+                    "previewCapsulesDefinition": {},
+                    "capsulesPerPage": 30,
+                    "items": []
+                },
+                "sqCapsuleGroupStore": {
+                    "capsules": []
+                },
+                "sqCursorStore": {
+                    "calendarCursors": [],
+                    "capsuleCursors": [],
+                    "showValues": true
+                },
+                "sqTrendCapsuleSetStore": {
+                    "items": []
+                },
+                "sqTrendStore": {
+                    "view": "calendar",
+                    "isCompareMode": false,
+                    "enabledColumns": {
+                        "CAPSULES": {
+                            "startTime": true
+                        },
+                        "SERIES": {
+                            "lane": true,
+                            "asset": true
+                        }
+                    },
+                    "propertyColumns": {},
+                    "selectedRegion": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "capsuleTimeOffsets": {
+                        "lower": 0,
+                        "upper": 0
+                    },
+                    "dataSummary": {
+                        "type": "AUTO",
+                        "value": 0,
+                        "discreteUnits": {
+                            "value": 0,
+                            "units": "min"
+                        },
+                        "isSlider": true
+                    },
+                    "capsuleTimeColorMode": "signal",
+                    "compareViewColorMode": "rainbow",
+                    "capsulePreview": false,
+                    "customizationMode": "off",
+                    "dimDataOutsideCapsules": false,
+                    "hideUnselectedItems": true,
+                    "labelDisplayConfiguration": {
+                        "name": "off",
+                        "description": "off",
+                        "asset": "off",
+                        "assetPathLevels": 1,
+                        "line": "off",
+                        "unitOfMeasure": "off",
+                        "custom": "off",
+                        "customLabels": []
+                    },
+                    "showCapsuleLaneLabels": false,
+                    "panelProps": {},
+                    "panelSorters": {
+                        "CAPSULES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "CAPSULE_SERIES": {
+                            "sortBy": "startTime",
+                            "sortAsc": true
+                        },
+                        "SERIES": {
+                            "sortBy": "lane",
+                            "sortAsc": true
+                        },
+                        "INVESTIGATE_ITEMS": {
+                            "sortBy": "name",
+                            "sortAsc": true
+                        }
+                    },
+                    "capsulePanelFilters": {},
+                    "capsulePanelOffset": 0,
+                    "capsulePanelMaxOffset": 0,
+                    "capsulePanelHasNext": false,
+                    "showGridlines": false,
+                    "capsuleProperties": [],
+                    "capsuleAlignment": [],
+                    "showChartConfiguration": true
+                },
+                "sqTreemapStore": {
+                    "parent": {},
+                    "statistics": []
+                },
+                "sqExportExcelPanelStore": {
+                    "name": "Promotional - Solar: Axis Tracking or Soiling Loss Calculations",
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "exportStatistics": true,
+                    "exportData": true,
+                    "timeRange": {
+                        "start": 1548754021261,
+                        "end": 1549358821261
+                    },
+                    "exportTimeZone": {
+                        "name": "US/Eastern",
+                        "displayName": "US/Eastern",
+                        "offset": "-04:00",
+                        "offsetMinutes": -240
+                    },
+                    "gridOption": "custom",
+                    "gridSize": {
+                        "value": 5,
+                        "units": "min"
+                    },
+                    "gridOrigin": 1672549200000,
+                    "gridOriginEnabled": false
+                },
+                "sqScatterPlotStore": {
+                    "xSignal": {
+                        "id": "95D149DB-B613-496B-88FC-0B297C35B572"
+                    },
+                    "ySignals": [
+                        {
+                            "id": "D0F5A381-03E4-482E-A3FA-5EF583B31C6B"
+                        }
+                    ],
+                    "selector": {
+                        "low": 0.5,
+                        "high": 0.75
+                    },
+                    "selectedRegion": {
+                        "x": {
+                            "min": null,
+                            "max": null
+                        },
+                        "ys": {}
+                    },
+                    "viewRegion": {
+                        "x": {
+                            "min": null,
+                            "max": null
+                        },
+                        "ys": {}
+                    },
+                    "fxLines": [],
+                    "colorConditionIds": [],
+                    "colorByItemColor": false,
+                    "colorRanges": [],
+                    "plotMode": "DISPLAY_RANGE",
+                    "plotView": "SCATTER_PLOT",
+                    "connect": false,
+                    "showTooltips": true,
+                    "isMarkerSizeCustom": false,
+                    "densityPlotData": [],
+                    "numXBins": 40,
+                    "numYBins": 20,
+                    "xBinSize": 0,
+                    "yBinSize": 0
+                },
+                "sqExportODataPanelStore": {
+                    "name": "Promotional - Solar: Axis Tracking or Soiling Loss Calculations",
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "autoupdateTimeRange": false,
+                    "timeRange": {
+                        "start": 1548754021261,
+                        "end": 1549358821261
+                    },
+                    "exportTimeZone": {
+                        "name": "US/Eastern",
+                        "displayName": "US/Eastern",
+                        "offset": "-04:00",
+                        "offsetMinutes": -240
+                    },
+                    "gridOption": "custom",
+                    "gridSize": {
+                        "value": 5,
+                        "units": "min"
+                    },
+                    "gridOrigin": 1672549200000,
+                    "gridOriginEnabled": false,
+                    "exportNameSuffix": ""
+                },
+                "sqTableBuilderStore": {
+                    "mode": "condition",
+                    "headers": {
+                        "condition": {
+                            "type": "start",
+                            "format": "l"
+                        },
+                        "simple": {
+                            "type": "startEnd",
+                            "format": "lll"
+                        }
+                    },
+                    "columns": {
+                        "condition": [
+                            {
+                                "backgroundColor": "#ffffff",
+                                "key": "name",
+                                "headerTextAlign": "center",
+                                "headerTextStyle": [
+                                    "bold"
+                                ]
+                            }
+                        ],
+                        "simple": [
+                            {
+                                "key": "name",
+                                "headerTextAlign": "center",
+                                "headerTextStyle": [
+                                    "bold"
+                                ]
+                            },
+                            {
+                                "key": "valueUnitOfMeasure",
+                                "headerTextAlign": "center",
+                                "headerTextStyle": [
+                                    "bold"
+                                ]
+                            }
+                        ]
+                    },
+                    "isTransposed": {
+                        "condition": false,
+                        "simple": false
+                    },
+                    "assetId": {},
+                    "isHomogenizeUnits": {
+                        "condition": false,
+                        "simple": false
+                    },
+                    "itemFilters": {},
+                    "itemSorts": {},
+                    "isMigrating": false,
+                    "chartView": {
+                        "enabled": false,
+                        "settings": {
+                            "title": "",
+                            "legend": true,
+                            "dataLabels": true,
+                            "categoryLabels": true,
+                            "rows": [],
+                            "columns": [],
+                            "categoryColumns": [
+                                "name"
+                            ],
+                            "showSettings": false,
+                            "position": {
+                                "x": 100,
+                                "y": 100
+                            }
+                        }
+                    },
+                    "useSignalColorsInChart": true
+                },
+                "sqFormulaToolStore": {
+                    "id": "5BCEB7C5-C2EA-47F0-81FF-6914CECA8B20",
+                    "name": "Tracker 2 Dev",
+                    "originalParameters": [
+                        {
+                            "description": "column = Tracker Setpoing Angle; last file imported = SeeqExport_v7.csv",
+                            "isAssetGroupItem": false,
+                            "includedProperties": {},
+                            "parameters": [],
+                            "id": "E44B7393-F27A-45B9-A5CE-A614F8DD770A",
+                            "name": "Tracker Angle SP",
+                            "type": "StoredSignal",
+                            "ancestors": [
+                                {
+                                    "id": "9E938053-2C9C-4E40-AAEE-84FCE3775F33",
+                                    "name": "SeeqExport_v7",
+                                    "type": "Datafile",
+                                    "isArchived": false,
+                                    "isRedacted": false
+                                }
+                            ],
+                            "hasChildren": false,
+                            "isArchived": false,
+                            "isRedacted": false,
+                            "valueUnitOfMeasure": "",
+                            "itemType": "seriesDisplayType",
+                            "signalMetadata": {
+                                "interpolationMethod": "Linear",
+                                "keyUnitOfMeasure": "ns",
+                                "maxInterpolation": {
+                                    "uom": "string",
+                                    "value": null
+                                },
+                                "valueUnitOfMeasure": ""
+                            },
+                            "assets": [
+                                {
+                                    "id": "9E938053-2C9C-4E40-AAEE-84FCE3775F33",
+                                    "name": "SeeqExport_v7",
+                                    "formattedName": "SeeqExport_v7",
+                                    "pathComponentIds": [
+                                        "9E938053-2C9C-4E40-AAEE-84FCE3775F33"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "description": "column = Tracker 2 Angle; last file imported = SeeqExport_v7.csv",
+                            "isAssetGroupItem": false,
+                            "includedProperties": {},
+                            "parameters": [],
+                            "id": "F0EF05AA-4E9D-4554-9F01-E5F628F1C49C",
+                            "name": "Tracker 2 Angle",
+                            "type": "StoredSignal",
+                            "ancestors": [
+                                {
+                                    "id": "43FDBA3E-A943-4F03-A772-3BDE35CBCC12",
+                                    "name": "SeeqExport_v7",
+                                    "type": "Datafile",
+                                    "isArchived": false,
+                                    "isRedacted": false
+                                }
+                            ],
+                            "hasChildren": false,
+                            "isArchived": false,
+                            "isRedacted": false,
+                            "valueUnitOfMeasure": "",
+                            "itemType": "seriesDisplayType",
+                            "signalMetadata": {
+                                "interpolationMethod": "Linear",
+                                "keyUnitOfMeasure": "ns",
+                                "maxInterpolation": {
+                                    "uom": "string",
+                                    "value": null
+                                },
+                                "valueUnitOfMeasure": ""
+                            },
+                            "assets": [
+                                {
+                                    "id": "43FDBA3E-A943-4F03-A772-3BDE35CBCC12",
+                                    "name": "SeeqExport_v7",
+                                    "formattedName": "SeeqExport_v7",
+                                    "pathComponentIds": [
+                                        "43FDBA3E-A943-4F03-A772-3BDE35CBCC12"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "advancedParametersCollapsed": true,
+                    "configVersion": 11,
+                    "formula": "$set_point-$T2_actual",
+                    "parameters": [
+                        {
+                            "identifier": "set_point",
+                            "item": {
+                                "description": "column = Tracker Setpoing Angle; last file imported = SeeqExport_v7.csv",
+                                "isAssetGroupItem": false,
+                                "includedProperties": {},
+                                "parameters": [],
+                                "id": "E44B7393-F27A-45B9-A5CE-A614F8DD770A",
+                                "name": "Tracker Angle SP",
+                                "type": "StoredSignal",
+                                "ancestors": [
+                                    {
+                                        "id": "9E938053-2C9C-4E40-AAEE-84FCE3775F33",
+                                        "name": "SeeqExport_v7",
+                                        "type": "Datafile",
+                                        "isArchived": false,
+                                        "isRedacted": false
+                                    }
+                                ],
+                                "hasChildren": false,
+                                "isArchived": false,
+                                "isRedacted": false,
+                                "valueUnitOfMeasure": "",
+                                "itemType": "seriesDisplayType",
+                                "signalMetadata": {
+                                    "interpolationMethod": "Linear",
+                                    "keyUnitOfMeasure": "ns",
+                                    "maxInterpolation": {
+                                        "uom": "string",
+                                        "value": null
+                                    },
+                                    "valueUnitOfMeasure": ""
+                                },
+                                "assets": [
+                                    {
+                                        "id": "9E938053-2C9C-4E40-AAEE-84FCE3775F33",
+                                        "name": "SeeqExport_v7",
+                                        "formattedName": "SeeqExport_v7",
+                                        "pathComponentIds": [
+                                            "9E938053-2C9C-4E40-AAEE-84FCE3775F33"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "identifier": "T2_actual",
+                            "item": {
+                                "description": "column = Tracker 2 Angle; last file imported = SeeqExport_v7.csv",
+                                "isAssetGroupItem": false,
+                                "includedProperties": {},
+                                "parameters": [],
+                                "id": "F0EF05AA-4E9D-4554-9F01-E5F628F1C49C",
+                                "name": "Tracker 2 Angle",
+                                "type": "StoredSignal",
+                                "ancestors": [
+                                    {
+                                        "id": "43FDBA3E-A943-4F03-A772-3BDE35CBCC12",
+                                        "name": "SeeqExport_v7",
+                                        "type": "Datafile",
+                                        "isArchived": false,
+                                        "isRedacted": false
+                                    }
+                                ],
+                                "hasChildren": false,
+                                "isArchived": false,
+                                "isRedacted": false,
+                                "valueUnitOfMeasure": "",
+                                "itemType": "seriesDisplayType",
+                                "signalMetadata": {
+                                    "interpolationMethod": "Linear",
+                                    "keyUnitOfMeasure": "ns",
+                                    "maxInterpolation": {
+                                        "uom": "string",
+                                        "value": null
+                                    },
+                                    "valueUnitOfMeasure": ""
+                                },
+                                "assets": [
+                                    {
+                                        "id": "43FDBA3E-A943-4F03-A772-3BDE35CBCC12",
+                                        "name": "SeeqExport_v7",
+                                        "formattedName": "SeeqExport_v7",
+                                        "pathComponentIds": [
+                                            "43FDBA3E-A943-4F03-A772-3BDE35CBCC12"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "navigationStack": [],
+                    "helpShown": true,
+                    "scopedTo": "66D753DE-9189-4E8D-BE65-AB7BA6408EC8"
+                },
+                "sqThresholdMetricStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "measuredItem": {
+                        "predicate": [
+                            "name",
+                            "measuredItem"
+                        ]
+                    },
+                    "boundingCondition": {
+                        "predicate": [
+                            "name",
+                            "boundingCondition"
+                        ]
+                    },
+                    "processType": "Condition",
+                    "aggregationOperator": {
+                        "key": null,
+                        "timeUnits": "s"
+                    },
+                    "duration": {},
+                    "period": {},
+                    "thresholds": {}
+                },
+                "sqScatterConditionStore": {
+                    "originalParameters": [],
+                    "advancedParametersCollapsed": true,
+                    "isBounding": false,
+                    "isCleansing": false,
+                    "minDuration": {
+                        "value": 0,
+                        "units": "min"
+                    },
+                    "mergeDuration": {
+                        "value": 0,
+                        "units": "min"
+                    }
+                },
+                "sqScorecardStore": {
+                    "metrics": []
+                }
+            }
+        }
+    }
+}

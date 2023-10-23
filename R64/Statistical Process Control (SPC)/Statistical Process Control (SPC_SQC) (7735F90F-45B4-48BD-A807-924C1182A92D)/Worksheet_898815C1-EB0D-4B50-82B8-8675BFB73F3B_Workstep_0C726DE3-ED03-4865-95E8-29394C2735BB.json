@@ -1,0 +1,63 @@
+{
+    "ID": "0C726DE3-ED03-4865-95E8-29394C2735BB",
+    "Type": "Workstep",
+    "Data": {
+        "version": 1,
+        "state": {
+            "stores": {
+                "sqTrendSeriesStore": {
+                    "items": []
+                },
+                "sqTrendCapsuleSetStore": {
+                    "items": []
+                },
+                "sqTrendScalarStore": {
+                    "items": []
+                },
+                "sqTrendMetricStore": {
+                    "items": []
+                },
+                "sqTrendTableStore": {
+                    "items": [
+                        {
+                            "name": "Histogram",
+                            "id": "7523A56B-0FCE-4C00-85F3-C89E0C4AB18C",
+                            "color": "#4055a3",
+                            "stack": false,
+                            "selected": false,
+                            "lane": 1,
+                            "axisAlign": "A"
+                        }
+                    ]
+                },
+                "sqDurationStore": {
+                    "autoUpdate": {
+                        "offset": -62426862592
+                    },
+                    "displayRange": {
+                        "start": 1602788065253,
+                        "end": 1612828039421
+                    },
+                    "investigateRange": {
+                        "start": 1602788065253,
+                        "end": 1612828039421
+                    }
+                },
+                "sqWorksheetStore": {
+                    "viewKey": "TREND"
+                },
+                "sqTrendStore": {
+                    "labelDisplayConfiguration": {
+                        "name": "lane",
+                        "asset": "off",
+                        "assetPathLevels": 1,
+                        "unitOfMeasure": "axis",
+                        "custom": "off",
+                        "customLabels": []
+                    },
+                    "showCapsuleLaneLabels": true
+                }
+            }
+        }
+    }
+}

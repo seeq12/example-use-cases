@@ -1,0 +1,82 @@
+{
+    "263DABD5-BA13-4C42-93ED-671C4EC23CE6": {
+        "Archived": false,
+        "Datasource Class": "OSIsoft AF",
+        "Datasource ID": "6d77cda6-254d-4274-8378-38a4a025b3c7",
+        "ID": "263DABD5-BA13-4C42-93ED-671C4EC23CE6",
+        "Name": "AF Cloud Server",
+        "Type": "Datasource"
+    },
+    "40B9E662-3BD6-41EE-A12C-FFB37E8B950A": {
+        "Archived": false,
+        "Datasource Class": "Ignition Gateway",
+        "Datasource ID": "2GLCZABXAOHEA3TOA1J8QCAa1!",
+        "ID": "40B9E662-3BD6-41EE-A12C-FFB37E8B950A",
+        "Name": "Demo Ignition Server",
+        "Type": "Datasource"
+    },
+    "6556D2A2-5A5C-455A-B4F6-47BDD05764E0": {
+        "Archived": false,
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "ID": "6556D2A2-5A5C-455A-B4F6-47BDD05764E0",
+        "Name": "Seeq Calculations",
+        "Type": "Datasource"
+    },
+    "733224C2-B6FE-4639-B255-DD7CB8AB58F6": {
+        "Archived": false,
+        "Datasource Class": "Auth",
+        "Datasource ID": "Seeq",
+        "ID": "733224C2-B6FE-4639-B255-DD7CB8AB58F6",
+        "Name": "Seeq",
+        "Type": "Datasource"
+    },
+    "800ACCD3-D2DA-4059-B706-EE7BB91D2851": {
+        "Archived": false,
+        "Datasource Class": "Tree File",
+        "Datasource ID": "645d785c-060b-4b3c-b534-89aa88d72a42",
+        "ID": "800ACCD3-D2DA-4059-B706-EE7BB91D2851",
+        "Name": "mydata\\trees",
+        "Type": "Datasource"
+    },
+    "97E1801C-E99B-4754-848D-A34715027C60": {
+        "Archived": false,
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "ID": "97E1801C-E99B-4754-848D-A34715027C60",
+        "Name": "Seeq Azure SSO",
+        "Type": "Datasource"
+    },
+    "E311DFB9-21E9-4285-AB2F-FE40725CDF54": {
+        "Archived": false,
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "ID": "E311DFB9-21E9-4285-AB2F-FE40725CDF54",
+        "Name": "Seeq Data Lab",
+        "Type": "Datasource"
+    },
+    "F093D306-9997-4411-AFED-989DDA65D98F": {
+        "Archived": false,
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "ID": "F093D306-9997-4411-AFED-989DDA65D98F",
+        "Name": "Imported CSV Files",
+        "Type": "Datasource"
+    },
+    "F292B402-B293-4CBF-99BD-0E4CE2979DB1": {
+        "Archived": false,
+        "Datasource Class": "Postgres Datums",
+        "Datasource ID": "default",
+        "ID": "F292B402-B293-4CBF-99BD-0E4CE2979DB1",
+        "Name": "Seeq Conditions Database",
+        "Type": "Datasource"
+    },
+    "FFA999E1-9E16-4D9C-93DA-CA0A24C8976B": {
+        "Archived": false,
+        "Datasource Class": "Seeq Metadata",
+        "Datasource ID": "Seeq Metadata",
+        "ID": "FFA999E1-9E16-4D9C-93DA-CA0A24C8976B",
+        "Name": "Seeq Metadata",
+        "Type": "Datasource"
+    }
+}

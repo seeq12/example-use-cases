@@ -1,0 +1,22 @@
+{
+    "Datasource Class": "Seeq Data Lab",
+    "Datasource ID": "Seeq Data Lab",
+    "Datasource Name": "Seeq Data Lab",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "(?<type>.*)",
+                "Datasource Class": "Seeq Data Lab",
+                "Datasource Name": "Seeq Data Lab",
+                "Data ID": "(?<data_id>.*)"
+            },
+            "New": {
+                "Type": "${type}",
+                "Datasource Class": "Seeq Data Lab",
+                "Datasource Name": "Seeq Data Lab",
+                "Data ID": "${data_id}"
+            }
+        }
+    ]
+}

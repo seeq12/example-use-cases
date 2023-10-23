@@ -1,0 +1,279 @@
+{
+    "Access Control": [
+        {
+            "ID": "b321509d-52c8-4dfb-8155-745d5f50a62c",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                "Name": "Partner Demo Access",
+                "Type": "UserGroup"
+            },
+            "Origin": "A4B1ADBF-9A6E-40F7-AA05-680B2FF32A9A",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "6d2af301-63c3-41d8-b906-4537e5976104",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "Curtis.Lew@InCentrik.com",
+                "First Name": "Curtis",
+                "ID": "40F6C513-6B05-4579-B2B8-3BC68AC2D58B",
+                "Is Admin": false,
+                "Last Name": "Lew",
+                "Name": "Curtis Lew",
+                "Type": "User",
+                "Username": "Curtis.Lew@InCentrik.com"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "40277324-56e4-402f-b1ec-24b69ab503da",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                "Name": "Everyone",
+                "Type": "UserGroup"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "991824bf-f3fc-4b16-8779-84aa9a0982cd",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                "Name": "Everyone",
+                "Type": "UserGroup"
+            },
+            "Origin": "A4B1ADBF-9A6E-40F7-AA05-680B2FF32A9A",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "51f69e50-7ea0-48a4-a9bb-643290b99676",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "shamus.cunningham@seeq.com",
+                "First Name": "Shamus",
+                "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                "Is Admin": true,
+                "Last Name": "Cunningham",
+                "Name": "Shamus Cunningham",
+                "Type": "User",
+                "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+            },
+            "Origin": "A4B1ADBF-9A6E-40F7-AA05-680B2FF32A9A",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "a9b59434-1d13-464d-8b4e-82d93597b13e",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "brigette.berbling@incentrik.com",
+                "First Name": "Brigette",
+                "ID": "C6FADD8A-CF5A-4B67-B878-7624DE155761",
+                "Is Admin": false,
+                "Last Name": "Berbling",
+                "Name": "Brigette Berbling",
+                "Type": "User",
+                "Username": "brigette.berbling@incentrik.com"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "9df03453-a784-4421-8165-bf28f2a45c43",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": "OWNER"
+        },
+        {
+            "ID": "42523d62-123d-4efe-b68b-c8def4b9013c",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": "A4B1ADBF-9A6E-40F7-AA05-680B2FF32A9A",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "9edb52bb-ac46-4b3a-aa5b-5abbeeb9940d",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                "Name": "Seeq Internal",
+                "Type": "UserGroup"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "b49e17a6-246c-4cd9-950c-b1c924a32c27",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                "Name": "Seeq Internal",
+                "Type": "UserGroup"
+            },
+            "Origin": "A4B1ADBF-9A6E-40F7-AA05-680B2FF32A9A",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        }
+    ],
+    "Ancestors": [
+        "__Corporate__",
+        "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+        "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+        "A4B1ADBF-9A6E-40F7-AA05-680B2FF32A9A"
+    ],
+    "Archived": false,
+    "Cache Enabled": false,
+    "Created At": "1551705048496000000",
+    "Data": "{}",
+    "Enabled": true,
+    "ID": "4C09F953-26EB-41E5-B214-545BF5359301",
+    "Name": "Promotional - CLPM Use Case",
+    "Original Server URL": "http://seeq-server",
+    "Owner": {
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "Datasource Name": "Seeq Azure SSO",
+        "Email": "Joseph.Reckamp@seeq.com",
+        "First Name": "Joe",
+        "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+        "Is Admin": true,
+        "Last Name": "Reckamp",
+        "Name": "Joe Reckamp",
+        "Type": "User",
+        "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+    },
+    "Path": "Corporate >> Industry Use Cases >> Production >> Control Loop Performance Monitoring",
+    "Search Folder ID": "A4B1ADBF-9A6E-40F7-AA05-680B2FF32A9A",
+    "Type": "Workbook",
+    "URL": "https://demo.seeq.dev/A4B1ADBF-9A6E-40F7-AA05-680B2FF32A9A/workbook/4C09F953-26EB-41E5-B214-545BF5359301/worksheet/743778D1-90FB-48C4-8C7A-9C4CDDE028DB",
+    "Unsearchable": false,
+    "Updated At": "1697708501527537696",
+    "Workbook Type": "Analysis",
+    "Worksheets": [
+        "743778D1-90FB-48C4-8C7A-9C4CDDE028DB",
+        "436EA8B1-2C24-40CF-ADAA-ED5FB1919662",
+        "54087170-763E-45EA-9619-3C23009BADAA",
+        "C8662C11-CF4C-46F7-9A60-AA81D71254E7",
+        "7E8BD869-7218-4843-9123-FA97C520FFC1",
+        "22259DC0-49A6-46F2-94B6-3825F90E6EC1",
+        "4B9427E2-FA62-4444-ABDF-0194AB051AC7"
+    ],
+    "workbookState": {
+        "state": {
+            "stores": {
+                "sqAnnotationStore": {
+                    "height": 675,
+                    "id": "20CC2A54-FC18-4389-96A3-3356C35F7FDF",
+                    "isAnnotatesExpanded": false,
+                    "isCkEnabled": true,
+                    "isCommentsExpanded": false,
+                    "isEditing": false,
+                    "isExpanded": false,
+                    "width": 800
+                }
+            }
+        },
+        "version": 1
+    }
+}

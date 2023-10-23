@@ -1,0 +1,21 @@
+{
+    "Definition": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1689631301948217911",
+        "Description": "Furnace Exchanger (Really Boiler) Blank (to have a schedule without updating anything)",
+        "Document": "<p>Monitoring Trends</p><ul><li><a href=\"/links?type&#61;workstep&amp;workbook&#61;0EE0AC65-2515-FB90-852E-03DD227F8EB1&amp;worksheet&#61;0EE24ED8-2648-F960-946C-3847317C61CA&amp;workstep&#61;0EE26475-8F04-F960-9920-3B2282A15E90\" rel=\"nofollow noopener noreferrer\">Furnace</a></li><li><a href=\"/links?type&#61;workstep&amp;workbook&#61;0EE0AC65-2515-FB90-852E-03DD227F8EB1&amp;worksheet&#61;0EE24ED8-2648-F960-946C-3847317C61CA&amp;workstep&#61;0EE24F11-7722-F960-AC86-A7E4541D1B97\" rel=\"nofollow noopener noreferrer\">Exchanger (Really Boiler)</a></li><li><a href=\"/links?type&#61;workstep&amp;workbook&#61;0EE0AC65-2515-FB90-852E-03DD227F8EB1&amp;worksheet&#61;0EE24ED8-2648-F960-946C-3847317C61CA&amp;workstep&#61;0EE24F11-DE3A-7300-AC9F-21CCB0C01ED7\" rel=\"nofollow noopener noreferrer\">Blank (to have a schedule without updating anything)</a></li></ul>",
+        "DocumentBackup\u02c9LjXAO8okMd52xtGMkaDcHh2O4Fv921fMzjtjGvUa70o\u02c92023-07-17T22:24:00Z": "<p>Monitoring\u00a0</p>",
+        "DocumentBackup\u02c9LjXAO8okMd52xtGMkaDcHh2O4Fv921fMzjtjGvUa70o\u02c92023-07-17T22:26:00Z": "<p>Monitoring Trends</p><ul><li><a href=\"/links?type&#61;workstep&amp;workbook&#61;0EE0AC65-2515-FB90-852E-03DD227F8EB1&amp;worksheet&#61;0EE24ED8-2648-F960-946C-3847317C61CA&amp;workstep&#61;0EE24F0F-8AA3-77C0-B7D2-F4CDD2DEC391\" rel=\"nofollow noopener noreferrer\">Furnace</a></li><li>Exchanger (Really Boiler)</li><li>Blank (to have a schedule without updating anything)</li></ul>",
+        "DocumentBackup\u02c9LjXAO8okMd52xtGMkaDcHh2O4Fv921fMzjtjGvUa70o\u02c92023-07-17T22:27:00Z": "<p>Monitoring Trends</p><ul><li><a href=\"/links?type&#61;workstep&amp;workbook&#61;0EE0AC65-2515-FB90-852E-03DD227F8EB1&amp;worksheet&#61;0EE24ED8-2648-F960-946C-3847317C61CA&amp;workstep&#61;0EE24F0F-8AA3-77C0-B7D2-F4CDD2DEC391\" rel=\"nofollow noopener noreferrer\">Furnace</a></li><li><a href=\"/links?type&#61;workstep&amp;workbook&#61;0EE0AC65-2515-FB90-852E-03DD227F8EB1&amp;worksheet&#61;0EE24ED8-2648-F960-946C-3847317C61CA&amp;workstep&#61;0EE24F11-7722-F960-AC86-A7E4541D1B97\" rel=\"nofollow noopener noreferrer\">Exchanger (Really Boiler)</a></li><li>Blank (to have a schedule without updating anything)</li></ul>",
+        "DocumentBackup\u02c9LjXAO8okMd52xtGMkaDcHh2O4Fv921fMzjtjGvUa70o\u02c92023-07-19T15:17:00Z": "<p>Monitoring Trends</p><ul><li>Furnace</li><li><a href=\"/links?type&#61;workstep&amp;workbook&#61;0EE0AC65-2515-FB90-852E-03DD227F8EB1&amp;worksheet&#61;0EE24ED8-2648-F960-946C-3847317C61CA&amp;workstep&#61;0EE24F11-7722-F960-AC86-A7E4541D1B97\" rel=\"nofollow noopener noreferrer\">Exchanger (Really Boiler)</a></li><li><a href=\"/links?type&#61;workstep&amp;workbook&#61;0EE0AC65-2515-FB90-852E-03DD227F8EB1&amp;worksheet&#61;0EE24ED8-2648-F960-946C-3847317C61CA&amp;workstep&#61;0EE24F11-DE3A-7300-AC9F-21CCB0C01ED7\" rel=\"nofollow noopener noreferrer\">Blank (to have a schedule without updating anything)</a></li></ul>",
+        "Enabled": true,
+        "ID": "0EE24ED8-30B5-60B0-842C-168AAA746E01",
+        "Is CK Enabled": true,
+        "Name": "Monitoring Trends",
+        "Plain Text Document": "Monitoring TrendsFurnaceExchanger (Really Boiler)Blank (to have a schedule without updating anything)",
+        "Type": "Journal",
+        "Unsearchable": false,
+        "Updated At": "1689779846760987899"
+    }
+}

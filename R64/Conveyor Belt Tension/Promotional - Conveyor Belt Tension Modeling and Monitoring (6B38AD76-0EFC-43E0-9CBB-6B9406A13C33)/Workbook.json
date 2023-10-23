@@ -1,0 +1,364 @@
+{
+    "Access Control": [
+        {
+            "ID": "92536b65-13d8-4449-8a74-94c5540078a7",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "andrew@nukon.com.au",
+                "First Name": "Andrew",
+                "ID": "0FE2FF5C-3342-4DF6-9B23-F29A2EE652A3",
+                "Is Admin": false,
+                "Last Name": "May",
+                "Name": "Andrew May",
+                "Type": "User",
+                "Username": "andrew@nukon.com.au"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ccb16c0-d772-4cb7-97ec-d59528a2b7fb",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                "Name": "Partner Demo Access",
+                "Type": "UserGroup"
+            },
+            "Origin": "F6B559E2-A666-4584-9A41-D82C32B1F330",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "8530bcee-1926-45d4-b63c-2871b57291fd",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                "Name": "Everyone",
+                "Type": "UserGroup"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "21d86111-d839-4541-a85a-1281ae4394b6",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                "Name": "Everyone",
+                "Type": "UserGroup"
+            },
+            "Origin": "F6B559E2-A666-4584-9A41-D82C32B1F330",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "3bd26a9c-f669-4aa2-90cc-6c8ccee9702f",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "rushikesh.kadhao@tridiagonal.com",
+                "First Name": "Rushikesh",
+                "ID": "751DD3A9-9EF9-404A-B33C-C6C1C70EB307",
+                "Is Admin": false,
+                "Last Name": "Kadhao",
+                "Name": "Rushikesh Kadhao",
+                "Type": "User",
+                "Username": "rushikesh.kadhao@tridiagonal.com"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0d303de5-ab34-4aec-5728-1c45a099a0ad",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "sharlinda.salim@seeq.com",
+                "First Name": "Sharlinda",
+                "ID": "801365F5-80BA-4AB4-B9A6-FD75A0194F64",
+                "Is Admin": true,
+                "Last Name": "Salim Sachithananthan",
+                "Name": "Sharlinda Salim Sachithananthan",
+                "Type": "User",
+                "Username": "jHQPy_rRZoDGshszN53Y8JSVWxW6zjV_82OkrpL9fW8"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "3ba0b08a-fcce-4f0f-98a3-6c1331c7870c",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "parth.sinha@tridiagonal.com",
+                "First Name": "Parth",
+                "ID": "842EDED1-BD3F-4293-ABEE-0683AB0462E0",
+                "Is Admin": false,
+                "Last Name": "Sinha",
+                "Name": "Parth Sinha",
+                "Type": "User",
+                "Username": "parth.sinha@tridiagonal.com"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "17ea4e75-fc31-421a-9f98-8f25ab27678f",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "shamus.cunningham@seeq.com",
+                "First Name": "Shamus",
+                "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                "Is Admin": true,
+                "Last Name": "Cunningham",
+                "Name": "Shamus Cunningham",
+                "Type": "User",
+                "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+            },
+            "Origin": "F6B559E2-A666-4584-9A41-D82C32B1F330",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "63471979-0ee0-4157-9302-61aa65f25e01",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": "OWNER"
+        },
+        {
+            "ID": "d3ddecf2-41c0-4591-b44e-73067c1a5878",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": "F6B559E2-A666-4584-9A41-D82C32B1F330",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "71a82f25-c7e4-4823-a707-350882363bbc",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "girish.joshi@tridiagonal.com",
+                "First Name": "Girish",
+                "ID": "CC29489C-A4E1-4F1C-9D83-3A462A4A75AD",
+                "Is Admin": false,
+                "Last Name": "Joshi",
+                "Name": "Girish Joshi",
+                "Type": "User",
+                "Username": "girish.joshi@tridiagonal.com"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "e0c51f31-7b2a-4764-8cb6-69dafd304d97",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "daniel@vertix.pe",
+                "First Name": "Daniel",
+                "ID": "D8526736-783F-4FBE-BBB3-2BC4D1A6DF90",
+                "Is Admin": false,
+                "Last Name": "Villon",
+                "Name": "Daniel Villon",
+                "Type": "User",
+                "Username": "daniel@vertix.pe"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "095b6b31-8490-4f57-a883-06b528c597e1",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                "Name": "Seeq Internal",
+                "Type": "UserGroup"
+            },
+            "Origin": "F6B559E2-A666-4584-9A41-D82C32B1F330",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        }
+    ],
+    "Ancestors": [
+        "__Corporate__",
+        "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+        "3020FE5C-0B81-405F-A32B-82E1A4A48A61",
+        "F6B559E2-A666-4584-9A41-D82C32B1F330"
+    ],
+    "Archived": false,
+    "Cache Enabled": false,
+    "Created At": "1574198951529710100",
+    "Data": "{}",
+    "Description": "Created by Seeq Data Lab",
+    "Enabled": true,
+    "ID": "6B38AD76-0EFC-43E0-9CBB-6B9406A13C33",
+    "Name": "Promotional - Conveyor Belt Tension Modeling and Monitoring",
+    "Original Server URL": "http://seeq-server",
+    "Owner": {
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "Datasource Name": "Seeq Azure SSO",
+        "Email": "Joseph.Reckamp@seeq.com",
+        "First Name": "Joe",
+        "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+        "Is Admin": true,
+        "Last Name": "Reckamp",
+        "Name": "Joe Reckamp",
+        "Type": "User",
+        "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+    },
+    "Path": "Corporate >> Industry Use Cases >> Production >> Conveyor Belt Tension Modeling and Monitoring",
+    "Search Folder ID": "F6B559E2-A666-4584-9A41-D82C32B1F330",
+    "Type": "Workbook",
+    "URL": "https://demo.seeq.dev/F6B559E2-A666-4584-9A41-D82C32B1F330/workbook/6B38AD76-0EFC-43E0-9CBB-6B9406A13C33/worksheet/32C49D42-1540-44B1-A9E1-0688402F7C68",
+    "Unsearchable": false,
+    "Updated At": "1695929618724150597",
+    "Workbook Type": "Analysis",
+    "Worksheets": [
+        "32C49D42-1540-44B1-A9E1-0688402F7C68",
+        "90CA5468-4A3D-49D2-9336-8252AB31D772",
+        "2BE4FD73-5A3A-461D-813F-C6D191053763",
+        "61B60DCA-DACE-4973-B748-3302ECC40CB5",
+        "AC343896-A4B4-448E-A59D-957DB7F9A251",
+        "D116F18D-5FAC-4985-88D0-FCE626E873D8",
+        "81BF4DE4-201F-4082-948B-0BA493425CE9",
+        "6A649447-7649-448D-B18F-E1445B490E4C",
+        "259ADA5F-9F06-49B2-9445-A2C59E9E3C8F",
+        "3BA824A7-F9AB-44FD-90AA-92CB2C54F26C",
+        "C1DB5E68-94EB-47B9-938B-D71F4D138DFF",
+        "6B4ED502-03DE-464E-8824-5366A8B575E9",
+        "1DEE12C3-2B5E-4193-8A06-3E655CF1AF63",
+        "0EDFEF83-A171-E850-BDE0-D778C844CAAC"
+    ],
+    "workbookState": {
+        "state": {
+            "stores": {
+                "sqAnnotationStore": {
+                    "height": 495,
+                    "id": "F10FB8B9-D08F-421A-B38B-2AFC4D47CC88",
+                    "isAnnotatesExpanded": false,
+                    "isCkEnabled": true,
+                    "isCommentsExpanded": false,
+                    "isEditing": false,
+                    "isExpanded": false,
+                    "width": 1225
+                }
+            }
+        },
+        "version": 1
+    }
+}

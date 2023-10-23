@@ -1,0 +1,213 @@
+{
+    "Access Control": [
+        {
+            "ID": "a5a2f015-fbed-40a3-9903-e75271ecd30e",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "Email": "hieu.do@avenue-net.com",
+                "First Name": "hieu",
+                "ID": "3272240E-5A03-4652-8EE1-605F2FFA2078",
+                "Is Admin": false,
+                "Last Name": "do",
+                "Name": "hieu do",
+                "Type": "User",
+                "Username": "hieu.do@avenue-net.com"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0edf2e7f-c0f1-ff10-9ca7-f2cb224279e6",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "3B804F82-9378-4C52-81D5-E7BD0AC5F076",
+                "Name": "Partner Demo Access",
+                "Type": "UserGroup"
+            },
+            "Origin": "BA689CE1-576C-4381-8C78-F64365932381",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "651ce7e9-d6f7-49e5-993f-39395036aef4",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "nuraisyah.rosli@seeq.com",
+                "First Name": "Nuraisyah",
+                "ID": "5A7B9B12-7E0C-4008-AAEC-EA815172F83C",
+                "Is Admin": true,
+                "Last Name": "Rosli",
+                "Name": "Nuraisyah Rosli",
+                "Type": "User",
+                "Username": "ELmAWRzYK8sXaSFDYC-9pvU9lbOxlbA42tRMCYcJiMo"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": "OWNER"
+        },
+        {
+            "ID": "0edf2e7f-c0f1-ff10-8545-53d865334645",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "72A9F0E9-1878-40F6-A368-D520591C6BFC",
+                "Name": "Everyone",
+                "Type": "UserGroup"
+            },
+            "Origin": "BA689CE1-576C-4381-8C78-F64365932381",
+            "Permissions": {
+                "Manage": false,
+                "Read": true,
+                "Write": false
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0edf2e7f-c0f1-ff10-946d-62ec6cc67b44",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "shamus.cunningham@seeq.com",
+                "First Name": "Shamus",
+                "ID": "849F6252-B8A4-495C-B1B5-73CD38B8A066",
+                "Is Admin": true,
+                "Last Name": "Cunningham",
+                "Name": "Shamus Cunningham",
+                "Type": "User",
+                "Username": "DMH0KFzkCvN1pJbDdJgkrUvR4vPhL0QTDxpDD1Oy_rk"
+            },
+            "Origin": "BA689CE1-576C-4381-8C78-F64365932381",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0edf2e7f-c0f1-ff10-a1cd-c788c6b49b02",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": "BA689CE1-576C-4381-8C78-F64365932381",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0edf2e7f-c0f1-ff10-af59-f259e357c9bd",
+            "Identity": {
+                "Datasource Class": "Auth",
+                "Datasource ID": "Seeq",
+                "Datasource Name": "Seeq",
+                "ID": "E4730C48-1672-447F-B48B-F77C95580062",
+                "Name": "Seeq Internal",
+                "Type": "UserGroup"
+            },
+            "Origin": "BA689CE1-576C-4381-8C78-F64365932381",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        }
+    ],
+    "Ancestors": [
+        "__Corporate__",
+        "E49ED507-46F8-41D9-A968-EBA66A0B4DFD",
+        "39E67F13-6867-40DB-B6D9-22C72752228C",
+        "BA689CE1-576C-4381-8C78-F64365932381"
+    ],
+    "Archived": false,
+    "Cache Enabled": false,
+    "Created At": "1679382093303920794",
+    "Enabled": true,
+    "ID": "C92F19A5-3192-4CBF-AD19-A6FB862C02C4",
+    "Name": "Heat Exchanger Demo",
+    "Original Server URL": "http://seeq-server",
+    "Owner": {
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "Datasource Name": "Seeq Azure SSO",
+        "Email": "nuraisyah.rosli@seeq.com",
+        "First Name": "Nuraisyah",
+        "ID": "5A7B9B12-7E0C-4008-AAEC-EA815172F83C",
+        "Is Admin": true,
+        "Last Name": "Rosli",
+        "Name": "Nuraisyah Rosli",
+        "Type": "User",
+        "Username": "ELmAWRzYK8sXaSFDYC-9pvU9lbOxlbA42tRMCYcJiMo"
+    },
+    "Path": "Corporate >> Industry Use Cases >> Reliability >> Heat Exchanger",
+    "Search Folder ID": "BA689CE1-576C-4381-8C78-F64365932381",
+    "Type": "Workbook",
+    "URL": "https://demo.seeq.dev/BA689CE1-576C-4381-8C78-F64365932381/workbook/C92F19A5-3192-4CBF-AD19-A6FB862C02C4/worksheet/6B93F553-816E-4382-8040-E44E691FE173",
+    "Unsearchable": false,
+    "Updated At": "1698068709284500042",
+    "Workbook Type": "Analysis",
+    "Worksheets": [
+        "6B93F553-816E-4382-8040-E44E691FE173",
+        "2AA9F895-CAFF-457B-ADB5-791DF8822820",
+        "F6D5FEBE-9DB5-40D2-9F81-DDC90EE5F43F",
+        "0EE35A21-AB6B-6660-A3E5-DE6DE6FEA559",
+        "0EE50938-02A8-F970-9979-4521B0AAC459"
+    ],
+    "workbookState": {
+        "state": {
+            "stores": {
+                "sqAnnotationStore": {
+                    "height": 0,
+                    "id": "5052F779-1478-4D87-917F-0EB83C6A3C7F",
+                    "isAnnotatesExpanded": false,
+                    "isCkEnabled": true,
+                    "isCommentsExpanded": false,
+                    "isExpanded": false,
+                    "width": 0
+                }
+            }
+        },
+        "version": 1
+    }
+}

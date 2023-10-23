@@ -1,0 +1,22 @@
+{
+    "Datasource Class": "Manual Input",
+    "Datasource ID": "Manual Input",
+    "Datasource Name": "Manual Input",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "(?<type>.*)",
+                "Datasource Class": "Manual Input",
+                "Datasource Name": "Manual Input",
+                "Data ID": "(?<data_id>.*)"
+            },
+            "New": {
+                "Type": "${type}",
+                "Datasource Class": "Manual Input",
+                "Datasource Name": "Manual Input",
+                "Data ID": "${data_id}"
+            }
+        }
+    ]
+}

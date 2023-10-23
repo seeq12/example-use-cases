@@ -1,0 +1,22 @@
+{
+    "Datasource Class": "Ignition Gateway",
+    "Datasource ID": "2GLCZABXAOHEA3TOA1J8QCAa1!",
+    "Datasource Name": "Demo Ignition Server",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "(?<type>.*)",
+                "Datasource Class": "Ignition Gateway",
+                "Datasource Name": "Demo Ignition Server",
+                "Data ID": "(?<data_id>.*)"
+            },
+            "New": {
+                "Type": "${type}",
+                "Datasource Class": "Ignition Gateway",
+                "Datasource Name": "Demo Ignition Server",
+                "Data ID": "${data_id}"
+            }
+        }
+    ]
+}
