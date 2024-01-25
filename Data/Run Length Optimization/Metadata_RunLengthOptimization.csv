@@ -1,3 +1,3 @@
 Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
-ID_Fan_Vibration (7E269717-62DB-42F0-A0B1-F9A5320921EA),,StoredSignal,,40h
-ID_Fan_Motor_State (0150E458-A8BE-47B1-AA2A-807360D5F0A4),,StoredSignal,string,40h
+ID_Fan_Vibration (0EEA657F-ADD8-6090-9199-26D06EE22A64),,StoredSignal,,40h
+ID_Fan_Motor_State (0EEA657F-ADD8-6090-BF46-3D5686201B92),,StoredSignal,string,40h

@@ -1,6 +1,6 @@
 Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
-Irradiation 1-Axis Tracking (B2B5D109-2508-4FBF-830F-36ECDFE8CDA0),column = Direct Normal [W/m^2]; last file imported = Tucson_v1.csv,StoredSignal,W/m²,40h
-Tracker Angle SP (E44B7393-F27A-45B9-A5CE-A614F8DD770A),column = Tracker Setpoing Angle; last file imported = SeeqExport_v7.csv,StoredSignal,,40h
-Tracker 1 Angle (0282D6D2-3008-4A04-AE57-90B87D0B1AA9),column = Tracker 1 Angle; last file imported = SeeqExport_v7.csv,StoredSignal,,40h
-Tracker 2 Angle (F0EF05AA-4E9D-4554-9F01-E5F628F1C49C),column = Tracker 2 Angle; last file imported = SeeqExport_v7.csv,StoredSignal,,40h
-Efficiency (D7E5E0D1-C443-46D3-8E92-9236FBCCA085),column = Efficiency; last file imported = SeeqExport_v7.csv,StoredSignal,,40h
+Tracker 1 Angle (0EEAF24C-00FA-FBC0-8495-48A6003D51F1),,StoredSignal,,40h
+Tracker 2 Angle (0EEAF24C-00FA-FBC0-ABC9-D3E5E1198BA7),,StoredSignal,,40h
+Tracker Angle SP (0EEAF24C-00FA-FBC0-823F-52AD15BD5102),,StoredSignal,,40h
+Irradiation 1-Axis Tracking (0EEAF24A-F63A-6290-9918-D91C4DBA32C9),,StoredSignal,,40h
+Power Output Block 1 (0EEAF24A-F637-FB80-8C3B-3D58A38139AA),,StoredSignal,,40h

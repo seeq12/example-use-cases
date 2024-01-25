@@ -1,0 +1,1815 @@
+{
+    "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18": {
+        "Access Control": [
+            {
+                "ID": "0ee6ceea-5a5b-6220-85be-6ad1e7f16bbc",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "0ee6ceea-5a84-ea30-b951-f69b88fe3e3b",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1697548273220026135",
+        "Enabled": true,
+        "ID": "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18",
+        "Name": "Example Use Cases (Don't Edit)",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1704828287582326861"
+    },
+    "0EE6DD34-8F50-FBD0-BEC9-3B0AA83E28E0": {
+        "Archived": false,
+        "Asset": "Batch Reactors",
+        "Asset Group Member": true,
+        "Cache Enabled": false,
+        "Created By": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+        "Data ID": "0EE6DD34-8F50-FBD0-BEC9-3B0AA83E28E0",
+        "Datasource Class": "Seeq Metadata",
+        "Datasource ID": "Seeq Metadata",
+        "Enabled": true,
+        "ID": "0EE6DD34-8F50-FBD0-BEC9-3B0AA83E28E0",
+        "Name": "Batch Reactors",
+        "Old Asset Format": false,
+        "Parent ID": "<root>",
+        "Path": "",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "Asset",
+        "Unsearchable": false
+    },
+    "0EE6DD34-8FB2-6650-8E44-2DBE73C4CF2B": {
+        "Archived": false,
+        "Asset": "Reactor 1",
+        "Asset Group Member": true,
+        "Cache Enabled": false,
+        "Data ID": "0EE6DD34-8FB2-6650-8E44-2DBE73C4CF2B",
+        "Datasource Class": "Seeq Metadata",
+        "Datasource ID": "Seeq Metadata",
+        "Enabled": true,
+        "ID": "0EE6DD34-8FB2-6650-8E44-2DBE73C4CF2B",
+        "Name": "Reactor 1",
+        "Old Asset Format": false,
+        "Parent ID": "0EE6DD34-8F50-FBD0-BEC9-3B0AA83E28E0",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "Asset",
+        "Unsearchable": false,
+        "manuallyAdded": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2"
+    },
+    "0EE6DD34-8FC8-75E0-BE2F-F32CCE0C7F69": {
+        "Archived": false,
+        "Asset": "Reactor 1",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd34-8fc8-75e0-920a-bdec1af8e311",
+        "Data ID": "0EE6DD34-8FC8-75E0-BE2F-F32CCE0C7F69",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "65954CDF-D113-46C0-9175-C13A8CFF9619"
+        },
+        "ID": "0EE6DD34-8FC8-75E0-BE2F-F32CCE0C7F69",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Product Code",
+        "Parent ID": "0EE6DD34-8FB2-6650-8E44-2DBE73C4CF2B",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string",
+        "manuallyAdded": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2"
+    },
+    "0EE6DD34-9000-E850-85A9-F0625B2F1BE2": {
+        "Archived": false,
+        "Asset": "Reactor 1",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd34-9000-e850-8ccd-084e302f8989",
+        "Data ID": "0EE6DD34-9000-E850-85A9-F0625B2F1BE2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "70629BEA-A780-4595-8678-00093700A8C1"
+        },
+        "ID": "0EE6DD34-9000-E850-85A9-F0625B2F1BE2",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Catalyst Feed Rate",
+        "Parent ID": "0EE6DD34-8FB2-6650-8E44-2DBE73C4CF2B",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kg/h",
+        "manuallyAdded": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2"
+    },
+    "0EE6DD34-901D-FD10-ADF3-F7E2B123A246": {
+        "Archived": false,
+        "Asset": "Reactor 1",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd34-901d-fd10-a6ee-0ec031065415",
+        "Data ID": "0EE6DD34-901D-FD10-ADF3-F7E2B123A246",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "B2AB32DC-4CF1-432F-95C5-4B0D7D0AC4E8"
+        },
+        "ID": "0EE6DD34-901D-FD10-ADF3-F7E2B123A246",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Reactor Fill Level",
+        "Parent ID": "0EE6DD34-8FB2-6650-8E44-2DBE73C4CF2B",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%",
+        "manuallyAdded": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2"
+    },
+    "0EE6DD34-9038-EAC0-82E2-23D102CE1369": {
+        "Archived": false,
+        "Asset": "Reactor 1",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd34-9038-eac0-a6e7-ade0db093038",
+        "Data ID": "0EE6DD34-9038-EAC0-82E2-23D102CE1369",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "CABA126B-BA56-4ED7-8211-4ED4AB419E15"
+        },
+        "ID": "0EE6DD34-9038-EAC0-82E2-23D102CE1369",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Reactor Temperature",
+        "Parent ID": "0EE6DD34-8FB2-6650-8E44-2DBE73C4CF2B",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F",
+        "manuallyAdded": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2"
+    },
+    "0EE6DD36-0330-EEF0-8625-2E27B344AFB7": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd36-0330-eef0-8e6f-7b038b086837",
+        "Data ID": "0EE6DD36-0330-EEF0-8625-2E27B344AFB7",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$brcf.move(2.5h)",
+        "Formula Parameters": {
+            "brcf": "70629BEA-A780-4595-8678-00093700A8C1"
+        },
+        "ID": "0EE6DD36-0330-EEF0-8625-2E27B344AFB7",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Batch Reactor Catalyst Feed Rate 2",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kg/h"
+    },
+    "0EE6DD36-CD85-ECF0-A8E4-A3D26EF1EF65": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd36-cd88-6400-9c60-734a8b957e74",
+        "Data ID": "0EE6DD36-CD85-ECF0-A8E4-A3D26EF1EF65",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$brcf.move(2.5h)",
+        "Formula Parameters": {
+            "brcf": "B2AB32DC-4CF1-432F-95C5-4B0D7D0AC4E8"
+        },
+        "ID": "0EE6DD36-CD85-ECF0-A8E4-A3D26EF1EF65",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Batch Reactor Fill Level 2",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EE6DD37-37B1-FFC0-B112-ED2AB067C264": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd37-37b1-ffc0-9fbd-9413c8a268e4",
+        "Data ID": "0EE6DD37-37B1-FFC0-B112-ED2AB067C264",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$brcf.move(2.5h)",
+        "Formula Parameters": {
+            "brcf": "CABA126B-BA56-4ED7-8211-4ED4AB419E15"
+        },
+        "ID": "0EE6DD37-37B1-FFC0-B112-ED2AB067C264",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Batch Reactor Temperature 2",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "0EE6DD38-1929-FB60-89DE-53211C325A29": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd38-1929-fb60-bfc3-fcae00cebab0",
+        "Data ID": "0EE6DD38-1929-FB60-89DE-53211C325A29",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$brcf.move(2.5h).replace('B', 'C')",
+        "Formula Parameters": {
+            "brcf": "65954CDF-D113-46C0-9175-C13A8CFF9619"
+        },
+        "ID": "0EE6DD38-1929-FB60-89DE-53211C325A29",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Product Code 2",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "0EE6DD39-AE59-FBD0-9C41-6B90B6247618": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd39-ae59-fbd0-9104-3684884509bd",
+        "Data ID": "0EE6DD39-AE59-FBD0-9C41-6B90B6247618",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$brcf.move(3h).replace('B', 'M')",
+        "Formula Parameters": {
+            "brcf": "65954CDF-D113-46C0-9175-C13A8CFF9619"
+        },
+        "ID": "0EE6DD39-AE59-FBD0-9C41-6B90B6247618",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Product Code 3",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "0EE6DD3A-078E-EA70-9647-C904A5B0CC67": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3a-078e-ea70-bec2-abbcc269dd10",
+        "Data ID": "0EE6DD3A-078E-EA70-9647-C904A5B0CC67",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$brcf.move(3h)",
+        "Formula Parameters": {
+            "brcf": "70629BEA-A780-4595-8678-00093700A8C1"
+        },
+        "ID": "0EE6DD3A-078E-EA70-9647-C904A5B0CC67",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Batch Reactor Catalyst Feed Rate 3",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kg/h"
+    },
+    "0EE6DD3A-4C16-F990-8623-1E5E79ACD34A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3a-4c16-f990-a0a3-775022a91bba",
+        "Data ID": "0EE6DD3A-4C16-F990-8623-1E5E79ACD34A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$brcf.move(3h)",
+        "Formula Parameters": {
+            "brcf": "B2AB32DC-4CF1-432F-95C5-4B0D7D0AC4E8"
+        },
+        "ID": "0EE6DD3A-4C16-F990-8623-1E5E79ACD34A",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Batch Reactor Fill Level 3",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EE6DD3A-907C-75D0-B7C4-682445443C60": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3a-907c-75d0-aad6-64e340fdaee8",
+        "Data ID": "0EE6DD3A-907C-75D0-B7C4-682445443C60",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$brcf.move(3h)",
+        "Formula Parameters": {
+            "brcf": "CABA126B-BA56-4ED7-8211-4ED4AB419E15"
+        },
+        "ID": "0EE6DD3A-907C-75D0-B7C4-682445443C60",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Batch Reactor Temperature 3",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "0EE6DD3B-FF02-EEE0-8321-D7B7C0114731": {
+        "Archived": false,
+        "Asset": "Reactor 2",
+        "Asset Group Member": true,
+        "Cache Enabled": false,
+        "Data ID": "0EE6DD3B-FF02-EEE0-8321-D7B7C0114731",
+        "Datasource Class": "Seeq Metadata",
+        "Datasource ID": "Seeq Metadata",
+        "Enabled": true,
+        "ID": "0EE6DD3B-FF02-EEE0-8321-D7B7C0114731",
+        "Name": "Reactor 2",
+        "Old Asset Format": false,
+        "Parent ID": "0EE6DD34-8F50-FBD0-BEC9-3B0AA83E28E0",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "Asset",
+        "Unsearchable": false,
+        "manuallyAdded": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2"
+    },
+    "0EE6DD3B-FF20-73A0-AEEF-8EDE5E416CDD": {
+        "Archived": false,
+        "Asset": "Reactor 2",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3b-ff20-73a0-9724-f588ba7aa347",
+        "Data ID": "0EE6DD3B-FF20-73A0-AEEF-8EDE5E416CDD",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "0EE6DD36-0330-EEF0-8625-2E27B344AFB7"
+        },
+        "ID": "0EE6DD3B-FF20-73A0-AEEF-8EDE5E416CDD",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Catalyst Feed Rate",
+        "Parent ID": "0EE6DD3B-FF02-EEE0-8321-D7B7C0114731",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kg/h",
+        "originalMapping": "0EE6DD36-0330-EEF0-8625-2E27B344AFB7"
+    },
+    "0EE6DD3B-FF3B-7150-AA05-C3CFFCDCDAA4": {
+        "Archived": false,
+        "Asset": "Reactor 2",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3b-ff3b-7150-a0fe-fb22e100079c",
+        "Data ID": "0EE6DD3B-FF3B-7150-AA05-C3CFFCDCDAA4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "0EE6DD38-1929-FB60-89DE-53211C325A29"
+        },
+        "ID": "0EE6DD3B-FF3B-7150-AA05-C3CFFCDCDAA4",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Product Code",
+        "Parent ID": "0EE6DD3B-FF02-EEE0-8321-D7B7C0114731",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string",
+        "originalMapping": "0EE6DD38-1929-FB60-89DE-53211C325A29"
+    },
+    "0EE6DD3B-FF55-FF00-AC11-07D5D30C0B88": {
+        "Archived": false,
+        "Asset": "Reactor 2",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3b-ff55-ff00-8a25-31d13537eae1",
+        "Data ID": "0EE6DD3B-FF55-FF00-AC11-07D5D30C0B88",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "0EE6DD36-CD85-ECF0-A8E4-A3D26EF1EF65"
+        },
+        "ID": "0EE6DD3B-FF55-FF00-AC11-07D5D30C0B88",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Reactor Fill Level",
+        "Parent ID": "0EE6DD3B-FF02-EEE0-8321-D7B7C0114731",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%",
+        "originalMapping": "0EE6DD36-CD85-ECF0-A8E4-A3D26EF1EF65"
+    },
+    "0EE6DD3B-FF6E-75A0-A1F5-02F4B688375B": {
+        "Archived": false,
+        "Asset": "Reactor 2",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3b-ff6e-75a0-846c-aa4d8603f335",
+        "Data ID": "0EE6DD3B-FF6E-75A0-A1F5-02F4B688375B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "0EE6DD37-37B1-FFC0-B112-ED2AB067C264"
+        },
+        "ID": "0EE6DD3B-FF6E-75A0-A1F5-02F4B688375B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Reactor Temperature",
+        "Parent ID": "0EE6DD3B-FF02-EEE0-8321-D7B7C0114731",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F",
+        "originalMapping": "0EE6DD37-37B1-FFC0-B112-ED2AB067C264"
+    },
+    "0EE6DD3B-FF75-EAD0-9E26-8B56E8358948": {
+        "Archived": false,
+        "Asset": "Reactor 3",
+        "Asset Group Member": true,
+        "Cache Enabled": false,
+        "Data ID": "0EE6DD3B-FF75-EAD0-9E26-8B56E8358948",
+        "Datasource Class": "Seeq Metadata",
+        "Datasource ID": "Seeq Metadata",
+        "Enabled": true,
+        "ID": "0EE6DD3B-FF75-EAD0-9E26-8B56E8358948",
+        "Name": "Reactor 3",
+        "Old Asset Format": false,
+        "Parent ID": "0EE6DD34-8F50-FBD0-BEC9-3B0AA83E28E0",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "Asset",
+        "Unsearchable": false,
+        "manuallyAdded": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2"
+    },
+    "0EE6DD3B-FF86-EC40-8EEA-6B11CB2D659A": {
+        "Archived": false,
+        "Asset": "Reactor 3",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3b-ff86-ec40-8731-316a0855de4f",
+        "Data ID": "0EE6DD3B-FF86-EC40-8EEA-6B11CB2D659A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "0EE6DD3A-078E-EA70-9647-C904A5B0CC67"
+        },
+        "ID": "0EE6DD3B-FF86-EC40-8EEA-6B11CB2D659A",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Catalyst Feed Rate",
+        "Parent ID": "0EE6DD3B-FF75-EAD0-9E26-8B56E8358948",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kg/h",
+        "originalMapping": "0EE6DD3A-078E-EA70-9647-C904A5B0CC67"
+    },
+    "0EE6DD3B-FF9A-64C0-8E3F-27E6DDAAFDD2": {
+        "Archived": false,
+        "Asset": "Reactor 3",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3b-ff9a-64c0-a0e0-2ee85b14339f",
+        "Data ID": "0EE6DD3B-FF9A-64C0-8E3F-27E6DDAAFDD2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "0EE6DD39-AE59-FBD0-9C41-6B90B6247618"
+        },
+        "ID": "0EE6DD3B-FF9A-64C0-8E3F-27E6DDAAFDD2",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Product Code",
+        "Parent ID": "0EE6DD3B-FF75-EAD0-9E26-8B56E8358948",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string",
+        "originalMapping": "0EE6DD39-AE59-FBD0-9C41-6B90B6247618"
+    },
+    "0EE6DD3B-FFB0-6450-BB01-D37BD6AD0C19": {
+        "Archived": false,
+        "Asset": "Reactor 3",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3b-ffb0-6450-ad4a-4617ab666f8f",
+        "Data ID": "0EE6DD3B-FFB0-6450-BB01-D37BD6AD0C19",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "0EE6DD3A-4C16-F990-8623-1E5E79ACD34A"
+        },
+        "ID": "0EE6DD3B-FFB0-6450-BB01-D37BD6AD0C19",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Reactor Fill Level",
+        "Parent ID": "0EE6DD3B-FF75-EAD0-9E26-8B56E8358948",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%",
+        "originalMapping": "0EE6DD3A-4C16-F990-8623-1E5E79ACD34A"
+    },
+    "0EE6DD3B-FFC1-75C0-A557-135E892B4E9E": {
+        "Archived": false,
+        "Asset": "Reactor 3",
+        "Asset Group Member": true,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd3b-ffc1-75c0-bbf0-8412d6c8a59d",
+        "Data ID": "0EE6DD3B-FFC1-75C0-A557-135E892B4E9E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal",
+        "Formula Parameters": {
+            "signal": "0EE6DD3A-907C-75D0-B7C4-682445443C60"
+        },
+        "ID": "0EE6DD3B-FFC1-75C0-A557-135E892B4E9E",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0",
+        "Name": "Reactor Temperature",
+        "Parent ID": "0EE6DD3B-FF75-EAD0-9E26-8B56E8358948",
+        "Path": "Batch Reactors",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Tree Type": "Seeq Workbench",
+        "Type": "CalculatedSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F",
+        "originalMapping": "0EE6DD3A-907C-75D0-B7C4-682445443C60"
+    },
+    "0EE6DD6D-16F8-6640-9229-C2B854BF6ADE": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd6d-16f8-6640-9e67-407a4d1350f4",
+        "Data ID": "0EE6DD6D-16F8-6640-9229-C2B854BF6ADE",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a > .5)",
+            ".merge(3min)",
+            ".removeShorterThan(20min)"
+        ],
+        "Formula Parameters": {
+            "a": "0EE6DD34-901D-FD10-ADF3-F7E2B123A246"
+        },
+        "ID": "0EE6DD6D-16F8-6640-9229-C2B854BF6ADE",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Batches",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 3
+            },
+            "minDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 20
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": ".5",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DD6E-7C1C-F9D0-8175-FB541A87633A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd6e-7c1c-f9d0-a905-408eb9c9b8e1",
+        "Data ID": "0EE6DD6E-7C1C-F9D0-8175-FB541A87633A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$b.removelongerthan(7d).setProperty('Batch ID', $pc, startValue())",
+        "Formula Parameters": {
+            "b": "0EE6DD6D-16F8-6640-9229-C2B854BF6ADE",
+            "pc": "0EE6DD34-8FC8-75E0-BE2F-F32CCE0C7F69"
+        },
+        "ID": "0EE6DD6E-7C1C-F9D0-8175-FB541A87633A",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "7",
+        "Metadata Properties": "Batch+ID=string",
+        "Name": "Batches",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DD73-53AD-FB70-A73C-A8A4ED9CC39B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd73-53ad-fb70-9b09-793ab6d5a626",
+        "Data ID": "0EE6DD73-53AD-FB70-A73C-A8A4ED9CC39B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$inputSignal.agileFilter(36s,20min)",
+        "Formula Parameters": {
+            "inputSignal": "0EE6DD34-901D-FD10-ADF3-F7E2B123A246"
+        },
+        "ID": "0EE6DD73-53AD-FB70-A73C-A8A4ED9CC39B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "36.0",
+        "Name": "Reactor Fill Level Smooth",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "algorithmSelectedValue": "seeq-agile",
+            "alpha": 0.9,
+            "color": "#4055A3",
+            "configVersion": 11,
+            "cutoff": {},
+            "isCutoffAuto": true,
+            "isMigratedLowPassFilter": false,
+            "isSamplingRateAuto": true,
+            "isTau": true,
+            "polynomialFactor": 2,
+            "samplingRate": {
+                "units": "s",
+                "valid": true,
+                "value": 36
+            },
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "smoothingWindow": {
+                "units": "min",
+                "valid": true,
+                "value": 20
+            },
+            "tau": {
+                "units": "min",
+                "value": 10
+            },
+            "type": "signal-smoothing"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EE6DD76-6740-75E0-9336-DACC509227B3": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd76-6740-75e0-a8d2-66c28dd441de",
+        "Data ID": "0EE6DD76-6740-75E0-9336-DACC509227B3",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$rfls.derivative()",
+        "Formula Parameters": {
+            "rfl": "0EE6DD34-901D-FD10-ADF3-F7E2B123A246",
+            "rfls": "0EE6DD73-53AD-FB70-A73C-A8A4ED9CC39B"
+        },
+        "ID": "0EE6DD76-6740-75E0-9336-DACC509227B3",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "36.0",
+        "Name": "Derivative of Reactor Fill Level Smooth",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%/s"
+    },
+    "0EE6DD79-0744-E800-A762-E5FA49A04EBC": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd79-0744-e800-a1aa-f6490dc761c8",
+        "Data ID": "0EE6DD79-0744-E800-A762-E5FA49A04EBC",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a > 0.01)",
+            ".merge(10min)"
+        ],
+        "Formula Parameters": {
+            "a": "0EE6DD76-6740-75E0-9336-DACC509227B3"
+        },
+        "ID": "0EE6DD79-0744-E800-A762-E5FA49A04EBC",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Pump In",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 10
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "0.01",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DD7C-3A9D-EEB0-B2B3-97995C910459": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6dd7c-3a9d-eeb0-8110-c15533eb4165",
+        "Data ID": "0EE6DD7C-3A9D-EEB0-B2B3-97995C910459",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a < -0.01)",
+            ".merge(10min)"
+        ],
+        "Formula Parameters": {
+            "a": "0EE6DD76-6740-75E0-9336-DACC509227B3"
+        },
+        "ID": "0EE6DD7C-3A9D-EEB0-B2B3-97995C910459",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Pump Out",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 10
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "simpleLowerValue": null,
+            "simpleOperator": "<",
+            "simpleValue": "-0.01",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DE36-E23D-7570-B7C0-315737986365": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de36-e23d-7570-96aa-652e1d07ea8d",
+        "Data ID": "0EE6DE36-E23D-7570-B7C0-315737986365",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$inputSignal.agileFilter(55s,30min)",
+        "Formula Parameters": {
+            "inputSignal": "0EE6DD34-9038-EAC0-82E2-23D102CE1369"
+        },
+        "ID": "0EE6DE36-E23D-7570-B7C0-315737986365",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "55.0",
+        "Name": "Smooth Reactor Temperature",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "algorithmSelectedValue": "seeq-agile",
+            "alpha": 0.9,
+            "color": "#4055A3",
+            "configVersion": 11,
+            "cutoff": {},
+            "isCutoffAuto": true,
+            "isMigratedLowPassFilter": false,
+            "isSamplingRateAuto": true,
+            "isTau": true,
+            "polynomialFactor": 2,
+            "samplingRate": {
+                "units": "s",
+                "valid": true,
+                "value": 55
+            },
+            "smoothingWindow": {
+                "units": "min",
+                "valid": true,
+                "value": 30
+            },
+            "tau": {
+                "units": "min",
+                "value": 10
+            },
+            "type": "signal-smoothing"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "0EE6DE37-7CD9-66B0-81A1-395B3D3E90A5": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de37-7cd9-66b0-bc63-d440d07660ce",
+        "Data ID": "0EE6DE37-7CD9-66B0-81A1-395B3D3E90A5",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$srt.derivative()",
+        "Formula Parameters": {
+            "srt": "0EE6DE36-E23D-7570-B7C0-315737986365"
+        },
+        "ID": "0EE6DE37-7CD9-66B0-81A1-395B3D3E90A5",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "55.0",
+        "Name": "Reactor Temperature Derivative",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F/s"
+    },
+    "0EE6DE38-A76C-FF70-9C6C-6CD3ABEF569E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de38-a76c-ff70-b063-36a4df745207",
+        "Data ID": "0EE6DE38-A76C-FF70-9C6C-6CD3ABEF569E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a > .001)",
+            ".merge(15min)",
+            ".removeShorterThan(20min)"
+        ],
+        "Formula Parameters": {
+            "a": "0EE6DE37-7CD9-66B0-81A1-395B3D3E90A5"
+        },
+        "ID": "0EE6DE38-A76C-FF70-9C6C-6CD3ABEF569E",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Increasing Temperature",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 15
+            },
+            "minDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 20
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": ".001",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DE3A-1DD6-F930-9CD1-7BF317BB4671": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de3a-1dd6-f930-974f-2c57f3c75986",
+        "Data ID": "0EE6DE3A-1DD6-F930-9CD1-7BF317BB4671",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.subtract($b)",
+        "Formula Parameters": {
+            "a": "0EE6DE38-A76C-FF70-9C6C-6CD3ABEF569E",
+            "b": "0EE6DD79-0744-E800-A762-E5FA49A04EBC"
+        },
+        "ID": "0EE6DE3A-1DD6-F930-9CD1-7BF317BB4671",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Increasing Temp after Pump In",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DE3B-9821-FD60-9642-F48D99C16051": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de3b-9821-fd60-aa35-208b97e0ab69",
+        "Data ID": "0EE6DE3B-9821-FD60-9642-F48D99C16051",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a > 0)",
+            ".merge(0min)",
+            ".removeShorterThan(10min)"
+        ],
+        "Formula Parameters": {
+            "a": "0EE6DD34-9000-E850-85A9-F0625B2F1BE2"
+        },
+        "ID": "0EE6DE3B-9821-FD60-9642-F48D99C16051",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Catalyst Addition 2",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 10
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "0",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DE3D-DC2A-F9B0-B6E8-E6B4BB4AC0F9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de3d-dc2a-f9b0-ac3d-df72f9eb62cf",
+        "Data ID": "0EE6DE3D-DC2A-F9B0-B6E8-E6B4BB4AC0F9",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a > 0)",
+            ".merge(0min)",
+            ".removeShorterThan(10min)"
+        ],
+        "Formula Parameters": {
+            "a": "0EE6DD34-9000-E850-85A9-F0625B2F1BE2"
+        },
+        "ID": "0EE6DE3D-DC2A-F9B0-B6E8-E6B4BB4AC0F9",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Catalyst Addition",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 10
+            },
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "0",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DE3F-B19F-6450-8429-BE848CF9C191": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de3f-b19f-6450-8a74-1e55c325a98b",
+        "Data ID": "0EE6DE3F-B19F-6450-8429-BE848CF9C191",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.subtract($b)",
+        "Formula Parameters": {
+            "a": "0EE6DE3A-1DD6-F930-9CD1-7BF317BB4671",
+            "b": "0EE6DE3D-DC2A-F9B0-B6E8-E6B4BB4AC0F9"
+        },
+        "ID": "0EE6DE3F-B19F-6450-8429-BE848CF9C191",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Heat Up",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DE6D-57BA-7560-86BC-13DB5A47670B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de70-a33b-fd60-9581-9d62b9087266",
+        "Data ID": "0EE6DE6D-57BA-7560-86BC-13DB5A47670B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$b.inverse()",
+        "Formula Parameters": {
+            "b": "0EE6DD6D-16F8-6640-9229-C2B854BF6ADE"
+        },
+        "ID": "0EE6DE6D-57BA-7560-86BC-13DB5A47670B",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Turnaround",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DE6F-8A1E-E810-A89A-41CE091FBB3B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de70-df5c-ee70-9fa1-e3cd356831a1",
+        "Data ID": "0EE6DE6F-8A1E-E810-A89A-41CE091FBB3B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$batch - $pumpIn - $heatUp - $catalystAddition - $pumpOut",
+        "Formula Parameters": {
+            "batch": "0EE6DD6D-16F8-6640-9229-C2B854BF6ADE",
+            "catalystAddition": "0EE6DE3D-DC2A-F9B0-B6E8-E6B4BB4AC0F9",
+            "heatUp": "0EE6DE3F-B19F-6450-8429-BE848CF9C191",
+            "pumpIn": "0EE6DD79-0744-E800-A762-E5FA49A04EBC",
+            "pumpOut": "0EE6DD7C-3A9D-EEB0-B2B3-97995C910459"
+        },
+        "ID": "0EE6DE6F-8A1E-E810-A89A-41CE091FBB3B",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Downtime",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DE73-82D7-6440-9E1B-41FAE23A8BF1": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de73-82d7-6440-9dd1-d146a6c842a3",
+        "Data ID": "0EE6DE73-82D7-6440-9E1B-41FAE23A8BF1",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(totalDuration(\"h\"), $capsules, middleKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "0EE6DD6E-7C1C-F9D0-8175-FB541A87633A",
+            "series": "0EE6DD6E-7C1C-F9D0-8175-FB541A87633A"
+        },
+        "ID": "0EE6DE73-82D7-6440-9E1B-41FAE23A8BF1",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Cycle Time",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "0EE6DE7D-734A-EA90-A652-1B468AC54ECE": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6de7d-734a-ea90-b7dd-490fad5fa7ed",
+        "Data ID": "0EE6DE7D-734A-EA90-A652-1B468AC54ECE",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$downtime = $d.setProperty('Phase', 'Downtime')",
+            "$catAdd = $ca.setProperty('Phase', 'Catalyst Addition')",
+            "$heatUp = $hu.setProperty('Phase', 'Heat Up')",
+            "$pumpIn = $pi.setProperty('Phase', 'Pump In')",
+            "$pumpOut = $po.setProperty('Phase', 'Pump Out')",
+            "combinewith($downtime, $catAdd, $heatUp, $pumpIn, $pumpOut)",
+            ""
+        ],
+        "Formula Parameters": {
+            "ca": "0EE6DE3D-DC2A-F9B0-B6E8-E6B4BB4AC0F9",
+            "d": "0EE6DE6F-8A1E-E810-A89A-41CE091FBB3B",
+            "hu": "0EE6DE3F-B19F-6450-8429-BE848CF9C191",
+            "pi": "0EE6DD79-0744-E800-A762-E5FA49A04EBC",
+            "po": "0EE6DD7C-3A9D-EEB0-B2B3-97995C910459"
+        },
+        "ID": "0EE6DE7D-734A-EA90-A652-1B468AC54ECE",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "Phase=string",
+        "Name": "All Phases",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DE80-B5AB-FBC0-8F81-828CA4AB548A": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EE6DE80-B5AB-FBC0-8F81-828CA4AB548A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "ExpectedProvidedType": "Table",
+        "Formula": "conditionTable($condition1.toGroup($viewCapsule, CapsuleBoundary.EnclosedBy), \"Batch ID\", $condition2.toGroup($viewCapsule, CapsuleBoundary.EnclosedBy), \"Phase\").addStatColumn(\"signalToAggregate\", $signalToAggregate, totalDuration(\"h\"))",
+        "Formula Parameters": {
+            "condition1": "0EE6DD6E-7C1C-F9D0-8175-FB541A87633A",
+            "condition2": "0EE6DE7D-734A-EA90-A652-1B468AC54ECE",
+            "signalToAggregate": "0EE6DE7D-734A-EA90-A652-1B468AC54ECE",
+            "viewCapsule": "capsule(\"2023-03-19T03:38:00.000Z\", \"2023-03-20T21:06:00.000Z\")"
+        },
+        "ID": "0EE6DE80-B5AB-FBC0-8F81-828CA4AB548A",
+        "Name": "Duration of Each Phase",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "Chart",
+        "UIConfig": {
+            "aggregationConfigs": [
+                {
+                    "capsuleMode": "enclosedBy",
+                    "conditionProperty": "Batch ID",
+                    "id": 1,
+                    "mode": "by_condition",
+                    "valid": true,
+                    "yValueBinMode": "size"
+                },
+                {
+                    "capsuleMode": "enclosedBy",
+                    "conditionProperty": "Phase",
+                    "id": 2,
+                    "mode": "by_condition",
+                    "valid": true,
+                    "yValueBinMode": "size"
+                }
+            ],
+            "includeEmptyBuckets": false,
+            "mode": "by_y_value",
+            "stat": {
+                "key": "totalDuration",
+                "timeUnits": "h"
+            },
+            "type": "aggregation-bins-table",
+            "yValueSignal": ""
+        },
+        "Unsearchable": false
+    },
+    "0EE71C68-714B-EA90-BF91-13A13AC4C07C": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee71c68-714b-ea90-a22f-b83fcdbbe1ec",
+        "Data ID": "0EE71C68-714B-EA90-BF91-13A13AC4C07C",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "weeks(Day.Sunday, \"US/Central\")",
+        "Formula Parameters": {},
+        "ID": "0EE71C68-714B-EA90-BF91-13A13AC4C07C",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.005952380952381",
+        "Maximum Interpolation": "608400.0",
+        "Metadata Properties": "Week=string",
+        "Name": "Weekly",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "duration": "weeks",
+            "frequencies": [],
+            "offset": {
+                "units": "min",
+                "value": 0
+            },
+            "quarterStart": {
+                "day": 1,
+                "month": "Month.January"
+            },
+            "shift": {
+                "duration": 8,
+                "offset": 8
+            },
+            "timezone": "US/Central",
+            "type": "periodic-condition",
+            "weekStart": "Day.Sunday"
+        },
+        "Unsearchable": false
+    },
+    "0EE71C6A-EB89-6620-A34B-458C790DA4F2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee71c6a-eb8b-fd30-a729-205a4ea94f33",
+        "Data ID": "0EE71C6A-EB89-6620-A34B-458C790DA4F2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.setMaximumDuration(40h).aggregate(count(), $capsules, durationKey())",
+        "Formula Parameters": {
+            "capsules": "0EE71C68-714B-EA90-BF91-13A13AC4C07C",
+            "series": "0EE6DE6F-8A1E-E810-A89A-41CE091FBB3B"
+        },
+        "ID": "0EE71C6A-EB89-6620-A34B-458C790DA4F2",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "608400.0",
+        "Name": "Count of Downtime Events",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE71C6D-133F-62D0-890F-D7918EDE5748": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee71c6d-133f-62d0-8a9f-68f83d1a840f",
+        "Data ID": "0EE71C6D-133F-62D0-890F-D7918EDE5748",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.setMaximumDuration(40h).aggregate(totalDuration(\"min\"), $capsules.setMaximumDuration(40h), durationKey())",
+        "Formula Parameters": {
+            "capsules": "0EE6DE6F-8A1E-E810-A89A-41CE091FBB3B",
+            "series": "0EE6DE6F-8A1E-E810-A89A-41CE091FBB3B"
+        },
+        "ID": "0EE71C6D-133F-62D0-890F-D7918EDE5748",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Duration of Downtime Events",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "min"
+    },
+    "0EE71C6E-9C9B-FDC0-9FA5-A650FE5B065C": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee71c6f-029d-6240-ae25-3c37d97d7172",
+        "Data ID": "0EE71C6E-9C9B-FDC0-9FA5-A650FE5B065C",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.setMaximumDuration(40h).aggregate(totalDuration(\"h\"), $capsules, durationKey())",
+        "Formula Parameters": {
+            "capsules": "0EE71C68-714B-EA90-BF91-13A13AC4C07C",
+            "series": "0EE6DE6F-8A1E-E810-A89A-41CE091FBB3B"
+        },
+        "ID": "0EE71C6E-9C9B-FDC0-9FA5-A650FE5B065C",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "608400.0",
+        "Name": "Weekly Downtime",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "h"
+    },
+    "0EE71C73-361C-64A0-9D93-6C93EF1E6B32": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee71c73-361c-64a0-b37a-e3253ffd6cb1",
+        "Data ID": "0EE71C73-361C-64A0-9D93-6C93EF1E6B32",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$wd*3800.setunits('$/hr') //cost of each hour of downtime",
+        "Formula Parameters": {
+            "w": "0EE71C68-714B-EA90-BF91-13A13AC4C07C",
+            "wd": "0EE71C6E-9C9B-FDC0-9FA5-A650FE5B065C"
+        },
+        "ID": "0EE71C73-361C-64A0-9D93-6C93EF1E6B32",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "608400.0",
+        "Name": "Total Weekly Downtime Cost",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "$"
+    },
+    "0EE71C75-313A-7110-9ED2-AD8593F7E48A": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EE71C75-313A-7110-9ED2-AD8593F7E48A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Aggregation Function": "endValue(true)",
+            "Bounding Condition": "0EE71C68-714B-EA90-BF91-13A13AC4C07C",
+            "Measured Item": "0EE71C73-361C-64A0-9D93-6C93EF1E6B32",
+            "Process Type": "Condition",
+            "Thresholds": [
+                {
+                    "Priority": {
+                        "Color": "#ff0000",
+                        "Level": 3,
+                        "Name": "HiHiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "",
+                        "Value": 25000
+                    }
+                },
+                {
+                    "Priority": {
+                        "Color": "#ffdd52",
+                        "Level": 2,
+                        "Name": "HiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "",
+                        "Value": 20000
+                    }
+                }
+            ]
+        },
+        "ID": "0EE71C75-313A-7110-9ED2-AD8593F7E48A",
+        "MetricReconfigurationMigration": true,
+        "Name": "Weekly Downtime Costs",
+        "Scoped To": "0EE6DD2B-8CFF-6420-A7F0-AA0043EA25A1",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "65954CDF-D113-46C0-9175-C13A8CFF9619": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "12ef1dc9-4244-4725-8d1d-204433f6c0f5",
+        "Data ID": "[Tag] Batch Product Code.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "65954CDF-D113-46C0-9175-C13A8CFF9619",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0s",
+        "Name": "Batch Product Code",
+        "Source Maximum Interpolation": "120000000000ns",
+        "Source Value Unit Of Measure": "string",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "70629BEA-A780-4595-8678-00093700A8C1": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "9c45c435-e1e0-48e6-ac2a-a877efbe799d",
+        "Data ID": "[Tag] Batch Reactor Catalyst Feed Rate.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "70629BEA-A780-4595-8678-00093700A8C1",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0s",
+        "Name": "Batch Reactor Catalyst Feed Rate",
+        "Source Maximum Interpolation": "120000000000ns",
+        "Source Value Unit Of Measure": "kg/h",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "kg/h"
+    },
+    "905A3390-CCA6-489B-89A3-492EC9F7FF26": {
+        "Access Control": [
+            {
+                "ID": "726694d8-3949-4a40-aa59-e01b172690cd",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1605736826077625600",
+        "Enabled": true,
+        "ID": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+        "Name": "Joseph Reckamp",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Permission Inheritance Disabled": true,
+        "Type": "Folder",
+        "Unmodifiable": true,
+        "Unsearchable": true,
+        "Updated At": "1605736826077625600"
+    },
+    "B2AB32DC-4CF1-432F-95C5-4B0D7D0AC4E8": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "40e4763d-2239-420a-b625-3e0e55683e48",
+        "Data ID": "[Tag] Batch Reactor Fill Level.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "B2AB32DC-4CF1-432F-95C5-4B0D7D0AC4E8",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0s",
+        "Name": "Batch Reactor Fill Level",
+        "Source Maximum Interpolation": "120000000000ns",
+        "Source Value Unit Of Measure": "%",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "CABA126B-BA56-4ED7-8211-4ED4AB419E15": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "c6e68eb5-edbc-4b11-8596-21faf1d03e7e",
+        "Data ID": "[Tag] Batch Reactor Temperature.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "CABA126B-BA56-4ED7-8211-4ED4AB419E15",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "120.0s",
+        "Name": "Batch Reactor Temperature",
+        "Source Maximum Interpolation": "120000000000ns",
+        "Source Value Unit Of Measure": "\u00b0F",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    }
+}

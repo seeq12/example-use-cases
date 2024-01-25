@@ -1,0 +1,42 @@
+{
+    "ID": "043BAE35-D7B5-4DAB-9ABC-8DF569C87E15",
+    "Type": "Workstep",
+    "Data": {
+        "version": 1,
+        "state": {
+            "stores": {
+                "sqTrendSeriesStore": {
+                    "items": []
+                },
+                "sqTrendCapsuleSetStore": {
+                    "items": []
+                },
+                "sqTrendScalarStore": {
+                    "items": []
+                },
+                "sqTrendMetricStore": {
+                    "items": []
+                },
+                "sqTrendTableStore": {
+                    "items": []
+                },
+                "sqDurationStore": {
+                    "autoUpdate": {
+                        "offset": 17999998
+                    },
+                    "displayRange": {
+                        "start": 1700166747614,
+                        "end": 1700253147614
+                    },
+                    "investigateRange": {
+                        "start": 1699648347615,
+                        "end": 1700253147615
+                    }
+                },
+                "sqWorksheetStore": {
+                    "viewKey": "TREND"
+                }
+            }
+        }
+    }
+}

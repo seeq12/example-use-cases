@@ -1,0 +1,103 @@
+{
+    "Access Control": [
+        {
+            "ID": "0ee7a6d8-fcee-f930-a9b4-d47630996262",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee7a6d8-fcdf-eed0-9696-51d213e9eff8",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": "OWNER"
+        }
+    ],
+    "Ancestors": [
+        "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+        "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18"
+    ],
+    "Archived": false,
+    "Cache Enabled": false,
+    "Created At": "1699032147774419807",
+    "Enabled": true,
+    "ID": "0EE7A6D8-FCDF-EED0-9785-02A5D684A4E2",
+    "Name": "Conveyor Belt Tension Modeling and Monitoring",
+    "Original Server URL": "http://seeq-server",
+    "Owner": {
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "Datasource Name": "Seeq Azure SSO",
+        "Email": "Joseph.Reckamp@seeq.com",
+        "First Name": "Joe",
+        "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+        "Is Admin": true,
+        "Last Name": "Reckamp",
+        "Name": "Joe Reckamp",
+        "Type": "User",
+        "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+    },
+    "Path": "My Folder >> Example Use Cases (Don't Edit)",
+    "Search Folder ID": "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18",
+    "Type": "Workbook",
+    "URL": "https://demo.seeq.dev/0EE6CEEA-5A5B-6220-B11A-01D00EA05A18/workbook/0EE7A6D8-FCDF-EED0-9785-02A5D684A4E2/worksheet/0EE7A6D8-FFC1-73B0-9DA4-91DB7E90AA77",
+    "Unsearchable": false,
+    "Updated At": "1699369425737610381",
+    "Workbook Type": "Analysis",
+    "Worksheets": [
+        "0EE7A6D8-FFC1-73B0-9DA4-91DB7E90AA77",
+        "0EE7D7C5-EA2F-EA60-AF51-A8CB385E11B4"
+    ],
+    "workbookState": {
+        "state": {
+            "stores": {
+                "sqAnnotationStore": {
+                    "height": 0,
+                    "id": "0EE7D7C5-ED70-62B0-907F-C73A229E695C",
+                    "isAnnotatesExpanded": false,
+                    "isCkEnabled": true,
+                    "isCommentsExpanded": false,
+                    "isExpanded": false,
+                    "width": 0
+                }
+            }
+        },
+        "version": 1
+    }
+}

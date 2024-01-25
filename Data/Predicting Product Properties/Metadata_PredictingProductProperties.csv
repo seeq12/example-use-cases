@@ -1,6 +1,7 @@
 Name,Description,Type,Value Unit Of Measure,Maximum Interpolation
-Modifier_Flow (59EFE199-8FF6-46D2-AA45-E27EE937F5E4),,StoredSignal,lb/h,1h
 Rxtr_Temp (88D0468D-6327-49E6-9B15-3400DA99DCCE),,StoredSignal,°F,1h
 Rxtr_Conversion (6829229D-F222-4611-9F9D-F70F600BCB12),,StoredSignal,%,1h
-Grade_Code (749E80FE-EBF0-44A6-89B6-D336CDEA48EC),,StoredSignal,,1h
+Modifier_Flow (59EFE199-8FF6-46D2-AA45-E27EE937F5E4),,StoredSignal,lb/h,1h
 Product_Viscosity (5D23359B-5653-419D-A205-6151B17F11CF),,StoredSignal,,4h
+Grade_Code (749E80FE-EBF0-44A6-89B6-D336CDEA48EC),,StoredSignal,,1h
+Rxtr_Rate (B4847133-2205-4E9F-9214-177E02A84CB3),,StoredSignal,klb/h,1h

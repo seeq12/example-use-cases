@@ -1,0 +1,1412 @@
+{
+    "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18": {
+        "Access Control": [
+            {
+                "ID": "0ee6ceea-5a5b-6220-85be-6ad1e7f16bbc",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "0ee6ceea-5a84-ea30-b951-f69b88fe3e3b",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1697548273220026135",
+        "Enabled": true,
+        "ID": "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18",
+        "Name": "Example Use Cases (Don't Edit)",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1704828287582326861"
+    },
+    "0EE7E381-5E2F-FD90-93E2-338BB50A4263": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e381-5e2f-fd90-8c0f-700a8cb7ddef",
+        "Data ID": "0EE7E381-5E2F-FD90-93E2-338BB50A4263",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.validValues() ~= \"zero\"",
+        "Formula Parameters": {
+            "a": "B207E826-0180-4E25-9C14-7A57CDF17A3B"
+        },
+        "ID": "0EE7E381-5E2F-FD90-93E2-338BB50A4263",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Pump OFF",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 0
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": "~=",
+            "simpleValue": "zero",
+            "type": "value-search",
+            "useValidValues": true,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E382-574E-6430-BACD-49FC8F33CA34": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e382-574e-6430-8581-4f31d741e6c1",
+        "Data ID": "0EE7E382-574E-6430-BACD-49FC8F33CA34",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$Temp.remove($OFF).removeoutliers()",
+        "Formula Parameters": {
+            "OFF": "0EE7E381-5E2F-FD90-93E2-338BB50A4263",
+            "Temp": "CE1F53CA-1868-4B0E-B0B0-30CE44F76A50"
+        },
+        "ID": "0EE7E382-574E-6430-BACD-49FC8F33CA34",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "SS Cleansed Suction Temperature",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "0EE7E38E-A6E9-EC90-91AC-8F3D883DAF33": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e38e-a6e9-ec90-8bca-fe539ffce779",
+        "Data ID": "0EE7E38E-A6E9-EC90-91AC-8F3D883DAF33",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$Pressure.remove($OFF).removeoutliers().agileFilter(1 min)",
+        "Formula Parameters": {
+            "OFF": "0EE7E381-5E2F-FD90-93E2-338BB50A4263",
+            "Pressure": "C2159C7B-7137-4901-9FB6-4D4E7A6AFA66"
+        },
+        "ID": "0EE7E38E-A6E9-EC90-91AC-8F3D883DAF33",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Cleansed Discharge Pressure",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    },
+    "0EE7E390-58F7-FF30-844C-394A0D8B4CC9": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e390-58f7-ff30-9998-85947bb62e61",
+        "Data ID": "0EE7E390-58F7-FF30-844C-394A0D8B4CC9",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "(141.5 /($API + 131.5)).setMaxInterpolation(10d).tostep()",
+        "Formula Parameters": {
+            "API": "823F1B68-488A-4280-826E-AB9BEF58F52D"
+        },
+        "ID": "0EE7E390-58F7-FF30-844C-394A0D8B4CC9",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "10",
+        "Name": "SG",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE7E393-4237-EA40-8D15-71FE321FE39B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e393-4237-ea40-8e77-408723a648a9",
+        "Data ID": "0EE7E393-4237-EA40-8D15-71FE321FE39B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$FlowRate.removeoutliers().agileFilter(20 min).setMaxInterpolation(1d).remove($OFF)",
+        "Formula Parameters": {
+            "FlowRate": "3906AA96-51A1-482F-9EA0-CAADADA4337F",
+            "OFF": "0EE7E381-5E2F-FD90-93E2-338BB50A4263"
+        },
+        "ID": "0EE7E393-4237-EA40-8D15-71FE321FE39B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Cleansed Discharge Flow Rate",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "bbl/d"
+    },
+    "0EE7E395-3A12-7750-B5D9-7CEA93178818": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e395-3a12-7750-857a-e8ded396ed72",
+        "Data ID": "0EE7E395-3A12-7750-B5D9-7CEA93178818",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$negativeFlow = $RecircFlow.valueSearch(isLessThan(0))",
+            "$zero = 0.toSignal()",
+            "$RecircFlow.splice($zero,$negativeFlow).agileFilter(20min)"
+        ],
+        "Formula Parameters": {
+            "RecircFlow": "600A3311-A1FE-4406-9C73-4A097ABE3B4D"
+        },
+        "ID": "0EE7E395-3A12-7750-B5D9-7CEA93178818",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1200.0",
+        "Name": "Cleansed Recirculation Flow Rate",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "bbl/d"
+    },
+    "0EE7E397-0380-E820-964B-7F6EEEB9659E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e397-0380-e820-bbb0-39149bc01ced",
+        "Data ID": "0EE7E397-0380-E820-964B-7F6EEEB9659E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$DischargeFlow + $RecircFlow",
+        "Formula Parameters": {
+            "DischargeFlow": "0EE7E393-4237-EA40-8D15-71FE321FE39B",
+            "RecircFlow": "0EE7E395-3A12-7750-B5D9-7CEA93178818"
+        },
+        "ID": "0EE7E397-0380-E820-964B-7F6EEEB9659E",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1200.0",
+        "Name": "Total Flow Through Pump",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "bbl/d"
+    },
+    "0EE7E398-2293-FB80-AAC7-F07D9E12AD60": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e398-2293-fb80-b7ed-6b3369968b68",
+        "Data ID": "0EE7E398-2293-FB80-AAC7-F07D9E12AD60",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "//Bring in pump design curve",
+            "$PressFT =(-0.02763928815*$TotalFlow.convertUnits('gal/min')*$TotalFlow.convertUnits('gal/min')).setUnits('')-(0.4742592803*$TotalFlow.convertUnits('gal/min')).setUnits('')+8995.55514 ",
+            "",
+            "//Convert to PSI",
+            "$PressFT*0.433*$fluidSG.setUnits('psi')"
+        ],
+        "Formula Parameters": {
+            "TotalFlow": "0EE7E397-0380-E820-964B-7F6EEEB9659E",
+            "fluidSG": "0EE7E390-58F7-FF30-844C-394A0D8B4CC9"
+        },
+        "ID": "0EE7E398-2293-FB80-AAC7-F07D9E12AD60",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1200.0",
+        "Name": "Discharge Pressure from Pump Curve",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    },
+    "0EE7E399-47BE-FFD0-B3C4-F9699A3092C4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e399-47be-ffd0-a562-7ef99dcb386c",
+        "Data ID": "0EE7E399-47BE-FFD0-B3C4-F9699A3092C4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$PumpCurveHead*1.3",
+        "Formula Parameters": {
+            "PumpCurveHead": "0EE7E398-2293-FB80-AAC7-F07D9E12AD60"
+        },
+        "ID": "0EE7E399-47BE-FFD0-B3C4-F9699A3092C4",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1200.0",
+        "Name": "Upper Discharge Pressure Limit",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    },
+    "0EE7E39A-2044-EAD0-B182-98DC53C42DC1": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e39a-2044-ead0-8c48-cf847e743a35",
+        "Data ID": "0EE7E39A-2044-EAD0-B182-98DC53C42DC1",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$PumpCurveHead*0.7",
+        "Formula Parameters": {
+            "PumpCurveHead": "0EE7E398-2293-FB80-AAC7-F07D9E12AD60"
+        },
+        "ID": "0EE7E39A-2044-EAD0-B182-98DC53C42DC1",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1200.0",
+        "Name": "Lower Discharge Pressure Limit",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    },
+    "0EE7E39C-9F6E-62A0-9E83-61AA5EC0D72F": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EE7E39C-9F6E-62A0-9E83-61AA5EC0D72F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Measured Item": "0EE7E38E-A6E9-EC90-91AC-8F3D883DAF33",
+            "Process Type": "Simple",
+            "Thresholds": [
+                {
+                    "Item ID": "0EE7E399-47BE-FFD0-B3C4-F9699A3092C4",
+                    "Priority": {
+                        "Color": "#ffffff",
+                        "Level": 1,
+                        "Name": "Hi"
+                    }
+                },
+                {
+                    "Item ID": "0EE7E39A-2044-EAD0-B182-98DC53C42DC1",
+                    "Priority": {
+                        "Color": "#ffffff",
+                        "Level": -1,
+                        "Name": "Lo"
+                    }
+                }
+            ]
+        },
+        "ID": "0EE7E39C-9F6E-62A0-9E83-61AA5EC0D72F",
+        "MetricReconfigurationMigration": true,
+        "Name": "Design vs Actual Threshold",
+        "NeutralColor": "#0070c0",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E39D-B766-E870-B757-BED3C67F4473": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e39d-b766-e870-8165-2e7e9ae35018",
+        "Data ID": "0EE7E39D-B766-E870-B757-BED3C67F4473",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a < $c or $a > $b",
+        "Formula Parameters": {
+            "a": "0EE7E38E-A6E9-EC90-91AC-8F3D883DAF33",
+            "b": "0EE7E399-47BE-FFD0-B3C4-F9699A3092C4",
+            "c": "0EE7E39A-2044-EAD0-B182-98DC53C42DC1"
+        },
+        "ID": "0EE7E39D-B766-E870-B757-BED3C67F4473",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Deviation from Pump Curve",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": "0EE7E39A-2044-EAD0-B182-98DC53C42DC1",
+            "simpleLowerValueInclusivity": "<",
+            "simpleOperator": "<>",
+            "simpleUpperValueInclusivity": ">",
+            "simpleValue": "0EE7E399-47BE-FFD0-B3C4-F9699A3092C4",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E3E1-C6B9-F9F0-AA27-7C681DA95B4D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e3e1-c6b9-f9f0-9363-7d1a2248f5bc",
+        "Data ID": "0EE7E3E1-C6B9-F9F0-AA27-7C681DA95B4D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a > 5966",
+        "Formula Parameters": {
+            "a": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E3E1-C6B9-F9F0-AA27-7C681DA95B4D",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "SS Flow > 5966",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "5966",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E3E2-A96C-64A0-A02E-AAC6BF466AD8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e3e2-a96c-64a0-977c-49bd46890706",
+        "Data ID": "0EE7E3E2-A96C-64A0-A02E-AAC6BF466AD8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a < 6960",
+        "Formula Parameters": {
+            "a": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E3E2-A96C-64A0-A02E-AAC6BF466AD8",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "SS Flow < 6960",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": "<",
+            "simpleValue": "6960",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E3E3-6276-EE50-9730-13A40AB9D395": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e3e3-6276-ee50-b733-5a0e37a49cf6",
+        "Data ID": "0EE7E3E3-6276-EE50-9730-13A40AB9D395",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.intersect($b)",
+        "Formula Parameters": {
+            "a": "0EE7E3E1-C6B9-F9F0-AA27-7C681DA95B4D",
+            "b": "0EE7E3E2-A96C-64A0-A02E-AAC6BF466AD8"
+        },
+        "ID": "0EE7E3E3-6276-EE50-9730-13A40AB9D395",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Reduced Impeller Life",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4E0-3221-EC20-B629-9FCDDCD8B6A5": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4e0-3224-7330-a0c8-9e13beb9a715",
+        "Data ID": "0EE7E4E0-3221-EC20-B629-9FCDDCD8B6A5",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$d.validValues().valueSearch(1day, isLessThan(3977), 0min, isGreaterThanOrEqualTo(3977), 0min)",
+            ".setProperty('Pump status',  'High Temp Rise')"
+        ],
+        "Formula Parameters": {
+            "d": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E4E0-3221-EC20-B629-9FCDDCD8B6A5",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "High Temp rise",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4E1-03FA-7760-873F-E18A8841207F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4e1-03fa-7760-aaf5-2f02bc974833",
+        "Data ID": "0EE7E4E1-03FA-7760-873F-E18A8841207F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$d.valueSearch(isGreaterThan(3977)).intersect( $d.valueSearch(isLessThan(4971)))",
+            ".removeLongerThan(5d)",
+            ".setProperty('Pump status',  'Low Flow Cavitation')"
+        ],
+        "Formula Parameters": {
+            "d": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E4E1-03FA-7760-873F-E18A8841207F",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "Low Flow Cavitation",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4E1-C6D5-6460-8287-789D22C01035": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4e1-c6d5-6460-897d-3276b22af2eb",
+        "Data ID": "0EE7E4E1-C6D5-6460-8287-789D22C01035",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$d.valueSearch(isGreaterThan(4971)).intersect( $d.valueSearch(isLessThan(5966)))",
+            ".removeLongerThan(5d)",
+            ".setProperty('Pump status',  'Low Bearing/Seal Life (Low Flow)')"
+        ],
+        "Formula Parameters": {
+            "d": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E4E1-C6D5-6460-8287-789D22C01035",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "Low Bearing/Seal Life (low flow)",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4E4-431F-EE60-8D25-70BC1BE22FEA": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4e4-431f-ee60-a2aa-23bcb6f2afe4",
+        "Data ID": "0EE7E4E4-431F-EE60-8D25-70BC1BE22FEA",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$d.valueSearch(isGreaterThan(6960)).intersect( $d.valueSearch(isLessThan(7954)))",
+            ".removeLongerThan(5d)",
+            ".setProperty('Pump status',  'Suction Recirc')"
+        ],
+        "Formula Parameters": {
+            "d": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E4E4-431F-EE60-8D25-70BC1BE22FEA",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "Suction Recirculation",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4E4-F1B9-62A0-B7B5-BB60D72C7005": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4e4-f1b9-62a0-b874-5f75f670f859",
+        "Data ID": "0EE7E4E4-F1B9-62A0-B7B5-BB60D72C7005",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$d.valueSearch(isGreaterThan(7954)).intersect( $d.valueSearch(isLessThan(8948)))",
+            ".removeLongerThan(1d)",
+            ".setProperty('Pump status',  'Discharge Recirc')"
+        ],
+        "Formula Parameters": {
+            "d": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E4E4-F1B9-62A0-B7B5-BB60D72C7005",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "Discharge Recirculation",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4E5-9E4A-6690-A213-02AFF92AD446": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4e5-9e4a-6690-a6ba-25e313a33c29",
+        "Data ID": "0EE7E4E5-9E4A-6690-A213-02AFF92AD446",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$d.valueSearch(isGreaterThan(10937)).intersect( $d.valueSearch(isLessThan(11931)))",
+            ".removeLongerThan(5d)",
+            ".setProperty('Pump status',  'Low Bearing/Seal Life (High Flow)')"
+        ],
+        "Formula Parameters": {
+            "d": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E4E5-9E4A-6690-A213-02AFF92AD446",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "Low Bearing/Seal Life (high flow)",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4E8-2269-66E0-8BA1-963F1D2EE0C4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4e8-2269-66e0-a2ef-ef6db7fac8fa",
+        "Data ID": "0EE7E4E8-2269-66E0-8BA1-963F1D2EE0C4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$d.valueSearch(isGreaterThan(11931)).intersect( $d.valueSearch(isLessThanOrEqualTo(11931)))",
+            ".removeLongerThan(5d)",
+            ".setProperty('Pump status',  'High Flow Cavitation')"
+        ],
+        "Formula Parameters": {
+            "d": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E4E8-2269-66E0-8BA1-963F1D2EE0C4",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "High Flow Cavitation",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4E9-D7B3-73B0-82D3-0AECCC6FD941": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4e9-d7b3-73b0-90fd-09e88cab4c49",
+        "Data ID": "0EE7E4E9-D7B3-73B0-82D3-0AECCC6FD941",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$flow=$f.convertUnits('gal/min')",
+            "",
+            "$NPSHftLiquid =(-0.0002866695691*$flow*$flow).setUnits('')-(0.06280080837*$flow).setUnits('')+44.68390447",
+            "",
+            "$NPSHftLiquid.setUnits('ft')"
+        ],
+        "Formula Parameters": {
+            "f": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E4E9-D7B3-73B0-82D3-0AECCC6FD941",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1200.0",
+        "Name": "NPSH",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "ft"
+    },
+    "0EE7E4EB-78BB-77C0-BB10-AF997CFA3B6A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4eb-78bb-77c0-82ae-c40d7efa8289",
+        "Data ID": "0EE7E4EB-78BB-77C0-BB10-AF997CFA3B6A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$h.validValues().valueSearch(1day, isLessThan(174), 0min, isGreaterThanOrEqualTo(174), 0min)",
+            ".setProperty('Pump status', 'Cavitation due to low NPSH')"
+        ],
+        "Formula Parameters": {
+            "h": "0EE7E4E9-D7B3-73B0-82D3-0AECCC6FD941"
+        },
+        "ID": "0EE7E4EB-78BB-77C0-BB10-AF997CFA3B6A",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "Cavitation due to low NPSH",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4EC-D7B1-EAD0-BF6B-169AB963846A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4ec-d7b1-ead0-a003-2477c4516cb6",
+        "Data ID": "0EE7E4EC-D7B1-EAD0-BF6B-169AB963846A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$d.valueSearch(isGreaterThan(8948)).intersect( $d.valueSearch(isLessThan(10937)))",
+            ".removeLongerThan(5d)",
+            ".setProperty('Pump status',  'Normal')"
+        ],
+        "Formula Parameters": {
+            "d": "0EE7E397-0380-E820-964B-7F6EEEB9659E"
+        },
+        "ID": "0EE7E4EC-D7B1-EAD0-BF6B-169AB963846A",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "5",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "Normal",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4F2-442F-EC70-8B51-C20C90B87A66": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4fc-58f4-60c0-a8d2-c4f3d66b7af0",
+        "Data ID": "0EE7E4F2-442F-EC70-8B51-C20C90B87A66",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "combinewith($cdtl,$dr,$hfc,$htr,$lbsl2,$lbsl,$lfc,$n,$ril,$sr)",
+        "Formula Parameters": {
+            "cdtl": "0EE7E4EB-78BB-77C0-BB10-AF997CFA3B6A",
+            "dr": "0EE7E4E4-F1B9-62A0-B7B5-BB60D72C7005",
+            "hfc": "0EE7E4E8-2269-66E0-8BA1-963F1D2EE0C4",
+            "htr": "0EE7E4E0-3221-EC20-B629-9FCDDCD8B6A5",
+            "lbsl": "0EE7E4E1-C6D5-6460-8287-789D22C01035",
+            "lbsl2": "0EE7E4E5-9E4A-6690-A213-02AFF92AD446",
+            "lfc": "0EE7E4E1-03FA-7760-873F-E18A8841207F",
+            "n": "0EE7E4EC-D7B1-EAD0-BF6B-169AB963846A",
+            "ril": "0EE7E4FB-9A50-7560-8170-5D62D123754C",
+            "sr": "0EE7E4E4-431F-EE60-8D25-70BC1BE22FEA"
+        },
+        "ID": "0EE7E4F2-442F-EC70-8B51-C20C90B87A66",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "Modes",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4F4-8122-F950-9EB2-23C2E4B953F6": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EE7E4F4-8122-F950-9EB2-23C2E4B953F6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "ExpectedProvidedType": "Table",
+        "Formula": "conditionTable(days().renameProperty(\"Day Of Year\", \"timeCol_Day Of Year\").toGroup($viewCapsule, CapsuleBoundary.Intersect), \"timeCol_Day Of Year\", $condition2.toGroup($viewCapsule, CapsuleBoundary.Intersect), \"Pump status\").addStatColumn(\"signalToAggregate\", $signalToAggregate, totalDuration(\"h\"))",
+        "Formula Parameters": {
+            "condition2": "0EE7E4F2-442F-EC70-8B51-C20C90B87A66",
+            "signalToAggregate": "0EE7E4F2-442F-EC70-8B51-C20C90B87A66",
+            "viewCapsule": "capsule(\"2018-10-31T08:02:00.000Z\", \"2018-12-02T01:13:00.000Z\")"
+        },
+        "ID": "0EE7E4F4-8122-F950-9EB2-23C2E4B953F6",
+        "Name": "Total hour at each operating mode per day",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "Chart",
+        "UIConfig": {
+            "aggregationConfigs": [
+                {
+                    "capsuleMode": "intersect",
+                    "id": 1,
+                    "mode": "by_time",
+                    "timeBucket": {
+                        "display": "BY_DAY_OF_YEAR",
+                        "funct": "days()",
+                        "key": "Day Of Year"
+                    },
+                    "valid": true,
+                    "yValueBinMode": "size"
+                },
+                {
+                    "capsuleMode": "intersect",
+                    "conditionProperty": "Pump status",
+                    "id": 2,
+                    "mode": "by_condition",
+                    "valid": true,
+                    "yValueBinMode": "size"
+                }
+            ],
+            "includeEmptyBuckets": false,
+            "mode": "by_y_value",
+            "stat": {
+                "key": "totalDuration",
+                "timeUnits": "h"
+            },
+            "type": "aggregation-bins-table",
+            "yValueSignal": ""
+        },
+        "Unsearchable": false
+    },
+    "0EE7E4FB-9A50-7560-8170-5D62D123754C": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e4fb-9a50-7560-925d-432033e7ad43",
+        "Data ID": "0EE7E4FB-9A50-7560-8170-5D62D123754C",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ril.setproperty('Pump status', 'Reduced Impeller Life')",
+        "Formula Parameters": {
+            "ril": "0EE7E3E3-6276-EE50-9730-13A40AB9D395"
+        },
+        "ID": "0EE7E4FB-9A50-7560-8170-5D62D123754C",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "Pump+status=string",
+        "Name": "Reduced Impeller Life",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE7E585-FFCF-E820-89CA-C53B04F1D719": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e585-ffcf-e820-97b5-89e4869576d4",
+        "Data ID": "0EE7E585-FFCF-E820-89CA-C53B04F1D719",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$Level.removeoutliers().agilefilter(1min)",
+        "Formula Parameters": {
+            "Level": "3C1556AB-B81A-4700-851B-5E3505BFD052"
+        },
+        "ID": "0EE7E585-FFCF-E820-89CA-C53B04F1D719",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Cleansed Drum Level",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EE7E587-4272-FB90-9D2A-2DFE793095F8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee7e587-4272-fb90-a483-bc67a76a71c7",
+        "Data ID": "0EE7E587-4272-FB90-9D2A-2DFE793095F8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$Pressure.remove($OFF).removeoutliers().agilefilter(1min)",
+        "Formula Parameters": {
+            "OFF": "0EE7E381-5E2F-FD90-93E2-338BB50A4263",
+            "Pressure": "F9770708-829D-4DC3-9A01-EE634471FB98"
+        },
+        "ID": "0EE7E587-4272-FB90-9D2A-2DFE793095F8",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Cleansed Suction Pressure",
+        "Scoped To": "0EE7D980-C902-FBA0-AC0D-198BE318F400",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    },
+    "10F97242-32FA-460E-B1E1-B80CA82E7F05": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "a27b1a1c-fdd7-4410-b997-408169578a53",
+        "Data ID": "a453941e-28a1-4f03-a7d0-a9176ddd181d-S25_4HDS_FEED_25PI0665_MEAS-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_4HDS_FEED_25PI0665_MEAS; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "10F97242-32FA-460E-B1E1-B80CA82E7F05",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543682820000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time2\",S25_4HDS_FEED_25PI0665_MEAS FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time2')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1).setUnits(\"psi\")\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40h",
+        "Name": "Standby Discharge Pressure",
+        "Parent ID": "A453941E-28A1-4F03-A7D0-A9176DDD181D",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    },
+    "3906AA96-51A1-482F-9EA0-CAADADA4337F": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "6711c3a5-b4a7-49aa-8b82-5d69c680b297",
+        "Data ID": "69c2dd11-14da-44af-99ba-c273ac1abddb-S25_4HDS_FEED_FC407_MEAS-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_4HDS_FEED_FC407_MEAS; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "3906AA96-51A1-482F-9EA0-CAADADA4337F",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543689780000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time3\",S25_4HDS_FEED_FC407_MEAS FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time3')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1).setUnits(\"bbl/d\")\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40h",
+        "Name": "Discharge Flow Rate",
+        "Parent ID": "69C2DD11-14DA-44AF-99BA-C273AC1ABDDB",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "bbl/d"
+    },
+    "3C1556AB-B81A-4700-851B-5E3505BFD052": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "0c8d3f48-623d-490f-bee8-fe95a9e94f8f",
+        "Data ID": "c58b1296-0923-43a8-981c-f17fea6ba904-S25_4HDS_FEED_LC406_MEAS-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_4HDS_FEED_LC406_MEAS; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "3C1556AB-B81A-4700-851B-5E3505BFD052",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543683300000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time9\",S25_4HDS_FEED_LC406_MEAS FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time9')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1).setUnits(\"%\")\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40h",
+        "Name": "Drum Level",
+        "Parent ID": "C58B1296-0923-43A8-981C-F17FEA6BA904",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "600A3311-A1FE-4406-9C73-4A097ABE3B4D": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "6a3be8e5-e947-4f90-a5bc-3a89455a1826",
+        "Data ID": "16a980b8-c567-43ef-af28-24d3cf2db052-S25_4HDS_FEED_FI408_PNT-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_4HDS_FEED_FI408_PNT; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "600A3311-A1FE-4406-9C73-4A097ABE3B4D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543691820000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time7\",S25_4HDS_FEED_FI408_PNT FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time7')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1).setUnits(\"bbl/d\")\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40h",
+        "Name": "Recirculation Flow",
+        "Parent ID": "16A980B8-C567-43EF-AF28-24D3CF2DB052",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "bbl/d"
+    },
+    "823F1B68-488A-4280-826E-AB9BEF58F52D": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "de5d98ec-f085-4556-89b1-54ecb60b59b6",
+        "Data ID": "06c94a81-2d03-4c3d-8939-b119940319ed-S25_120_COMBINED_FEED_API_LAB-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_120_COMBINED_FEED_API_LAB; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "823F1B68-488A-4280-826E-AB9BEF58F52D",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543905000000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time10\",S25_120_COMBINED_FEED_API_LAB FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time10')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1)\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40d",
+        "Name": "Feed API",
+        "Override Maximum Interpolation": "40d",
+        "Parent ID": "06C94A81-2D03-4C3D-8939-B119940319ED",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "905A3390-CCA6-489B-89A3-492EC9F7FF26": {
+        "Access Control": [
+            {
+                "ID": "726694d8-3949-4a40-aa59-e01b172690cd",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1605736826077625600",
+        "Enabled": true,
+        "ID": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+        "Name": "Joseph Reckamp",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Permission Inheritance Disabled": true,
+        "Type": "Folder",
+        "Unmodifiable": true,
+        "Unsearchable": true,
+        "Updated At": "1605736826077625600"
+    },
+    "B207E826-0180-4E25-9C14-7A57CDF17A3B": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "0881d3fe-09b0-436e-86ff-338e24ab6d9b",
+        "Data ID": "93029050-4c63-4c1f-b971-485aac642e63-S25_4HDS_FEED_XL409A_CIN-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_4HDS_FEED_XL409A_CIN; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "B207E826-0180-4E25-9C14-7A57CDF17A3B",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543683420000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time4\",S25_4HDS_FEED_XL409A_CIN FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time4')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1).toString()\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40h",
+        "Name": "Pump Status",
+        "Parent ID": "93029050-4C63-4C1F-B971-485AAC642E63",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "BE054D8A-8F15-4EF3-85A4-A918218398DA": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "4e8e4340-0c80-4d12-b8ed-d25744ea0848",
+        "Data ID": "d681fde4-e547-453d-bfe9-af0963d95cfb-S25_4HDS_FEED_XL410A_CIN-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_4HDS_FEED_XL410A_CIN; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "BE054D8A-8F15-4EF3-85A4-A918218398DA",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543684620000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time5\",S25_4HDS_FEED_XL410A_CIN FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time5')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1).toString()\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40h",
+        "Name": "Standby Pump Status",
+        "Parent ID": "D681FDE4-E547-453D-BFE9-AF0963D95CFB",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "C2159C7B-7137-4901-9FB6-4D4E7A6AFA66": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "d425aa66-79b5-4b91-a771-92d9c31d1ad0",
+        "Data ID": "eba6d290-89f6-43cb-964b-fb81e9e1090a-S25_4HDS_FEED_25PI0664_MEAS-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_4HDS_FEED_25PI0664_MEAS; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "C2159C7B-7137-4901-9FB6-4D4E7A6AFA66",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543682040000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time1\",S25_4HDS_FEED_25PI0664_MEAS FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time1')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1).setUnits(\"psi\")\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40h",
+        "Name": "Pump Discharge Pressure",
+        "Parent ID": "EBA6D290-89F6-43CB-964B-FB81E9E1090A",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    },
+    "CE1F53CA-1868-4B0E-B0B0-30CE44F76A50": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "e26e00f2-6a26-4658-a3a4-6c384062c7e3",
+        "Data ID": "cdbc0962-a905-47a8-99af-ce0f4b693d73-S25_4HDS_EXCH_TI310_PNT-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_4HDS_EXCH_TI310_PNT; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "CE1F53CA-1868-4B0E-B0B0-30CE44F76A50",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543692840000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time8\",S25_4HDS_EXCH_TI310_PNT FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time8')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1).setUnits(\"F\")\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40h",
+        "Name": "Suction Temperature",
+        "Parent ID": "CDBC0962-A905-47A8-99AF-CE0F4B693D73",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "F9770708-829D-4DC3-9A01-EE634471FB98": {
+        "Archived": false,
+        "Asset": "PumpData_v1",
+        "Cache Enabled": false,
+        "Cache ID": "d8ef84d2-ce74-46a0-8338-bb237027ff45",
+        "Data ID": "744b83e8-a504-4c99-a648-8c36b61131a5-S25_4HDS_FEED_PC405_MEAS-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = S25_4HDS_FEED_PC405_MEAS; last file imported = PumpData_v1.csv",
+        "Enabled": true,
+        "ID": "F9770708-829D-4DC3-9A01-EE634471FB98",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Last Key Written": "1543680420000000000",
+        "Legacy Formula": "$rows = $datasource.query('SELECT \"Date-Time6\",S25_4HDS_FEED_PC405_MEAS FROM CSVREAD(\"PumpData_v1.csv\")', 'Date-Time6')\n$rows.transformToSamples($row ->\n  sample(\n    $row.get(0).toTime(),\n    $row.get(1).setUnits(\"psi\")\n  ),\n  40h\n).setCertain().toLinear()\n",
+        "Maximum Interpolation": "40h",
+        "Name": "Suction Pressure",
+        "Parent ID": "744B83E8-A504-4C99-A648-8C36B61131A5",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "psi"
+    }
+}

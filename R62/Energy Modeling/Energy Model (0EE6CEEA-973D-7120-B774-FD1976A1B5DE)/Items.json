@@ -1,0 +1,1470 @@
+{
+    "028560F2-5D26-46FD-9CD3-6B796E391373": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "37c8827c-dcc9-4ff1-9047-047d79984818",
+        "Data ID": "[Tag] EnergyModel_Steam Flow 5.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "028560F2-5D26-46FD-9CD3-6B796E391373",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Flow 5",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18": {
+        "Access Control": [
+            {
+                "ID": "0ee6ceea-5a5b-6220-85be-6ad1e7f16bbc",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "0ee6ceea-5a84-ea30-b951-f69b88fe3e3b",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1697548273220026135",
+        "Enabled": true,
+        "ID": "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18",
+        "Name": "Example Use Cases (Don't Edit)",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1699031378220769061"
+    },
+    "0EE6CEFC-5E4B-FDF0-9B54-8DB597AF5326": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cefc-5e4b-fdf0-9e04-37aaffb7449f",
+        "Data ID": "0EE6CEFC-5E4B-FDF0-9B54-8DB597AF5326",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$on = $steamValveString == \"OPEN\"",
+            "0.splice(1, $on)"
+        ],
+        "Formula Parameters": {
+            "steamValveString": "CFBCCB2A-C573-4C1D-8A0D-047676BC9B63"
+        },
+        "ID": "0EE6CEFC-5E4B-FDF0-9B54-8DB597AF5326",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "24",
+        "Name": "Steam Valve 1 Num",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE6CEFD-3C74-66E0-8E83-460E747162A5": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cefd-3c74-66e0-b8d8-7aa17418f06b",
+        "Data ID": "0EE6CEFD-3C74-66E0-8E83-460E747162A5",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$on = $steamValveString == \"OPEN\"",
+            "0.splice(1, $on)"
+        ],
+        "Formula Parameters": {
+            "steamValveString": "30643FFE-5A7B-487C-A0F8-3B0527D0132C"
+        },
+        "ID": "0EE6CEFD-3C74-66E0-8E83-460E747162A5",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "24",
+        "Name": "Steam Valve 2 Num",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE6CEFD-D478-7720-93F3-142490B03688": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cefd-d478-7720-856f-46dedadf0feb",
+        "Data ID": "0EE6CEFD-D478-7720-93F3-142490B03688",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$on = $steamValveString == \"OPEN\"",
+            "0.splice(1, $on)"
+        ],
+        "Formula Parameters": {
+            "steamValveString": "87C29967-87D4-4595-9A44-8385A3FF80A9"
+        },
+        "ID": "0EE6CEFD-D478-7720-93F3-142490B03688",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "24",
+        "Name": "Steam Valve 3 Num",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE6CEFF-3408-7720-8CB8-C75C1B5224AA": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6ceff-3408-7720-aa73-8d472ff047fc",
+        "Data ID": "0EE6CEFF-3408-7720-8CB8-C75C1B5224AA",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$on = $steamJetString == \"On\"",
+            "0.splice(1, $on)"
+        ],
+        "Formula Parameters": {
+            "steamJetString": "2FA5C76C-C198-4191-93AB-4BE09C332F8D"
+        },
+        "ID": "0EE6CEFF-3408-7720-8CB8-C75C1B5224AA",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "24",
+        "Name": "Steam Jet 1 Num",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE6CEFF-DF74-FB90-A5A4-EB80D40C1330": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6ceff-df74-fb90-a325-162c46c52162",
+        "Data ID": "0EE6CEFF-DF74-FB90-A5A4-EB80D40C1330",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$on = $steamJetString == \"On\"",
+            "0.splice(1, $on)"
+        ],
+        "Formula Parameters": {
+            "steamJetString": "43F52215-635F-4DA9-A755-487A6A2DF77B"
+        },
+        "ID": "0EE6CEFF-DF74-FB90-A5A4-EB80D40C1330",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "24",
+        "Name": "Steam Jet 2 Num",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE6CF00-482D-ECE0-8BF2-67658F07BC82": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf00-482d-ece0-82e8-3e2aa157dfed",
+        "Data ID": "0EE6CF00-482D-ECE0-8BF2-67658F07BC82",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$on = $steamJetString == \"On\"",
+            "0.splice(1, $on)"
+        ],
+        "Formula Parameters": {
+            "steamJetString": "296D07B4-8DE2-4B84-9411-BBC7D8D4B242"
+        },
+        "ID": "0EE6CF00-482D-ECE0-8BF2-67658F07BC82",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "24",
+        "Name": "Steam Jet 3 Num",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE6CF00-B575-EE10-A3F2-2BF7DEAC32A6": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf00-b575-ee10-b2d6-317fc0bd843d",
+        "Data ID": "0EE6CF00-B575-EE10-A3F2-2BF7DEAC32A6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$on = $steamJetString == \"On\"",
+            "0.splice(1, $on)"
+        ],
+        "Formula Parameters": {
+            "steamJetString": "F2F3F57A-FB11-43B4-9B7E-393B1669DBB1"
+        },
+        "ID": "0EE6CF00-B575-EE10-A3F2-2BF7DEAC32A6",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "24",
+        "Name": "Steam Jet 4 Num",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE6CF01-8FFE-FB40-8CCC-5FD0A2CB87C3": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf01-8ffe-fb40-8d97-e8404611df6e",
+        "Data ID": "0EE6CF01-8FFE-FB40-8CCC-5FD0A2CB87C3",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$on = $steamJetString == \"On\"",
+            "0.splice(1, $on)"
+        ],
+        "Formula Parameters": {
+            "steamJetString": "190A75D0-DBFA-4970-84E7-3B19C5D37067"
+        },
+        "ID": "0EE6CF01-8FFE-FB40-8CCC-5FD0A2CB87C3",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "24",
+        "Name": "Steam Jet 5 Num",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EE6CF0C-BADF-6430-9F18-9C2F58C2FB91": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf0c-badf-6430-9e04-a7b7ca2cbfe1",
+        "Data ID": "0EE6CF0C-BADF-6430-9F18-9C2F58C2FB91",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a > 0)",
+            ".merge(0min)",
+            ".removeShorterThan(1day)"
+        ],
+        "Formula Parameters": {
+            "a": "5BDA7048-0ED0-414E-9A94-D93B03787132"
+        },
+        "ID": "0EE6CF0C-BADF-6430-9F18-9C2F58C2FB91",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Uptime",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "day",
+                "valid": true,
+                "value": 1
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "0",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EE6CF0F-AE1B-71B0-8A39-2E1B46A87118": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf0f-ae1d-e8c0-b933-49c086567496",
+        "Data ID": "0EE6CF0F-AE1B-71B0-8A39-2E1B46A87118",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(41979241000ms,",
+            "  capsule(1577884080000ms, 1619863320000ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "0EE6CF0F-AE1B-71B0-8A39-2E1B46A87118",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "41979241000",
+        "Metadata Properties": "",
+        "Name": "Training Window",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "color": "#A1849B",
+            "configVersion": 11,
+            "isExecuting": false,
+            "type": "manual-condition"
+        },
+        "Unsearchable": false
+    },
+    "0EE6CF14-10EA-7120-AF4F-B83382ADEA67": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf14-10ea-7120-b7da-21347d0969ad",
+        "Data ID": "0EE6CF14-10EA-7120-AF4F-B83382ADEA67",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS($condition.toGroup(capsule(\"2020-01-01T23:07:00.000Z\", \"2021-05-01T15:27:00.000Z\"), CapsuleBoundary.Intersect), false, $a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l, $m, $n).predict($a, $b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l, $m, $n)",
+        "Formula Parameters": {
+            "a": "EF8BC923-A5CA-4E1C-BF33-78121E0F7920",
+            "b": "89939F97-79E2-44AD-B66A-36C44FCE0166",
+            "c": "C7FF3051-E40A-499C-A7FA-0057608DE90D",
+            "condition": "0EE6CF0C-BADF-6430-9F18-9C2F58C2FB91",
+            "d": "32BE317E-010B-4628-993D-52E3EC2F0D01",
+            "e": "5F36A83C-00D6-4003-98E5-C2CD57F22B93",
+            "f": "028560F2-5D26-46FD-9CD3-6B796E391373",
+            "g": "0EE6CEFC-5E4B-FDF0-9B54-8DB597AF5326",
+            "h": "0EE6CEFD-3C74-66E0-8E83-460E747162A5",
+            "i": "0EE6CEFD-D478-7720-93F3-142490B03688",
+            "j": "0EE6CEFF-3408-7720-8CB8-C75C1B5224AA",
+            "k": "0EE6CEFF-DF74-FB90-A5A4-EB80D40C1330",
+            "l": "0EE6CF00-482D-ECE0-8BF2-67658F07BC82",
+            "m": "0EE6CF00-B575-EE10-A3F2-2BF7DEAC32A6",
+            "n": "0EE6CF01-8FFE-FB40-8CCC-5FD0A2CB87C3",
+            "target": "5BDA7048-0ED0-414E-9A94-D93B03787132"
+        },
+        "ID": "0EE6CF14-10EA-7120-AF4F-B83382ADEA67",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0",
+        "Name": "Energy Model - Total Steam Prediction",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": false,
+            "color": "#4B7ABD",
+            "configVersion": 11,
+            "lambda": 0,
+            "modelExpanded": true,
+            "mustGoThroughZero": false,
+            "option": "linear",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1619882820000,
+            "windowStart": 1577920020000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb/h"
+    },
+    "0EE6CF33-7F61-7170-AE63-FD40DEFC487B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf38-4c8a-f9e0-87d8-515fc128ebfa",
+        "Data ID": "0EE6CF33-7F61-7170-AE63-FD40DEFC487B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS(group(capsule(\"2020-04-29T23:07:00.000Z\", \"2021-05-16T15:27:00.000Z\")), false, $a).predict($a)",
+        "Formula Parameters": {
+            "a": "0EE6CF14-10EA-7120-AF4F-B83382ADEA67",
+            "target": "5BDA7048-0ED0-414E-9A94-D93B03787132"
+        },
+        "ID": "0EE6CF33-7F61-7170-AE63-FD40DEFC487B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0",
+        "Name": "Trend Line",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": false,
+            "color": "#AC4625",
+            "configVersion": 11,
+            "lambda": 0,
+            "modelExpanded": true,
+            "mustGoThroughZero": false,
+            "option": "linear",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1621178820000,
+            "windowStart": 1588201620000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb/h"
+    },
+    "0EE6CF3B-7D90-7550-AA86-A263FC951E6F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf3b-7d90-7550-ad18-f0d3a69733da",
+        "Data ID": "0EE6CF3B-7D90-7550-AA86-A263FC951E6F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(6892104789ms,",
+            "  capsule(1625135496211ms, 1632027600000ms))",
+            "  .setproperty('Phase', 'Before Changes')"
+        ],
+        "Formula Parameters": {},
+        "ID": "0EE6CF3B-7D90-7550-AA86-A263FC951E6F",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "6892104789",
+        "Metadata Properties": "Phase=string",
+        "Name": "Before Changes",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE6CF3C-754C-FBE0-B130-4889397E85D4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf3c-754c-fbe0-86b8-2a848a81c13a",
+        "Data ID": "0EE6CF3C-754C-FBE0-B130-4889397E85D4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(16682799515ms,",
+            "  capsule(1632094495468ms, 1648777293983ms))",
+            "  .setproperty('Phase', 'Focused Energy Reduction Changes')"
+        ],
+        "Formula Parameters": {},
+        "ID": "0EE6CF3C-754C-FBE0-B130-4889397E85D4",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "16682799515",
+        "Metadata Properties": "Phase=string",
+        "Name": "Focused Energy Reduction Changes",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE6CF40-6B99-6630-BEDE-B73816EBA04F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf40-6b9e-6450-8c54-2accdbef24b5",
+        "Data ID": "0EE6CF40-6B99-6630-BEDE-B73816EBA04F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "100.setunits('%')",
+        "Formula Parameters": {},
+        "ID": "0EE6CF40-6B99-6630-BEDE-B73816EBA04F",
+        "Name": "100%",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedScalar",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "formula"
+        },
+        "Unit Of Measure": "%",
+        "Unsearchable": false
+    },
+    "0EE6CF41-7050-E8D0-A467-C47C62822184": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6cf41-7052-ffe0-a6e5-eb4d93d4c1fa",
+        "Data ID": "0EE6CF41-7050-E8D0-A467-C47C62822184",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "90.setunits('%')",
+        "Formula Parameters": {},
+        "ID": "0EE6CF41-7050-E8D0-A467-C47C62822184",
+        "Name": "90%",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedScalar",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unit Of Measure": "%",
+        "Unsearchable": false
+    },
+    "0EE6DB32-D506-60C0-B95A-FD9758159D30": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db32-d506-60c0-9004-f86ff70e17b0",
+        "Data ID": "0EE6DB32-D506-60C0-B95A-FD9758159D30",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ts95.isvalid()",
+        "Formula Parameters": {
+            "ts95": "3F127580-FB51-45D8-A857-6C620B3B9E97"
+        },
+        "ID": "0EE6DB32-D506-60C0-B95A-FD9758159D30",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "June Start Splice",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DB33-8F61-F910-A3DA-207519E2D5F4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db33-8f61-f910-9aab-ee95bf77fe8f",
+        "Data ID": "0EE6DB33-8F61-F910-A3DA-207519E2D5F4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ts80.isvalid()",
+        "Formula Parameters": {
+            "ts80": "AA9A8C55-35FC-447E-B815-3AFC6426D807"
+        },
+        "ID": "0EE6DB33-8F61-F910-A3DA-207519E2D5F4",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Sep Start Splice",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DB34-7C17-FB60-8B1E-21945067DD1F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db34-7c17-fb60-a59c-ea7a5c0b2806",
+        "Data ID": "0EE6DB34-7C17-FB60-8B1E-21945067DD1F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$ets.splice($ts95, $jss).splice($ts80, $sss)",
+            ".setcertain().agilefilter(1h)"
+        ],
+        "Formula Parameters": {
+            "ets": "5BDA7048-0ED0-414E-9A94-D93B03787132",
+            "jss": "0EE6DB32-D506-60C0-B95A-FD9758159D30",
+            "sss": "0EE6DB33-8F61-F910-A3DA-207519E2D5F4",
+            "ts80": "AA9A8C55-35FC-447E-B815-3AFC6426D807",
+            "ts95": "3F127580-FB51-45D8-A857-6C620B3B9E97"
+        },
+        "ID": "0EE6DB34-7C17-FB60-8B1E-21945067DD1F",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0",
+        "Name": "EnergyModel_Total Steam_Change",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb/h"
+    },
+    "0EE6DB3B-6FF1-ECD0-94C4-F8A211DAAB42": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db3c-953a-75e0-a855-51a9ced28fbb",
+        "Data ID": "0EE6DB3B-6FF1-ECD0-94C4-F8A211DAAB42",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "($ets*1.2).agilefilter(1hours)",
+        "Formula Parameters": {
+            "ets": "0EE6CF14-10EA-7120-AF4F-B83382ADEA67"
+        },
+        "ID": "0EE6DB3B-6FF1-ECD0-94C4-F8A211DAAB42",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0",
+        "Name": "Steam 20% Upper Window",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb/h"
+    },
+    "0EE6DB3D-5776-77D0-A9E5-F789DABB4A0B": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db6f-717e-fd80-a288-f3d49a57335e",
+        "Data ID": "0EE6DB3D-5776-77D0-A9E5-F789DABB4A0B",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "($ets*0.8).agilefilter(1hours)",
+        "Formula Parameters": {
+            "ets": "0EE6CF14-10EA-7120-AF4F-B83382ADEA67"
+        },
+        "ID": "0EE6DB3D-5776-77D0-A9E5-F789DABB4A0B",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0",
+        "Name": "Steam 20% Lower Window",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb/h"
+    },
+    "0EE6DB41-45D6-7530-AE78-B42D8B5CBFB4": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EE6DB41-45D6-7530-AE78-B42D8B5CBFB4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Measured Item": "0EE6DB34-7C17-FB60-8B1E-21945067DD1F",
+            "Process Type": "Simple",
+            "Thresholds": [
+                {
+                    "Item ID": "0EE6DB3B-6FF1-ECD0-94C4-F8A211DAAB42",
+                    "Priority": {
+                        "Color": "#ffffff",
+                        "Level": 1,
+                        "Name": "Hi"
+                    }
+                },
+                {
+                    "Item ID": "0EE6DB3D-5776-77D0-A9E5-F789DABB4A0B",
+                    "Priority": {
+                        "Color": "#ffffff",
+                        "Level": -1,
+                        "Name": "Lo"
+                    }
+                }
+            ]
+        },
+        "ID": "0EE6DB41-45D6-7530-AE78-B42D8B5CBFB4",
+        "MetricReconfigurationMigration": true,
+        "Name": "Steam model range vs actual steam",
+        "NeutralColor": "#0070c0",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DB44-8B64-6630-ADBD-C480A75B7C24": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db44-8b64-6630-a3b8-4dd7d98e4b5a",
+        "Data ID": "0EE6DB44-8B64-6630-ADBD-C480A75B7C24",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "weeks(Day.Sunday, \"US/Central\")",
+        "Formula Parameters": {},
+        "ID": "0EE6DB44-8B64-6630-ADBD-C480A75B7C24",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.005952380952381",
+        "Maximum Interpolation": "608400.0",
+        "Metadata Properties": "Week=string",
+        "Name": "Weekly",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "duration": "weeks",
+            "frequencies": [],
+            "offset": {
+                "units": "min",
+                "value": 0
+            },
+            "quarterStart": {
+                "day": 1,
+                "month": "Month.January"
+            },
+            "scopedTo": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+            "shift": {
+                "duration": 8,
+                "offset": 8
+            },
+            "timezone": "US/Central",
+            "type": "periodic-condition",
+            "weekStart": "Day.Sunday"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DB46-288A-FFD0-905A-944419BE4DB2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db46-288a-ffd0-9ffa-d99eaaf99eeb",
+        "Data ID": "0EE6DB46-288A-FFD0-905A-944419BE4DB2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(totalized(\"h\"), $capsules, middleKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "0EE6DB44-8B64-6630-ADBD-C480A75B7C24",
+            "series": "0EE6DB34-7C17-FB60-8B1E-21945067DD1F"
+        },
+        "ID": "0EE6DB46-288A-FFD0-905A-944419BE4DB2",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Energy Model Actual Steam Usage",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb"
+    },
+    "0EE6DB47-7891-FF00-9020-7B0DC8FD3CA4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db47-7891-ff00-bbe2-5778195b46bd",
+        "Data ID": "0EE6DB47-7891-FF00-9020-7B0DC8FD3CA4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(totalized(\"h\"), $capsules, middleKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "0EE6DB44-8B64-6630-ADBD-C480A75B7C24",
+            "series": "0EE6CF14-10EA-7120-AF4F-B83382ADEA67"
+        },
+        "ID": "0EE6DB47-7891-FF00-9020-7B0DC8FD3CA4",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Energy Model Predicted Steam Usage",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb"
+    },
+    "0EE6DB48-4140-7730-87CB-907584F32E33": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db48-4140-7730-bfca-b1d1ca848b5a",
+        "Data ID": "0EE6DB48-4140-7730-87CB-907584F32E33",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "($emas/$emps).setunits('%')*100",
+        "Formula Parameters": {
+            "emas": "0EE6DB46-288A-FFD0-905A-944419BE4DB2",
+            "emps": "0EE6DB47-7891-FF00-9020-7B0DC8FD3CA4"
+        },
+        "ID": "0EE6DB48-4140-7730-87CB-907584F32E33",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Difference in steam used vs. predicted",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EE6DB4A-55A8-FD60-A368-5B55FC08DADE": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EE6DB4A-55A8-FD60-A368-5B55FC08DADE",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Measured Item": "0EE6DB48-4140-7730-87CB-907584F32E33",
+            "Process Type": "Simple",
+            "Thresholds": [
+                {
+                    "Item ID": "0EE6CF40-6B99-6630-BEDE-B73816EBA04F",
+                    "Priority": {
+                        "Color": "#ff0000",
+                        "Level": 3,
+                        "Name": "HiHiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "%",
+                        "Value": 100
+                    }
+                },
+                {
+                    "Item ID": "0EE6CF41-7050-E8D0-A467-C47C62822184",
+                    "Priority": {
+                        "Color": "#ffdd52",
+                        "Level": 2,
+                        "Name": "HiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "%",
+                        "Value": 90
+                    }
+                }
+            ]
+        },
+        "ID": "0EE6DB4A-55A8-FD60-A368-5B55FC08DADE",
+        "MetricReconfigurationMigration": true,
+        "Name": "Steam Reduction - Actual Usage vs. Predicted",
+        "NeutralColor": "#00B050",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DB55-5ADB-6660-931B-BBDF3B30CD0E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0ee6db55-5adb-6660-aa27-f85271380180",
+        "Data ID": "0EE6DB55-5ADB-6660-931B-BBDF3B30CD0E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "months(\"US/Central\")",
+        "Formula Parameters": {},
+        "ID": "0EE6DB55-5ADB-6660-931B-BBDF3B30CD0E",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "32.0",
+        "Maximum Interpolation": "2764800.0",
+        "Metadata Properties": "Month=",
+        "Name": "Monthly",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "duration": "months",
+            "frequencies": [],
+            "offset": {
+                "units": "min",
+                "value": 0
+            },
+            "quarterStart": {
+                "day": 1,
+                "month": "Month.January"
+            },
+            "shift": {
+                "duration": 8,
+                "offset": 8
+            },
+            "timezone": "US/Central",
+            "type": "periodic-condition",
+            "weekStart": "Day.Sunday"
+        },
+        "Unsearchable": false
+    },
+    "0EE6DB57-37E9-FDD0-8A9D-05ED16EAE753": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EE6DB57-37E9-FDD0-8A9D-05ED16EAE753",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Aggregation Function": "average()",
+            "Bounding Condition": "0EE6DB55-5ADB-6660-931B-BBDF3B30CD0E",
+            "Measured Item": "0EE6DB48-4140-7730-87CB-907584F32E33",
+            "Process Type": "Condition",
+            "Thresholds": [
+                {
+                    "Item ID": "0EE6CF40-6B99-6630-BEDE-B73816EBA04F",
+                    "Priority": {
+                        "Color": "#ff0000",
+                        "Level": 3,
+                        "Name": "HiHiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "%",
+                        "Value": 100
+                    }
+                },
+                {
+                    "Item ID": "0EE6CF41-7050-E8D0-A467-C47C62822184",
+                    "Priority": {
+                        "Color": "#ffdd52",
+                        "Level": 2,
+                        "Name": "HiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "%",
+                        "Value": 90
+                    }
+                }
+            ]
+        },
+        "ID": "0EE6DB57-37E9-FDD0-8A9D-05ED16EAE753",
+        "MetricReconfigurationMigration": true,
+        "Name": "Monthly Energy Improvements vs. Model",
+        "NeutralColor": "#00B050",
+        "Scoped To": "0EE6CEEA-973D-7120-B774-FD1976A1B5DE",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "190A75D0-DBFA-4970-84E7-3B19C5D37067": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "c52b6bfc-d2fd-4093-ac19-da6d1026bdb7",
+        "Data ID": "[Tag] EnergyModel_Steam Jet 5.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "190A75D0-DBFA-4970-84E7-3B19C5D37067",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Jet 5",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "string",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "296D07B4-8DE2-4B84-9411-BBC7D8D4B242": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "9a309d97-0fff-4be1-8809-7eaf2c216b3f",
+        "Data ID": "[Tag] EnergyModel_Steam Jet 3.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "296D07B4-8DE2-4B84-9411-BBC7D8D4B242",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Jet 3",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "string",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "2FA5C76C-C198-4191-93AB-4BE09C332F8D": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "85a3a57e-416b-42a6-8e28-6dde4fe7b50e",
+        "Data ID": "[Tag] EnergyModel_Steam Jet 1.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "2FA5C76C-C198-4191-93AB-4BE09C332F8D",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Jet 1",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "string",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "30643FFE-5A7B-487C-A0F8-3B0527D0132C": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "4913d5a5-1a85-47d3-b094-aebccc939948",
+        "Data ID": "[Tag] EnergyModel_Steam Valve 2.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "30643FFE-5A7B-487C-A0F8-3B0527D0132C",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Valve 2",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "string",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "32BE317E-010B-4628-993D-52E3EC2F0D01": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "fc2d267e-a6ba-42d8-a7f5-7757839e7461",
+        "Data ID": "[Tag] EnergyModel_Steam Flow 3.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "32BE317E-010B-4628-993D-52E3EC2F0D01",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Flow 3",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "3F127580-FB51-45D8-A857-6C620B3B9E97": {
+        "Archived": false,
+        "Asset": "Energy Model June 2",
+        "Cache Enabled": false,
+        "Cache ID": "83304fc4-cea4-4c49-bba8-d3990cebb4a2",
+        "Data ID": "a5f4be77-dbd6-48c8-a014-c16bab086afa-Total Steam 95-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = Total Steam 95; last file imported = Energy Model June.csv",
+        "Enabled": true,
+        "ID": "3F127580-FB51-45D8-A857-6C620B3B9E97",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1630468800000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "Total Steam 95",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "43F52215-635F-4DA9-A755-487A6A2DF77B": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "9357e67e-4eda-4239-852d-555423e7aee5",
+        "Data ID": "[Tag] EnergyModel_Steam Jet 2.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "43F52215-635F-4DA9-A755-487A6A2DF77B",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Jet 2",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "string",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "5BDA7048-0ED0-414E-9A94-D93B03787132": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "526169a3-c73d-4284-a180-0d5b48ef3fc2",
+        "Data ID": "[Tag] EnergyModel_Total Steam.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "5BDA7048-0ED0-414E-9A94-D93B03787132",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Total Steam",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "lb/h",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb/h"
+    },
+    "5F36A83C-00D6-4003-98E5-C2CD57F22B93": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "7f44fb6f-baf4-48b7-957b-08fc49d25879",
+        "Data ID": "[Tag] EnergyModel_Steam Flow 4.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "5F36A83C-00D6-4003-98E5-C2CD57F22B93",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Flow 4",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "87C29967-87D4-4595-9A44-8385A3FF80A9": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "d25a7cc8-235c-410b-a19b-fe18945fa73f",
+        "Data ID": "[Tag] EnergyModel_Steam Valve 3.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "87C29967-87D4-4595-9A44-8385A3FF80A9",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Valve 3",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "string",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "89939F97-79E2-44AD-B66A-36C44FCE0166": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "174ac87a-d7f6-4606-922f-68caf648868d",
+        "Data ID": "[Tag] EnergyModel_Steam Flow 1.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "89939F97-79E2-44AD-B66A-36C44FCE0166",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Flow 1",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "905A3390-CCA6-489B-89A3-492EC9F7FF26": {
+        "Access Control": [
+            {
+                "ID": "726694d8-3949-4a40-aa59-e01b172690cd",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            }
+        ],
+        "Ancestors": [],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1605736826077625600",
+        "Enabled": true,
+        "ID": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+        "Name": "Joseph Reckamp",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Permission Inheritance Disabled": true,
+        "Type": "Folder",
+        "Unmodifiable": true,
+        "Unsearchable": true,
+        "Updated At": "1605736826077625600"
+    },
+    "AA9A8C55-35FC-447E-B815-3AFC6426D807": {
+        "Archived": false,
+        "Asset": "Energy Model September",
+        "Cache Enabled": false,
+        "Cache ID": "deef6a4f-2f41-470c-a80e-a61c6d6ec013",
+        "Data ID": "64ec0ec9-ce68-478b-8305-1ed2687b99ff-Total Steam 80-SIGNAL",
+        "Datasource Class": "Imported CSV Files",
+        "Datasource ID": "Imported CSV Files",
+        "Description": "column = Total Steam 80; last file imported = Energy Model September.csv",
+        "Enabled": true,
+        "ID": "AA9A8C55-35FC-447E-B815-3AFC6426D807",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1644372000000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "Total Steam 80",
+        "Path": null,
+        "Source Maximum Interpolation": "40h",
+        "Source Value Unit Of Measure": "",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "C7FF3051-E40A-499C-A7FA-0057608DE90D": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "68d1bd6c-7dcb-4860-827d-33ee2330416d",
+        "Data ID": "[Tag] EnergyModel_Steam Flow 2.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "C7FF3051-E40A-499C-A7FA-0057608DE90D",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Flow 2",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "CFBCCB2A-C573-4C1D-8A0D-047676BC9B63": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "ff6ee4d7-6d4c-4c60-a3e8-9f5f068b810f",
+        "Data ID": "[Tag] EnergyModel_Steam Valve 1.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "CFBCCB2A-C573-4C1D-8A0D-047676BC9B63",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Valve 1",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "string",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "EF8BC923-A5CA-4E1C-BF33-78121E0F7920": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "d64c5a8c-01a3-4721-a999-39cdee63f074",
+        "Data ID": "[Tag] EnergyModel_Ambient Temp.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "EF8BC923-A5CA-4E1C-BF33-78121E0F7920",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Ambient Temp",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "F2F3F57A-FB11-43B4-9B7E-393B1669DBB1": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "c79d16cf-3b5f-40ff-bad6-a5d6e3e29a85",
+        "Data ID": "[Tag] EnergyModel_Steam Jet 4.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "F2F3F57A-FB11-43B4-9B7E-393B1669DBB1",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "3600.0s",
+        "Name": "EnergyModel_Steam Jet 4",
+        "Source Maximum Interpolation": "3600000000000ns",
+        "Source Value Unit Of Measure": "string",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "Access Control": [
+        {
+            "ID": "0ee7a6bc-51b3-ecd0-8cc3-8d6fe8fc66ca",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18",
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": null
+        },
+        {
+            "ID": "0ee797ee-c9c7-71e0-893b-6b7ca5fc8c57",
+            "Identity": {
+                "Datasource Class": "OAuth 2.0",
+                "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                "Datasource Name": "Seeq Azure SSO",
+                "Email": "Joseph.Reckamp@seeq.com",
+                "First Name": "Joe",
+                "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                "Is Admin": true,
+                "Last Name": "Reckamp",
+                "Name": "Joe Reckamp",
+                "Type": "User",
+                "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+            },
+            "Origin": null,
+            "Permissions": {
+                "Manage": true,
+                "Read": true,
+                "Write": true
+            },
+            "Redacted": false,
+            "Role": "OWNER"
+        }
+    ],
+    "Ancestors": [
+        "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+        "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18"
+    ],
+    "Archived": false,
+    "Cache Enabled": false,
+    "Created At": "1698929653759084167",
+    "Enabled": true,
+    "ID": "0EE797EE-C9C7-71E0-A34B-6784B8FE6FEB",
+    "Name": "Vapor Cut Estimations",
+    "Original Server URL": "http://seeq-server",
+    "Owner": {
+        "Datasource Class": "OAuth 2.0",
+        "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+        "Datasource Name": "Seeq Azure SSO",
+        "Email": "Joseph.Reckamp@seeq.com",
+        "First Name": "Joe",
+        "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+        "Is Admin": true,
+        "Last Name": "Reckamp",
+        "Name": "Joe Reckamp",
+        "Type": "User",
+        "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+    },
+    "Path": "My Folder >> Example Use Cases (Don't Edit)",
+    "Search Folder ID": "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18",
+    "Type": "Workbook",
+    "URL": "https://demo.seeq.dev/0EE6CEEA-5A5B-6220-B11A-01D00EA05A18/workbook/0EE797EE-C9C7-71E0-A34B-6784B8FE6FEB/worksheet/0EE797EE-CD9A-71F0-B143-0B9980AEBD04",
+    "Unsearchable": false,
+    "Updated At": "1698951618276912468",
+    "Workbook Type": "Analysis",
+    "Worksheets": [
+        "0EE797EE-CD9A-71F0-B143-0B9980AEBD04",
+        "0EE7986D-6BC7-EE80-B322-7A033337BFAE"
+    ],
+    "workbookState": {
+        "state": {
+            "stores": {
+                "sqAnnotationStore": {
+                    "height": 0,
+                    "id": "0EE7986D-6F80-60E0-B70F-BB39536F206A",
+                    "isAnnotatesExpanded": false,
+                    "isCkEnabled": true,
+                    "isCommentsExpanded": false,
+                    "isExpanded": false,
+                    "width": 0
+                }
+            }
+        },
+        "version": 1
+    }
+}
