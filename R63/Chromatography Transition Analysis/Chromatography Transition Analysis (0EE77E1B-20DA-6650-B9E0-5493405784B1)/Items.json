@@ -376,7 +376,7 @@
     "0EE77E31-DBED-6030-92DE-C8E735DDB861": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e31-dbed-6030-b328-0cfe1b1ba5f5",
+        "Cache ID": "0eebbc72-ed04-6070-9371-056b4dcb2f4e",
         "Data ID": "0EE77E31-DBED-6030-92DE-C8E735DDB861",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -391,7 +391,7 @@
             "batchID": "0EE77E30-4760-E8F0-B028-FE2EF67476F4",
             "lowflow": "0EE77E2A-4DF0-EEA0-84E4-2C71DE9AC3F7",
             "pos_dCdt": "0EE77E2C-B701-EAA0-A0F8-D929F5D15C8A",
-            "product": "76569581-8E68-41CE-BB59-0B075BC5AABA"
+            "product": "3FBF8E7E-5A88-4F63-85ED-8A1E1C821503"
         },
         "ID": "0EE77E31-DBED-6030-92DE-C8E735DDB861",
         "Key Unit Of Measure": "ns",
@@ -404,6 +404,7 @@
             "advancedParametersCollapsed": true,
             "configVersion": 11,
             "helpShown": true,
+            "scopedTo": "0EE77E1B-20DA-6650-B9E0-5493405784B1",
             "type": "formula"
         },
         "Unsearchable": false
@@ -411,7 +412,7 @@
     "0EE77E3A-FF8E-7530-950D-EA6F571D3280": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e3a-ff8e-7530-ac00-1a50c404e81e",
+        "Cache ID": "0eebbc72-ed10-73c0-a225-c3b2ad91cd4a",
         "Data ID": "0EE77E3A-FF8E-7530-950D-EA6F571D3280",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -443,7 +444,7 @@
     "0EE77E3B-E745-62C0-B875-1C2BBE8EDFBE": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e3b-e745-62c0-946d-6ecd2ac6fbb4",
+        "Cache ID": "0eebbc72-ed1c-7710-9b05-beba7eb44ceb",
         "Data ID": "0EE77E3B-E745-62C0-B875-1C2BBE8EDFBE",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -472,7 +473,7 @@
     "0EE77E46-4CD7-77A0-8C48-6D449FB99B0C": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e46-4cd7-77a0-964b-ed56fd871e6d",
+        "Cache ID": "0eebbc72-ee66-6080-9a1f-f4299c665bfc",
         "Data ID": "0EE77E46-4CD7-77A0-8C48-6D449FB99B0C",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -502,7 +503,7 @@
     "0EE77E47-ADF0-E8B0-8DA7-517F8EA88E99": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e47-adf0-e8b0-a582-734a29c22f6d",
+        "Cache ID": "0eebbc72-ee52-e800-adca-be77ffcc21da",
         "Data ID": "0EE77E47-ADF0-E8B0-8DA7-517F8EA88E99",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -532,7 +533,7 @@
     "0EE77E48-D06B-7560-A1C5-B47A9E54EF27": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e48-d06b-7560-b701-c9284dfd0ceb",
+        "Cache ID": "0eebbc72-ee5c-6440-a1b9-742859ee8126",
         "Data ID": "0EE77E48-D06B-7560-A1C5-B47A9E54EF27",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -562,7 +563,7 @@
     "0EE77E49-8E46-FDA0-BC71-EAD514A30FA3": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e49-8e46-fda0-a27d-2b165d0042eb",
+        "Cache ID": "0eebbc72-ee7c-6010-9dd6-154549d7ae4a",
         "Data ID": "0EE77E49-8E46-FDA0-BC71-EAD514A30FA3",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -592,7 +593,7 @@
     "0EE77E4A-5381-F930-A62E-451C6EE3D338": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e4a-5381-f930-8b0a-25aed5caacf1",
+        "Cache ID": "0eebbc72-ee8d-7180-ae4a-3c38af893cf0",
         "Data ID": "0EE77E4A-5381-F930-A62E-451C6EE3D338",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -622,7 +623,7 @@
     "0EE77E51-3CCD-6070-AF0D-3655D343CD6D": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e51-3ccd-6070-80a6-7dc5fd263209",
+        "Cache ID": "0eebbc72-ed4f-fb60-a863-da1779101998",
         "Data ID": "0EE77E51-3CCD-6070-AF0D-3655D343CD6D",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -650,7 +651,7 @@
     "0EE77E53-18AC-EC20-B945-BEA44F23B0E2": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e53-18af-7330-9a6b-d5293180ee18",
+        "Cache ID": "0eebbc72-ed5b-eeb0-b718-f63c7fe7e86b",
         "Data ID": "0EE77E53-18AC-EC20-B945-BEA44F23B0E2",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -676,7 +677,7 @@
     "0EE77E53-D0C8-71B0-9FBB-079596D2CFCB": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb6-56a7-66c0-a344-07991938c3f9",
+        "Cache ID": "0eebbc72-ed79-7370-be81-e9f51ba43543",
         "Data ID": "0EE77E53-D0C8-71B0-9FBB-079596D2CFCB",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -703,7 +704,7 @@
     "0EE77E54-9FBD-7100-A698-45575D061DF5": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb6-56ac-64e0-b3c7-4eef608f215c",
+        "Cache ID": "0eebbc72-ed98-ff40-a2aa-d0ab69e7891a",
         "Data ID": "0EE77E54-9FBD-7100-A698-45575D061DF5",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -730,7 +731,7 @@
     "0EE77E58-62A4-FF80-8C81-D692F067ABA1": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb6-56b3-ea10-a9ce-29762a3148de",
+        "Cache ID": "0eebbc72-edc4-ee60-b38f-e611a2d0aada",
         "Data ID": "0EE77E58-62A4-FF80-8C81-D692F067ABA1",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -758,7 +759,7 @@
     "0EE77E59-875D-77E0-9FB4-BBBB398B1247": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb6-56ae-fbf0-8561-907198b219a5",
+        "Cache ID": "0eebbc72-eda7-f9a0-9dec-be9b0eca712b",
         "Data ID": "0EE77E59-875D-77E0-9FB4-BBBB398B1247",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -786,7 +787,7 @@
     "0EE77E5A-6C5E-FFB0-B748-1A425DA5C2FF": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb6-56b6-7120-b65c-867186355dfe",
+        "Cache ID": "0eebbc72-edd5-ffd0-8881-7c7234dea68e",
         "Data ID": "0EE77E5A-6C5E-FFB0-B748-1A425DA5C2FF",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -814,7 +815,7 @@
     "0EE77E5B-FBA5-7560-9CF6-E62B10312317": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb6-56b1-7300-9839-156280ece93b",
+        "Cache ID": "0eebbc72-edb8-fb10-9eed-90233451df40",
         "Data ID": "0EE77E5B-FBA5-7560-9CF6-E62B10312317",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -842,7 +843,7 @@
     "0EE77E5D-08E0-EAD0-89C6-AAB29D4B7B63": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb6-56b8-e830-a23a-5e69fe891420",
+        "Cache ID": "0eebbc72-ede9-e850-a55f-587f482135ba",
         "Data ID": "0EE77E5D-08E0-EAD0-89C6-AAB29D4B7B63",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -917,7 +918,7 @@
     "0EE77E63-C650-71A0-B1BA-7D7B0DA29008": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e65-374a-71c0-b156-0873f7ade090",
+        "Cache ID": "0eebbc72-eeec-64f0-a71f-ac274598b574",
         "Data ID": "0EE77E63-C650-71A0-B1BA-7D7B0DA29008",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -971,7 +972,7 @@
     "0EE77E64-DC67-E820-AFDB-235ED2B94328": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e64-dc67-e820-b5b7-1f1e3a081863",
+        "Cache ID": "0eebbc72-ee9e-62f0-8fd9-f06f1798c3e1",
         "Data ID": "0EE77E64-DC67-E820-AFDB-235ED2B94328",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -999,7 +1000,7 @@
     "0EE77E66-F3AE-EC20-A24E-46B2669E490D": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb6-56ba-ff40-9bc8-c55ca9a2f73e",
+        "Cache ID": "0eebbc72-edfd-60d0-a907-696dfdc06b98",
         "Data ID": "0EE77E66-F3AE-EC20-A24E-46B2669E490D",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -1027,7 +1028,7 @@
     "0EE77E67-C85F-6000-913A-038A175FAA06": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e67-c85f-6000-9ecf-981e2a11f7ef",
+        "Cache ID": "0eebbc72-eedd-ea90-b760-84a972725457",
         "Data ID": "0EE77E67-C85F-6000-913A-038A175FAA06",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -1180,7 +1181,7 @@
     "0EE77E6D-CB33-66E0-9C3C-3AD5042E356C": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77ebe-0d48-ecb0-886b-d2a85a54fc06",
+        "Cache ID": "0eebbc72-ee1c-eca0-9cbe-da500fcdd291",
         "Data ID": "0EE77E6D-CB33-66E0-9C3C-3AD5042E356C",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -1288,7 +1289,7 @@
     "0EE77E84-33D6-E880-A1AC-AD7BA5726C4A": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e84-33d6-e880-ab05-49e7c6d480eb",
+        "Cache ID": "0eebbc72-ed28-ea60-839b-7ccf7eea03db",
         "Data ID": "0EE77E84-33D6-E880-A1AC-AD7BA5726C4A",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -1316,7 +1317,7 @@
     "0EE77E84-E72A-FBC0-9A25-A7021B80BA8F": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77e84-e72a-fbc0-ade5-d8c77e6e19cd",
+        "Cache ID": "0eebbc72-ed37-64c0-b0ee-49328a4b92bd",
         "Data ID": "0EE77E84-E72A-FBC0-9A25-A7021B80BA8F",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -1344,7 +1345,7 @@
     "0EE77EB3-B493-FF20-8A32-5A4E32401527": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb3-b493-ff20-adf8-73ca422d2784",
+        "Cache ID": "0eebbc72-ed68-6200-a6b8-2826630537f8",
         "Data ID": "0EE77EB3-B493-FF20-8A32-5A4E32401527",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -1371,7 +1372,7 @@
     "0EE77EB4-377F-F920-9E80-22B410F60FE2": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb6-56a9-fdd0-8722-24cb6c2ed109",
+        "Cache ID": "0eebbc72-ed8a-64e0-82b1-1f3775698d09",
         "Data ID": "0EE77EB4-377F-F920-9E80-22B410F60FE2",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -1398,7 +1399,7 @@
     "0EE77EB5-187D-73A0-9178-5FD68A9D8D62": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0ee77eb5-187d-73a0-b89f-1d42ea49406c",
+        "Cache ID": "0eebbc72-ed45-ff20-b78a-f482cda962e3",
         "Data ID": "0EE77EB5-187D-73A0-9178-5FD68A9D8D62",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -1505,32 +1506,6 @@
         "Template": "Sample Assets",
         "Type": "Asset",
         "Unsearchable": false
-    },
-    "76569581-8E68-41CE-BB59-0B075BC5AABA": {
-        "Archived": false,
-        "Asset": "Reactor 1",
-        "Cache Enabled": false,
-        "Cache ID": "eebf2ea2-bc07-43ab-9abc-0c0e20a4c78b",
-        "Data ID": "[00000000-0000-0000-0000-000000000000] {Signal} Sample Assets >> Batch Manufacturing >> Reactors >> Reactor 1 >> Product",
-        "Datasource Class": "Seeq Data Lab",
-        "Datasource ID": "Seeq Data Lab",
-        "Enabled": true,
-        "Formula": "$signal",
-        "Formula Parameters": {
-            "signal": "3FBF8E7E-5A88-4F63-85ED-8A1E1C821503"
-        },
-        "ID": "76569581-8E68-41CE-BB59-0B075BC5AABA",
-        "Interpolation Method": "Step",
-        "Key Unit Of Measure": "ns",
-        "Maximum Interpolation": "1",
-        "Name": "Product",
-        "Parent ID": "5957A535-53B4-4C5F-A5C7-E01DC82A91C0",
-        "Path": "Sample Assets >> Batch Manufacturing >> Reactors",
-        "Sync Token": "2023-09-14T16:59:36.953891",
-        "Template": "Sample Assets",
-        "Type": "CalculatedSignal",
-        "Unsearchable": false,
-        "Value Unit Of Measure": "string"
     },
     "76CCE191-E0DD-4CD2-B9B8-B895FE5763DC": {
         "Archived": false,

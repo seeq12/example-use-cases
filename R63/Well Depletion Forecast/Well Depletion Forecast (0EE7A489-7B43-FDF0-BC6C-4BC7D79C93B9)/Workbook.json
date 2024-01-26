@@ -78,7 +78,7 @@
     "Type": "Workbook",
     "URL": "https://demo.seeq.dev/0EE6CEEA-5A5B-6220-B11A-01D00EA05A18/workbook/0EE7A489-7B43-FDF0-BC6C-4BC7D79C93B9/worksheet/0EE7A489-7E7A-EA00-AD29-3F1E28073AA6",
     "Unsearchable": false,
-    "Updated At": "1699027532635896083",
+    "Updated At": "1706212730712754637",
     "Workbook Type": "Analysis",
     "Worksheets": [
         "0EE7A489-7E7A-EA00-AD29-3F1E28073AA6",
@@ -89,7 +89,7 @@
             "stores": {
                 "sqAnnotationStore": {
                     "height": 0,
-                    "id": "0EE7A4E9-EDC9-ECC0-9630-A230DF6BD04C",
+                    "id": "0EE7A489-8BD4-F980-A845-30CC3617E12B",
                     "isAnnotatesExpanded": false,
                     "isCkEnabled": true,
                     "isCommentsExpanded": false,
