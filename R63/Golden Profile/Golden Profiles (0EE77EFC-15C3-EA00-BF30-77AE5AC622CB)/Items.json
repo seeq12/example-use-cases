@@ -123,7 +123,7 @@
     "0EE77F02-5B5E-EC80-B766-93E5EB01341D": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0eebc4e5-38b4-6090-a323-3a5c35d17d3a",
+        "Cache ID": "0eebc513-da85-f940-9a36-1c193dbc0b32",
         "Data ID": "0EE77F02-5B5E-EC80-B766-93E5EB01341D",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -136,10 +136,10 @@
             "combineWith($property1Condition, $property2Condition, $property3Condition, $property4Condition).fragment(keepProperties())"
         ],
         "Formula Parameters": {
-            "property1Signal": "394C1CB3-4F11-464B-9389-DCC21914E59A",
+            "property1Signal": "0EEBC511-8AA4-F950-8120-3A31406BDE2A",
             "property2Signal": "0EEBC4E0-02D8-EC00-B3F1-E1CAD7DD9CCA",
-            "property3Signal": "9B801C22-5C32-49BD-9B77-4D4373DB8580",
-            "property4Signal": "42A3AAB7-18F8-42B2-BF96-F2802AD2338B"
+            "property3Signal": "0EEBC512-4CCD-62C0-82D7-EE163A2CFC43",
+            "property4Signal": "0EEBC513-0218-64E0-B164-AD4027E9F72E"
         },
         "ID": "0EE77F02-5B5E-EC80-B766-93E5EB01341D",
         "Key Unit Of Measure": "ns",
@@ -154,14 +154,14 @@
                 {
                     "propertyName": "Batch ID",
                     "stringSignal": {
-                        "cached": false,
+                        "cached": true,
                         "datasource": {
-                            "datasourceClass": "Seeq Data Lab",
-                            "datasourceId": "Seeq Data Lab",
-                            "id": "E311DFB9-21E9-4285-AB2F-FE40725CDF54",
+                            "datasourceClass": "Seeq Calculations",
+                            "datasourceId": "Seeq Calculations",
+                            "id": "6556D2A2-5A5C-455A-B4F6-47BDD05764E0",
                             "isArchived": false,
                             "isRedacted": false,
-                            "name": "Seeq Data Lab",
+                            "name": "Seeq Calculations",
                             "type": "Datasource"
                         },
                         "effectivePermissions": {
@@ -169,12 +169,13 @@
                             "read": true,
                             "write": true
                         },
-                        "fingerprint": "74473b49-71f4-4016-bdeb-71d15236db97",
-                        "id": "394C1CB3-4F11-464B-9389-DCC21914E59A",
+                        "fingerprint": "0EEBC511-8AA4-F950-A148-71FEDF09153E",
+                        "id": "0EEBC511-8AA4-F950-8120-3A31406BDE2A",
                         "isArchived": false,
                         "isRedacted": false,
                         "itemType": "seriesDisplayType",
                         "name": "Batch ID",
+                        "scopedTo": "0EE77EFC-15C3-EA00-BF30-77AE5AC622CB",
                         "signalMetadata": {
                             "interpolationMethod": "Step",
                             "keyUnitOfMeasure": "ns",
@@ -227,14 +228,14 @@
                 {
                     "propertyName": "Product",
                     "stringSignal": {
-                        "cached": false,
+                        "cached": true,
                         "datasource": {
-                            "datasourceClass": "Seeq Data Lab",
-                            "datasourceId": "Seeq Data Lab",
-                            "id": "E311DFB9-21E9-4285-AB2F-FE40725CDF54",
+                            "datasourceClass": "Seeq Calculations",
+                            "datasourceId": "Seeq Calculations",
+                            "id": "6556D2A2-5A5C-455A-B4F6-47BDD05764E0",
                             "isArchived": false,
                             "isRedacted": false,
-                            "name": "Seeq Data Lab",
+                            "name": "Seeq Calculations",
                             "type": "Datasource"
                         },
                         "effectivePermissions": {
@@ -242,12 +243,13 @@
                             "read": true,
                             "write": true
                         },
-                        "fingerprint": "0f2e1e3f-fde8-454a-bbc1-6b2b772558a3",
-                        "id": "9B801C22-5C32-49BD-9B77-4D4373DB8580",
+                        "fingerprint": "0EEBC512-4CCD-62C0-B050-58C14E65C0DF",
+                        "id": "0EEBC512-4CCD-62C0-82D7-EE163A2CFC43",
                         "isArchived": false,
                         "isRedacted": false,
                         "itemType": "seriesDisplayType",
                         "name": "Product",
+                        "scopedTo": "0EE77EFC-15C3-EA00-BF30-77AE5AC622CB",
                         "signalMetadata": {
                             "interpolationMethod": "Step",
                             "keyUnitOfMeasure": "ns",
@@ -263,14 +265,14 @@
                 {
                     "propertyName": "Potency",
                     "stringSignal": {
-                        "cached": false,
+                        "cached": true,
                         "datasource": {
-                            "datasourceClass": "Seeq Data Lab",
-                            "datasourceId": "Seeq Data Lab",
-                            "id": "E311DFB9-21E9-4285-AB2F-FE40725CDF54",
+                            "datasourceClass": "Seeq Calculations",
+                            "datasourceId": "Seeq Calculations",
+                            "id": "6556D2A2-5A5C-455A-B4F6-47BDD05764E0",
                             "isArchived": false,
                             "isRedacted": false,
-                            "name": "Seeq Data Lab",
+                            "name": "Seeq Calculations",
                             "type": "Datasource"
                         },
                         "effectivePermissions": {
@@ -278,12 +280,13 @@
                             "read": true,
                             "write": true
                         },
-                        "fingerprint": "d5edc0e7-8002-449e-8538-28fb6364f1fb",
-                        "id": "42A3AAB7-18F8-42B2-BF96-F2802AD2338B",
+                        "fingerprint": "0EEBC513-0218-64E0-8CB4-3B4A56B781C7",
+                        "id": "0EEBC513-0218-64E0-B164-AD4027E9F72E",
                         "isArchived": false,
                         "isRedacted": false,
                         "itemType": "seriesDisplayType",
                         "name": "Drug Substance Potency",
+                        "scopedTo": "0EE77EFC-15C3-EA00-BF30-77AE5AC622CB",
                         "signalMetadata": {
                             "interpolationMethod": "Step",
                             "keyUnitOfMeasure": "ns",
@@ -305,7 +308,7 @@
     "0EE77F06-E8A7-EC50-BCDF-2397F71B7515": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0eebc4e5-38bd-ecd0-bda2-991789ce55b2",
+        "Cache ID": "0eebc513-da91-ec90-85bc-054e10c533ae",
         "Data ID": "0EE77F06-E8A7-EC50-BCDF-2397F71B7515",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -334,7 +337,7 @@
     "0EE77F08-1BF7-EA50-B150-43ED2992DE45": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0eebc4e5-38ca-6020-a796-352d383d4d90",
+        "Cache ID": "0eebc513-da9d-ffe0-a32f-c21f4cd21403",
         "Data ID": "0EE77F08-1BF7-EA50-B150-43ED2992DE45",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -366,7 +369,7 @@
     "0EE77F0B-8BF8-6680-9BF5-F11078B1D3DA": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0eebc4e5-38ec-7300-a2db-f6e395fde1f5",
+        "Cache ID": "0eebc513-dac2-f9d0-9d58-cb93f1e22374",
         "Data ID": "0EE77F0B-8BF8-6680-9BF5-F11078B1D3DA",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -411,7 +414,7 @@
     "0EE77F0C-0B07-6430-9B9A-803A79D149B2": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0eebc4e5-38e2-66c0-852f-2c92772b253c",
+        "Cache ID": "0eebc513-dab6-6680-a604-dbf2582a2f3e",
         "Data ID": "0EE77F0C-0B07-6430-9B9A-803A79D149B2",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -499,7 +502,7 @@
     "0EE77F16-0FF4-75B0-9CAB-6C70EB36A0BB": {
         "Archived": false,
         "Cache Enabled": true,
-        "Cache ID": "0eebc4e5-38fd-6470-b285-54296322666f",
+        "Cache ID": "0eebc513-dad3-fb40-9389-a04a4ad5ae34",
         "Data ID": "0EE77F16-0FF4-75B0-9CAB-6C70EB36A0BB",
         "Datasource Class": "Seeq Calculations",
         "Datasource ID": "Seeq Calculations",
@@ -593,6 +596,93 @@
         },
         "Unsearchable": false,
         "Value Unit Of Measure": "string"
+    },
+    "0EEBC511-8AA4-F950-8120-3A31406BDE2A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eebc511-8aa4-f950-a148-71fedf09153e",
+        "Data ID": "0EEBC511-8AA4-F950-8120-3A31406BDE2A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal.validValues().toStep(7d)",
+        "Formula Parameters": {
+            "signal": "394C1CB3-4F11-464B-9389-DCC21914E59A"
+        },
+        "ID": "0EEBC511-8AA4-F950-8120-3A31406BDE2A",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Batch ID",
+        "Scoped To": "0EE77EFC-15C3-EA00-BF30-77AE5AC622CB",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula",
+            "useValidValues": true
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "0EEBC512-4CCD-62C0-82D7-EE163A2CFC43": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eebc512-4ccd-62c0-b050-58c14e65c0df",
+        "Data ID": "0EEBC512-4CCD-62C0-82D7-EE163A2CFC43",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal.validValues().toStep(7d)",
+        "Formula Parameters": {
+            "signal": "9B801C22-5C32-49BD-9B77-4D4373DB8580"
+        },
+        "ID": "0EEBC512-4CCD-62C0-82D7-EE163A2CFC43",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Product",
+        "Scoped To": "0EE77EFC-15C3-EA00-BF30-77AE5AC622CB",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula",
+            "useValidValues": true
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "string"
+    },
+    "0EEBC513-0218-64E0-B164-AD4027E9F72E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eebc513-0218-64e0-8cb4-3b4a56b781c7",
+        "Data ID": "0EEBC513-0218-64E0-B164-AD4027E9F72E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$signal.validValues().toStep(7d)",
+        "Formula Parameters": {
+            "signal": "42A3AAB7-18F8-42B2-BF96-F2802AD2338B"
+        },
+        "ID": "0EEBC513-0218-64E0-B164-AD4027E9F72E",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Drug Substance Potency",
+        "Scoped To": "0EE77EFC-15C3-EA00-BF30-77AE5AC622CB",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula",
+            "useValidValues": true
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
     },
     "16F317A2-2881-42C2-9E38-74F6871922FF": {
         "Archived": false,

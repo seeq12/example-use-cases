@@ -1,5 +1,5 @@
 {
-    "ID": "164CD06A-1778-4708-B8F2-922D827D2BD3",
+    "ID": "93D6F973-B071-475D-AF5B-860EA98A2E58",
     "Type": "Workstep",
     "Data": {
         "version": 1,
@@ -22,15 +22,15 @@
                 },
                 "sqDurationStore": {
                     "autoUpdate": {
-                        "offset": 17999999
+                        "offset": 17999998
                     },
                     "displayRange": {
-                        "start": 1706207417365,
-                        "end": 1706293817365
+                        "start": 1706208393053,
+                        "end": 1706294793053
                     },
                     "investigateRange": {
-                        "start": 1705689017365,
-                        "end": 1706293817366
+                        "start": 1705689993054,
+                        "end": 1706294793054
                     }
                 },
                 "sqWorksheetStore": {
