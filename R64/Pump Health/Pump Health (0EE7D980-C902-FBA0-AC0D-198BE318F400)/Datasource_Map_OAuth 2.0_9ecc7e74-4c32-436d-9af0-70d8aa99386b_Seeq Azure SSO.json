@@ -1,0 +1,36 @@
+{
+    "Datasource Class": "OAuth 2.0",
+    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+    "Datasource Name": "Seeq Azure SSO",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "User",
+                "Datasource Class": "OAuth 2\\.0",
+                "Datasource Name": "Seeq Azure SSO",
+                "Username": "(?<username>.*)"
+            },
+            "New": {
+                "Type": "User",
+                "Datasource Class": "OAuth 2.0",
+                "Datasource Name": "Seeq Azure SSO",
+                "Username": "${username}"
+            }
+        },
+        {
+            "Old": {
+                "Type": "UserGroup",
+                "Datasource Class": "OAuth 2\\.0",
+                "Datasource Name": "Seeq Azure SSO",
+                "Name": "(?<name>.*)"
+            },
+            "New": {
+                "Type": "UserGroup",
+                "Datasource Class": "OAuth 2.0",
+                "Datasource Name": "Seeq Azure SSO",
+                "Name": "${name}"
+            }
+        }
+    ]
+}
