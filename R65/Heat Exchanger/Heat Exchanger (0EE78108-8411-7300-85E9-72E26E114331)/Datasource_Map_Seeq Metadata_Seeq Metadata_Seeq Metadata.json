@@ -1,0 +1,22 @@
+{
+    "Datasource Class": "Seeq Metadata",
+    "Datasource ID": "Seeq Metadata",
+    "Datasource Name": "Seeq Metadata",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "(?<type>.*)",
+                "Datasource Class": "Seeq Metadata",
+                "Datasource Name": "Seeq Metadata",
+                "Data ID": "(?<data_id>.*)"
+            },
+            "New": {
+                "Type": "${type}",
+                "Datasource Class": "Seeq Metadata",
+                "Datasource Name": "Seeq Metadata",
+                "Data ID": "${data_id}"
+            }
+        }
+    ]
+}

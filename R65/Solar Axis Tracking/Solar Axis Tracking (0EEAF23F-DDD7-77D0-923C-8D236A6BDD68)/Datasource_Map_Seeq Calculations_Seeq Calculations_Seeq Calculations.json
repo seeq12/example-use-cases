@@ -1,0 +1,22 @@
+{
+    "Datasource Class": "Seeq Calculations",
+    "Datasource ID": "Seeq Calculations",
+    "Datasource Name": "Seeq Calculations",
+    "Item-Level Map Files": [],
+    "RegEx-Based Maps": [
+        {
+            "Old": {
+                "Type": "(?<type>.*)",
+                "Datasource Class": "Seeq Calculations",
+                "Datasource Name": "Seeq Calculations",
+                "Data ID": "(?<data_id>.*)"
+            },
+            "New": {
+                "Type": "${type}",
+                "Datasource Class": "Seeq Calculations",
+                "Datasource Name": "Seeq Calculations",
+                "Data ID": "${data_id}"
+            }
+        }
+    ]
+}

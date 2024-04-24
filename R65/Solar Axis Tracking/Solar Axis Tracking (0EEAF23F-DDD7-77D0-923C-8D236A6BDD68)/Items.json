@@ -1,0 +1,737 @@
+{
+    "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18": {
+        "Access Control": [
+            {
+                "ID": "0ee6ceea-5a5b-6220-85be-6ad1e7f16bbc",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "0ee6ceea-5a84-ea30-b951-f69b88fe3e3b",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [
+            "__Users__",
+            "905A3390-CCA6-489B-89A3-492EC9F7FF26"
+        ],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1697548273220026135",
+        "Enabled": true,
+        "ID": "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18",
+        "Name": "Example Use Cases (Don't Edit)",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1704828287582326861"
+    },
+    "0EEAF24A-F637-FB80-8C3B-3D58A38139AA": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "0eeaf24b-04ec-75e0-a728-84f089bb7e5f",
+        "Data ID": "[0EEAF23F-DDD7-77D0-923C-8D236A6BDD68] {Signal} Power Output Block 1",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "0EEAF24A-F637-FB80-8C3B-3D58A38139AA",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1549245000000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "Power Output Block 1",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Source Value Unit Of Measure": "",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAF24A-F63A-6290-9918-D91C4DBA32C9": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "0eeaf24b-049b-ecd0-8415-ca0027777ebd",
+        "Data ID": "[0EEAF23F-DDD7-77D0-923C-8D236A6BDD68] {Signal} Irradiation 1-Axis Tracking",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "0EEAF24A-F63A-6290-9918-D91C4DBA32C9",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1549245000000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "Irradiation 1-Axis Tracking",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Source Value Unit Of Measure": "",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAF24C-00FA-FBC0-823F-52AD15BD5102": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "0eeaf24c-036e-62d0-ac40-8478e06401da",
+        "Data ID": "[0EEAF23F-DDD7-77D0-923C-8D236A6BDD68] {Signal} Tracker Angle SP",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "0EEAF24C-00FA-FBC0-823F-52AD15BD5102",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1549185300000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "Tracker Angle SP",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Source Value Unit Of Measure": "",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAF24C-00FA-FBC0-8495-48A6003D51F1": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "0eeaf24c-035f-e870-9464-1e3e2ed0fa89",
+        "Data ID": "[0EEAF23F-DDD7-77D0-923C-8D236A6BDD68] {Signal} Tracker 1 Angle",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "0EEAF24C-00FA-FBC0-8495-48A6003D51F1",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1549185300000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "Tracker 1 Angle",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Source Value Unit Of Measure": "",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAF24C-00FA-FBC0-ABC9-D3E5E1198BA7": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "0eeaf24c-0386-f970-a223-99d8d6639c08",
+        "Data ID": "[0EEAF23F-DDD7-77D0-923C-8D236A6BDD68] {Signal} Tracker 2 Angle",
+        "Datasource Class": "Seeq Data Lab",
+        "Datasource ID": "Seeq Data Lab",
+        "Enabled": true,
+        "ID": "0EEAF24C-00FA-FBC0-ABC9-D3E5E1198BA7",
+        "Interpolation Method": "Linear",
+        "Last Key Written": "1549185300000000000",
+        "Maximum Interpolation": "40h",
+        "Name": "Tracker 2 Angle",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Source Value Unit Of Measure": "",
+        "Storage Location": "FILE_SIGNAL_STORAGE",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAF24F-EB6A-6450-936D-2BDB39E81A83": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf24f-eb6a-6450-89c9-9958d898c430",
+        "Data ID": "0EEAF24F-EB6A-6450-936D-2BDB39E81A83",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a > 75",
+        "Formula Parameters": {
+            "a": "0EEAF24A-F63A-6290-9918-D91C4DBA32C9"
+        },
+        "ID": "0EEAF24F-EB6A-6450-936D-2BDB39E81A83",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Sun is Shining",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "75",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EEAF251-8EEA-FD90-AC2A-E142E56908CA": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf251-8eea-fd90-973e-175ec590ab96",
+        "Data ID": "0EEAF251-8EEA-FD90-AC2A-E142E56908CA",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$t1dev=abs($tas-$t1a)>2",
+            "$t2dev=abs($tas-$t2a)>2",
+            "$t1dev or $t2dev"
+        ],
+        "Formula Parameters": {
+            "t1a": "0EEAF24C-00FA-FBC0-8495-48A6003D51F1",
+            "t2a": "0EEAF24C-00FA-FBC0-ABC9-D3E5E1198BA7",
+            "tas": "0EEAF24C-00FA-FBC0-823F-52AD15BD5102"
+        },
+        "ID": "0EEAF251-8EEA-FD90-AC2A-E142E56908CA",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Trackers deviating by more than 2 degrees",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EEAF252-536E-7770-BFA8-32177C853A68": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf252-536e-7770-9906-b565758a0cfe",
+        "Data ID": "0EEAF252-536E-7770-BFA8-32177C853A68",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.subtract($b)",
+        "Formula Parameters": {
+            "a": "0EEAF24F-EB6A-6450-936D-2BDB39E81A83",
+            "b": "0EEAF251-8EEA-FD90-AC2A-E142E56908CA"
+        },
+        "ID": "0EEAF252-536E-7770-BFA8-32177C853A68",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Training Periods Condition",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "0EEAF254-EBF6-7180-8E96-828B0ECBD9D8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf254-ebf6-7180-b31b-d37f1fa3c6bb",
+        "Data ID": "0EEAF254-EBF6-7180-8E96-828B0ECBD9D8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS($condition.toGroup(capsule(\"2019-01-03T13:55:00.000Z\", \"2019-01-04T03:36:00.000Z\"), CapsuleBoundary.Intersect), false, $a).predict($a)",
+        "Formula Parameters": {
+            "a": "0EEAF24A-F63A-6290-9918-D91C4DBA32C9",
+            "condition": "0EEAF252-536E-7770-BFA8-32177C853A68",
+            "target": "0EEAF24A-F637-FB80-8C3B-3D58A38139AA"
+        },
+        "ID": "0EEAF254-EBF6-7180-8E96-828B0ECBD9D8",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Theoretical Block 1 Power Output",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": false,
+            "color": "#4B7ABD",
+            "configVersion": 11,
+            "lambda": 0,
+            "modelExpanded": true,
+            "mustGoThroughZero": false,
+            "option": "linear",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1546572960000,
+            "windowStart": 1546523700000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAF256-A2B5-66E0-8B95-8AB7048DFA93": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf256-a2b5-66e0-978d-7d5a4b6984a9",
+        "Data ID": "0EEAF256-A2B5-66E0-8B95-8AB7048DFA93",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "($tb1p-$pob1).within($sis)",
+        "Formula Parameters": {
+            "pob1": "0EEAF24A-F637-FB80-8C3B-3D58A38139AA",
+            "sis": "0EEAF24F-EB6A-6450-936D-2BDB39E81A83",
+            "tb1p": "0EEAF254-EBF6-7180-8E96-828B0ECBD9D8"
+        },
+        "ID": "0EEAF256-A2B5-66E0-8B95-8AB7048DFA93",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Theoretical Lost Power for Block 1",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAF258-E2A1-FF40-A610-AD8E03B72D61": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf258-e2a1-ff40-a434-dc529a334edf",
+        "Data ID": "0EEAF258-E2A1-FF40-A610-AD8E03B72D61",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "($tlpf.within($tpc)).setUnits('MW')",
+        "Formula Parameters": {
+            "tlpf": "0EEAF256-A2B5-66E0-8B95-8AB7048DFA93",
+            "tpc": "0EEAF252-536E-7770-BFA8-32177C853A68"
+        },
+        "ID": "0EEAF258-E2A1-FF40-A610-AD8E03B72D61",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Soiling Lost Power",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "MW"
+    },
+    "0EEAF259-D43A-7190-8A29-F4E2106D6B36": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf259-d43a-7190-9a25-49ede427b513",
+        "Data ID": "0EEAF259-D43A-7190-8A29-F4E2106D6B36",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($tlpf.within($tpc.inverse())*10)",
+            ".max(0).setUnits('MW')",
+            "//The within $tpc.inverse() should be replaced by a condition that identifies a large tracker deviation or tracker failure in a production setting"
+        ],
+        "Formula Parameters": {
+            "tlpf": "0EEAF256-A2B5-66E0-8B95-8AB7048DFA93",
+            "tpc": "0EEAF252-536E-7770-BFA8-32177C853A68"
+        },
+        "ID": "0EEAF259-D43A-7190-8A29-F4E2106D6B36",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Tracking Lost Power",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "MW"
+    },
+    "0EEAF25A-F2A7-64B0-A2C5-E92238D90467": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf25a-f2a7-64b0-a65d-7765a7a656b2",
+        "Data ID": "0EEAF25A-F2A7-64B0-A2C5-E92238D90467",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "days(\"UTC\")",
+        "Formula Parameters": {},
+        "ID": "0EEAF25A-F2A7-64B0-A2C5-E92238D90467",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1.0416666666666667",
+        "Maximum Interpolation": "90000.0",
+        "Metadata Properties": "Day+of+Month=&Day+of+Year=&Day+of+Week=",
+        "Name": "Daily",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "customDuration": {
+                "units": "h",
+                "value": 0
+            },
+            "customPeriod": {
+                "units": "h",
+                "value": 0
+            },
+            "customPeriodDisable": true,
+            "duration": "days",
+            "frequencies": [],
+            "offset": {
+                "units": "min",
+                "value": 0
+            },
+            "quarterStart": {
+                "day": 1,
+                "month": "Month.January"
+            },
+            "scopedTo": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+            "shift": {
+                "duration": 8,
+                "offset": 8
+            },
+            "timezone": "UTC",
+            "type": "periodic-condition",
+            "weekStart": "Day.Sunday"
+        },
+        "Unsearchable": false
+    },
+    "0EEAF25B-E0DC-FBD0-9AD6-831AAC6FDB1F": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EEAF25B-E0DC-FBD0-9AD6-831AAC6FDB1F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Aggregation Function": "totalized(\"h\")",
+            "Bounding Condition": "0EEAF25A-F2A7-64B0-A2C5-E92238D90467",
+            "Measured Item": "0EEAF259-D43A-7190-8A29-F4E2106D6B36",
+            "Process Type": "Condition"
+        },
+        "ID": "0EEAF25B-E0DC-FBD0-9AD6-831AAC6FDB1F",
+        "MetricReconfigurationMigration": true,
+        "Name": "Estimated Power Lost to Tracking Issues",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EEAF25D-2460-F900-AB13-3335F15AA8A6": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EEAF25D-2460-F900-AB13-3335F15AA8A6",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Aggregation Function": "totalized(\"h\")",
+            "Bounding Condition": "0EEAF25A-F2A7-64B0-A2C5-E92238D90467",
+            "Measured Item": "0EEAF258-E2A1-FF40-A610-AD8E03B72D61",
+            "Process Type": "Condition"
+        },
+        "ID": "0EEAF25D-2460-F900-AB13-3335F15AA8A6",
+        "MetricReconfigurationMigration": true,
+        "Name": "Estimated Power Lost due to Soiling",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EEAF25F-C39E-FF10-ABD8-D4DB0F4B9D5D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf25f-c39e-ff10-812b-18204dcdb533",
+        "Data ID": "0EEAF25F-C39E-FF10-ABD8-D4DB0F4B9D5D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($slp.aggregate(totalized(),days(),startKey()).toStep(40h)",
+            "*90$/MW/d).reduceUnits()"
+        ],
+        "Formula Parameters": {
+            "slp": "0EEAF258-E2A1-FF40-A610-AD8E03B72D61"
+        },
+        "ID": "0EEAF25F-C39E-FF10-ABD8-D4DB0F4B9D5D",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Revenue lost to Soiling",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "$"
+    },
+    "0EEAF260-54FA-FDB0-B58C-95C540B1F9C3": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaf260-b8a3-e8d0-ba66-29adc35944f2",
+        "Data ID": "0EEAF260-54FA-FDB0-B58C-95C540B1F9C3",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($slp.aggregate(totalized(),days(),startKey()).toStep(40h)",
+            "*90$/MW/d).reduceUnits()"
+        ],
+        "Formula Parameters": {
+            "slp": "0EEAF259-D43A-7190-8A29-F4E2106D6B36"
+        },
+        "ID": "0EEAF260-54FA-FDB0-B58C-95C540B1F9C3",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "40",
+        "Name": "Revenue lost to Tracker Issues",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "$"
+    },
+    "0EEAF261-E971-7560-85E7-FAEC4FA31600": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EEAF261-E971-7560-85E7-FAEC4FA31600",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Bounding Condition": "0EEAF25A-F2A7-64B0-A2C5-E92238D90467",
+            "Measured Item": "0EEAF25F-C39E-FF10-ABD8-D4DB0F4B9D5D",
+            "Process Type": "Condition",
+            "Thresholds": [
+                {
+                    "Priority": {
+                        "Color": "#ff0000",
+                        "Level": 3,
+                        "Name": "HiHiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "",
+                        "Value": 45
+                    }
+                },
+                {
+                    "Priority": {
+                        "Color": "#ffdd52",
+                        "Level": 2,
+                        "Name": "HiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "",
+                        "Value": 35
+                    }
+                }
+            ]
+        },
+        "ID": "0EEAF261-E971-7560-85E7-FAEC4FA31600",
+        "MetricReconfigurationMigration": true,
+        "Name": "Revenue lost to Soiling",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EEAF263-6B39-71A0-904E-62F61996B553": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EEAF263-6B39-71A0-904E-62F61996B553",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Bounding Condition": "0EEAF25A-F2A7-64B0-A2C5-E92238D90467",
+            "Measured Item": "0EEAF260-54FA-FDB0-B58C-95C540B1F9C3",
+            "Process Type": "Condition",
+            "Thresholds": [
+                {
+                    "Priority": {
+                        "Color": "#ff0000",
+                        "Level": 3,
+                        "Name": "HiHiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "",
+                        "Value": 45
+                    }
+                },
+                {
+                    "Priority": {
+                        "Color": "#ffdd52",
+                        "Level": 2,
+                        "Name": "HiHi"
+                    },
+                    "Value": {
+                        "Unit Of Measure": "",
+                        "Value": 35
+                    }
+                }
+            ]
+        },
+        "ID": "0EEAF263-6B39-71A0-904E-62F61996B553",
+        "MetricReconfigurationMigration": true,
+        "Name": "Revenue lost to Tracker Issues",
+        "Scoped To": "0EEAF23F-DDD7-77D0-923C-8D236A6BDD68",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "905A3390-CCA6-489B-89A3-492EC9F7FF26": {
+        "Access Control": [
+            {
+                "ID": "726694d8-3949-4a40-aa59-e01b172690cd",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            }
+        ],
+        "Ancestors": [
+            "__Users__"
+        ],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1605736826077625600",
+        "Enabled": true,
+        "ID": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+        "Name": "Joseph Reckamp",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Permission Inheritance Disabled": true,
+        "Type": "Folder",
+        "Unmodifiable": true,
+        "Unsearchable": true,
+        "Updated At": "1605736826077625600"
+    }
+}

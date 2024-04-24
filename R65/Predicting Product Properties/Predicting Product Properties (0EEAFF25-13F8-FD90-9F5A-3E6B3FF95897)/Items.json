@@ -1,0 +1,1621 @@
+{
+    "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18": {
+        "Access Control": [
+            {
+                "ID": "0ee6ceea-5a5b-6220-85be-6ad1e7f16bbc",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            },
+            {
+                "ID": "0ee6ceea-5a84-ea30-b951-f69b88fe3e3b",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": null
+            }
+        ],
+        "Ancestors": [
+            "__Users__",
+            "905A3390-CCA6-489B-89A3-492EC9F7FF26"
+        ],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1697548273220026135",
+        "Enabled": true,
+        "ID": "0EE6CEEA-5A5B-6220-B11A-01D00EA05A18",
+        "Name": "Example Use Cases (Don't Edit)",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Type": "Folder",
+        "Unsearchable": false,
+        "Updated At": "1704828287582326861"
+    },
+    "0EEAFF2C-2184-7160-AC7A-D8927442B9C1": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaff2c-2184-7160-b1c2-a4377e20e006",
+        "Data ID": "0EEAFF2C-2184-7160-AC7A-D8927442B9C1",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$sample = (abs($signal.runningDelta())>0)",
+            ".setMaximumDuration(8h)",
+            "",
+            "$signal.aggregate(startValue(), $sample, startKey())",
+            ".toStep(8h)"
+        ],
+        "Formula Parameters": {
+            "signal": "5D23359B-5653-419D-A205-6151B17F11CF"
+        },
+        "ID": "0EEAFF2C-2184-7160-AC7A-D8927442B9C1",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "8",
+        "Name": "Product_Viscosity made into step signal",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAFF2C-C621-7330-95A1-A33B148ED04F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaff2c-c621-7330-829a-9f0c36724a41",
+        "Data ID": "0EEAFF2C-C621-7330-95A1-A33B148ED04F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$pvmi",
+        "Formula Parameters": {
+            "pv": "5D23359B-5653-419D-A205-6151B17F11CF",
+            "pvmi": "0EEAFF2C-2184-7160-AC7A-D8927442B9C1"
+        },
+        "ID": "0EEAFF2C-C621-7330-95A1-A33B148ED04F",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "8",
+        "Name": "Product_Viscosity",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAFF8B-5A87-7390-A9D0-B11191207DA7": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaff8b-5a87-7390-bd56-3dff7f0605af",
+        "Data ID": "0EEAFF8B-5A87-7390-A9D0-B11191207DA7",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$RxtrExitTemp.move(1.5h)",
+        "Formula Parameters": {
+            "RxtrExitTemp": "88D0468D-6327-49E6-9B15-3400DA99DCCE"
+        },
+        "ID": "0EEAFF8B-5A87-7390-A9D0-B11191207DA7",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Rxtr_Temp_Delayed",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "0EEAFF8D-A2BD-7540-B5CF-2A42F0914D78": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaff8d-a2bd-7540-9808-1fc118a0113b",
+        "Data ID": "0EEAFF8D-A2BD-7540-B5CF-2A42F0914D78",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$inputSignal.agileFilter(1min,0.75h)",
+        "Formula Parameters": {
+            "inputSignal": "0EEAFF8B-5A87-7390-A9D0-B11191207DA7"
+        },
+        "ID": "0EEAFF8D-A2BD-7540-B5CF-2A42F0914D78",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Rxtr_Temp_Delayed_Cleansed",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "algorithmSelectedValue": "seeq-agile",
+            "alpha": 0.9,
+            "color": "#4055A3",
+            "configVersion": 11,
+            "cutoff": {},
+            "isCutoffAuto": true,
+            "isMigratedLowPassFilter": false,
+            "isSamplingRateAuto": true,
+            "isTau": true,
+            "polynomialFactor": 2,
+            "samplingRate": {
+                "units": "min",
+                "valid": true,
+                "value": 1
+            },
+            "smoothingWindow": {
+                "units": "h",
+                "valid": true,
+                "value": 0.75
+            },
+            "tau": {
+                "units": "min",
+                "value": 10
+            },
+            "type": "signal-smoothing"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "0EEAFF8F-DD15-EA10-982B-DB2B2D7501A1": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaff8f-dd15-ea10-aa22-8c82c64e91d7",
+        "Data ID": "0EEAFF8F-DD15-EA10-982B-DB2B2D7501A1",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$RxtrConv.move(1.5h)",
+        "Formula Parameters": {
+            "RxtrConv": "6829229D-F222-4611-9F9D-F70F600BCB12"
+        },
+        "ID": "0EEAFF8F-DD15-EA10-982B-DB2B2D7501A1",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Rxtr_Conversion_Delayed",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EEAFF93-7AE2-6060-B059-2CDF97D08354": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaff93-7ae2-6060-8492-9d630c3d4993",
+        "Data ID": "0EEAFF93-7AE2-6060-B059-2CDF97D08354",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$inputSignal.agileFilter(1min,33min)",
+        "Formula Parameters": {
+            "inputSignal": "0EEAFF8F-DD15-EA10-982B-DB2B2D7501A1"
+        },
+        "ID": "0EEAFF93-7AE2-6060-B059-2CDF97D08354",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Rxtr_Conversion_Delayed_Cleansed",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "algorithmSelectedValue": "seeq-agile",
+            "alpha": 0.9,
+            "color": "#4B7ABD",
+            "configVersion": 11,
+            "cutoff": {},
+            "isCutoffAuto": true,
+            "isMigratedLowPassFilter": false,
+            "isSamplingRateAuto": true,
+            "isTau": true,
+            "polynomialFactor": 2,
+            "samplingRate": {
+                "units": "min",
+                "valid": true,
+                "value": 1
+            },
+            "smoothingWindow": {
+                "units": "min",
+                "valid": true,
+                "value": 33
+            },
+            "tau": {
+                "units": "min",
+                "value": 10
+            },
+            "type": "signal-smoothing"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "0EEAFF95-C3D9-6000-8BC5-2A2884531383": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaff95-c3d9-6000-95bd-74a8b944123e",
+        "Data ID": "0EEAFF95-C3D9-6000-8BC5-2A2884531383",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$ModFlow.move(1.5h)",
+        "Formula Parameters": {
+            "ModFlow": "59EFE199-8FF6-46D2-AA45-E27EE937F5E4"
+        },
+        "ID": "0EEAFF95-C3D9-6000-8BC5-2A2884531383",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1",
+        "Name": "Modifier_Flow_Delayed",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb/h"
+    },
+    "0EEAFF96-83D0-7110-819E-503368566FD2": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaff96-83d0-7110-a347-8de25929b5a7",
+        "Data ID": "0EEAFF96-83D0-7110-819E-503368566FD2",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$inputSignal.agileFilter(1min,33min)",
+        "Formula Parameters": {
+            "inputSignal": "0EEAFF95-C3D9-6000-8BC5-2A2884531383"
+        },
+        "ID": "0EEAFF96-83D0-7110-819E-503368566FD2",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Modifier_Flow_Delayed_Cleansed",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "algorithmSelectedValue": "seeq-agile",
+            "alpha": 0.9,
+            "color": "#D3AA4C",
+            "configVersion": 11,
+            "cutoff": {},
+            "isCutoffAuto": true,
+            "isMigratedLowPassFilter": false,
+            "isSamplingRateAuto": true,
+            "isTau": true,
+            "polynomialFactor": 2,
+            "samplingRate": {
+                "units": "min",
+                "valid": true,
+                "value": 1
+            },
+            "smoothingWindow": {
+                "units": "min",
+                "valid": true,
+                "value": 33
+            },
+            "tau": {
+                "units": "min",
+                "value": 10
+            },
+            "type": "signal-smoothing"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb/h"
+    },
+    "0EEAFF9F-8B34-6600-95DD-0C3B531D2CAE": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaff9f-8b34-6600-b1a0-423a3e0a5da9",
+        "Data ID": "0EEAFF9F-8B34-6600-95DD-0C3B531D2CAE",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "condition(7988401000ms,",
+            "  capsule(1533382440000ms, 1541370840000ms))"
+        ],
+        "Formula Parameters": {},
+        "ID": "0EEAFF9F-8B34-6600-95DD-0C3B531D2CAE",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "7988401000",
+        "Metadata Properties": "",
+        "Name": "Training Window",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "color": "#9D248F",
+            "configVersion": 11,
+            "isExecuting": false,
+            "type": "manual-condition"
+        },
+        "Unsearchable": false
+    },
+    "0EEAFFA6-178B-7710-BAE4-7FAE6C2EBC8A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaffa6-178b-7710-8319-09df4269f092",
+        "Data ID": "0EEAFFA6-178B-7710-BAE4-7FAE6C2EBC8A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS(group(capsule(\"2018-08-04T11:34:00.000Z\", \"2018-11-04T22:34:00.000Z\")), false, $a, $b, $c).predict($a, $b, $c)",
+        "Formula Parameters": {
+            "a": "0EEAFF8D-A2BD-7540-B5CF-2A42F0914D78",
+            "b": "0EEAFF93-7AE2-6060-B059-2CDF97D08354",
+            "c": "0EEAFF96-83D0-7110-819E-503368566FD2",
+            "target": "0EEAFF2C-C621-7330-95A1-A33B148ED04F"
+        },
+        "ID": "0EEAFFA6-178B-7710-BAE4-7FAE6C2EBC8A",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Predicted Viscosity - Linear",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "color": "#00A2DD",
+            "configVersion": 11,
+            "lambda": 0,
+            "modelExpanded": true,
+            "mustGoThroughZero": false,
+            "option": "linear",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1541370840000,
+            "windowStart": 1533382440000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAFFA8-28B8-7310-AE9E-37D1400E754F": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaffa8-28b8-7310-9e23-64183e537423",
+        "Data ID": "0EEAFFA8-28B8-7310-AE9E-37D1400E754F",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS(group(capsule(\"2018-08-04T11:34:00.000Z\", \"2018-11-04T22:34:00.000Z\")), false, $a, $b, $c, $a^2, $b^2, $c^2).predict($a, $b, $c, $a^2, $b^2, $c^2)",
+        "Formula Parameters": {
+            "a": "0EEAFF8D-A2BD-7540-B5CF-2A42F0914D78",
+            "b": "0EEAFF96-83D0-7110-819E-503368566FD2",
+            "c": "0EEAFF93-7AE2-6060-B059-2CDF97D08354",
+            "target": "0EEAFF2C-C621-7330-95A1-A33B148ED04F"
+        },
+        "ID": "0EEAFFA8-28B8-7310-AE9E-37D1400E754F",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Predicted Viscosity - Polynomial - 2",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "color": "#068C45",
+            "configVersion": 11,
+            "lambda": 0,
+            "modelExpanded": true,
+            "mustGoThroughZero": false,
+            "option": "polynomial",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1541370840000,
+            "windowStart": 1533382440000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAFFA9-051F-E880-AFA1-EA6DFA117DB0": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaffa9-051f-e880-adb2-6ba707b6e993",
+        "Data ID": "0EEAFFA9-051F-E880-AFA1-EA6DFA117DB0",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS(group(capsule(\"2018-08-04T11:34:00.000Z\", \"2018-11-04T22:34:00.000Z\")), false, $a, $b, $c, ln($a).validValues(), ln($b).validValues(), ln($c).validValues()).predict($a, $b, $c, ln($a).validValues(), ln($b).validValues(), ln($c).validValues())",
+        "Formula Parameters": {
+            "a": "0EEAFF96-83D0-7110-819E-503368566FD2",
+            "b": "0EEAFF8D-A2BD-7540-B5CF-2A42F0914D78",
+            "c": "0EEAFF93-7AE2-6060-B059-2CDF97D08354",
+            "target": "0EEAFF2C-C621-7330-95A1-A33B148ED04F"
+        },
+        "ID": "0EEAFFA9-051F-E880-AFA1-EA6DFA117DB0",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Predicted Viscosity - Log",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "color": "#CE561B",
+            "configVersion": 11,
+            "lambda": 0,
+            "modelExpanded": true,
+            "mustGoThroughZero": false,
+            "option": "log",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1541370840000,
+            "windowStart": 1533382440000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEAFFA9-B69C-E8B0-ABEC-06235D100CA8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeaffa9-b69c-e8b0-aac2-2aa3d5bcbaa1",
+        "Data ID": "0EEAFFA9-B69C-E8B0-ABEC-06235D100CA8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$target.regressionModelOLS(group(capsule(\"2018-08-04T11:34:00.000Z\", \"2018-11-04T22:34:00.000Z\")), false, $a, $b, $c, $a^2, $b^2, $c^2, $a^3, $b^3, $c^3, $a*$b, $a*$c, $b*$c, $a*$b*$c, $a^2*$b, $a^2*$c, $b^2*$a, $b^2*$c, $c^2*$a, $c^2*$b).predict($a, $b, $c, $a^2, $b^2, $c^2, $a^3, $b^3, $c^3, $a*$b, $a*$c, $b*$c, $a*$b*$c, $a^2*$b, $a^2*$c, $b^2*$a, $b^2*$c, $c^2*$a, $c^2*$b)",
+        "Formula Parameters": {
+            "a": "0EEAFF8D-A2BD-7540-B5CF-2A42F0914D78",
+            "b": "0EEAFF96-83D0-7110-819E-503368566FD2",
+            "c": "0EEAFF93-7AE2-6060-B059-2CDF97D08354",
+            "target": "0EEAFF2C-C621-7330-95A1-A33B148ED04F"
+        },
+        "ID": "0EEAFFA9-B69C-E8B0-ABEC-06235D100CA8",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Predicted Viscosity - Expanded Basis",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "color": "#996442",
+            "configVersion": 11,
+            "lambda": 0,
+            "modelExpanded": true,
+            "mustGoThroughZero": false,
+            "option": "expandedBasis",
+            "polynomialValue": 2,
+            "regressionMethod": "OLS",
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "type": "prediction",
+            "variableSelection": 0.05,
+            "variableSelectionEnabled": false,
+            "windowEnd": 1541370840000,
+            "windowStart": 1533382440000
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEB07D5-B0E0-64B0-88D2-880AB7B98DB5": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07d5-b0e0-64b0-9d12-1408a00de411",
+        "Data ID": "0EEB07D5-B0E0-64B0-88D2-880AB7B98DB5",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$grade.tostring().toCondition().removeLongerThan(1wk)",
+        "Formula Parameters": {
+            "grade": "749E80FE-EBF0-44A6-89B6-D336CDEA48EC"
+        },
+        "ID": "0EEB07D5-B0E0-64B0-88D2-880AB7B98DB5",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1",
+        "Metadata Properties": "Value=string",
+        "Name": "All Grades (with Property)",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07DE-093D-7790-9745-32FDD5B103BE": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07e0-8222-ff50-8f47-776886bb806f",
+        "Data ID": "0EEB07DE-093D-7790-9745-32FDD5B103BE",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$LSL101 = (0.9).tosignal()",
+            "$LSL102 = (0.72).tosignal()",
+            "$LSL103 = (0.99).tosignal()",
+            "$LSL104 = (0.675).tosignal()",
+            "$LSL105 = (0.81).tosignal()",
+            "$LSL106 = (0.486).tosignal()",
+            "$LSL107 = (0.945).tosignal()",
+            "$LSL108 = (1.53).tosignal()",
+            "",
+            "$LSL101",
+            "     .splice($LSL102, $grade.keep('Value', isEqualTo('102')))",
+            "     .splice($LSL103, $grade.keep('Value', isEqualTo('103')))",
+            "     .splice($LSL104, $grade.keep('Value', isEqualTo('104')))",
+            "     .splice($LSL105, $grade.keep('Value', isEqualTo('105')))",
+            "     .splice($LSL106, $grade.keep('Value', isEqualTo('106')))",
+            "     .splice($LSL107, $grade.keep('Value', isEqualTo('107')))",
+            "     .splice($LSL108, $grade.keep('Value', isEqualTo('108')))",
+            ".tostep(7d)"
+        ],
+        "Formula Parameters": {
+            "grade": "0EEB07D5-B0E0-64B0-88D2-880AB7B98DB5"
+        },
+        "ID": "0EEB07DE-093D-7790-9745-32FDD5B103BE",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Product Viscosity LSL",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07e3-3b4a-ea30-a40e-a08d121252da",
+        "Data ID": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$USL101 = (1.1).tosignal()",
+            "$USL102 = (0.88).tosignal()",
+            "$USL103 = (1.21).tosignal()",
+            "$USL104 = (0.825).tosignal()",
+            "$USL105 = (0.99).tosignal()",
+            "$USL106 = (0.59).tosignal()",
+            "$USL107 = (1.16).tosignal()",
+            "$USL108 = (1.87).tosignal()",
+            "",
+            "$USL101",
+            "     .splice($USL102, $grade.keep('Value', isEqualTo('102')))",
+            "     .splice($USL103, $grade.keep('Value', isEqualTo('103')))",
+            "     .splice($USL104, $grade.keep('Value', isEqualTo('104')))",
+            "     .splice($USL105, $grade.keep('Value', isEqualTo('105')))",
+            "     .splice($USL106, $grade.keep('Value', isEqualTo('106')))",
+            "     .splice($USL107, $grade.keep('Value', isEqualTo('107')))",
+            "     .splice($USL108, $grade.keep('Value', isEqualTo('108')))",
+            ".tostep(7d)"
+        ],
+        "Formula Parameters": {
+            "grade": "0EEB07D5-B0E0-64B0-88D2-880AB7B98DB5"
+        },
+        "ID": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Product Viscosity USL",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEB07E4-4935-EC20-9D5D-DB040CD54D04": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07e4-4935-ec20-9663-b35ec5fdf1af",
+        "Data ID": "0EEB07E4-4935-EC20-9D5D-DB040CD54D04",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a < $c or $a > $b",
+        "Formula Parameters": {
+            "a": "0EEAFF2C-C621-7330-95A1-A33B148ED04F",
+            "b": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459",
+            "c": "0EEB07DE-093D-7790-9745-32FDD5B103BE"
+        },
+        "ID": "0EEB07E4-4935-EC20-9D5D-DB040CD54D04",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Product out of spec (LAB)",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": "0EEB07DE-093D-7790-9745-32FDD5B103BE",
+            "simpleLowerValueInclusivity": "<",
+            "simpleOperator": "<>",
+            "simpleUpperValueInclusivity": ">",
+            "simpleValue": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07E8-162D-7590-AE3F-891D9E4B3776": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07e8-162d-7590-a875-5f30317f8f36",
+        "Data ID": "0EEB07E8-162D-7590-AE3F-891D9E4B3776",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "($lsl + $usl)/2",
+        "Formula Parameters": {
+            "lsl": "0EEB07DE-093D-7790-9745-32FDD5B103BE",
+            "usl": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459"
+        },
+        "ID": "0EEB07E8-162D-7590-AE3F-891D9E4B3776",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "7",
+        "Name": "Target Product Viscosity",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEB07E9-0A40-6420-829B-85FB8235E435": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07e9-0a40-6420-93f5-3f11bcf76703",
+        "Data ID": "0EEB07E9-0A40-6420-829B-85FB8235E435",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$predicted - $target",
+        "Formula Parameters": {
+            "predicted": "0EEAFFA6-178B-7710-BAE4-7FAE6C2EBC8A",
+            "target": "0EEB07E8-162D-7590-AE3F-891D9E4B3776"
+        },
+        "ID": "0EEB07E9-0A40-6420-829B-85FB8235E435",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "60.0",
+        "Name": "Delta Predicted vs. Target",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "0EEB07EA-1BF2-62D0-AC27-D7AE98762D1D": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07ec-8c3f-ff40-b194-5b63501bf662",
+        "Data ID": "0EEB07EA-1BF2-62D0-AC27-D7AE98762D1D",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a < 0)",
+            ".merge(0min)",
+            ".removeShorterThan(30min)"
+        ],
+        "Formula Parameters": {
+            "a": "0EEB07E9-0A40-6420-829B-85FB8235E435"
+        },
+        "ID": "0EEB07EA-1BF2-62D0-AC27-D7AE98762D1D",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Predicted Viscosity Low",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 30
+            },
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "simpleLowerValue": null,
+            "simpleOperator": "<",
+            "simpleValue": "0",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07ED-6368-E850-AAB2-B35EBFE51549": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07ed-6368-e850-ad6e-4d6afeae2ec6",
+        "Data ID": "0EEB07ED-6368-E850-AAB2-B35EBFE51549",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a > 0)",
+            ".merge(0min)",
+            ".removeShorterThan(30min)"
+        ],
+        "Formula Parameters": {
+            "a": "0EEB07E9-0A40-6420-829B-85FB8235E435"
+        },
+        "ID": "0EEB07ED-6368-E850-AAB2-B35EBFE51549",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Predicted Viscosity High",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 30
+            },
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "0",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07EE-500D-F930-87B7-E92E99AF540C": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07ee-500d-f930-bc3d-9519b174032e",
+        "Data ID": "0EEB07EE-500D-F930-87B7-E92E99AF540C",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a < $b",
+        "Formula Parameters": {
+            "a": "0EEAFF2C-C621-7330-95A1-A33B148ED04F",
+            "b": "0EEB07DE-093D-7790-9745-32FDD5B103BE"
+        },
+        "ID": "0EEB07EE-500D-F930-87B7-E92E99AF540C",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Actual Viscosity OS Low",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "simpleLowerValue": null,
+            "simpleOperator": "<",
+            "simpleValue": "0EEB07DE-093D-7790-9745-32FDD5B103BE",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07EE-D408-7320-B0E9-EBF409D2D697": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07ee-d408-7320-a969-7a04231d7812",
+        "Data ID": "0EEB07EE-D408-7320-B0E9-EBF409D2D697",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a > $b",
+        "Formula Parameters": {
+            "a": "0EEAFF2C-C621-7330-95A1-A33B148ED04F",
+            "b": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459"
+        },
+        "ID": "0EEB07EE-D408-7320-B0E9-EBF409D2D697",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Actual Viscosity OS High",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": false,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "minDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "simpleLowerValue": null,
+            "simpleOperator": ">",
+            "simpleValue": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07F0-48A6-FD20-B697-0BA23382073A": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07f0-48a6-fd20-b720-a0a17366ebd3",
+        "Data ID": "0EEB07F0-48A6-FD20-B697-0BA23382073A",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.intersect($b)",
+        "Formula Parameters": {
+            "a": "0EEB07EA-1BF2-62D0-AC27-D7AE98762D1D",
+            "b": "0EEB07EE-500D-F930-87B7-E92E99AF540C"
+        },
+        "ID": "0EEB07F0-48A6-FD20-B697-0BA23382073A",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Predicted Viscosity Low + Actual Viscosity OS Low",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07F1-5DE2-E800-BAD1-54900A11B2D8": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07f1-5de2-e800-8cc0-98231bb986e8",
+        "Data ID": "0EEB07F1-5DE2-E800-BAD1-54900A11B2D8",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.intersect($b)",
+        "Formula Parameters": {
+            "a": "0EEB07ED-6368-E850-AAB2-B35EBFE51549",
+            "b": "0EEB07EE-D408-7320-B0E9-EBF409D2D697"
+        },
+        "ID": "0EEB07F1-5DE2-E800-BAD1-54900A11B2D8",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Predicted Viscosity High + Actual Viscosity OS High",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07F2-F7CF-EE80-8DBC-D78A41DB2706": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07f2-f7cf-ee80-ab95-73837f644c82",
+        "Data ID": "0EEB07F2-F7CF-EE80-8DBC-D78A41DB2706",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$a.union($b)",
+        "Formula Parameters": {
+            "a": "0EEB07F0-48A6-FD20-B697-0BA23382073A",
+            "b": "0EEB07F1-5DE2-E800-BAD1-54900A11B2D8"
+        },
+        "ID": "0EEB07F2-F7CF-EE80-8DBC-D78A41DB2706",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Model Predicts Correct Direction from Target",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "composite-search"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07F6-6BF4-73D0-9C78-0BCF38EF67E0": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb07f6-6bf4-73d0-8408-8868ea9b5d50",
+        "Data ID": "0EEB07F6-6BF4-73D0-9C78-0BCF38EF67E0",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "($a < $c or $a > $b)",
+            ".merge(30min)",
+            ".removeShorterThan(5min)"
+        ],
+        "Formula Parameters": {
+            "a": "0EEAFFA6-178B-7710-BAE4-7FAE6C2EBC8A",
+            "b": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459",
+            "c": "0EEB07DE-093D-7790-9745-32FDD5B103BE"
+        },
+        "ID": "0EEB07F6-6BF4-73D0-9C78-0BCF38EF67E0",
+        "Key Unit Of Measure": "ns",
+        "Metadata Properties": "",
+        "Name": "Expected Deviation (inferential)",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedEntryDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedEntryLowerValue": null,
+            "advancedEntryValue": null,
+            "advancedExitDuration": {
+                "units": "min",
+                "value": 0
+            },
+            "advancedExitValue": null,
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "isCleansing": true,
+            "isMigratedDeviationSearch": false,
+            "isSimple": true,
+            "mergeDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 30
+            },
+            "minDuration": {
+                "units": "min",
+                "valid": true,
+                "value": 5
+            },
+            "simpleLowerValue": "0EEB07DE-093D-7790-9745-32FDD5B103BE",
+            "simpleLowerValueInclusivity": "<",
+            "simpleOperator": "<>",
+            "simpleUpperValueInclusivity": ">",
+            "simpleValue": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459",
+            "type": "value-search",
+            "useValidValues": false,
+            "version": "V3"
+        },
+        "Unsearchable": false
+    },
+    "0EEB07F9-4566-E850-9F43-4FE44FE2F9BF": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EEB07F9-4566-E850-9F43-4FE44FE2F9BF",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Bounding Condition": "0EEB07D5-B0E0-64B0-88D2-880AB7B98DB5",
+            "Measured Item": "0EEAFFA6-178B-7710-BAE4-7FAE6C2EBC8A",
+            "Process Type": "Condition",
+            "Thresholds": [
+                {
+                    "Item ID": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459",
+                    "Priority": {
+                        "Color": "#ffffff",
+                        "Level": 1,
+                        "Name": "Hi"
+                    }
+                },
+                {
+                    "Item ID": "0EEB07DE-093D-7790-9745-32FDD5B103BE",
+                    "Priority": {
+                        "Color": "#ffffff",
+                        "Level": -1,
+                        "Name": "Lo"
+                    }
+                }
+            ]
+        },
+        "ID": "0EEB07F9-4566-E850-9F43-4FE44FE2F9BF",
+        "MetricReconfigurationMigration": true,
+        "Name": "Product Viscosity",
+        "NeutralColor": "#0070C0",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EEB0803-28E6-77C0-A5BB-3CB277DBBDDC": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb0804-8906-e870-af18-8158788928c1",
+        "Data ID": "0EEB0803-28E6-77C0-A5BB-3CB277DBBDDC",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$grade - $grade.shrink(1h)",
+        "Formula Parameters": {
+            "grade": "0EEB07D5-B0E0-64B0-88D2-880AB7B98DB5"
+        },
+        "ID": "0EEB0803-28E6-77C0-A5BB-3CB277DBBDDC",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "1",
+        "Metadata Properties": "Value=string",
+        "Name": "Grade Transitions",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EEB0809-FDF7-FB70-9B10-DB113658A6F4": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb0809-fdf7-fb70-8585-fda29298a532",
+        "Data ID": "0EEB0809-FDF7-FB70-9B10-DB113658A6F4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "$USL_Test = $USL - $Viscosity",
+            "$LSL_Test = $Viscosity - $LSL",
+            "",
+            "$USL_Violation = $USL_Test.valueSearch(4d, isLessThan(0))",
+            "$LSL_Violation = $LSL_Test.valueSearch(4d, isLessThan(0))",
+            "",
+            "$USL_Violation.union($LSL_Violation).removeLongerThan(4d).subtract($Transition)"
+        ],
+        "Formula Parameters": {
+            "LSL": "0EEB07DE-093D-7790-9745-32FDD5B103BE",
+            "Transition": "0EEB0803-28E6-77C0-A5BB-3CB277DBBDDC",
+            "USL": "0EEB07E3-3B4A-EA30-81E0-3BFA07A8B459",
+            "Viscosity": "0EEAFF2C-C621-7330-95A1-A33B148ED04F"
+        },
+        "ID": "0EEB0809-FDF7-FB70-9B10-DB113658A6F4",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "4",
+        "Metadata Properties": "",
+        "Name": "Product Viscosity Out of Control",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false
+    },
+    "0EEB080E-187F-6430-9D5D-F26709840DE1": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb080e-187f-6430-b62d-61bb5679ed91",
+        "Data ID": "0EEB080E-187F-6430-9D5D-F26709840DE1",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "$series.aggregate(totalized(\"h\"), $capsules.setMaximumDuration(40h), endKey(), 0s)",
+        "Formula Parameters": {
+            "capsules": "0EEB07F2-F7CF-EE80-8DBC-D78A41DB2706",
+            "series": "B4847133-2205-4E9F-9214-177E02A84CB3"
+        },
+        "ID": "0EEB080E-187F-6430-9D5D-F26709840DE1",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Total Volume of Product Downgraded per Event",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "type": "signal-from-condition"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb"
+    },
+    "0EEB0815-7D5C-6040-AF23-3D92335EF56E": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb0815-7d5c-6040-a12f-e1f6c8c09a4a",
+        "Data ID": "0EEB0815-7D5C-6040-AF23-3D92335EF56E",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": [
+            "//Current Variable Margin difference between on-spec and off-spec product for this unit is $100/mT ",
+            "",
+            "($Volume.convertUnits('t')).multiply(100 $/t)"
+        ],
+        "Formula Parameters": {
+            "Volume": "0EEB080E-187F-6430-9D5D-F26709840DE1"
+        },
+        "ID": "0EEB0815-7D5C-6040-AF23-3D92335EF56E",
+        "Interpolation Method": "None",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "0",
+        "Name": "Financial Loss from Product Downgrades",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedSignal",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "helpShown": true,
+            "type": "formula"
+        },
+        "Unsearchable": false,
+        "Value Unit Of Measure": "$"
+    },
+    "0EEB0817-1B2F-FF50-9C81-0ECEAAE58CE1": {
+        "Archived": false,
+        "Cache Enabled": true,
+        "Cache ID": "0eeb0817-1b2f-ff50-997b-1778f18a80c2",
+        "Data ID": "0EEB0817-1B2F-FF50-9C81-0ECEAAE58CE1",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "months(\"UTC\")",
+        "Formula Parameters": {},
+        "ID": "0EEB0817-1B2F-FF50-9C81-0ECEAAE58CE1",
+        "Key Unit Of Measure": "ns",
+        "Maximum Duration": "32.0",
+        "Maximum Interpolation": "2764800.0",
+        "Metadata Properties": "Month=",
+        "Name": "Monthly",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "CalculatedCondition",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "configVersion": 11,
+            "customDuration": {
+                "units": "h",
+                "value": 0
+            },
+            "customPeriod": {
+                "units": "h",
+                "value": 0
+            },
+            "customPeriodDisable": true,
+            "duration": "months",
+            "frequencies": [],
+            "offset": {
+                "units": "min",
+                "value": 0
+            },
+            "quarterStart": {
+                "day": 1,
+                "month": "Month.January"
+            },
+            "scopedTo": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+            "shift": {
+                "duration": 8,
+                "offset": 8
+            },
+            "timezone": "UTC",
+            "type": "periodic-condition",
+            "weekStart": "Day.Sunday"
+        },
+        "Unsearchable": false
+    },
+    "0EEB0817-E818-6030-8D83-A4DD628CE687": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EEB0817-E818-6030-8D83-A4DD628CE687",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Aggregation Function": "sum()",
+            "Bounding Condition": "0EEB0817-1B2F-FF50-9C81-0ECEAAE58CE1",
+            "Measured Item": "0EEB0815-7D5C-6040-AF23-3D92335EF56E",
+            "Number Format": "#,##0",
+            "Process Type": "Condition"
+        },
+        "ID": "0EEB0817-E818-6030-8D83-A4DD628CE687",
+        "MetricReconfigurationMigration": true,
+        "Name": "Monthly Financial Opportunity",
+        "Number Format": "#,##0",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "0EEB0819-EEE6-FF40-9804-53E2675F83E4": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Data ID": "0EEB0819-EEE6-FF40-9804-53E2675F83E4",
+        "Datasource Class": "Seeq Calculations",
+        "Datasource ID": "Seeq Calculations",
+        "Enabled": true,
+        "Formula": "<ThresholdMetric>",
+        "Formula Parameters": {
+            "Aggregation Function": "sum()",
+            "Bounding Condition": "0EEB0817-1B2F-FF50-9C81-0ECEAAE58CE1",
+            "Measured Item": "0EEB080E-187F-6430-9D5D-F26709840DE1",
+            "Process Type": "Condition"
+        },
+        "ID": "0EEB0819-EEE6-FF40-9804-53E2675F83E4",
+        "MetricReconfigurationMigration": true,
+        "Name": "Monthly Product Downgraded",
+        "Scoped To": "0EEAFF25-13F8-FD90-9F5A-3E6B3FF95897",
+        "Type": "ThresholdMetric",
+        "UIConfig": {
+            "advancedParametersCollapsed": true,
+            "type": "threshold-metric"
+        },
+        "Unsearchable": false
+    },
+    "59EFE199-8FF6-46D2-AA45-E27EE937F5E4": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "f5c359a5-3cee-4e59-8faa-3867561ab4aa",
+        "Data ID": "[Tag] Modifier_Flow.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "59EFE199-8FF6-46D2-AA45-E27EE937F5E4",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1h",
+        "Name": "Modifier_Flow",
+        "Source Maximum Interpolation": "1h",
+        "Source Value Unit Of Measure": "lb/hr",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "lb/h"
+    },
+    "5D23359B-5653-419D-A205-6151B17F11CF": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "84425d24-66c2-4bed-980f-e98d0157bd66",
+        "Data ID": "[Tag] Product_Viscosity.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "5D23359B-5653-419D-A205-6151B17F11CF",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "4h",
+        "Name": "Product_Viscosity",
+        "Source Maximum Interpolation": "4h",
+        "Source Value Unit Of Measure": "",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "6829229D-F222-4611-9F9D-F70F600BCB12": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "c102cbd0-fa7a-4bbe-a346-e16de41280e3",
+        "Data ID": "[Tag] Rxtr_Conversion.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "6829229D-F222-4611-9F9D-F70F600BCB12",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1h",
+        "Name": "Rxtr_Conversion",
+        "Source Maximum Interpolation": "1h",
+        "Source Value Unit Of Measure": "%",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "%"
+    },
+    "749E80FE-EBF0-44A6-89B6-D336CDEA48EC": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "0ee41485-ed91-75c0-ac35-1bd9fdebec53",
+        "Data ID": "[Tag] Grade_Code.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Datasource Name": "trainingData",
+        "Enabled": true,
+        "ID": "749E80FE-EBF0-44A6-89B6-D336CDEA48EC",
+        "Interpolation Method": "Step",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1h",
+        "Name": "Grade_Code",
+        "Number Format": "auto",
+        "Source Maximum Interpolation": "1h",
+        "Source Value Unit Of Measure": "",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": ""
+    },
+    "88D0468D-6327-49E6-9B15-3400DA99DCCE": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "07f1070e-35bf-48f1-bb09-b893f35e8d3c",
+        "Data ID": "[Tag] Rxtr_Temp.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "88D0468D-6327-49E6-9B15-3400DA99DCCE",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1h",
+        "Name": "Rxtr_Temp",
+        "Source Maximum Interpolation": "1h",
+        "Source Value Unit Of Measure": "F",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "\u00b0F"
+    },
+    "905A3390-CCA6-489B-89A3-492EC9F7FF26": {
+        "Access Control": [
+            {
+                "ID": "726694d8-3949-4a40-aa59-e01b172690cd",
+                "Identity": {
+                    "Datasource Class": "OAuth 2.0",
+                    "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+                    "Datasource Name": "Seeq Azure SSO",
+                    "Email": "Joseph.Reckamp@seeq.com",
+                    "First Name": "Joe",
+                    "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+                    "Is Admin": true,
+                    "Last Name": "Reckamp",
+                    "Name": "Joe Reckamp",
+                    "Type": "User",
+                    "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+                },
+                "Origin": null,
+                "Permissions": {
+                    "Manage": true,
+                    "Read": true,
+                    "Write": true
+                },
+                "Redacted": false,
+                "Role": "OWNER"
+            }
+        ],
+        "Ancestors": [
+            "__Users__"
+        ],
+        "Archived": false,
+        "Cache Enabled": false,
+        "Created At": "1605736826077625600",
+        "Enabled": true,
+        "ID": "905A3390-CCA6-489B-89A3-492EC9F7FF26",
+        "Name": "Joseph Reckamp",
+        "Owner": {
+            "Datasource Class": "OAuth 2.0",
+            "Datasource ID": "9ecc7e74-4c32-436d-9af0-70d8aa99386b",
+            "Datasource Name": "Seeq Azure SSO",
+            "Email": "Joseph.Reckamp@seeq.com",
+            "First Name": "Joe",
+            "ID": "C9FD5B90-17F3-4CA7-8C37-CD9B7D9B85D2",
+            "Is Admin": true,
+            "Last Name": "Reckamp",
+            "Name": "Joe Reckamp",
+            "Type": "User",
+            "Username": "DEg3Lh5pLS4-lG84EjGXXXdzxhd1450vkLgiu8he2l8"
+        },
+        "Permission Inheritance Disabled": true,
+        "Type": "Folder",
+        "Unmodifiable": true,
+        "Unsearchable": true,
+        "Updated At": "1605736826077625600"
+    },
+    "B4847133-2205-4E9F-9214-177E02A84CB3": {
+        "Archived": false,
+        "Cache Enabled": false,
+        "Cache ID": "ff98823d-d6ff-4238-a618-68b1bc4c8964",
+        "Data ID": "[Tag] Rxtr_Rate.sim.ts.csv",
+        "Datasource Class": "Time Series CSV Files",
+        "Datasource ID": "trainingData",
+        "Enabled": true,
+        "ID": "B4847133-2205-4E9F-9214-177E02A84CB3",
+        "Interpolation Method": "Linear",
+        "Key Unit Of Measure": "ns",
+        "Maximum Interpolation": "1h",
+        "Name": "Rxtr_Rate",
+        "Source Maximum Interpolation": "1h",
+        "Source Value Unit Of Measure": "klb/hr",
+        "Sync Token": "2023-02-16T00:00:00.365541947Z",
+        "Type": "StoredSignal",
+        "Unsearchable": false,
+        "Value Unit Of Measure": "klb/h"
+    }
+}
